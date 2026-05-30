@@ -24,7 +24,7 @@ export function buildSessionQueue(dayPlan: DayPlan): QueuedExercise[] {
     exercise: {
       id: `d${String(dayPlan.day).padStart(2, '0')}-word-table`,
       type: 'wordTable',
-      prompt: "Today's vocabulary",
+      prompt: dayPlan.theme,
     },
     block: 'intro',
     words: dayPlan.words,

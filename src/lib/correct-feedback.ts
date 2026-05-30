@@ -1,3 +1,5 @@
+import { effectiveVolume, shouldPlaySoundEffects } from './audio-settings';
+
 const CORRECT_PHRASES = [
   'Nice!',
   'Great!',
@@ -15,9 +17,12 @@ export function pickCorrectPhrase(): string {
 
 /** Short two-tone chime — no audio file required. */
 export function playCorrectChime(): void {
+  if (!shouldPlaySoundEffects()) return;
+
   try {
     const ctx = new AudioContext();
     const t = ctx.currentTime;
+    const level = effectiveVolume() * 0.1;
 
     const tone = (freq: number, start: number, duration: number) => {
       const osc = ctx.createOscillator();
@@ -27,7 +32,7 @@ export function playCorrectChime(): void {
       osc.connect(gain);
       gain.connect(ctx.destination);
       gain.gain.setValueAtTime(0.0001, start);
-      gain.gain.exponentialRampToValueAtTime(0.1, start + 0.015);
+      gain.gain.exponentialRampToValueAtTime(level, start + 0.015);
       gain.gain.exponentialRampToValueAtTime(0.0001, start + duration);
       osc.start(start);
       osc.stop(start + duration);

@@ -1,3 +1,5 @@
+import { applyVolumeToElement, effectiveVolume } from '../lib/audio-settings';
+
 let currentAudio: HTMLAudioElement | null = null;
 
 export function stopAudio(): void {
@@ -6,6 +8,12 @@ export function stopAudio(): void {
     currentAudio = null;
   }
   window.speechSynthesis.cancel();
+}
+
+export function updatePlaybackVolume(): void {
+  if (currentAudio) {
+    applyVolumeToElement(currentAudio);
+  }
 }
 
 export function speakWithTTS(text: string, lang = 'ru-RU'): Promise<void> {
@@ -18,6 +26,7 @@ export function speakWithTTS(text: string, lang = 'ru-RU'): Promise<void> {
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = lang;
     utterance.rate = 0.9;
+    utterance.volume = effectiveVolume();
     const voices = window.speechSynthesis.getVoices();
     const langPrefix = lang.slice(0, 2);
     const voice = voices.find((v) => v.lang.startsWith(langPrefix));
@@ -40,6 +49,7 @@ export async function playAudio(
       await new Promise<void>((resolve, reject) => {
         const audio = new Audio(src);
         currentAudio = audio;
+        applyVolumeToElement(audio);
         audio.onended = () => {
           currentAudio = null;
           resolve();

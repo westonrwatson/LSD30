@@ -226,8 +226,8 @@ function renderFlashcardDeck(
 
   const modeToggle = createModeToggle(
     [
-      { id: 'step', label: 'Step through' },
       { id: 'all', label: 'View all' },
+      { id: 'step', label: 'Step through' },
     ],
     (id) => setMode(id as 'step' | 'all'),
   );
@@ -269,11 +269,9 @@ function renderFlashcardDeck(
   const nextBtn = createPrimaryButton('Next card', () => advanceCard());
 
   const linkRow = el('div', 'flashcard-link-row');
-  const skipBtn = createSecondaryButton('Skip', () => advanceCard());
   const nextSectionBtn = createSecondaryButton('Next Section', () => {
     callbacks.onSubmit({ correct: true });
   });
-  linkRow.appendChild(skipBtn);
   linkRow.appendChild(nextSectionBtn);
 
   const continueBtn = createPrimaryButton('Continue', () => {
@@ -308,6 +306,7 @@ function renderFlashcardDeck(
 
   function setMode(next: 'step' | 'all') {
     modeToggle.setActive(next);
+    root.classList.toggle('lesson-step--flashcards-all', next === 'all');
     stepView.classList.toggle('hidden', next !== 'step');
     allView.classList.toggle('hidden', next !== 'all');
     nextBtn.classList.toggle('hidden', next !== 'step');
@@ -317,7 +316,7 @@ function renderFlashcardDeck(
   }
 
   renderCard();
-  setMode('step');
+  setMode('all');
   return root;
 }
 
@@ -415,7 +414,7 @@ function renderPictureMatch(
       root.classList.add('lesson-step--correct');
       showReveal(reveal, 'correct');
       playCorrectChime();
-      footer.appendChild(createCorrectBanner(pickCorrectPhrase()));
+      actionsRow.appendChild(createCorrectBanner(pickCorrectPhrase()));
       window.setTimeout(() => {
         callbacks.onSubmit({ correct: true, userAnswer: label });
       }, CORRECT_AUTO_ADVANCE_MS);
@@ -695,7 +694,7 @@ function renderWordOrder(
 
       playCorrectChime();
       showReveal(reveal, 'correct');
-      footer.appendChild(createCorrectBanner(pickCorrectPhrase()));
+      actionsRow.appendChild(createCorrectBanner(pickCorrectPhrase()));
 
       autoAdvanceTimer = window.setTimeout(() => {
         autoAdvanceTimer = null;

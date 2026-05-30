@@ -145,6 +145,9 @@ export type SRSRecord = {
 export type AppSettings = {
   transliteration: boolean;
   sessionMinutes: number;
+  volume: number;
+  muted: boolean;
+  soundEffects: boolean;
 };
 
 export type PlanDayEntry = {

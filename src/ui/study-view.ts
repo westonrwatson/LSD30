@@ -9,10 +9,19 @@ import {
   type QueuedExercise,
 } from '../session/orchestrator';
 import { saveState, todayISO } from '../lib/storage';
+import { initAudioSettings } from '../lib/audio-settings';
 import { renderExercise, blockLabel, type CompletedExerciseState, type ExerciseResult } from './exercise-engine';
+import { createSettingsControl } from './settings-panel';
 import { renderHomeProgressBlocks } from './progress-dots';
 
 const PLAY_RING_LENGTH = 261;
+
+const SECTION_NAV_LABELS: Record<SessionBlock, string> = {
+  intro: 'Vocab',
+  flashcards: 'Cards',
+  listening: 'Listen',
+  pictures: 'Pictures',
+};
 
 function el<K extends keyof HTMLElementTagNameMap>(
   tag: K,
@@ -86,6 +95,19 @@ export function renderStudyView(
     };
   }
 
+  function picturesStepMetrics(atIndex: number) {
+    let current = 0;
+    for (let i = picturesStartIndex; i <= atIndex && i < queue.length; i++) {
+      if (queue[i]?.block === 'pictures') current += 1;
+    }
+    const total = queue.filter((q) => q.block === 'pictures').length;
+    return {
+      current,
+      total,
+      progress: total > 0 ? current / total : 0,
+    };
+  }
+
   let queue: QueuedExercise[] = [...baseQueue];
   const pendingRetries = new Map<string, QueuedExercise>();
   const wrongCounts = new Map<string, number>();
@@ -102,6 +124,19 @@ export function renderStudyView(
   let pictureCompleted = 0;
   let pictureCorrect = 0;
   let timer: SessionTimer | null = null;
+
+  initAudioSettings(currentState.settings);
+
+  const settingsControl = createSettingsControl({
+    getSettings: () => currentState.settings,
+    onChange: (patch) => {
+      currentState = {
+        ...currentState,
+        settings: { ...currentState.settings, ...patch },
+      };
+      saveState(currentState);
+    },
+  });
 
   const root = el('div', 'study-view');
 
@@ -139,18 +174,15 @@ export function renderStudyView(
 
   const sessionMeta = el('div', 'study-session-meta');
   sessionMeta.appendChild(el('span', 'study-session-day', dayPlan.theme));
+  sessionMeta.appendChild(settingsControl);
+  statusBar.appendChild(sessionMeta);
+  chrome.appendChild(statusBar);
 
-  const sectionSelect = document.createElement('select');
-  sectionSelect.className = 'study-section-select';
-  sectionSelect.setAttribute('aria-label', 'Jump to section');
-  for (const block of SESSION_BLOCKS) {
-    const option = document.createElement('option');
-    option.value = block.id;
-    option.textContent = block.label;
-    sectionSelect.appendChild(option);
-  }
-  sectionSelect.addEventListener('change', () => {
-    const block = sectionSelect.value as SessionBlock;
+  const sectionNav = el('nav', 'study-section-nav');
+  sectionNav.setAttribute('aria-label', 'Lesson sections');
+  const sectionButtons = new Map<SessionBlock, HTMLButtonElement>();
+
+  function jumpToSection(block: SessionBlock) {
     const currentBlock = queue[index]?.block;
 
     if (currentBlock === 'listening') {
@@ -178,10 +210,18 @@ export function renderStudyView(
     if (targetIndex == null || (currentBlock === block && index === targetIndex)) return;
     index = targetIndex;
     showExercise();
-  });
-  sessionMeta.appendChild(sectionSelect);
-  statusBar.appendChild(sessionMeta);
-  chrome.appendChild(statusBar);
+  }
+
+  for (const block of SESSION_BLOCKS) {
+    const btn = el('button', 'study-section-nav-btn', SECTION_NAV_LABELS[block.id]);
+    btn.type = 'button';
+    btn.title = block.label;
+    btn.setAttribute('aria-label', block.label);
+    btn.addEventListener('click', () => jumpToSection(block.id));
+    sectionButtons.set(block.id, btn);
+    sectionNav.appendChild(btn);
+  }
+  chrome.appendChild(sectionNav);
 
   const progressRow = el('div', 'progress-row study-progress-row');
   const progressEl = el('div', 'progress-bar');
@@ -199,11 +239,17 @@ export function renderStudyView(
   function updateProgress() {
     const item = queue[Math.min(index, Math.max(0, queue.length - 1))];
     const inListening = item?.block === 'listening';
+    const inPictures = item?.block === 'pictures';
+    const showStepProgress = inListening || inPictures;
 
-    progressRow.classList.toggle('study-progress-row--idle', !inListening);
+    progressRow.classList.toggle('study-progress-row--idle', !showStepProgress);
 
     if (inListening) {
       const { current, total, progress } = listeningStepMetrics(index);
+      progressFill.style.width = `${progress * 100}%`;
+      counterEl.textContent = `${current} / ${total}`;
+    } else if (inPictures) {
+      const { current, total, progress } = picturesStepMetrics(index);
       progressFill.style.width = `${progress * 100}%`;
       counterEl.textContent = `${current} / ${total}`;
     } else {
@@ -211,7 +257,9 @@ export function renderStudyView(
       counterEl.textContent = '';
     }
 
-    if (item?.block) sectionSelect.value = item.block;
+    for (const [block, btn] of sectionButtons) {
+      btn.classList.toggle('is-active', item?.block === block);
+    }
   }
 
   function appendRetries() {

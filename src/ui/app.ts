@@ -1,6 +1,7 @@
 import type { DayPlan, PersistedState } from '../content/schema';
 import { loadAllDays, buildWordIndex, getDayNumbers } from '../content/loader';
 import { loadState, ensureFirstVisit } from '../lib/storage';
+import { initAudioSettings } from '../lib/audio-settings';
 import { getNextAvailableDay } from '../session/orchestrator';
 import { renderPlanView } from './plan-view';
 import { renderStudyView, renderHome } from './study-view';
@@ -24,6 +25,7 @@ export class App {
     this.root = root;
     this.days = loadAllDays();
     this.state = ensureFirstVisit(loadState(getDayNumbers(this.days)));
+    initAudioSettings(this.state.settings);
     this.wordIndex = buildWordIndex(this.days);
     this.render();
   }

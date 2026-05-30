@@ -6,6 +6,9 @@ const LEGACY_STORAGE_KEY = 'lsd30-state-v1';
 const DEFAULT_SETTINGS: AppSettings = {
   transliteration: true,
   sessionMinutes: 30,
+  volume: 1,
+  muted: false,
+  soundEffects: true,
 };
 
 export function defaultPlanDays(dayNumbers: number[]): Record<number, PlanDayEntry> {
