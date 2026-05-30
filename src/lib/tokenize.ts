@@ -1,9 +1,18 @@
 /** Split a Russian sentence into word tokens for ordering exercises. */
 export function tokenizeRu(sentence: string): string[] {
+  return tokenizeWords(sentence);
+}
+
+/** Split an English sentence into word tokens for ordering exercises. */
+export function tokenizeEn(sentence: string): string[] {
+  return tokenizeWords(sentence);
+}
+
+function tokenizeWords(sentence: string): string[] {
   return sentence
     .trim()
     .split(/\s+/)
-    .map((token) => token.replace(/^[«"(\[]+|[»"')\].,!?:;—–-]+$/gu, ''))
+    .map((token) => token.replace(/^[«"'(\[]+|[»"')\].,!?:;—–-]+$/gu, ''))
     .filter(Boolean);
 }
 

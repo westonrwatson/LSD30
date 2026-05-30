@@ -7,6 +7,8 @@ const CORRECT_PHRASES = [
   'Exactly',
 ];
 
+export const CORRECT_AUTO_ADVANCE_MS = 1800;
+
 export function pickCorrectPhrase(): string {
   return CORRECT_PHRASES[Math.floor(Math.random() * CORRECT_PHRASES.length)]!;
 }

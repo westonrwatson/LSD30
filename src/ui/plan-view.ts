@@ -1,6 +1,7 @@
 import type { DayPlan, PersistedState } from '../content/schema';
+import { getPlanSections } from '../session/orchestrator';
 import { saveState } from '../lib/storage';
-import { renderDayProgressCircles } from './progress-dots';
+import { renderDayProgressCircles, renderStreakProgressCircles, streakDaysInWindow } from './progress-dots';
 
 function el<K extends keyof HTMLElementTagNameMap>(
   tag: K,
@@ -24,6 +25,122 @@ const PIN_STAR_OUTLINE =
 const PIN_STAR_FILLED =
   '<svg class="pin-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2l2.6 5.8 6.3.55-4.8 4.15 1.45 6.15L12 17.2l-5.55 3.05 1.45-6.15L3.1 9.55l6.3-.55L12 3.2z" fill="currentColor"></path></svg>';
 
+const PLAN_COLLAPSED_KEY = 'povtori-plan-collapsed';
+
+function sectionId(label: string): string {
+  if (label === 'Current Lesson') return 'current';
+  if (label === 'Starred') return 'starred';
+  if (label === 'All Lessons') return 'all-lessons';
+  if (label === 'Completed') return 'completed';
+  return label.toLowerCase().replace(/\s+/g, '-');
+}
+
+function readCollapsedSections(): Record<string, boolean> {
+  try {
+    const raw = sessionStorage.getItem(PLAN_COLLAPSED_KEY);
+    return raw ? (JSON.parse(raw) as Record<string, boolean>) : {};
+  } catch {
+    return {};
+  }
+}
+
+function writeCollapsedSection(id: string, collapsed: boolean): void {
+  const next = { ...readCollapsedSections(), [id]: collapsed };
+  sessionStorage.setItem(PLAN_COLLAPSED_KEY, JSON.stringify(next));
+}
+
+function createCollapsibleSection(
+  id: string,
+  label: string,
+  content: HTMLElement,
+  extraClass = '',
+): HTMLElement {
+  const collapsed = readCollapsedSections()[id] ?? false;
+  const isOpen = !collapsed;
+  const section = el(
+    'section',
+    `plan-section plan-section--collapsible${extraClass ? ` ${extraClass}` : ''}${isOpen ? ' is-open' : ''}`,
+  );
+
+  const toggle = el('button', 'plan-section-toggle');
+  toggle.type = 'button';
+  toggle.setAttribute('aria-expanded', String(isOpen));
+  toggle.appendChild(el('span', 'plan-section-label', label));
+  const chevron = el('span', 'plan-section-chevron');
+  chevron.setAttribute('aria-hidden', 'true');
+  toggle.appendChild(chevron);
+  toggle.addEventListener('click', () => {
+    const open = section.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', String(open));
+    writeCollapsedSection(id, !open);
+  });
+
+  const panel = el('div', 'plan-section-panel');
+  panel.appendChild(content);
+  section.appendChild(toggle);
+  section.appendChild(panel);
+  return section;
+}
+
+function createStaticSection(
+  label: string,
+  content: HTMLElement,
+  extraClass = '',
+): HTMLElement {
+  const section = el(
+    'section',
+    `plan-section plan-section--static${extraClass ? ` ${extraClass}` : ''}`,
+  );
+  section.appendChild(el('h4', 'plan-section-label', label));
+  section.appendChild(content);
+  return section;
+}
+
+function orderAfterPinnedBlock(
+  planOrder: number[],
+  planDays: PersistedState['planDays'],
+  day: number,
+): number[] {
+  const order = planOrder.filter((d) => d !== day);
+  let insertAt = 0;
+  for (let i = 0; i < order.length; i++) {
+    if (planDays[order[i]!]?.pinned) {
+      insertAt = i + 1;
+    }
+  }
+  order.splice(insertAt, 0, day);
+  return order;
+}
+
+function appendPlanSection(
+  container: HTMLElement,
+  label: string,
+  dayNums: number[],
+  dayMap: Map<number, DayPlan>,
+  state: PersistedState,
+  callbacks: PlanViewCallbacks,
+  sectionsRoot: HTMLElement,
+): void {
+  if (dayNums.length === 0) return;
+
+  const list = el('ul', 'plan-list');
+  for (const dayNum of dayNums) {
+    const day = dayMap.get(dayNum);
+    if (!day) continue;
+    list.appendChild(createPlanItem(day, state, callbacks, list, sectionsRoot));
+  }
+
+  const extraClass =
+    label === 'Current Lesson' ? 'plan-section--current' : '';
+  if (label === 'Current Lesson') {
+    container.appendChild(createStaticSection(label, list, extraClass));
+  } else {
+    container.appendChild(
+      createCollapsibleSection(sectionId(label), label, list, extraClass),
+    );
+  }
+}
+
 export function renderPlanView(
   days: DayPlan[],
   state: PersistedState,
@@ -31,42 +148,71 @@ export function renderPlanView(
 ): HTMLElement {
   const root = el('div', 'plan-view');
 
-  const introBlock = el('div', 'content-block');
-  introBlock.appendChild(el('h3', 'section-heading', 'Curriculum'));
-  introBlock.appendChild(
-    el(
-      'p',
-      'section-lead',
-      'Drag to reorder. Pin to prioritize. Each day is ~30 minutes.',
-    ),
-  );
-  root.appendChild(introBlock);
-
-  const list = el('ul', 'plan-list');
-  list.addEventListener('dragover', (e) => e.preventDefault());
-
+  const sectionsRoot = el('div', 'plan-sections');
   const dayMap = new Map(days.map((d) => [d.day, d]));
+  const { current, starred, pool } = getPlanSections(state);
 
-  for (const dayNum of state.planOrder) {
-    const day = dayMap.get(dayNum);
-    if (!day) continue;
-    list.appendChild(createPlanItem(day, state, callbacks, list));
+  const blocks: { label: string; days: number[] }[] = [];
+  if (current != null) {
+    blocks.push({ label: 'Current Lesson', days: [current] });
+  }
+  if (starred.length > 0) {
+    blocks.push({ label: 'Starred', days: starred });
+  }
+  if (pool.length > 0) {
+    blocks.push({ label: 'All Lessons', days: pool });
   }
 
-  root.appendChild(list);
+  for (let i = 0; i < blocks.length; i++) {
+    if (i > 0) {
+      sectionsRoot.appendChild(el('hr', 'plan-section-divider'));
+    }
+    appendPlanSection(
+      sectionsRoot,
+      blocks[i]!.label,
+      blocks[i]!.days,
+      dayMap,
+      state,
+      callbacks,
+      sectionsRoot,
+    );
+  }
 
-  const statsBlock = el('div', 'content-block plan-stats');
-  const statsRow = el('div', 'plan-stats-row');
-  statsRow.appendChild(
+  root.appendChild(sectionsRoot);
+
+  root.appendChild(el('hr', 'plan-section-divider'));
+
+  const trackersRow = el('div', 'plan-trackers');
+
+  const completedTracker = el('div', 'plan-completed-tracker');
+  completedTracker.appendChild(
     el(
-      'span',
-      'plan-stats-label',
-      `Completed — ${state.completedDays.length} / ${days.length}`,
+      'p',
+      'plan-tracker-count',
+      `${state.completedDays.length} / ${days.length} lessons`,
     ),
   );
-  statsRow.appendChild(renderDayProgressCircles(state.completedDays));
-  statsBlock.appendChild(statsRow);
-  root.appendChild(statsBlock);
+  completedTracker.appendChild(renderDayProgressCircles(state.completedDays, days));
+  trackersRow.appendChild(
+    createStaticSection('Completed', completedTracker, 'plan-section--completed'),
+  );
+
+  const streakTracker = el('div', 'plan-streak-tracker');
+  streakTracker.appendChild(
+    el(
+      'p',
+      'plan-tracker-count',
+      `${streakDaysInWindow(state.completionDates ?? [])} / 7 days`,
+    ),
+  );
+  streakTracker.appendChild(
+    renderStreakProgressCircles(state.completionDates ?? []),
+  );
+  trackersRow.appendChild(
+    createStaticSection('Streak', streakTracker, 'plan-section--streak'),
+  );
+
+  root.appendChild(trackersRow);
 
   return root;
 }
@@ -76,20 +222,28 @@ function createPlanItem(
   state: PersistedState,
   callbacks: PlanViewCallbacks,
   list: HTMLElement,
+  sectionsRoot: HTMLElement,
 ): HTMLElement {
-  const entry = state.planDays[day.day] ?? { day: day.day, pinned: false, status: 'locked' };
+  const entry = state.planDays[day.day] ?? { day: day.day, pinned: false, status: 'available' };
   const item = el('li', `plan-item content-block status-${entry.status}`);
   item.draggable = true;
   item.dataset.day = String(day.day);
+  let suppressClick = false;
 
   item.addEventListener('dragstart', (e) => {
+    suppressClick = true;
     e.dataTransfer?.setData('text/plain', String(day.day));
     item.classList.add('dragging');
   });
-  item.addEventListener('dragend', () => item.classList.remove('dragging'));
+  item.addEventListener('dragend', () => {
+    item.classList.remove('dragging');
+    window.setTimeout(() => {
+      suppressClick = false;
+    }, 0);
+  });
   item.addEventListener('dragover', (e) => {
     e.preventDefault();
-    const dragging = list.querySelector('.dragging');
+    const dragging = sectionsRoot.querySelector('.dragging');
     if (dragging && dragging !== item) {
       const rect = item.getBoundingClientRect();
       const mid = rect.top + rect.height / 2;
@@ -101,19 +255,23 @@ function createPlanItem(
     }
   });
   item.addEventListener('drop', () => {
-    const newOrder = Array.from(list.querySelectorAll('.plan-item')).map((node) =>
+    const newOrder = Array.from(sectionsRoot.querySelectorAll('.plan-item')).map((node) =>
       Number((node as HTMLElement).dataset.day),
     );
     const next = { ...state, planOrder: newOrder };
     saveState(next);
     callbacks.onStateChange(next);
   });
+  item.addEventListener('click', () => {
+    if (suppressClick) return;
+    callbacks.onStartDay(day.day);
+  });
 
   const row = el('div', 'plan-row');
 
   const pinBtn = el('button', `pin-btn${entry.pinned ? ' pinned' : ''}`);
   pinBtn.type = 'button';
-  pinBtn.title = 'Pin priority';
+  pinBtn.title = 'Star to prioritize';
   pinBtn.innerHTML = entry.pinned ? PIN_STAR_FILLED : PIN_STAR_OUTLINE;
   pinBtn.addEventListener('click', (e) => {
     e.stopPropagation();
@@ -124,36 +282,22 @@ function createPlanItem(
         [day.day]: { ...entry, pinned: !entry.pinned },
       },
     };
-    if (!entry.pinned) {
-      const order = [...next.planOrder.filter((d) => d !== day.day)];
-      order.unshift(day.day);
-      next.planOrder = order;
-    }
+    next.planOrder = orderAfterPinnedBlock(next.planOrder, next.planDays, day.day);
     saveState(next);
     callbacks.onStateChange(next);
   });
   row.appendChild(pinBtn);
 
   const label = el('div', 'plan-label');
-  const dayNum = String(day.day).padStart(2, '0');
-  label.appendChild(el('span', 'plan-title', `${dayNum} — ${day.theme}`));
+  label.appendChild(el('span', 'plan-title', day.theme));
   label.appendChild(
     el('span', 'plan-detail', `${day.grammarFocus} · ${day.words.length} words`),
   );
   row.appendChild(label);
 
-  if (entry.status === 'available' || entry.status === 'in_progress' || entry.status === 'completed') {
-    const startBtn = el(
-      'button',
-      'btn-outline',
-      entry.status === 'completed' ? 'Review' : 'Start',
-    );
-    startBtn.type = 'button';
-    startBtn.addEventListener('click', () => callbacks.onStartDay(day.day));
-    row.appendChild(startBtn);
-  } else {
-    row.appendChild(el('span', 'row-muted', 'Locked'));
-  }
+  const arrow = el('span', 'nav-arrow plan-item-arrow');
+  arrow.setAttribute('aria-hidden', 'true');
+  row.appendChild(arrow);
 
   item.appendChild(row);
   return item;

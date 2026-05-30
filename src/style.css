@@ -843,6 +843,100 @@ body.study-active #app {
 
 /* ——— Plan list ——— */
 
+.plan-sections {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.plan-section--current {
+  padding-top: var(--space-md);
+}
+
+.plan-trackers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
+  padding-top: var(--space-md);
+  align-items: start;
+}
+
+.plan-section--static .plan-section-label {
+  margin-bottom: var(--space-xs);
+}
+
+.plan-section-label {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--fg);
+}
+
+.plan-completed-tracker,
+.plan-streak-tracker {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.plan-tracker-count {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--fg);
+  margin: 0;
+}
+
+.plan-section-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+
+.plan-section-toggle .plan-section-label {
+  margin: 0;
+}
+
+.plan-section--collapsible.is-open .plan-section-toggle {
+  margin-bottom: var(--space-xs);
+}
+
+.plan-section-chevron {
+  flex-shrink: 0;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-right: var(--line-width) solid var(--muted);
+  border-bottom: var(--line-width) solid var(--muted);
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
+}
+
+.plan-section--collapsible.is-open .plan-section-chevron {
+  transform: rotate(-135deg);
+}
+
+.plan-section-panel {
+  display: none;
+}
+
+.plan-section--collapsible.is-open .plan-section-panel {
+  display: block;
+}
+
+.plan-section-divider {
+  border: none;
+  border-top: var(--line-width) solid var(--line);
+  margin: var(--space-md) 0;
+  width: 100%;
+}
+
 .plan-list {
   list-style: none;
   padding: 0;
@@ -854,6 +948,10 @@ body.study-active #app {
 
 .plan-item.dragging {
   opacity: 0.4;
+}
+
+.plan-item.status-completed {
+  opacity: 0.55;
 }
 
 .plan-item.status-completed .plan-title {
@@ -871,13 +969,22 @@ body.study-active #app {
   gap: var(--space-sm);
 }
 
-.plan-item.content-block {
-  padding: var(--space-sm) var(--space-md);
+.plan-item-arrow {
+  justify-self: end;
 }
 
-.plan-item .btn-outline {
-  margin-top: 0;
-  white-space: nowrap;
+.plan-item.content-block:hover:not(.dragging) .plan-item-arrow {
+  transform: translateX(0.45rem);
+}
+
+.plan-item.content-block {
+  padding: var(--space-sm) var(--space-md);
+  transition: background-color 0.15s ease;
+  cursor: pointer;
+}
+
+.plan-item.content-block:hover:not(.dragging) {
+  background: color-mix(in srgb, var(--bg-block) 78%, #000);
 }
 
 .plan-label {
@@ -1838,6 +1945,11 @@ body.study-active #app {
   border-color: rgba(255, 255, 255, 0.55);
 }
 
+.lesson-reveal--correct {
+  border-color: rgba(255, 255, 255, 0.55);
+  background: rgba(255, 255, 255, 0.12);
+}
+
 .word-order-answer.is-incorrect {
   border-color: rgba(255, 255, 255, 0.75);
   background: rgba(255, 255, 255, 0.1);
@@ -2280,12 +2392,13 @@ body.study-active #app {
 
 .footer-credit-link {
   color: inherit;
-  text-decoration: underline;
-  text-underline-offset: 0.15em;
+  text-decoration: none;
 }
 
 .footer-credit-link:hover {
   opacity: 0.75;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
 }
 
 .footer-social {
@@ -2366,6 +2479,18 @@ body.study-active #app {
     height: 55%;
   }
 
+  .home-fold-content {
+    padding-bottom: var(--space-xl);
+  }
+
+  .home-progress {
+    padding-bottom: var(--space-md);
+  }
+
+  .home-fold-divider {
+    margin-top: 0;
+  }
+
   .home-about-text {
     justify-self: stretch;
     align-self: auto;
@@ -2433,14 +2558,22 @@ body.study-active #app {
     grid-template-columns: 1fr;
   }
 
-  .plan-row {
-    grid-template-columns: auto 1fr;
+  .plan-trackers {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 959px) and (min-width: 641px) {
+  .home-fold-content {
+    padding-bottom: var(--space-xl);
   }
 
-  .plan-item.content-block .btn-outline,
-  .row-muted {
-    grid-column: 2;
-    justify-self: start;
+  .home-progress {
+    padding-bottom: var(--space-md);
+  }
+
+  .home-fold-divider {
+    margin-top: 0;
   }
 }
 

@@ -1,6 +1,6 @@
-import type { Exercise, Word } from '../content/schema';
+import type { Exercise, Word, WordOrderDirection } from '../content/schema';
 import { playAudio } from '../audio/player';
-import { createCorrectBanner, pickCorrectPhrase, playCorrectChime } from '../lib/correct-feedback';
+import { createCorrectBanner, pickCorrectPhrase, playCorrectChime, CORRECT_AUTO_ADVANCE_MS } from '../lib/correct-feedback';
 import { tokensMatch } from '../lib/tokenize';
 
 export type ExerciseResult = {
@@ -321,6 +321,12 @@ function renderFlashcardDeck(
   return root;
 }
 
+function showReveal(reveal: HTMLElement, variant: 'correct' | 'incorrect'): void {
+  reveal.classList.remove('hidden');
+  reveal.classList.toggle('lesson-reveal--incorrect', variant === 'incorrect');
+  reveal.classList.toggle('lesson-reveal--correct', variant === 'correct');
+}
+
 function renderPictureMatch(
   exercise: Extract<Exercise, { type: 'pictureMatch' }>,
   callbacks: ExerciseCallbacks,
@@ -407,11 +413,12 @@ function renderPictureMatch(
       btn.classList.add('is-correct');
       optionsGrid.classList.add('is-resolved');
       root.classList.add('lesson-step--correct');
+      showReveal(reveal, 'correct');
       playCorrectChime();
       footer.appendChild(createCorrectBanner(pickCorrectPhrase()));
       window.setTimeout(() => {
         callbacks.onSubmit({ correct: true, userAnswer: label });
-      }, 850);
+      }, CORRECT_AUTO_ADVANCE_MS);
       return;
     }
 
@@ -421,7 +428,7 @@ function renderPictureMatch(
     feedback.textContent = 'Not quite';
     feedback.classList.add('incorrect-text');
     root.classList.add('lesson-step--incorrect');
-    reveal.classList.remove('hidden');
+    showReveal(reveal, 'incorrect');
     nextBtn.classList.remove('hidden');
   }
 
@@ -435,20 +442,34 @@ function renderPictureMatch(
   return root;
 }
 
+function wordOrderPrompt(direction: WordOrderDirection | undefined, isRetry: boolean): string {
+  if (isRetry) {
+    if (direction === 'ru-to-en') return 'Try again — listen in Russian, tap English in order';
+    if (direction === 'en-to-ru') return 'Try again — listen in English, tap Russian in order';
+    return 'Try again — listen and tap words in order';
+  }
+  if (direction === 'ru-to-en') return 'Listen in Russian, then tap the English words in order';
+  if (direction === 'en-to-ru') return 'Listen in English, then tap the Russian words in order';
+  return 'Listen, then tap words in order';
+}
+
 function renderWordOrder(
   exercise: Extract<Exercise, { type: 'wordOrder' }>,
   callbacks: ExerciseCallbacks,
   options: ExerciseRenderOptions,
 ): HTMLElement {
+  const direction = exercise.direction;
   const { root, body, footer } = lessonShell(
     options.phaseLabel ?? 'Listening',
-    options.isRetry
-      ? 'Try again — listen and tap words in order'
-      : 'Listen, then tap words in order',
+    wordOrderPrompt(direction, options.isRetry ?? false),
     'lesson-step--listening',
   );
 
   const playPhrase = () => {
+    if (direction === 'en-to-ru') {
+      void playAudio('', exercise.sentenceEn ?? exercise.sentence, 'en-US');
+      return;
+    }
     void playAudio(exercise.audio ?? options.wordAudio ?? '', exercise.sentence);
   };
 
@@ -482,6 +503,10 @@ function renderWordOrder(
   }
   reveal.appendChild(
     createAudioButton('Play phrase', () => {
+      if (direction === 'en-to-ru') {
+        playAudio('', exercise.sentenceEn ?? exercise.sentence, 'en-US');
+        return;
+      }
       playAudio(exercise.audio ?? options.wordAudio ?? '', exercise.sentence);
     }),
   );
@@ -520,6 +545,19 @@ function renderWordOrder(
   let checked = false;
   let lastAnswer = '';
   let autoAdvanceTimer: ReturnType<typeof setTimeout> | null = null;
+
+  function playChipAudio(text: string) {
+    const lang = direction === 'ru-to-en' ? 'en-US' : 'ru-RU';
+    const vocab = options.words ?? (options.word ? [options.word] : []);
+
+    if (direction === 'ru-to-en') {
+      void playAudio('', text, lang);
+      return;
+    }
+
+    const match = vocab.find((w) => w.ru === text);
+    void playAudio(match?.audio ?? '', text, lang);
+  }
 
   function attachRedo(parent: HTMLElement) {
     if (!callbacks.onRedo) return;
@@ -568,6 +606,7 @@ function renderWordOrder(
       answerStrip.querySelectorAll('.word-order-chip-selected').forEach((chip) => {
         chip.classList.add('word-order-chip-locked');
       });
+      showReveal(reveal, 'correct');
       attachRedo(answerCol);
       const continueBtn = createPrimaryButton('Next', () => callbacks.onContinue?.());
       actionsRow.appendChild(continueBtn);
@@ -579,7 +618,7 @@ function renderWordOrder(
     feedback.classList.add('incorrect-text');
     root.classList.add('lesson-step--incorrect');
     answerStrip.classList.add('is-incorrect');
-    reveal.classList.remove('hidden');
+    showReveal(reveal, 'incorrect');
     attachRedo(reveal);
     nextBtn.classList.remove('hidden');
   }
@@ -591,6 +630,7 @@ function renderWordOrder(
       btn.type = 'button';
       btn.addEventListener('click', () => {
         if (checked) return;
+        playChipAudio(chip.text);
         selected.push(chip);
         render();
       });
@@ -654,12 +694,13 @@ function renderWordOrder(
       });
 
       playCorrectChime();
+      showReveal(reveal, 'correct');
       footer.appendChild(createCorrectBanner(pickCorrectPhrase()));
 
       autoAdvanceTimer = window.setTimeout(() => {
         autoAdvanceTimer = null;
         callbacks.onSubmit({ correct: true, userAnswer: lastAnswer });
-      }, 850);
+      }, CORRECT_AUTO_ADVANCE_MS);
       return;
     }
 
@@ -668,7 +709,7 @@ function renderWordOrder(
     feedback.classList.add('incorrect-text');
     root.classList.add('lesson-step--incorrect');
     answerStrip.classList.add('is-incorrect');
-    reveal.classList.remove('hidden');
+    showReveal(reveal, 'incorrect');
     lockInteraction();
     checkBtn.classList.add('hidden');
     nextBtn.classList.remove('hidden');

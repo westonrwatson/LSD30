@@ -1,5 +1,6 @@
-import type { DayPlan, Exercise, SessionBlock, SessionStats, Word } from '../content/schema';
+import type { DayPlan, Exercise, SessionBlock, SessionStats, Word, WordOrderExercise } from '../content/schema';
 import type { PersistedState } from '../content/schema';
+import { expandWordOrderExercise, dedupeWordOrderExercises } from '../lib/word-order';
 import { enrollNewWords, recordReview } from '../lib/srs';
 import { isToday, isYesterday, saveState, todayISO } from '../lib/storage';
 
@@ -39,10 +40,16 @@ export function buildSessionQueue(dayPlan: DayPlan): QueuedExercise[] {
     words: dayPlan.words,
   });
 
-  const listening = exercisesByType(dayPlan.exercises, ['wordOrder']).map((ex) => ({
-    exercise: ex,
+  const wordOrders = exercisesByType(dayPlan.exercises, ['wordOrder']) as WordOrderExercise[];
+  let sequenceIndex = 0;
+  const listeningExpanded = dedupeWordOrderExercises(
+    wordOrders.flatMap((ex) => expandWordOrderExercise(ex, dayPlan.words, sequenceIndex++)),
+  );
+  const listening = listeningExpanded.map((expanded) => ({
+    exercise: expanded,
     block: 'listening' as SessionBlock,
-    word: ex.wordId ? wordMap.get(ex.wordId) : undefined,
+    word: expanded.wordId ? wordMap.get(expanded.wordId) : undefined,
+    words: dayPlan.words,
   }));
   queue.push(...listening);
 
@@ -57,13 +64,48 @@ export function buildSessionQueue(dayPlan: DayPlan): QueuedExercise[] {
 }
 
 export function getNextAvailableDay(state: PersistedState): number | null {
+  const isIncomplete = (day: number): boolean =>
+    state.planDays[day]?.status !== 'completed';
+
   for (const day of state.planOrder) {
-    const entry = state.planDays[day];
-    if (entry && (entry.status === 'available' || entry.status === 'in_progress')) {
+    if (isIncomplete(day) && state.planDays[day]?.status === 'in_progress') {
       return day;
     }
   }
-  return state.planOrder.find((d) => state.planDays[d]?.status !== 'completed') ?? null;
+
+  for (const day of state.planOrder) {
+    if (isIncomplete(day) && state.planDays[day]?.pinned) {
+      return day;
+    }
+  }
+
+  for (const day of state.planOrder) {
+    if (isIncomplete(day)) {
+      return day;
+    }
+  }
+
+  return null;
+}
+
+/** Plan list order — current lesson first, then pinned, then the rest */
+export function getPlanDisplayOrder(state: PersistedState): number[] {
+  const { current, starred, pool } = getPlanSections(state);
+  return [...(current != null ? [current] : []), ...starred, ...pool];
+}
+
+export type PlanSections = {
+  current: number | null;
+  starred: number[];
+  pool: number[];
+};
+
+export function getPlanSections(state: PersistedState): PlanSections {
+  const current = getNextAvailableDay(state);
+  const rest = state.planOrder.filter((d) => d !== current);
+  const starred = rest.filter((d) => state.planDays[d]?.pinned);
+  const pool = rest.filter((d) => !state.planDays[d]?.pinned);
+  return { current, starred, pool };
 }
 
 export function completeDay(state: PersistedState, day: number, wordIds: string[]): PersistedState {
@@ -77,19 +119,11 @@ export function completeDay(state: PersistedState, day: number, wordIds: string[
     [day]: { day: prev.day, pinned: prev.pinned, status: 'completed' },
   };
 
-  const idx = next.planOrder.indexOf(day);
-  if (idx >= 0 && idx < next.planOrder.length - 1) {
-    const nextDay = next.planOrder[idx + 1];
-    const nextEntry = next.planDays[nextDay];
-    if (nextEntry.status === 'locked') {
-      next.planDays = {
-        ...next.planDays,
-        [nextDay]: { ...nextEntry, status: 'available' },
-      };
-    }
+  const today = todayISO();
+  if (!next.completionDates.includes(today)) {
+    next.completionDates = [...next.completionDates, today];
   }
 
-  const today = todayISO();
   if (!isToday(next.lastStudyDate)) {
     if (isYesterday(next.lastStudyDate)) {
       next.streak += 1;

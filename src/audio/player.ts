@@ -19,15 +19,20 @@ export function speakWithTTS(text: string, lang = 'ru-RU'): Promise<void> {
     utterance.lang = lang;
     utterance.rate = 0.9;
     const voices = window.speechSynthesis.getVoices();
-    const ruVoice = voices.find((v) => v.lang.startsWith('ru'));
-    if (ruVoice) utterance.voice = ruVoice;
+    const langPrefix = lang.slice(0, 2);
+    const voice = voices.find((v) => v.lang.startsWith(langPrefix));
+    if (voice) utterance.voice = voice;
     utterance.onend = () => resolve();
     utterance.onerror = () => reject(new Error('TTS failed'));
     window.speechSynthesis.speak(utterance);
   });
 }
 
-export async function playAudio(src: string, fallbackText?: string): Promise<void> {
+export async function playAudio(
+  src: string,
+  fallbackText?: string,
+  lang = 'ru-RU',
+): Promise<void> {
   stopAudio();
 
   if (src) {
@@ -52,7 +57,7 @@ export async function playAudio(src: string, fallbackText?: string): Promise<voi
   }
 
   if (fallbackText) {
-    await speakWithTTS(fallbackText);
+    await speakWithTTS(fallbackText, lang);
   }
 }
 

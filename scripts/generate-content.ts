@@ -7,6 +7,7 @@ import { CURRICULUM_PART3 } from './curriculum-data-part3.ts';
 import { CURRICULUM_PART4 } from './curriculum-data-part4.ts';
 import { CURRICULUM_PART5 } from './curriculum-data-part5.ts';
 import { tokenizeRu } from '../src/lib/tokenize.ts';
+import { expandWordOrderExercise } from '../src/lib/word-order.ts';
 import { buildVocabSvg } from './vocab-icons.ts';
 import { fetchVocabImage } from './fetch-vocab-images.ts';
 
@@ -92,26 +93,39 @@ async function buildDay(raw: RawDay) {
 
   const exercises: Record<string, unknown>[] = [];
   let orderIndex = 0;
+  let listeningSequence = 0;
 
   words.forEach((word) => {
     word.sentences.forEach((sentence) => {
-      const tokens = tokenizeRu(sentence.ru);
-      if (tokens.length < 2) return;
+      const ruTokens = tokenizeRu(sentence.ru);
+      if (ruTokens.length < 2) return;
 
-      const distractorWords = shuffle(
-        words.filter((w) => w.id !== word.id).map((w) => w.ru),
-      ).slice(0, Math.min(3, words.length - 1));
-
-      exercises.push({
-        id: `d${dayStr}-order-${orderIndex++}`,
-        type: 'wordOrder',
+      const base = {
         wordId: word.id,
-        prompt: 'Listen and put the words in order:',
         sentence: sentence.ru,
         sentenceEn: sentence.en,
-        audio: '',
-        tokens,
-        pool: shuffle([...tokens, ...distractorWords]),
+        audio: word.audio,
+        tokens: ruTokens,
+        pool: shuffle([
+          ...ruTokens,
+          ...shuffle(words.filter((w) => w.id !== word.id).map((w) => w.ru)).slice(
+            0,
+            Math.min(3, words.length - 1),
+          ),
+        ]),
+      };
+
+      expandWordOrderExercise(
+        {
+          id: `d${dayStr}-order-${orderIndex++}`,
+          type: 'wordOrder',
+          prompt: '',
+          ...base,
+        },
+        words,
+        listeningSequence++,
+      ).forEach((exercise) => {
+        exercises.push(exercise);
       });
     });
   });

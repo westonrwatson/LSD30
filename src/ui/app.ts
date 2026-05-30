@@ -1,6 +1,6 @@
 import type { DayPlan, PersistedState } from '../content/schema';
 import { loadAllDays, buildWordIndex, getDayNumbers } from '../content/loader';
-import { loadState, saveState } from '../lib/storage';
+import { loadState, ensureFirstVisit } from '../lib/storage';
 import { getNextAvailableDay } from '../session/orchestrator';
 import { renderPlanView } from './plan-view';
 import { renderStudyView, renderHome } from './study-view';
@@ -14,6 +14,7 @@ export class App {
   private wordIndex: Map<string, import('../content/schema').Word>;
   private mode: AppMode = 'home';
   private studyDay: number | null = null;
+  private studyReturnMode: 'home' | 'plan' = 'home';
   private shell: HTMLElement | null = null;
   private mainInnerEl: HTMLElement | null = null;
   private studyLink: HTMLButtonElement | null = null;
@@ -22,12 +23,15 @@ export class App {
   constructor(root: HTMLElement) {
     this.root = root;
     this.days = loadAllDays();
-    this.state = loadState(getDayNumbers(this.days));
+    this.state = ensureFirstVisit(loadState(getDayNumbers(this.days)));
     this.wordIndex = buildWordIndex(this.days);
     this.render();
   }
 
-  private setMode(mode: AppMode, studyDay?: number): void {
+  private setMode(mode: AppMode, studyDay?: number, studyReturnMode?: 'home' | 'plan'): void {
+    if (mode === 'study') {
+      this.studyReturnMode = studyReturnMode ?? (this.mode === 'plan' ? 'plan' : 'home');
+    }
     this.mode = mode;
     this.studyDay = studyDay ?? null;
     this.render();
@@ -87,7 +91,7 @@ export class App {
     planLink.type = 'button';
     planLink.className = 'nav-link';
     planLink.innerHTML =
-      '<span class="nav-arrow" aria-hidden="true"></span><span class="nav-label">Plan</span>';
+      '<span class="nav-arrow" aria-hidden="true"></span><span class="nav-label">Lessons</span>';
     planLink.addEventListener('click', () => this.setMode('plan'));
     planItem.appendChild(planLink);
 
@@ -125,7 +129,7 @@ export class App {
     footerAboutCol.className = 'footer-col footer-col-about';
     footerAboutCol.innerHTML = `
       <p class="footer-title">Povtori</p>
-      <p class="footer-location">San Diego, California</p>
+      <p class="footer-location">Chișinău, Moldova</p>
       <p class="footer-quote">Thirty minutes of Russian, every day — built for the slow consistency that actually sticks.</p>
       <p class="footer-credit">Site designed and built by <a class="footer-credit-link" href="https://westonwatson.com" target="_blank" rel="noopener noreferrer">West</a>.</p>
       <div class="footer-social">
@@ -181,7 +185,7 @@ export class App {
           nextDay,
           this.state,
           () => {
-            if (nextDay) this.setMode('study', nextDay.day);
+            if (nextDay) this.setMode('study', nextDay.day, 'home');
           },
         ),
       );
@@ -189,19 +193,7 @@ export class App {
       this.mainInnerEl.appendChild(
         renderPlanView(this.days, this.state, {
           onStartDay: (day) => {
-            const entry = this.state.planDays[day];
-            if (entry?.status === 'locked') {
-              const next = {
-                ...this.state,
-                planDays: {
-                  ...this.state.planDays,
-                  [day]: { ...entry, status: 'available' as const },
-                },
-              };
-              this.state = next;
-              saveState(next);
-            }
-            this.setMode('study', day);
+            this.setMode('study', day, 'plan');
           },
           onStateChange: (state) => {
             this.state = state;
@@ -220,7 +212,7 @@ export class App {
             },
             onExit: (state) => {
               this.state = state;
-              this.setMode('home');
+              this.setMode(this.studyReturnMode);
             },
           }),
         );

@@ -14,7 +14,7 @@ export function defaultPlanDays(dayNumbers: number[]): Record<number, PlanDayEnt
     entries[day] = {
       day,
       pinned: false,
-      status: day === 1 ? 'available' : 'locked',
+      status: 'available',
     };
   }
   return entries;
@@ -27,10 +27,31 @@ export function createDefaultState(dayNumbers: number[]): PersistedState {
     srs: {},
     streak: 0,
     lastStudyDate: null,
+    firstVisitDate: null,
+    completionDates: [],
     completedDays: [],
     settings: { ...DEFAULT_SETTINGS },
     currentDay: null,
   };
+}
+
+export function addDaysISO(dateISO: string, days: number): string {
+  const d = new Date(`${dateISO}T12:00:00`);
+  d.setDate(d.getDate() + days);
+  return d.toISOString().slice(0, 10);
+}
+
+export function daysBetweenISO(startISO: string, endISO: string): number {
+  const start = new Date(`${startISO}T12:00:00`);
+  const end = new Date(`${endISO}T12:00:00`);
+  return Math.floor((end.getTime() - start.getTime()) / 86_400_000);
+}
+
+export function ensureFirstVisit(state: PersistedState): PersistedState {
+  if (state.firstVisitDate) return state;
+  const next = { ...state, firstVisitDate: todayISO() };
+  saveState(next);
+  return next;
 }
 
 export function loadState(dayNumbers: number[]): PersistedState {
@@ -55,7 +76,9 @@ export function loadState(dayNumbers: number[]): PersistedState {
 
     for (const day of dayNumbers) {
       if (!merged.planDays[day]) {
-        merged.planDays[day] = { day, pinned: false, status: 'locked' };
+        merged.planDays[day] = { day, pinned: false, status: 'available' };
+      } else if (merged.planDays[day].status === 'locked') {
+        merged.planDays[day] = { ...merged.planDays[day], status: 'available' };
       }
       if (!merged.planOrder.includes(day)) {
         merged.planOrder.push(day);
@@ -65,6 +88,13 @@ export function loadState(dayNumbers: number[]): PersistedState {
     merged.planOrder = merged.planOrder.filter((d) => dayNumbers.includes(d));
     for (const day of dayNumbers) {
       if (!merged.planOrder.includes(day)) merged.planOrder.push(day);
+    }
+
+    if (!merged.firstVisitDate) {
+      merged.firstVisitDate = merged.lastStudyDate ?? todayISO();
+    }
+    if (!merged.completionDates) {
+      merged.completionDates = [];
     }
 
     return merged;

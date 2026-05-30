@@ -8,7 +8,7 @@ import {
   updateSRSAfterAnswer,
   type QueuedExercise,
 } from '../session/orchestrator';
-import { saveState } from '../lib/storage';
+import { saveState, todayISO } from '../lib/storage';
 import { renderExercise, blockLabel, type CompletedExerciseState, type ExerciseResult } from './exercise-engine';
 import { renderHomeProgressBlocks } from './progress-dots';
 
@@ -108,7 +108,6 @@ export function renderStudyView(
   const chrome = el('div', 'study-chrome');
 
   const statusBar = el('div', 'status-bar study-status-bar');
-  const dayNum = String(dayPlan.day).padStart(2, '0');
 
   const exitBtn = el('button', 'study-exit-btn');
   exitBtn.type = 'button';
@@ -139,7 +138,7 @@ export function renderStudyView(
   statusBar.appendChild(timerEl);
 
   const sessionMeta = el('div', 'study-session-meta');
-  sessionMeta.appendChild(el('span', 'study-session-day', `Day ${dayNum}`));
+  sessionMeta.appendChild(el('span', 'study-session-day', dayPlan.theme));
 
   const sectionSelect = document.createElement('select');
   sectionSelect.className = 'study-section-select';
@@ -464,14 +463,14 @@ export function renderStudyView(
   return root;
 }
 
-function homeDayStatus(day: number, status: string, progress = 0): string {
-  if (status === 'completed') return `Day ${day}`;
+function homeLessonStatus(status: string, progress = 0): string {
+  if (status === 'completed') return 'Complete';
   if (status === 'in_progress') {
     const pct = Math.round(Math.max(0, Math.min(1, progress)) * 100);
-    if (pct === 0) return `Day ${day} — Now Live`;
-    return `Day ${day} — ${pct}%`;
+    if (pct === 0) return 'Current Lesson';
+    return `${pct}%`;
   }
-  return `Day ${day} — Now Live`;
+  return 'Current Lesson';
 }
 
 export function renderHome(
@@ -520,7 +519,7 @@ export function renderHome(
       el(
         'p',
         'home-hero-status',
-        homeDayStatus(nextDay.day, status, lessonProgress),
+        homeLessonStatus(status, lessonProgress),
       ),
     );
     heroMeta.appendChild(el('h1', 'home-hero-title', nextDay.theme));
@@ -531,13 +530,13 @@ export function renderHome(
     hero.appendChild(heroMeta);
   } else {
     const heroMeta = el('div', 'home-hero-meta home-hero-meta-complete');
-    heroMeta.appendChild(el('p', 'home-hero-status', 'All 30 days — Complete'));
-    heroMeta.appendChild(el('h1', 'home-hero-title', 'Curriculum finished'));
+    heroMeta.appendChild(el('p', 'home-hero-status', 'All lessons — Complete'));
+    heroMeta.appendChild(el('h1', 'home-hero-title', 'Lessons finished'));
     heroMeta.appendChild(
       el(
         'p',
         'home-hero-complete-lead',
-        'Pick any day from Plan to review.',
+        'Pick any lesson to review.',
       ),
     );
     hero.appendChild(heroMeta);
@@ -550,7 +549,10 @@ export function renderHome(
 
   const progressSection = el('section', 'home-progress');
   progressSection.appendChild(
-    renderHomeProgressBlocks(state.completedDays.length, state.planOrder.length),
+    renderHomeProgressBlocks(
+      state.firstVisitDate ?? todayISO(),
+      state.completionDates ?? [],
+    ),
   );
   foldContent.appendChild(progressSection);
 

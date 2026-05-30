@@ -71,8 +71,11 @@ export type FlashcardDeckExercise = ExerciseBase & {
   type: 'flashcardDeck';
 };
 
+export type WordOrderDirection = 'ru-to-en' | 'en-to-ru';
+
 export type WordOrderExercise = ExerciseBase & {
   type: 'wordOrder';
+  direction?: WordOrderDirection;
   audio?: string;
   sentence: string;
   sentenceEn?: string;
@@ -158,6 +161,10 @@ export type PersistedState = {
   srs: Record<string, SRSRecord>;
   streak: number;
   lastStudyDate: string | null;
+  /** ISO date of first site visit — anchors the home streak dots */
+  firstVisitDate: string | null;
+  /** ISO dates when the user finished at least one full lesson */
+  completionDates: string[];
   completedDays: number[];
   settings: AppSettings;
   currentDay: number | null;
