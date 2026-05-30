@@ -49,24 +49,202 @@ export function playCorrectChime(): void {
   }
 }
 
-export function createCorrectBanner(message: string): HTMLElement {
-  const banner = document.createElement('div');
-  banner.className = 'answer-success';
-  banner.setAttribute('aria-live', 'polite');
+const SUCCESS_ICON =
+  '<svg viewBox="0 0 24 24" aria-hidden="true">' +
+  '<circle cx="12" cy="12" r="10" fill="currentColor" opacity="0.12"></circle>' +
+  '<path d="M8 12.5l2.5 2.5L16 9" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"></path>' +
+  '</svg>';
 
-  const mark = document.createElement('span');
-  mark.className = 'answer-success-mark';
-  mark.setAttribute('aria-hidden', 'true');
-  mark.innerHTML =
-    '<svg viewBox="0 0 24 24" aria-hidden="true">' +
-    '<path d="M5 13l4 4L19 7" fill="none" stroke="currentColor" stroke-width="2.5"></path>' +
-    '</svg>';
+const FAIL_ICON =
+  '<svg viewBox="0 0 24 24" aria-hidden="true">' +
+  '<circle cx="12" cy="12" r="10" fill="currentColor" opacity="0.12"></circle>' +
+  '<path d="M9 9l6 6M15 9l-6 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"></path>' +
+  '</svg>';
 
-  const text = document.createElement('span');
-  text.className = 'answer-success-text';
-  text.textContent = message;
+const AUDIO_ICON =
+  '<svg class="lesson-audio-icon" viewBox="0 0 24 24" aria-hidden="true">' +
+  '<path d="M11 5L6 9H3v6h3l5 4V5z" fill="currentColor"></path>' +
+  '<path d="M15.5 8.5a5 5 0 010 7M18 6a8.5 8.5 0 010 12" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="square"></path>' +
+  '</svg>';
 
-  banner.appendChild(mark);
-  banner.appendChild(text);
-  return banner;
+export type AnswerFeedbackAction = {
+  label: string;
+  onClick: () => void;
+};
+
+export type AnswerFeedbackOptions = {
+  variant: 'correct' | 'incorrect';
+  headline: string;
+  detailLabel?: string;
+  detailPrimary?: string;
+  detailSecondary?: string;
+  playLabel?: string;
+  onPlayAudio?: () => void;
+  primaryAction?: AnswerFeedbackAction;
+  secondaryAction?: AnswerFeedbackAction;
+  autoAdvanceMs?: number;
+  onAutoAdvance?: () => void;
+};
+
+export type AnswerFeedbackHandle = {
+  dismiss: (immediate?: boolean) => void;
+};
+
+let activeFeedback: AnswerFeedbackHandle | null = null;
+
+export function dismissActiveAnswerFeedback(immediate = true): void {
+  activeFeedback?.dismiss(immediate);
+  activeFeedback = null;
+}
+
+export function showAnswerFeedback(
+  container: HTMLElement,
+  options: AnswerFeedbackOptions,
+): AnswerFeedbackHandle {
+  dismissActiveAnswerFeedback(true);
+
+  const overlay = document.createElement('div');
+  overlay.className = 'answer-feedback-overlay';
+  overlay.setAttribute('role', 'dialog');
+  overlay.setAttribute('aria-modal', 'true');
+  overlay.setAttribute('aria-live', 'polite');
+
+  const backdrop = document.createElement('div');
+  backdrop.className = 'answer-feedback-backdrop';
+  overlay.appendChild(backdrop);
+
+  const card = document.createElement('div');
+  card.className = `answer-feedback-card answer-feedback-card--${options.variant}`;
+  overlay.appendChild(card);
+
+  const icon = document.createElement('div');
+  icon.className = 'answer-feedback-icon';
+  icon.setAttribute('aria-hidden', 'true');
+  icon.innerHTML = options.variant === 'correct' ? SUCCESS_ICON : FAIL_ICON;
+  card.appendChild(icon);
+
+  const headline = document.createElement('h2');
+  headline.className = 'answer-feedback-headline';
+  headline.textContent = options.headline;
+  card.appendChild(headline);
+
+  const hasDetails =
+    options.detailLabel ||
+    options.detailPrimary ||
+    options.detailSecondary ||
+    options.onPlayAudio;
+
+  if (hasDetails) {
+    const details = document.createElement('div');
+    details.className = 'answer-feedback-details';
+
+    if (options.detailLabel) {
+      const label = document.createElement('p');
+      label.className = 'answer-feedback-detail-label';
+      label.textContent = options.detailLabel;
+      details.appendChild(label);
+    }
+
+    if (options.detailPrimary) {
+      const primary = document.createElement('p');
+      primary.className = 'answer-feedback-detail-primary';
+      primary.textContent = options.detailPrimary;
+      details.appendChild(primary);
+    }
+
+    if (options.detailSecondary) {
+      const secondary = document.createElement('p');
+      secondary.className = 'answer-feedback-detail-secondary';
+      secondary.textContent = options.detailSecondary;
+      details.appendChild(secondary);
+    }
+
+    if (options.onPlayAudio) {
+      const playBtn = document.createElement('button');
+      playBtn.type = 'button';
+      playBtn.className = 'lesson-audio-btn answer-feedback-audio-btn';
+      playBtn.innerHTML = `${AUDIO_ICON}<span>${options.playLabel ?? 'Play'}</span>`;
+      playBtn.addEventListener('click', options.onPlayAudio);
+      details.appendChild(playBtn);
+    }
+
+    card.appendChild(details);
+  }
+
+  if (options.autoAdvanceMs != null && options.autoAdvanceMs > 0) {
+    const progress = document.createElement('div');
+    progress.className = 'answer-feedback-progress';
+    progress.style.setProperty('--advance-ms', `${options.autoAdvanceMs}ms`);
+    card.appendChild(progress);
+  }
+
+  if (options.primaryAction || options.secondaryAction) {
+    const actions = document.createElement('div');
+    actions.className = 'answer-feedback-actions';
+
+    if (options.primaryAction) {
+      const primaryBtn = document.createElement('button');
+      primaryBtn.type = 'button';
+      primaryBtn.className = 'btn-outline prominent block lesson-primary-btn';
+      primaryBtn.textContent = options.primaryAction.label;
+      primaryBtn.addEventListener('click', options.primaryAction.onClick);
+      actions.appendChild(primaryBtn);
+    }
+
+    if (options.secondaryAction) {
+      const secondaryBtn = document.createElement('button');
+      secondaryBtn.type = 'button';
+      secondaryBtn.className = 'lesson-secondary-btn answer-feedback-secondary-btn';
+      secondaryBtn.textContent = options.secondaryAction.label;
+      secondaryBtn.addEventListener('click', options.secondaryAction.onClick);
+      actions.appendChild(secondaryBtn);
+    }
+
+    card.appendChild(actions);
+  }
+
+  container.appendChild(overlay);
+
+  requestAnimationFrame(() => {
+    overlay.classList.add('is-visible');
+  });
+
+  let autoAdvanceTimer: ReturnType<typeof setTimeout> | null = null;
+  let removeTimer: ReturnType<typeof setTimeout> | null = null;
+
+  const dismiss = (immediate = false) => {
+    if (autoAdvanceTimer != null) {
+      window.clearTimeout(autoAdvanceTimer);
+      autoAdvanceTimer = null;
+    }
+    if (removeTimer != null) {
+      window.clearTimeout(removeTimer);
+      removeTimer = null;
+    }
+    if (activeFeedback === handle) {
+      activeFeedback = null;
+    }
+    if (immediate || !overlay.isConnected) {
+      overlay.remove();
+      return;
+    }
+    overlay.classList.remove('is-visible');
+    removeTimer = window.setTimeout(() => {
+      overlay.remove();
+      removeTimer = null;
+    }, 280);
+  };
+
+  const handle: AnswerFeedbackHandle = { dismiss };
+  activeFeedback = handle;
+
+  if (options.autoAdvanceMs != null && options.autoAdvanceMs > 0) {
+    autoAdvanceTimer = window.setTimeout(() => {
+      autoAdvanceTimer = null;
+      dismiss(true);
+      options.onAutoAdvance?.();
+    }, options.autoAdvanceMs);
+  }
+
+  return handle;
 }

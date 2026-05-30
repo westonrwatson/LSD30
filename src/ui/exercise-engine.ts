@@ -1,6 +1,12 @@
 import type { Exercise, Word, WordOrderDirection } from '../content/schema';
 import { playAudio, unlockAudioPlayback } from '../audio/player';
-import { createCorrectBanner, pickCorrectPhrase, playCorrectChime, CORRECT_AUTO_ADVANCE_MS } from '../lib/correct-feedback';
+import {
+  pickCorrectPhrase,
+  playCorrectChime,
+  showAnswerFeedback,
+  CORRECT_AUTO_ADVANCE_MS,
+  type AnswerFeedbackHandle,
+} from '../lib/correct-feedback';
 import { tokensMatch } from '../lib/tokenize';
 
 export type ExerciseResult = {
@@ -47,6 +53,28 @@ const REDO_ICON =
   '<path d="M1 4v6h6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>' +
   '<path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>' +
   '</svg>';
+
+const WORD_ORDER_CHIP_ANIM_MS = 350;
+const WORD_ORDER_CHIP_STAGGER_MS = 50;
+const WORD_ORDER_CHIP_START_MS = 40;
+const SUCCESS_CONTENT_FADE_MS = 320;
+
+function wordOrderHighlightDelayMs(chipCount: number): number {
+  if (chipCount <= 0) return WORD_ORDER_CHIP_ANIM_MS;
+  const lastChipStart =
+    WORD_ORDER_CHIP_START_MS + (chipCount - 1) * WORD_ORDER_CHIP_STAGGER_MS;
+  return lastChipStart + WORD_ORDER_CHIP_ANIM_MS + 120;
+}
+
+function successRevealTimings(chipCount: number): { highlightMs: number; fadeMs: number } {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    return { highlightMs: 0, fadeMs: 0 };
+  }
+  return {
+    highlightMs: wordOrderHighlightDelayMs(chipCount),
+    fadeMs: SUCCESS_CONTENT_FADE_MS,
+  };
+}
 
 function el<K extends keyof HTMLElementTagNameMap>(
   tag: K,
@@ -320,12 +348,6 @@ function renderFlashcardDeck(
   return root;
 }
 
-function showReveal(reveal: HTMLElement, variant: 'correct' | 'incorrect'): void {
-  reveal.classList.remove('hidden');
-  reveal.classList.toggle('lesson-reveal--incorrect', variant === 'incorrect');
-  reveal.classList.toggle('lesson-reveal--correct', variant === 'correct');
-}
-
 function renderPictureMatch(
   exercise: Extract<Exercise, { type: 'pictureMatch' }>,
   callbacks: ExerciseCallbacks,
@@ -360,23 +382,6 @@ function renderPictureMatch(
   const optionsGrid = el('div', 'picture-options');
   panel.appendChild(optionsGrid);
 
-  const feedback = el('p', 'feedback hidden');
-  panel.appendChild(feedback);
-
-  const reveal = el('div', 'lesson-reveal hidden');
-  reveal.classList.add('lesson-reveal--incorrect');
-  reveal.appendChild(el('p', 'lesson-reveal-label', 'Correct word'));
-  if (word) {
-    reveal.appendChild(el('p', 'lesson-reveal-ru', word.ru));
-    reveal.appendChild(el('p', 'lesson-reveal-en', word.en));
-    reveal.appendChild(
-      createAudioButton('Play word', () => {
-        playAudio(word.audio, word.ru);
-      }),
-    );
-  }
-  panel.appendChild(reveal);
-
   layout.appendChild(panel);
   body.appendChild(layout);
 
@@ -384,19 +389,22 @@ function renderPictureMatch(
   if (options.canGoBack) {
     const backBtn = el('button', 'btn-outline lesson-back-btn', 'Back');
     backBtn.type = 'button';
-    backBtn.addEventListener('click', () => callbacks.onBack?.());
+    backBtn.addEventListener('click', () => {
+      dismissFeedback(true);
+      callbacks.onBack?.();
+    });
     actionsRow.appendChild(backBtn);
   }
-
-  const nextBtn = createPrimaryButton('Next', () => {
-    callbacks.onSubmit({ correct: false, userAnswer: lastAnswer });
-  });
-  nextBtn.classList.add('hidden');
-  actionsRow.appendChild(nextBtn);
   footer.appendChild(actionsRow);
 
   let checked = false;
   let lastAnswer = '';
+  let feedbackOverlay: AnswerFeedbackHandle | null = null;
+
+  function dismissFeedback(immediate = false) {
+    feedbackOverlay?.dismiss(immediate);
+    feedbackOverlay = null;
+  }
 
   function pickOption(label: string, btn: HTMLButtonElement) {
     if (checked) return;
@@ -412,23 +420,42 @@ function renderPictureMatch(
       btn.classList.add('is-correct');
       optionsGrid.classList.add('is-resolved');
       root.classList.add('lesson-step--correct');
-      showReveal(reveal, 'correct');
       playCorrectChime();
-      actionsRow.appendChild(createCorrectBanner(pickCorrectPhrase()));
-      window.setTimeout(() => {
-        callbacks.onSubmit({ correct: true, userAnswer: label });
-      }, CORRECT_AUTO_ADVANCE_MS);
+      feedbackOverlay = showAnswerFeedback(root, {
+        variant: 'correct',
+        headline: pickCorrectPhrase(),
+        autoAdvanceMs: CORRECT_AUTO_ADVANCE_MS,
+        onAutoAdvance: () => {
+          feedbackOverlay = null;
+          callbacks.onSubmit({ correct: true, userAnswer: label });
+        },
+      });
       return;
     }
 
     btn.classList.add('is-incorrect');
     optionsGrid.classList.add('is-resolved');
-    feedback.classList.remove('hidden');
-    feedback.textContent = 'Not quite';
-    feedback.classList.add('incorrect-text');
     root.classList.add('lesson-step--incorrect');
-    showReveal(reveal, 'incorrect');
-    nextBtn.classList.remove('hidden');
+    feedbackOverlay = showAnswerFeedback(root, {
+      variant: 'incorrect',
+      headline: 'Not quite',
+      detailLabel: 'Correct word',
+      detailPrimary: word?.ru,
+      detailSecondary: word?.en,
+      playLabel: 'Play word',
+      onPlayAudio: word
+        ? () => {
+            playAudio(word.audio, word.ru);
+          }
+        : undefined,
+      primaryAction: {
+        label: 'Next',
+        onClick: () => {
+          dismissFeedback(true);
+          callbacks.onSubmit({ correct: false, userAnswer: lastAnswer });
+        },
+      },
+    });
   }
 
   for (const label of exercise.options) {
@@ -494,11 +521,7 @@ function renderWordOrder(
 
   body.appendChild(layout);
 
-  const feedback = el('p', 'feedback hidden');
-  body.appendChild(feedback);
-
-  const reveal = el('div', 'lesson-reveal hidden');
-  reveal.classList.add('lesson-reveal--incorrect');
+  const reveal = el('div', 'lesson-reveal word-order-reveal hidden');
   reveal.appendChild(el('p', 'lesson-reveal-label', 'Correct answer'));
   reveal.appendChild(el('p', 'lesson-reveal-ru', exercise.sentence));
   if (exercise.sentenceEn) {
@@ -512,17 +535,10 @@ function renderWordOrder(
   );
   body.appendChild(reveal);
 
-  const checkBtn = createPrimaryButton('Check', () => check());
-  const actionsRow = el('div', 'lesson-footer-actions');
-  if (options.canGoBack) {
-    const backBtn = el('button', 'btn-outline lesson-back-btn', 'Back');
-    backBtn.type = 'button';
-    backBtn.addEventListener('click', () => callbacks.onBack?.());
-    actionsRow.appendChild(backBtn);
-  }
-  actionsRow.appendChild(checkBtn);
-  footer.appendChild(actionsRow);
+  const redoSlot = el('div', 'word-order-redo-slot hidden');
+  body.appendChild(redoSlot);
 
+  const checkBtn = createPrimaryButton('Check', () => check());
   const nextBtn = createPrimaryButton('Next', () => {
     if (options.completedState) {
       callbacks.onContinue?.();
@@ -531,7 +547,23 @@ function renderWordOrder(
     callbacks.onSubmit({ correct: false, userAnswer: lastAnswer });
   });
   nextBtn.classList.add('hidden');
-  footer.appendChild(nextBtn);
+
+  const actionsRow = el(
+    'div',
+    `lesson-footer-actions${options.canGoBack ? ' lesson-footer-actions--split' : ''}`,
+  );
+  if (options.canGoBack) {
+    const backBtn = el('button', 'btn-outline lesson-back-btn', 'Back');
+    backBtn.type = 'button';
+    backBtn.addEventListener('click', () => {
+      dismissFeedback(true);
+      callbacks.onBack?.();
+    });
+    actionsRow.appendChild(backBtn);
+  }
+  actionsRow.appendChild(checkBtn);
+  actionsRow.appendChild(nextBtn);
+  footer.appendChild(actionsRow);
 
   const skipBtn = createSecondaryButton('Skip this phrase', () => {
     callbacks.onSubmit({ correct: false, skipped: true, userAnswer: lastAnswer });
@@ -544,7 +576,86 @@ function renderWordOrder(
   const selected: Chip[] = [];
   let checked = false;
   let lastAnswer = '';
-  let autoAdvanceTimer: ReturnType<typeof setTimeout> | null = null;
+  let feedbackOverlay: AnswerFeedbackHandle | null = null;
+  let successRevealTimer: ReturnType<typeof setTimeout> | null = null;
+
+  function clearSuccessRevealTimer() {
+    if (successRevealTimer != null) {
+      window.clearTimeout(successRevealTimer);
+      successRevealTimer = null;
+    }
+  }
+
+  function dismissFeedback(immediate = false) {
+    clearSuccessRevealTimer();
+    root.classList.remove('lesson-step--success-fade');
+    feedbackOverlay?.dismiss(immediate);
+    feedbackOverlay = null;
+  }
+
+  function showCorrectSuccessFeedback() {
+    feedbackOverlay = showAnswerFeedback(root, {
+      variant: 'correct',
+      headline: pickCorrectPhrase(),
+      autoAdvanceMs: CORRECT_AUTO_ADVANCE_MS,
+      onAutoAdvance: () => {
+        feedbackOverlay = null;
+        callbacks.onSubmit({ correct: true, userAnswer: lastAnswer });
+      },
+    });
+  }
+
+  function revealCorrectSuccess(chipCount: number) {
+    const { highlightMs, fadeMs } = successRevealTimings(chipCount);
+
+    successRevealTimer = window.setTimeout(() => {
+      successRevealTimer = null;
+      root.classList.add('lesson-step--success-fade');
+
+      successRevealTimer = window.setTimeout(() => {
+        successRevealTimer = null;
+        showCorrectSuccessFeedback();
+      }, fadeMs);
+    }, highlightMs);
+  }
+
+  function playPhraseAudio() {
+    unlockAudioPlayback();
+    void playAudio(exercise.audio ?? options.wordAudio ?? '', exercise.sentence);
+  }
+
+  function showIncorrectFeedback() {
+    const showSkip = (options.wrongAttempts ?? 0) >= 2;
+    feedbackOverlay = showAnswerFeedback(root, {
+      variant: 'incorrect',
+      headline: 'Not quite',
+      detailLabel: 'Correct answer',
+      detailPrimary: exercise.sentence,
+      detailSecondary: exercise.sentenceEn,
+      playLabel: 'Play phrase',
+      onPlayAudio: playPhraseAudio,
+      primaryAction: {
+        label: 'Next',
+        onClick: () => {
+          dismissFeedback(true);
+          if (options.completedState) {
+            callbacks.onContinue?.();
+            return;
+          }
+          callbacks.onSubmit({ correct: false, userAnswer: lastAnswer });
+        },
+      },
+      secondaryAction: showSkip
+        ? {
+            label: 'Skip this phrase',
+            onClick: () => {
+              dismissFeedback(true);
+              callbacks.onSubmit({ correct: false, skipped: true, userAnswer: lastAnswer });
+            },
+          }
+        : undefined,
+    });
+  }
 
   function playChipAudio(text: string) {
     if (direction === 'ru-to-en') return;
@@ -555,22 +666,21 @@ function renderWordOrder(
     void playAudio(match?.audio ?? '', text, 'ru-RU');
   }
 
-  function attachRedo(parent: HTMLElement) {
+  function attachRedo() {
     if (!callbacks.onRedo) return;
+    redoSlot.innerHTML = '';
+    redoSlot.classList.remove('hidden');
     const row = el('div', 'lesson-redo-row');
     const btn = el('button', 'lesson-redo-btn');
     btn.type = 'button';
     btn.setAttribute('aria-label', 'Redo question');
     btn.innerHTML = REDO_ICON;
     btn.addEventListener('click', () => {
-      if (autoAdvanceTimer != null) {
-        window.clearTimeout(autoAdvanceTimer);
-        autoAdvanceTimer = null;
-      }
+      dismissFeedback(true);
       callbacks.onRedo?.();
     });
     row.appendChild(btn);
-    parent.appendChild(row);
+    redoSlot.appendChild(row);
   }
 
   function chipsFromAnswer(answer: string): Chip[] {
@@ -596,26 +706,16 @@ function renderWordOrder(
     lockInteraction();
 
     if (state.correct) {
-      answerStrip.classList.add('is-correct');
-      pool.classList.add('is-dimmed');
-      root.classList.add('lesson-step--correct');
-      answerStrip.querySelectorAll('.word-order-chip-selected').forEach((chip) => {
-        chip.classList.add('word-order-chip-locked');
-      });
-      showReveal(reveal, 'correct');
-      attachRedo(answerCol);
-      const continueBtn = createPrimaryButton('Next', () => callbacks.onContinue?.());
-      actionsRow.appendChild(continueBtn);
+      root.classList.add('lesson-step--correct', 'lesson-step--review');
+      reveal.classList.remove('hidden');
+      attachRedo();
+      nextBtn.classList.remove('hidden');
       return;
     }
 
-    feedback.classList.remove('hidden');
-    feedback.textContent = state.skipped ? 'Skipped' : 'Not quite';
-    feedback.classList.add('incorrect-text');
-    root.classList.add('lesson-step--incorrect');
-    answerStrip.classList.add('is-incorrect');
-    showReveal(reveal, 'incorrect');
-    attachRedo(reveal);
+    root.classList.add('lesson-step--incorrect', 'lesson-step--review');
+    reveal.classList.remove('hidden');
+    attachRedo();
     nextBtn.classList.remove('hidden');
   }
   function renderPool() {
@@ -690,28 +790,15 @@ function renderWordOrder(
       });
 
       playCorrectChime();
-      showReveal(reveal, 'correct');
-      actionsRow.appendChild(createCorrectBanner(pickCorrectPhrase()));
-
-      autoAdvanceTimer = window.setTimeout(() => {
-        autoAdvanceTimer = null;
-        callbacks.onSubmit({ correct: true, userAnswer: lastAnswer });
-      }, CORRECT_AUTO_ADVANCE_MS);
+      revealCorrectSuccess(selected.length);
       return;
     }
 
-    feedback.classList.remove('hidden');
-    feedback.textContent = 'Not quite';
-    feedback.classList.add('incorrect-text');
     root.classList.add('lesson-step--incorrect');
     answerStrip.classList.add('is-incorrect');
-    showReveal(reveal, 'incorrect');
     lockInteraction();
     checkBtn.classList.add('hidden');
-    nextBtn.classList.remove('hidden');
-    if ((options.wrongAttempts ?? 0) >= 2) {
-      skipBtn.classList.remove('hidden');
-    }
+    showIncorrectFeedback();
   }
 
   render();

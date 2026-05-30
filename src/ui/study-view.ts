@@ -11,6 +11,7 @@ import {
 import { saveState, todayISO } from '../lib/storage';
 import { initAudioSettings } from '../lib/audio-settings';
 import { unlockAudioPlayback } from '../audio/player';
+import { dismissActiveAnswerFeedback } from '../lib/correct-feedback';
 import { renderExercise, blockLabel, type CompletedExerciseState, type ExerciseResult } from './exercise-engine';
 import { createSettingsControl } from './settings-panel';
 import { renderHomeProgressBlocks } from './progress-dots';
@@ -158,6 +159,7 @@ export function renderStudyView(
   exitBtn.innerHTML =
     '<span class="study-exit-label">Back</span><span class="nav-arrow nav-arrow-back" aria-hidden="true"></span>';
   exitBtn.addEventListener('click', () => {
+    dismissActiveAnswerFeedback(true);
     timer?.stop();
     const progress = savedListeningProgress(index);
     currentState = {
@@ -377,6 +379,7 @@ export function renderStudyView(
   }
 
   function showSummary() {
+    dismissActiveAnswerFeedback(true);
     timer?.stop();
     exerciseHost.innerHTML = '';
     exerciseHost.appendChild(el('div', 'study-summary'));
@@ -462,6 +465,8 @@ export function renderStudyView(
   }
 
   function showExercise() {
+    dismissActiveAnswerFeedback(true);
+
     if (index >= queue.length) {
       finishOrRetry();
       return;
