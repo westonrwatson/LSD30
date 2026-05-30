@@ -1,5 +1,5 @@
 import type { Exercise, Word, WordOrderDirection } from '../content/schema';
-import { playAudio } from '../audio/player';
+import { playAudio, unlockAudioPlayback } from '../audio/player';
 import { createCorrectBanner, pickCorrectPhrase, playCorrectChime, CORRECT_AUTO_ADVANCE_MS } from '../lib/correct-feedback';
 import { tokensMatch } from '../lib/tokenize';
 
@@ -465,6 +465,7 @@ function renderWordOrder(
   );
 
   const playPhrase = () => {
+    unlockAudioPlayback();
     if (direction === 'en-to-ru') return;
     void playAudio(exercise.audio ?? options.wordAudio ?? '', exercise.sentence);
   };
@@ -505,6 +506,7 @@ function renderWordOrder(
   }
   reveal.appendChild(
     createAudioButton('Play phrase', () => {
+      unlockAudioPlayback();
       playAudio(exercise.audio ?? options.wordAudio ?? '', exercise.sentence);
     }),
   );
@@ -547,6 +549,7 @@ function renderWordOrder(
   function playChipAudio(text: string) {
     if (direction === 'ru-to-en') return;
 
+    unlockAudioPlayback();
     const vocab = options.words ?? (options.word ? [options.word] : []);
     const match = vocab.find((w) => w.ru === text);
     void playAudio(match?.audio ?? '', text, 'ru-RU');

@@ -10,6 +10,7 @@ import {
 } from '../session/orchestrator';
 import { saveState, todayISO } from '../lib/storage';
 import { initAudioSettings } from '../lib/audio-settings';
+import { unlockAudioPlayback } from '../audio/player';
 import { renderExercise, blockLabel, type CompletedExerciseState, type ExerciseResult } from './exercise-engine';
 import { createSettingsControl } from './settings-panel';
 import { renderHomeProgressBlocks } from './progress-dots';
@@ -139,6 +140,13 @@ export function renderStudyView(
   });
 
   const root = el('div', 'study-view');
+  root.addEventListener(
+    'pointerdown',
+    () => {
+      unlockAudioPlayback();
+    },
+    { once: true },
+  );
 
   const chrome = el('div', 'study-chrome');
 

@@ -2,6 +2,7 @@ import type { DayPlan, PersistedState } from '../content/schema';
 import { loadAllDays, buildWordIndex, getDayNumbers } from '../content/loader';
 import { loadState, ensureFirstVisit } from '../lib/storage';
 import { initAudioSettings } from '../lib/audio-settings';
+import { unlockAudioPlayback } from '../audio/player';
 import { getNextAvailableDay } from '../session/orchestrator';
 import { renderPlanView } from './plan-view';
 import { renderStudyView, renderHome } from './study-view';
@@ -187,6 +188,7 @@ export class App {
           nextDay,
           this.state,
           () => {
+            unlockAudioPlayback();
             if (nextDay) this.setMode('study', nextDay.day, 'home');
           },
         ),
@@ -195,6 +197,7 @@ export class App {
       this.mainInnerEl.appendChild(
         renderPlanView(this.days, this.state, {
           onStartDay: (day) => {
+            unlockAudioPlayback();
             this.setMode('study', day, 'plan');
           },
           onStateChange: (state) => {
