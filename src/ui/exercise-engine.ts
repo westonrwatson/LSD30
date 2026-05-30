@@ -444,11 +444,11 @@ function renderPictureMatch(
 function wordOrderPrompt(direction: WordOrderDirection | undefined, isRetry: boolean): string {
   if (isRetry) {
     if (direction === 'ru-to-en') return 'Try again — listen in Russian, tap English in order';
-    if (direction === 'en-to-ru') return 'Try again — listen in English, tap Russian in order';
+    if (direction === 'en-to-ru') return 'Try again — read the phrase, tap Russian in order';
     return 'Try again — listen and tap words in order';
   }
   if (direction === 'ru-to-en') return 'Listen in Russian, then tap the English words in order';
-  if (direction === 'en-to-ru') return 'Listen in English, then tap the Russian words in order';
+  if (direction === 'en-to-ru') return 'Read the phrase, then tap the Russian words in order';
   return 'Listen, then tap words in order';
 }
 
@@ -465,14 +465,17 @@ function renderWordOrder(
   );
 
   const playPhrase = () => {
-    if (direction === 'en-to-ru') {
-      void playAudio('', exercise.sentenceEn ?? exercise.sentence, 'en-US');
-      return;
-    }
+    if (direction === 'en-to-ru') return;
     void playAudio(exercise.audio ?? options.wordAudio ?? '', exercise.sentence);
   };
 
-  body.appendChild(createAudioButton('Play phrase', playPhrase));
+  if (direction === 'en-to-ru') {
+    body.appendChild(
+      el('p', 'word-order-source-phrase', exercise.sentenceEn ?? exercise.sentence),
+    );
+  } else {
+    body.appendChild(createAudioButton('Play phrase', playPhrase));
+  }
 
   const layout = el('div', 'word-order-layout');
 
@@ -502,10 +505,6 @@ function renderWordOrder(
   }
   reveal.appendChild(
     createAudioButton('Play phrase', () => {
-      if (direction === 'en-to-ru') {
-        playAudio('', exercise.sentenceEn ?? exercise.sentence, 'en-US');
-        return;
-      }
       playAudio(exercise.audio ?? options.wordAudio ?? '', exercise.sentence);
     }),
   );
@@ -546,16 +545,11 @@ function renderWordOrder(
   let autoAdvanceTimer: ReturnType<typeof setTimeout> | null = null;
 
   function playChipAudio(text: string) {
-    const lang = direction === 'ru-to-en' ? 'en-US' : 'ru-RU';
+    if (direction === 'ru-to-en') return;
+
     const vocab = options.words ?? (options.word ? [options.word] : []);
-
-    if (direction === 'ru-to-en') {
-      void playAudio('', text, lang);
-      return;
-    }
-
     const match = vocab.find((w) => w.ru === text);
-    void playAudio(match?.audio ?? '', text, lang);
+    void playAudio(match?.audio ?? '', text, 'ru-RU');
   }
 
   function attachRedo(parent: HTMLElement) {
@@ -720,7 +714,7 @@ function renderWordOrder(
   render();
   if (options.completedState) {
     applyCompletedState(options.completedState);
-  } else {
+  } else if (direction !== 'en-to-ru') {
     window.setTimeout(playPhrase, 150);
   }
   return root;
@@ -736,7 +730,7 @@ export function blockLabel(block: string): string {
   const labels: Record<string, string> = {
     intro: 'Vocabulary',
     flashcards: 'Flashcards',
-    listening: 'Listening',
+    listening: 'Listen/Read',
     pictures: 'Pictures',
   };
   return labels[block] ?? block.charAt(0).toUpperCase() + block.slice(1);

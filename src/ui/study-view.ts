@@ -19,7 +19,7 @@ const PLAY_RING_LENGTH = 261;
 const SECTION_NAV_LABELS: Record<SessionBlock, string> = {
   intro: 'Vocab',
   flashcards: 'Cards',
-  listening: 'Listen',
+  listening: 'Listen/Read',
   pictures: 'Pictures',
 };
 

@@ -75,7 +75,7 @@ export function expandWordOrderExercise(
           ruTokens,
           [...ruTokens, ...distractorWords(words, exercise.wordId, 'ru')],
           'en-ru',
-          'Listen in English, then tap the Russian words in order',
+          'Read the phrase, then tap the Russian words in order',
           '',
         )
       : null;
