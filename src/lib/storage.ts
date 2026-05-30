@@ -1,6 +1,7 @@
 import type { AppSettings, PersistedState, PlanDayEntry } from '../content/schema';
 
-const STORAGE_KEY = 'lsd30-state-v1';
+const STORAGE_KEY = 'povtori-state-v1';
+const LEGACY_STORAGE_KEY = 'lsd30-state-v1';
 
 const DEFAULT_SETTINGS: AppSettings = {
   transliteration: true,
@@ -34,7 +35,15 @@ export function createDefaultState(dayNumbers: number[]): PersistedState {
 
 export function loadState(dayNumbers: number[]): PersistedState {
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
+    let raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) {
+      const legacy = localStorage.getItem(LEGACY_STORAGE_KEY);
+      if (legacy) {
+        localStorage.setItem(STORAGE_KEY, legacy);
+        localStorage.removeItem(LEGACY_STORAGE_KEY);
+        raw = legacy;
+      }
+    }
     if (!raw) return createDefaultState(dayNumbers);
 
     const parsed = JSON.parse(raw) as PersistedState;

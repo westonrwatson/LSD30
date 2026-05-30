@@ -568,7 +568,7 @@ export function renderHome(
 
   const aboutText = el('div', 'home-about-text');
   const aboutChunks = [
-    'Most language apps are built around intensity — streaks, XP, and the pressure to do more every day. LSD30 takes a different approach. It is designed for a single, repeatable session you can show up to without negotiating with yourself first.',
+    'Most language apps are built around intensity — streaks, XP, and the pressure to do more every day. Povtori takes a different approach. It is designed for a single, repeatable session you can show up to without negotiating with yourself first.',
     'Thirty minutes is the whole point. It is long enough to move past warm-up, encounter new vocabulary, and actually use what you learned — but short enough that life does not have to stop. You can fit it between work, dinner, or a walk, and still feel like you made real progress.',
     'Language sticks when you return to it regularly, not when you cram and disappear for a week. Small daily exposure beats heroic sessions every time. That is the habit this site is built around — slow, steady, and meant to last past day thirty.',
   ];

@@ -2,7 +2,7 @@ import { mkdirSync, writeFileSync, existsSync, readFileSync } from 'fs';
 import { join } from 'path';
 import { iconCategoryForWord, type IconCategory } from './vocab-icons.ts';
 
-const USER_AGENT = 'LSD30/1.0 (https://github.com/westonrwatson/LSD30; vocabulary image fetch)';
+const USER_AGENT = 'Povtori/1.0 (https://github.com/westonrwatson/Povtori; vocabulary image fetch)';
 const API = 'https://commons.wikimedia.org/w/api.php';
 const REQUEST_DELAY_MS = 300;
 

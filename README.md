@@ -1,4 +1,4 @@
-# LSD30 — Language Study Daily 30
+# Povtori
 
 Single-page Russian study app: 30-minute daily sessions with themed vocabulary, grammar, listening, and speaking practice.
 

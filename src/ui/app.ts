@@ -47,7 +47,7 @@ export class App {
     const logoBtn = document.createElement('button');
     logoBtn.className = 'logo';
     logoBtn.type = 'button';
-    logoBtn.textContent = 'LSD30';
+    logoBtn.textContent = 'Povtori';
     logoBtn.addEventListener('click', () => this.setMode('home'));
 
     logoWrap.appendChild(logoBtn);
@@ -124,7 +124,7 @@ export class App {
     const footerAboutCol = document.createElement('div');
     footerAboutCol.className = 'footer-col footer-col-about';
     footerAboutCol.innerHTML = `
-      <p class="footer-title">Language Study Daily 30</p>
+      <p class="footer-title">Povtori</p>
       <p class="footer-location">San Diego, California</p>
       <p class="footer-quote">Thirty minutes of Russian, every day — built for the slow consistency that actually sticks.</p>
       <p class="footer-credit">Site designed and built by <a class="footer-credit-link" href="https://westonwatson.com" target="_blank" rel="noopener noreferrer">West</a>.</p>
