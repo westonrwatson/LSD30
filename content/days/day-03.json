@@ -1,0 +1,763 @@
+{
+  "day": 3,
+  "theme": "Numbers 21–100, age",
+  "grammarFocus": "Nominative vs accusative (inanimate)",
+  "words": [
+    {
+      "id": "d03-w01",
+      "ru": "двадцать",
+      "en": "twenty",
+      "audio": "/audio/day03/двадцать.mp3",
+      "image": "/images/vocab/d03-w01.svg",
+      "sentences": [
+        {
+          "ru": "Мне двадцать лет.",
+          "en": "I am twenty years old."
+        },
+        {
+          "ru": "Двадцать минут езды.",
+          "en": "Twenty minutes by car."
+        }
+      ]
+    },
+    {
+      "id": "d03-w02",
+      "ru": "тридцать",
+      "en": "thirty",
+      "audio": "/audio/day03/тридцать.mp3",
+      "image": "/images/vocab/d03-w02.svg",
+      "sentences": [
+        {
+          "ru": "Тридцать дней — месяц.",
+          "en": "Thirty days — a month."
+        },
+        {
+          "ru": "Ему тридцать пять.",
+          "en": "He is thirty-five."
+        }
+      ]
+    },
+    {
+      "id": "d03-w03",
+      "ru": "сорок",
+      "en": "forty",
+      "audio": "/audio/day03/сорок.mp3",
+      "image": "/images/vocab/d03-w03.svg",
+      "sentences": [
+        {
+          "ru": "Сорок человек в зале.",
+          "en": "Forty people in the hall."
+        },
+        {
+          "ru": "Сорок пять рублей.",
+          "en": "Forty-five rubles."
+        }
+      ]
+    },
+    {
+      "id": "d03-w04",
+      "ru": "пятьдесят",
+      "en": "fifty",
+      "audio": "/audio/day03/пятьдесят.mp3",
+      "image": "/images/vocab/d03-w04.svg",
+      "sentences": [
+        {
+          "ru": "Пятьдесят процентов скидка.",
+          "en": "Fifty percent discount."
+        },
+        {
+          "ru": "Ей пятьдесят лет.",
+          "en": "She is fifty years old."
+        }
+      ]
+    },
+    {
+      "id": "d03-w05",
+      "ru": "шестьдесят",
+      "en": "sixty",
+      "audio": "/audio/day03/шестьдесят.mp3",
+      "image": "/images/vocab/d03-w05.svg",
+      "sentences": [
+        {
+          "ru": "Шестьдесят минут — час.",
+          "en": "Sixty minutes — an hour."
+        },
+        {
+          "ru": "Дедушке шестьдесят.",
+          "en": "Grandpa is sixty."
+        }
+      ]
+    },
+    {
+      "id": "d03-w06",
+      "ru": "сколько",
+      "en": "how many / how much",
+      "audio": "/audio/day03/сколько.mp3",
+      "image": "/images/vocab/d03-w06.svg",
+      "sentences": [
+        {
+          "ru": "Сколько тебе лет?",
+          "en": "How old are you?"
+        },
+        {
+          "ru": "Сколько это стоит?",
+          "en": "How much does it cost?"
+        }
+      ]
+    },
+    {
+      "id": "d03-w07",
+      "ru": "год",
+      "en": "year",
+      "audio": "/audio/day03/год.mp3",
+      "image": "/images/vocab/d03-w07.svg",
+      "sentences": [
+        {
+          "ru": "Мне двадцать один год.",
+          "en": "I am twenty-one years old."
+        },
+        {
+          "ru": "Новый год скоро.",
+          "en": "New Year is soon."
+        }
+      ]
+    },
+    {
+      "id": "d03-w08",
+      "ru": "лет",
+      "en": "years (age)",
+      "audio": "/audio/day03/лет.mp3",
+      "image": "/images/vocab/d03-w08.svg",
+      "sentences": [
+        {
+          "ru": "Мне тридцать лет.",
+          "en": "I am thirty years old."
+        },
+        {
+          "ru": "Ему пять лет.",
+          "en": "He is five years old."
+        }
+      ]
+    },
+    {
+      "id": "d03-w09",
+      "ru": "сто",
+      "en": "one hundred",
+      "audio": "/audio/day03/сто.mp3",
+      "image": "/images/vocab/d03-w09.svg",
+      "sentences": [
+        {
+          "ru": "Сто рублей, пожалуйста.",
+          "en": "One hundred rubles, please."
+        },
+        {
+          "ru": "Сто процентов уверен.",
+          "en": "One hundred percent sure."
+        }
+      ]
+    },
+    {
+      "id": "d03-w10",
+      "ru": "рубль",
+      "en": "ruble",
+      "audio": "/audio/day03/рубль.mp3",
+      "image": "/images/vocab/d03-w10.svg",
+      "sentences": [
+        {
+          "ru": "Один рубль — мало.",
+          "en": "One ruble is little."
+        },
+        {
+          "ru": "Сто рублей за билет.",
+          "en": "One hundred rubles for the ticket."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d03-order-0",
+      "type": "wordOrder",
+      "wordId": "d03-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мне двадцать лет.",
+      "sentenceEn": "I am twenty years old.",
+      "audio": "",
+      "tokens": [
+        "Мне",
+        "двадцать",
+        "лет"
+      ],
+      "pool": [
+        "лет",
+        "сорок",
+        "двадцать",
+        "рубль",
+        "сколько",
+        "Мне"
+      ]
+    },
+    {
+      "id": "d03-order-1",
+      "type": "wordOrder",
+      "wordId": "d03-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Двадцать минут езды.",
+      "sentenceEn": "Twenty minutes by car.",
+      "audio": "",
+      "tokens": [
+        "Двадцать",
+        "минут",
+        "езды"
+      ],
+      "pool": [
+        "тридцать",
+        "лет",
+        "Двадцать",
+        "сколько",
+        "минут",
+        "езды"
+      ]
+    },
+    {
+      "id": "d03-order-2",
+      "type": "wordOrder",
+      "wordId": "d03-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Тридцать дней — месяц.",
+      "sentenceEn": "Thirty days — a month.",
+      "audio": "",
+      "tokens": [
+        "Тридцать",
+        "дней",
+        "месяц"
+      ],
+      "pool": [
+        "месяц",
+        "двадцать",
+        "Тридцать",
+        "дней",
+        "сто",
+        "пятьдесят"
+      ]
+    },
+    {
+      "id": "d03-order-3",
+      "type": "wordOrder",
+      "wordId": "d03-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Ему тридцать пять.",
+      "sentenceEn": "He is thirty-five.",
+      "audio": "",
+      "tokens": [
+        "Ему",
+        "тридцать",
+        "пять"
+      ],
+      "pool": [
+        "сорок",
+        "пять",
+        "сколько",
+        "Ему",
+        "год",
+        "тридцать"
+      ]
+    },
+    {
+      "id": "d03-order-4",
+      "type": "wordOrder",
+      "wordId": "d03-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Сорок человек в зале.",
+      "sentenceEn": "Forty people in the hall.",
+      "audio": "",
+      "tokens": [
+        "Сорок",
+        "человек",
+        "в",
+        "зале"
+      ],
+      "pool": [
+        "Сорок",
+        "в",
+        "человек",
+        "тридцать",
+        "лет",
+        "зале",
+        "шестьдесят"
+      ]
+    },
+    {
+      "id": "d03-order-5",
+      "type": "wordOrder",
+      "wordId": "d03-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Сорок пять рублей.",
+      "sentenceEn": "Forty-five rubles.",
+      "audio": "",
+      "tokens": [
+        "Сорок",
+        "пять",
+        "рублей"
+      ],
+      "pool": [
+        "лет",
+        "рублей",
+        "Сорок",
+        "шестьдесят",
+        "пять",
+        "пятьдесят"
+      ]
+    },
+    {
+      "id": "d03-order-6",
+      "type": "wordOrder",
+      "wordId": "d03-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Пятьдесят процентов скидка.",
+      "sentenceEn": "Fifty percent discount.",
+      "audio": "",
+      "tokens": [
+        "Пятьдесят",
+        "процентов",
+        "скидка"
+      ],
+      "pool": [
+        "скидка",
+        "лет",
+        "сорок",
+        "процентов",
+        "год",
+        "Пятьдесят"
+      ]
+    },
+    {
+      "id": "d03-order-7",
+      "type": "wordOrder",
+      "wordId": "d03-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Ей пятьдесят лет.",
+      "sentenceEn": "She is fifty years old.",
+      "audio": "",
+      "tokens": [
+        "Ей",
+        "пятьдесят",
+        "лет"
+      ],
+      "pool": [
+        "Ей",
+        "пятьдесят",
+        "рубль",
+        "сколько",
+        "шестьдесят",
+        "лет"
+      ]
+    },
+    {
+      "id": "d03-order-8",
+      "type": "wordOrder",
+      "wordId": "d03-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Шестьдесят минут — час.",
+      "sentenceEn": "Sixty minutes — an hour.",
+      "audio": "",
+      "tokens": [
+        "Шестьдесят",
+        "минут",
+        "час"
+      ],
+      "pool": [
+        "час",
+        "рубль",
+        "лет",
+        "Шестьдесят",
+        "минут",
+        "двадцать"
+      ]
+    },
+    {
+      "id": "d03-order-9",
+      "type": "wordOrder",
+      "wordId": "d03-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Дедушке шестьдесят.",
+      "sentenceEn": "Grandpa is sixty.",
+      "audio": "",
+      "tokens": [
+        "Дедушке",
+        "шестьдесят"
+      ],
+      "pool": [
+        "Дедушке",
+        "пятьдесят",
+        "шестьдесят",
+        "двадцать",
+        "рубль"
+      ]
+    },
+    {
+      "id": "d03-order-10",
+      "type": "wordOrder",
+      "wordId": "d03-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Сколько тебе лет?",
+      "sentenceEn": "How old are you?",
+      "audio": "",
+      "tokens": [
+        "Сколько",
+        "тебе",
+        "лет"
+      ],
+      "pool": [
+        "пятьдесят",
+        "тебе",
+        "лет",
+        "Сколько",
+        "тридцать",
+        "шестьдесят"
+      ]
+    },
+    {
+      "id": "d03-order-11",
+      "type": "wordOrder",
+      "wordId": "d03-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Сколько это стоит?",
+      "sentenceEn": "How much does it cost?",
+      "audio": "",
+      "tokens": [
+        "Сколько",
+        "это",
+        "стоит"
+      ],
+      "pool": [
+        "шестьдесят",
+        "сорок",
+        "Сколько",
+        "это",
+        "стоит",
+        "сто"
+      ]
+    },
+    {
+      "id": "d03-order-12",
+      "type": "wordOrder",
+      "wordId": "d03-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мне двадцать один год.",
+      "sentenceEn": "I am twenty-one years old.",
+      "audio": "",
+      "tokens": [
+        "Мне",
+        "двадцать",
+        "один",
+        "год"
+      ],
+      "pool": [
+        "тридцать",
+        "год",
+        "один",
+        "двадцать",
+        "сколько",
+        "сто",
+        "Мне"
+      ]
+    },
+    {
+      "id": "d03-order-13",
+      "type": "wordOrder",
+      "wordId": "d03-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Новый год скоро.",
+      "sentenceEn": "New Year is soon.",
+      "audio": "",
+      "tokens": [
+        "Новый",
+        "год",
+        "скоро"
+      ],
+      "pool": [
+        "Новый",
+        "скоро",
+        "сто",
+        "лет",
+        "год",
+        "шестьдесят"
+      ]
+    },
+    {
+      "id": "d03-order-14",
+      "type": "wordOrder",
+      "wordId": "d03-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мне тридцать лет.",
+      "sentenceEn": "I am thirty years old.",
+      "audio": "",
+      "tokens": [
+        "Мне",
+        "тридцать",
+        "лет"
+      ],
+      "pool": [
+        "пятьдесят",
+        "двадцать",
+        "тридцать",
+        "лет",
+        "Мне",
+        "шестьдесят"
+      ]
+    },
+    {
+      "id": "d03-order-15",
+      "type": "wordOrder",
+      "wordId": "d03-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Ему пять лет.",
+      "sentenceEn": "He is five years old.",
+      "audio": "",
+      "tokens": [
+        "Ему",
+        "пять",
+        "лет"
+      ],
+      "pool": [
+        "тридцать",
+        "сколько",
+        "лет",
+        "Ему",
+        "сто",
+        "пять"
+      ]
+    },
+    {
+      "id": "d03-order-16",
+      "type": "wordOrder",
+      "wordId": "d03-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Сто рублей, пожалуйста.",
+      "sentenceEn": "One hundred rubles, please.",
+      "audio": "",
+      "tokens": [
+        "Сто",
+        "рублей",
+        "пожалуйста"
+      ],
+      "pool": [
+        "пожалуйста",
+        "рублей",
+        "тридцать",
+        "Сто",
+        "пятьдесят",
+        "рубль"
+      ]
+    },
+    {
+      "id": "d03-order-17",
+      "type": "wordOrder",
+      "wordId": "d03-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Сто процентов уверен.",
+      "sentenceEn": "One hundred percent sure.",
+      "audio": "",
+      "tokens": [
+        "Сто",
+        "процентов",
+        "уверен"
+      ],
+      "pool": [
+        "уверен",
+        "сорок",
+        "Сто",
+        "тридцать",
+        "процентов",
+        "рубль"
+      ]
+    },
+    {
+      "id": "d03-order-18",
+      "type": "wordOrder",
+      "wordId": "d03-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Один рубль — мало.",
+      "sentenceEn": "One ruble is little.",
+      "audio": "",
+      "tokens": [
+        "Один",
+        "рубль",
+        "мало"
+      ],
+      "pool": [
+        "пятьдесят",
+        "мало",
+        "тридцать",
+        "рубль",
+        "сколько",
+        "Один"
+      ]
+    },
+    {
+      "id": "d03-order-19",
+      "type": "wordOrder",
+      "wordId": "d03-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Сто рублей за билет.",
+      "sentenceEn": "One hundred rubles for the ticket.",
+      "audio": "",
+      "tokens": [
+        "Сто",
+        "рублей",
+        "за",
+        "билет"
+      ],
+      "pool": [
+        "Сто",
+        "сто",
+        "за",
+        "лет",
+        "пятьдесят",
+        "билет",
+        "рублей"
+      ]
+    },
+    {
+      "id": "d03-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d03-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d03-w01.svg",
+      "options": [
+        "тридцать",
+        "сто",
+        "двадцать",
+        "рубль"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d03-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d03-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d03-w02.svg",
+      "options": [
+        "сколько",
+        "тридцать",
+        "сто",
+        "сорок"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d03-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d03-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d03-w03.svg",
+      "options": [
+        "пятьдесят",
+        "сорок",
+        "рубль",
+        "сто"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d03-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d03-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d03-w04.svg",
+      "options": [
+        "сколько",
+        "пятьдесят",
+        "сорок",
+        "лет"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d03-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d03-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d03-w05.svg",
+      "options": [
+        "двадцать",
+        "сколько",
+        "шестьдесят",
+        "год"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d03-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d03-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d03-w06.svg",
+      "options": [
+        "сорок",
+        "тридцать",
+        "пятьдесят",
+        "сколько"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d03-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d03-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d03-w07.svg",
+      "options": [
+        "сколько",
+        "шестьдесят",
+        "рубль",
+        "год"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d03-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d03-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d03-w08.svg",
+      "options": [
+        "пятьдесят",
+        "сто",
+        "лет",
+        "год"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d03-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d03-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d03-w09.svg",
+      "options": [
+        "сто",
+        "шестьдесят",
+        "рубль",
+        "двадцать"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d03-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d03-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d03-w10.svg",
+      "options": [
+        "рубль",
+        "сорок",
+        "сколько",
+        "сто"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

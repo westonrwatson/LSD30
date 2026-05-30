@@ -1,0 +1,727 @@
+{
+  "day": 22,
+  "theme": "Emotions & personality",
+  "grammarFocus": "Short-form adjectives",
+  "words": [
+    {
+      "id": "d22-w01",
+      "ru": "счастье",
+      "en": "happiness",
+      "audio": "/audio/day22/счастье.mp3",
+      "image": "/images/vocab/d22-w01.svg",
+      "sentences": [
+        {
+          "ru": "Счастье важно.",
+          "en": "Happiness is important."
+        },
+        {
+          "ru": "Желаю счастья.",
+          "en": "I wish you happiness."
+        }
+      ]
+    },
+    {
+      "id": "d22-w02",
+      "ru": "любовь",
+      "en": "love",
+      "audio": "/audio/day22/любовь.mp3",
+      "image": "/images/vocab/d22-w02.svg",
+      "sentences": [
+        {
+          "ru": "Любовь сильная.",
+          "en": "Love is strong."
+        },
+        {
+          "ru": "Любовь к семье.",
+          "en": "Love for family."
+        }
+      ]
+    },
+    {
+      "id": "d22-w03",
+      "ru": "радость",
+      "en": "joy",
+      "audio": "/audio/day22/радость.mp3",
+      "image": "/images/vocab/d22-w03.svg",
+      "sentences": [
+        {
+          "ru": "Большая радость.",
+          "en": "Great joy."
+        },
+        {
+          "ru": "Радость в глазах.",
+          "en": "Joy in the eyes."
+        }
+      ]
+    },
+    {
+      "id": "d22-w04",
+      "ru": "грусть",
+      "en": "sadness",
+      "audio": "/audio/day22/грусть.mp3",
+      "image": "/images/vocab/d22-w04.svg",
+      "sentences": [
+        {
+          "ru": "Грусть проходит.",
+          "en": "Sadness passes."
+        },
+        {
+          "ru": "Без грусти.",
+          "en": "Without sadness."
+        }
+      ]
+    },
+    {
+      "id": "d22-w05",
+      "ru": "страх",
+      "en": "fear",
+      "audio": "/audio/day22/страх.mp3",
+      "image": "/images/vocab/d22-w05.svg",
+      "sentences": [
+        {
+          "ru": "Страх уходит.",
+          "en": "Fear goes away."
+        },
+        {
+          "ru": "Нет страха.",
+          "en": "No fear."
+        }
+      ]
+    },
+    {
+      "id": "d22-w06",
+      "ru": "злой",
+      "en": "angry",
+      "audio": "/audio/day22/злой.mp3",
+      "image": "/images/vocab/d22-w06.svg",
+      "sentences": [
+        {
+          "ru": "Он зол.",
+          "en": "He is angry."
+        },
+        {
+          "ru": "Не будь злым.",
+          "en": "Don't be angry."
+        }
+      ]
+    },
+    {
+      "id": "d22-w07",
+      "ru": "добрый",
+      "en": "kind",
+      "audio": "/audio/day22/добрый.mp3",
+      "image": "/images/vocab/d22-w07.svg",
+      "sentences": [
+        {
+          "ru": "Она добрая.",
+          "en": "She is kind."
+        },
+        {
+          "ru": "Добрый человек.",
+          "en": "A kind person."
+        }
+      ]
+    },
+    {
+      "id": "d22-w08",
+      "ru": "умный",
+      "en": "smart",
+      "audio": "/audio/day22/умный.mp3",
+      "image": "/images/vocab/d22-w08.svg",
+      "sentences": [
+        {
+          "ru": "Он умный.",
+          "en": "He is smart."
+        },
+        {
+          "ru": "Умная девочка.",
+          "en": "A smart girl."
+        }
+      ]
+    },
+    {
+      "id": "d22-w09",
+      "ru": "ленивый",
+      "en": "lazy",
+      "audio": "/audio/day22/ленивый.mp3",
+      "image": "/images/vocab/d22-w09.svg",
+      "sentences": [
+        {
+          "ru": "Я ленив.",
+          "en": "I am lazy."
+        },
+        {
+          "ru": "Не будь ленивым.",
+          "en": "Don't be lazy."
+        }
+      ]
+    },
+    {
+      "id": "d22-w10",
+      "ru": "смелый",
+      "en": "brave",
+      "audio": "/audio/day22/смелый.mp3",
+      "image": "/images/vocab/d22-w10.svg",
+      "sentences": [
+        {
+          "ru": "Она смела.",
+          "en": "She is brave."
+        },
+        {
+          "ru": "Смелый солдат.",
+          "en": "A brave soldier."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d22-order-0",
+      "type": "wordOrder",
+      "wordId": "d22-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Счастье важно.",
+      "sentenceEn": "Happiness is important.",
+      "audio": "",
+      "tokens": [
+        "Счастье",
+        "важно"
+      ],
+      "pool": [
+        "ленивый",
+        "Счастье",
+        "важно",
+        "грусть",
+        "умный"
+      ]
+    },
+    {
+      "id": "d22-order-1",
+      "type": "wordOrder",
+      "wordId": "d22-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Желаю счастья.",
+      "sentenceEn": "I wish you happiness.",
+      "audio": "",
+      "tokens": [
+        "Желаю",
+        "счастья"
+      ],
+      "pool": [
+        "страх",
+        "добрый",
+        "ленивый",
+        "счастья",
+        "Желаю"
+      ]
+    },
+    {
+      "id": "d22-order-2",
+      "type": "wordOrder",
+      "wordId": "d22-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Любовь сильная.",
+      "sentenceEn": "Love is strong.",
+      "audio": "",
+      "tokens": [
+        "Любовь",
+        "сильная"
+      ],
+      "pool": [
+        "сильная",
+        "смелый",
+        "Любовь",
+        "радость",
+        "ленивый"
+      ]
+    },
+    {
+      "id": "d22-order-3",
+      "type": "wordOrder",
+      "wordId": "d22-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Любовь к семье.",
+      "sentenceEn": "Love for family.",
+      "audio": "",
+      "tokens": [
+        "Любовь",
+        "к",
+        "семье"
+      ],
+      "pool": [
+        "счастье",
+        "семье",
+        "добрый",
+        "грусть",
+        "к",
+        "Любовь"
+      ]
+    },
+    {
+      "id": "d22-order-4",
+      "type": "wordOrder",
+      "wordId": "d22-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Большая радость.",
+      "sentenceEn": "Great joy.",
+      "audio": "",
+      "tokens": [
+        "Большая",
+        "радость"
+      ],
+      "pool": [
+        "радость",
+        "страх",
+        "счастье",
+        "умный",
+        "Большая"
+      ]
+    },
+    {
+      "id": "d22-order-5",
+      "type": "wordOrder",
+      "wordId": "d22-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Радость в глазах.",
+      "sentenceEn": "Joy in the eyes.",
+      "audio": "",
+      "tokens": [
+        "Радость",
+        "в",
+        "глазах"
+      ],
+      "pool": [
+        "глазах",
+        "грусть",
+        "в",
+        "любовь",
+        "Радость",
+        "смелый"
+      ]
+    },
+    {
+      "id": "d22-order-6",
+      "type": "wordOrder",
+      "wordId": "d22-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Грусть проходит.",
+      "sentenceEn": "Sadness passes.",
+      "audio": "",
+      "tokens": [
+        "Грусть",
+        "проходит"
+      ],
+      "pool": [
+        "радость",
+        "страх",
+        "умный",
+        "проходит",
+        "Грусть"
+      ]
+    },
+    {
+      "id": "d22-order-7",
+      "type": "wordOrder",
+      "wordId": "d22-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Без грусти.",
+      "sentenceEn": "Without sadness.",
+      "audio": "",
+      "tokens": [
+        "Без",
+        "грусти"
+      ],
+      "pool": [
+        "страх",
+        "счастье",
+        "Без",
+        "радость",
+        "грусти"
+      ]
+    },
+    {
+      "id": "d22-order-8",
+      "type": "wordOrder",
+      "wordId": "d22-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Страх уходит.",
+      "sentenceEn": "Fear goes away.",
+      "audio": "",
+      "tokens": [
+        "Страх",
+        "уходит"
+      ],
+      "pool": [
+        "злой",
+        "уходит",
+        "Страх",
+        "счастье",
+        "умный"
+      ]
+    },
+    {
+      "id": "d22-order-9",
+      "type": "wordOrder",
+      "wordId": "d22-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Нет страха.",
+      "sentenceEn": "No fear.",
+      "audio": "",
+      "tokens": [
+        "Нет",
+        "страха"
+      ],
+      "pool": [
+        "Нет",
+        "добрый",
+        "страха",
+        "злой",
+        "грусть"
+      ]
+    },
+    {
+      "id": "d22-order-10",
+      "type": "wordOrder",
+      "wordId": "d22-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Он зол.",
+      "sentenceEn": "He is angry.",
+      "audio": "",
+      "tokens": [
+        "Он",
+        "зол"
+      ],
+      "pool": [
+        "счастье",
+        "Он",
+        "любовь",
+        "зол",
+        "радость"
+      ]
+    },
+    {
+      "id": "d22-order-11",
+      "type": "wordOrder",
+      "wordId": "d22-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Не будь злым.",
+      "sentenceEn": "Don't be angry.",
+      "audio": "",
+      "tokens": [
+        "Не",
+        "будь",
+        "злым"
+      ],
+      "pool": [
+        "Не",
+        "страх",
+        "будь",
+        "злым",
+        "грусть",
+        "умный"
+      ]
+    },
+    {
+      "id": "d22-order-12",
+      "type": "wordOrder",
+      "wordId": "d22-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Она добрая.",
+      "sentenceEn": "She is kind.",
+      "audio": "",
+      "tokens": [
+        "Она",
+        "добрая"
+      ],
+      "pool": [
+        "радость",
+        "любовь",
+        "добрая",
+        "Она",
+        "смелый"
+      ]
+    },
+    {
+      "id": "d22-order-13",
+      "type": "wordOrder",
+      "wordId": "d22-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Добрый человек.",
+      "sentenceEn": "A kind person.",
+      "audio": "",
+      "tokens": [
+        "Добрый",
+        "человек"
+      ],
+      "pool": [
+        "радость",
+        "ленивый",
+        "Добрый",
+        "любовь",
+        "человек"
+      ]
+    },
+    {
+      "id": "d22-order-14",
+      "type": "wordOrder",
+      "wordId": "d22-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Он умный.",
+      "sentenceEn": "He is smart.",
+      "audio": "",
+      "tokens": [
+        "Он",
+        "умный"
+      ],
+      "pool": [
+        "Он",
+        "радость",
+        "страх",
+        "умный",
+        "смелый"
+      ]
+    },
+    {
+      "id": "d22-order-15",
+      "type": "wordOrder",
+      "wordId": "d22-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Умная девочка.",
+      "sentenceEn": "A smart girl.",
+      "audio": "",
+      "tokens": [
+        "Умная",
+        "девочка"
+      ],
+      "pool": [
+        "Умная",
+        "девочка",
+        "страх",
+        "злой",
+        "смелый"
+      ]
+    },
+    {
+      "id": "d22-order-16",
+      "type": "wordOrder",
+      "wordId": "d22-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Я ленив.",
+      "sentenceEn": "I am lazy.",
+      "audio": "",
+      "tokens": [
+        "Я",
+        "ленив"
+      ],
+      "pool": [
+        "любовь",
+        "Я",
+        "умный",
+        "страх",
+        "ленив"
+      ]
+    },
+    {
+      "id": "d22-order-17",
+      "type": "wordOrder",
+      "wordId": "d22-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Не будь ленивым.",
+      "sentenceEn": "Don't be lazy.",
+      "audio": "",
+      "tokens": [
+        "Не",
+        "будь",
+        "ленивым"
+      ],
+      "pool": [
+        "Не",
+        "любовь",
+        "смелый",
+        "радость",
+        "будь",
+        "ленивым"
+      ]
+    },
+    {
+      "id": "d22-order-18",
+      "type": "wordOrder",
+      "wordId": "d22-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Она смела.",
+      "sentenceEn": "She is brave.",
+      "audio": "",
+      "tokens": [
+        "Она",
+        "смела"
+      ],
+      "pool": [
+        "Она",
+        "смела",
+        "счастье",
+        "любовь",
+        "радость"
+      ]
+    },
+    {
+      "id": "d22-order-19",
+      "type": "wordOrder",
+      "wordId": "d22-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Смелый солдат.",
+      "sentenceEn": "A brave soldier.",
+      "audio": "",
+      "tokens": [
+        "Смелый",
+        "солдат"
+      ],
+      "pool": [
+        "ленивый",
+        "любовь",
+        "радость",
+        "Смелый",
+        "солдат"
+      ]
+    },
+    {
+      "id": "d22-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d22-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d22-w01.svg",
+      "options": [
+        "страх",
+        "злой",
+        "грусть",
+        "счастье"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d22-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d22-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d22-w02.svg",
+      "options": [
+        "смелый",
+        "страх",
+        "любовь",
+        "радость"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d22-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d22-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d22-w03.svg",
+      "options": [
+        "радость",
+        "злой",
+        "счастье",
+        "страх"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d22-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d22-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d22-w04.svg",
+      "options": [
+        "смелый",
+        "грусть",
+        "счастье",
+        "страх"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d22-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d22-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d22-w05.svg",
+      "options": [
+        "злой",
+        "добрый",
+        "любовь",
+        "страх"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d22-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d22-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d22-w06.svg",
+      "options": [
+        "ленивый",
+        "злой",
+        "радость",
+        "добрый"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d22-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d22-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d22-w07.svg",
+      "options": [
+        "умный",
+        "смелый",
+        "добрый",
+        "ленивый"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d22-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d22-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d22-w08.svg",
+      "options": [
+        "грусть",
+        "ленивый",
+        "злой",
+        "умный"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d22-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d22-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d22-w09.svg",
+      "options": [
+        "умный",
+        "страх",
+        "грусть",
+        "ленивый"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d22-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d22-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d22-w10.svg",
+      "options": [
+        "грусть",
+        "счастье",
+        "смелый",
+        "добрый"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

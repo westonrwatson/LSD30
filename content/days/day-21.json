@@ -1,0 +1,723 @@
+{
+  "day": 21,
+  "theme": "Technology & media",
+  "grammarFocus": "Prefixed verbs intro",
+  "words": [
+    {
+      "id": "d21-w01",
+      "ru": "компьютер",
+      "en": "computer",
+      "audio": "/audio/day21/компьютер.mp3",
+      "image": "/images/vocab/d21-w01.svg",
+      "sentences": [
+        {
+          "ru": "Новый компьютер.",
+          "en": "A new computer."
+        },
+        {
+          "ru": "Работаю на компьютере.",
+          "en": "I work on the computer."
+        }
+      ]
+    },
+    {
+      "id": "d21-w02",
+      "ru": "телефон",
+      "en": "phone",
+      "audio": "/audio/day21/телефон.mp3",
+      "image": "/images/vocab/d21-w02.svg",
+      "sentences": [
+        {
+          "ru": "Мой телефон.",
+          "en": "My phone."
+        },
+        {
+          "ru": "Звони по телефону.",
+          "en": "Call on the phone."
+        }
+      ]
+    },
+    {
+      "id": "d21-w03",
+      "ru": "интернет",
+      "en": "internet",
+      "audio": "/audio/day21/интернет.mp3",
+      "image": "/images/vocab/d21-w03.svg",
+      "sentences": [
+        {
+          "ru": "Есть интернет?",
+          "en": "Is there internet?"
+        },
+        {
+          "ru": "Без интернета.",
+          "en": "Without internet."
+        }
+      ]
+    },
+    {
+      "id": "d21-w04",
+      "ru": "сайт",
+      "en": "website",
+      "audio": "/audio/day21/сайт.mp3",
+      "image": "/images/vocab/d21-w04.svg",
+      "sentences": [
+        {
+          "ru": "Посети сайт.",
+          "en": "Visit the website."
+        },
+        {
+          "ru": "Официальный сайт.",
+          "en": "Official website."
+        }
+      ]
+    },
+    {
+      "id": "d21-w05",
+      "ru": "письмо",
+      "en": "letter / email",
+      "audio": "/audio/day21/письмо.mp3",
+      "image": "/images/vocab/d21-w05.svg",
+      "sentences": [
+        {
+          "ru": "Пишу письмо.",
+          "en": "I am writing a letter."
+        },
+        {
+          "ru": "Электронное письмо.",
+          "en": "An email."
+        }
+      ]
+    },
+    {
+      "id": "d21-w06",
+      "ru": "новости",
+      "en": "news",
+      "audio": "/audio/day21/новости.mp3",
+      "image": "/images/vocab/d21-w06.svg",
+      "sentences": [
+        {
+          "ru": "Смотрю новости.",
+          "en": "I watch the news."
+        },
+        {
+          "ru": "Хорошие новости.",
+          "en": "Good news."
+        }
+      ]
+    },
+    {
+      "id": "d21-w07",
+      "ru": "фото",
+      "en": "photo",
+      "audio": "/audio/day21/фото.mp3",
+      "image": "/images/vocab/d21-w07.svg",
+      "sentences": [
+        {
+          "ru": "Красивое фото.",
+          "en": "A beautiful photo."
+        },
+        {
+          "ru": "Сделай фото.",
+          "en": "Take a photo."
+        }
+      ]
+    },
+    {
+      "id": "d21-w08",
+      "ru": "видео",
+      "en": "video",
+      "audio": "/audio/day21/видео.mp3",
+      "image": "/images/vocab/d21-w08.svg",
+      "sentences": [
+        {
+          "ru": "Смотрю видео.",
+          "en": "I watch a video."
+        },
+        {
+          "ru": "Интересное видео.",
+          "en": "An interesting video."
+        }
+      ]
+    },
+    {
+      "id": "d21-w09",
+      "ru": "включить",
+      "en": "to turn on",
+      "audio": "/audio/day21/включить.mp3",
+      "image": "/images/vocab/d21-w09.svg",
+      "sentences": [
+        {
+          "ru": "Включи свет.",
+          "en": "Turn on the light."
+        },
+        {
+          "ru": "Включи телевизор.",
+          "en": "Turn on the TV."
+        }
+      ]
+    },
+    {
+      "id": "d21-w10",
+      "ru": "выключить",
+      "en": "to turn off",
+      "audio": "/audio/day21/выключить.mp3",
+      "image": "/images/vocab/d21-w10.svg",
+      "sentences": [
+        {
+          "ru": "Выключи компьютер.",
+          "en": "Turn off the computer."
+        },
+        {
+          "ru": "Выключи телефон.",
+          "en": "Turn off the phone."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d21-order-0",
+      "type": "wordOrder",
+      "wordId": "d21-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Новый компьютер.",
+      "sentenceEn": "A new computer.",
+      "audio": "",
+      "tokens": [
+        "Новый",
+        "компьютер"
+      ],
+      "pool": [
+        "письмо",
+        "Новый",
+        "компьютер",
+        "видео",
+        "фото"
+      ]
+    },
+    {
+      "id": "d21-order-1",
+      "type": "wordOrder",
+      "wordId": "d21-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Работаю на компьютере.",
+      "sentenceEn": "I work on the computer.",
+      "audio": "",
+      "tokens": [
+        "Работаю",
+        "на",
+        "компьютере"
+      ],
+      "pool": [
+        "компьютере",
+        "Работаю",
+        "выключить",
+        "на",
+        "интернет",
+        "включить"
+      ]
+    },
+    {
+      "id": "d21-order-2",
+      "type": "wordOrder",
+      "wordId": "d21-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мой телефон.",
+      "sentenceEn": "My phone.",
+      "audio": "",
+      "tokens": [
+        "Мой",
+        "телефон"
+      ],
+      "pool": [
+        "выключить",
+        "сайт",
+        "Мой",
+        "телефон",
+        "интернет"
+      ]
+    },
+    {
+      "id": "d21-order-3",
+      "type": "wordOrder",
+      "wordId": "d21-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Звони по телефону.",
+      "sentenceEn": "Call on the phone.",
+      "audio": "",
+      "tokens": [
+        "Звони",
+        "по",
+        "телефону"
+      ],
+      "pool": [
+        "телефону",
+        "сайт",
+        "Звони",
+        "по",
+        "фото",
+        "интернет"
+      ]
+    },
+    {
+      "id": "d21-order-4",
+      "type": "wordOrder",
+      "wordId": "d21-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Есть интернет?",
+      "sentenceEn": "Is there internet?",
+      "audio": "",
+      "tokens": [
+        "Есть",
+        "интернет"
+      ],
+      "pool": [
+        "выключить",
+        "письмо",
+        "интернет",
+        "телефон",
+        "Есть"
+      ]
+    },
+    {
+      "id": "d21-order-5",
+      "type": "wordOrder",
+      "wordId": "d21-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Без интернета.",
+      "sentenceEn": "Without internet.",
+      "audio": "",
+      "tokens": [
+        "Без",
+        "интернета"
+      ],
+      "pool": [
+        "интернета",
+        "компьютер",
+        "сайт",
+        "Без",
+        "выключить"
+      ]
+    },
+    {
+      "id": "d21-order-6",
+      "type": "wordOrder",
+      "wordId": "d21-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Посети сайт.",
+      "sentenceEn": "Visit the website.",
+      "audio": "",
+      "tokens": [
+        "Посети",
+        "сайт"
+      ],
+      "pool": [
+        "включить",
+        "Посети",
+        "телефон",
+        "выключить",
+        "сайт"
+      ]
+    },
+    {
+      "id": "d21-order-7",
+      "type": "wordOrder",
+      "wordId": "d21-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Официальный сайт.",
+      "sentenceEn": "Official website.",
+      "audio": "",
+      "tokens": [
+        "Официальный",
+        "сайт"
+      ],
+      "pool": [
+        "выключить",
+        "видео",
+        "фото",
+        "сайт",
+        "Официальный"
+      ]
+    },
+    {
+      "id": "d21-order-8",
+      "type": "wordOrder",
+      "wordId": "d21-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Пишу письмо.",
+      "sentenceEn": "I am writing a letter.",
+      "audio": "",
+      "tokens": [
+        "Пишу",
+        "письмо"
+      ],
+      "pool": [
+        "письмо",
+        "фото",
+        "включить",
+        "интернет",
+        "Пишу"
+      ]
+    },
+    {
+      "id": "d21-order-9",
+      "type": "wordOrder",
+      "wordId": "d21-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Электронное письмо.",
+      "sentenceEn": "An email.",
+      "audio": "",
+      "tokens": [
+        "Электронное",
+        "письмо"
+      ],
+      "pool": [
+        "Электронное",
+        "видео",
+        "письмо",
+        "сайт",
+        "компьютер"
+      ]
+    },
+    {
+      "id": "d21-order-10",
+      "type": "wordOrder",
+      "wordId": "d21-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Смотрю новости.",
+      "sentenceEn": "I watch the news.",
+      "audio": "",
+      "tokens": [
+        "Смотрю",
+        "новости"
+      ],
+      "pool": [
+        "сайт",
+        "новости",
+        "Смотрю",
+        "фото",
+        "компьютер"
+      ]
+    },
+    {
+      "id": "d21-order-11",
+      "type": "wordOrder",
+      "wordId": "d21-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Хорошие новости.",
+      "sentenceEn": "Good news.",
+      "audio": "",
+      "tokens": [
+        "Хорошие",
+        "новости"
+      ],
+      "pool": [
+        "видео",
+        "письмо",
+        "новости",
+        "фото",
+        "Хорошие"
+      ]
+    },
+    {
+      "id": "d21-order-12",
+      "type": "wordOrder",
+      "wordId": "d21-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Красивое фото.",
+      "sentenceEn": "A beautiful photo.",
+      "audio": "",
+      "tokens": [
+        "Красивое",
+        "фото"
+      ],
+      "pool": [
+        "Красивое",
+        "фото",
+        "интернет",
+        "новости",
+        "письмо"
+      ]
+    },
+    {
+      "id": "d21-order-13",
+      "type": "wordOrder",
+      "wordId": "d21-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Сделай фото.",
+      "sentenceEn": "Take a photo.",
+      "audio": "",
+      "tokens": [
+        "Сделай",
+        "фото"
+      ],
+      "pool": [
+        "новости",
+        "Сделай",
+        "выключить",
+        "включить",
+        "фото"
+      ]
+    },
+    {
+      "id": "d21-order-14",
+      "type": "wordOrder",
+      "wordId": "d21-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Смотрю видео.",
+      "sentenceEn": "I watch a video.",
+      "audio": "",
+      "tokens": [
+        "Смотрю",
+        "видео"
+      ],
+      "pool": [
+        "Смотрю",
+        "видео",
+        "телефон",
+        "интернет",
+        "компьютер"
+      ]
+    },
+    {
+      "id": "d21-order-15",
+      "type": "wordOrder",
+      "wordId": "d21-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Интересное видео.",
+      "sentenceEn": "An interesting video.",
+      "audio": "",
+      "tokens": [
+        "Интересное",
+        "видео"
+      ],
+      "pool": [
+        "Интересное",
+        "новости",
+        "выключить",
+        "видео",
+        "фото"
+      ]
+    },
+    {
+      "id": "d21-order-16",
+      "type": "wordOrder",
+      "wordId": "d21-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Включи свет.",
+      "sentenceEn": "Turn on the light.",
+      "audio": "",
+      "tokens": [
+        "Включи",
+        "свет"
+      ],
+      "pool": [
+        "свет",
+        "письмо",
+        "Включи",
+        "компьютер",
+        "видео"
+      ]
+    },
+    {
+      "id": "d21-order-17",
+      "type": "wordOrder",
+      "wordId": "d21-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Включи телевизор.",
+      "sentenceEn": "Turn on the TV.",
+      "audio": "",
+      "tokens": [
+        "Включи",
+        "телевизор"
+      ],
+      "pool": [
+        "Включи",
+        "выключить",
+        "новости",
+        "телефон",
+        "телевизор"
+      ]
+    },
+    {
+      "id": "d21-order-18",
+      "type": "wordOrder",
+      "wordId": "d21-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Выключи компьютер.",
+      "sentenceEn": "Turn off the computer.",
+      "audio": "",
+      "tokens": [
+        "Выключи",
+        "компьютер"
+      ],
+      "pool": [
+        "Выключи",
+        "новости",
+        "компьютер",
+        "включить",
+        "интернет"
+      ]
+    },
+    {
+      "id": "d21-order-19",
+      "type": "wordOrder",
+      "wordId": "d21-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Выключи телефон.",
+      "sentenceEn": "Turn off the phone.",
+      "audio": "",
+      "tokens": [
+        "Выключи",
+        "телефон"
+      ],
+      "pool": [
+        "письмо",
+        "интернет",
+        "телефон",
+        "Выключи",
+        "фото"
+      ]
+    },
+    {
+      "id": "d21-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d21-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d21-w01.svg",
+      "options": [
+        "компьютер",
+        "фото",
+        "интернет",
+        "включить"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d21-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d21-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d21-w02.svg",
+      "options": [
+        "компьютер",
+        "телефон",
+        "сайт",
+        "интернет"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d21-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d21-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d21-w03.svg",
+      "options": [
+        "интернет",
+        "компьютер",
+        "выключить",
+        "новости"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d21-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d21-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d21-w04.svg",
+      "options": [
+        "включить",
+        "сайт",
+        "интернет",
+        "фото"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d21-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d21-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d21-w05.svg",
+      "options": [
+        "письмо",
+        "интернет",
+        "видео",
+        "сайт"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d21-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d21-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d21-w06.svg",
+      "options": [
+        "новости",
+        "включить",
+        "письмо",
+        "компьютер"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d21-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d21-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d21-w07.svg",
+      "options": [
+        "компьютер",
+        "письмо",
+        "видео",
+        "фото"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d21-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d21-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d21-w08.svg",
+      "options": [
+        "новости",
+        "сайт",
+        "видео",
+        "включить"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d21-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d21-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d21-w09.svg",
+      "options": [
+        "включить",
+        "письмо",
+        "сайт",
+        "фото"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d21-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d21-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d21-w10.svg",
+      "options": [
+        "компьютер",
+        "письмо",
+        "фото",
+        "выключить"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

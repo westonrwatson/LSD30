@@ -1,0 +1,729 @@
+{
+  "day": 15,
+  "theme": "Body & health",
+  "grammarFocus": "Dative with feel/hurt (мне больно)",
+  "words": [
+    {
+      "id": "d15-w01",
+      "ru": "голова",
+      "en": "head",
+      "audio": "/audio/day15/голова.mp3",
+      "image": "/images/vocab/d15-w01.svg",
+      "sentences": [
+        {
+          "ru": "У меня болит голова.",
+          "en": "My head hurts."
+        },
+        {
+          "ru": "Голова кружится.",
+          "en": "I feel dizzy."
+        }
+      ]
+    },
+    {
+      "id": "d15-w02",
+      "ru": "рука",
+      "en": "arm / hand",
+      "audio": "/audio/day15/рука.mp3",
+      "image": "/images/vocab/d15-w02.svg",
+      "sentences": [
+        {
+          "ru": "Подними руку.",
+          "en": "Raise your hand."
+        },
+        {
+          "ru": "Правая рука.",
+          "en": "The right hand."
+        }
+      ]
+    },
+    {
+      "id": "d15-w03",
+      "ru": "нога",
+      "en": "leg / foot",
+      "audio": "/audio/day15/нога.mp3",
+      "image": "/images/vocab/d15-w03.svg",
+      "sentences": [
+        {
+          "ru": "Нога болит.",
+          "en": "My leg hurts."
+        },
+        {
+          "ru": "Длинные ноги.",
+          "en": "Long legs."
+        }
+      ]
+    },
+    {
+      "id": "d15-w04",
+      "ru": "глаз",
+      "en": "eye",
+      "audio": "/audio/day15/глаз.mp3",
+      "image": "/images/vocab/d15-w04.svg",
+      "sentences": [
+        {
+          "ru": "Голубые глаза.",
+          "en": "Blue eyes."
+        },
+        {
+          "ru": "Закрой глаза.",
+          "en": "Close your eyes."
+        }
+      ]
+    },
+    {
+      "id": "d15-w05",
+      "ru": "зуб",
+      "en": "tooth",
+      "audio": "/audio/day15/зуб.mp3",
+      "image": "/images/vocab/d15-w05.svg",
+      "sentences": [
+        {
+          "ru": "Болит зуб.",
+          "en": "My tooth hurts."
+        },
+        {
+          "ru": "Чисти зубы.",
+          "en": "Brush your teeth."
+        }
+      ]
+    },
+    {
+      "id": "d15-w06",
+      "ru": "боль",
+      "en": "pain",
+      "audio": "/audio/day15/боль.mp3",
+      "image": "/images/vocab/d15-w06.svg",
+      "sentences": [
+        {
+          "ru": "Сильная боль.",
+          "en": "Strong pain."
+        },
+        {
+          "ru": "Где болит?",
+          "en": "Where does it hurt?"
+        }
+      ]
+    },
+    {
+      "id": "d15-w07",
+      "ru": "врач",
+      "en": "doctor",
+      "audio": "/audio/day15/врач.mp3",
+      "image": "/images/vocab/d15-w07.svg",
+      "sentences": [
+        {
+          "ru": "Иду к врачу.",
+          "en": "I am going to the doctor."
+        },
+        {
+          "ru": "Врач помогает.",
+          "en": "The doctor helps."
+        }
+      ]
+    },
+    {
+      "id": "d15-w08",
+      "ru": "лекарство",
+      "en": "medicine",
+      "audio": "/audio/day15/лекарство.mp3",
+      "image": "/images/vocab/d15-w08.svg",
+      "sentences": [
+        {
+          "ru": "Принимай лекарство.",
+          "en": "Take the medicine."
+        },
+        {
+          "ru": "Лекарство помогает.",
+          "en": "The medicine helps."
+        }
+      ]
+    },
+    {
+      "id": "d15-w09",
+      "ru": "здоровье",
+      "en": "health",
+      "audio": "/audio/day15/здоровье.mp3",
+      "image": "/images/vocab/d15-w09.svg",
+      "sentences": [
+        {
+          "ru": "Здоровье важно.",
+          "en": "Health is important."
+        },
+        {
+          "ru": "Крепкое здоровье.",
+          "en": "Strong health."
+        }
+      ]
+    },
+    {
+      "id": "d15-w10",
+      "ru": "аптека",
+      "en": "pharmacy",
+      "audio": "/audio/day15/аптека.mp3",
+      "image": "/images/vocab/d15-w10.svg",
+      "sentences": [
+        {
+          "ru": "Аптека на углу.",
+          "en": "The pharmacy is on the corner."
+        },
+        {
+          "ru": "Иду в аптеку.",
+          "en": "I am going to the pharmacy."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d15-order-0",
+      "type": "wordOrder",
+      "wordId": "d15-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "У меня болит голова.",
+      "sentenceEn": "My head hurts.",
+      "audio": "",
+      "tokens": [
+        "У",
+        "меня",
+        "болит",
+        "голова"
+      ],
+      "pool": [
+        "аптека",
+        "голова",
+        "лекарство",
+        "болит",
+        "меня",
+        "нога",
+        "У"
+      ]
+    },
+    {
+      "id": "d15-order-1",
+      "type": "wordOrder",
+      "wordId": "d15-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Голова кружится.",
+      "sentenceEn": "I feel dizzy.",
+      "audio": "",
+      "tokens": [
+        "Голова",
+        "кружится"
+      ],
+      "pool": [
+        "кружится",
+        "боль",
+        "лекарство",
+        "здоровье",
+        "Голова"
+      ]
+    },
+    {
+      "id": "d15-order-2",
+      "type": "wordOrder",
+      "wordId": "d15-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Подними руку.",
+      "sentenceEn": "Raise your hand.",
+      "audio": "",
+      "tokens": [
+        "Подними",
+        "руку"
+      ],
+      "pool": [
+        "аптека",
+        "Подними",
+        "боль",
+        "руку",
+        "лекарство"
+      ]
+    },
+    {
+      "id": "d15-order-3",
+      "type": "wordOrder",
+      "wordId": "d15-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Правая рука.",
+      "sentenceEn": "The right hand.",
+      "audio": "",
+      "tokens": [
+        "Правая",
+        "рука"
+      ],
+      "pool": [
+        "аптека",
+        "врач",
+        "лекарство",
+        "Правая",
+        "рука"
+      ]
+    },
+    {
+      "id": "d15-order-4",
+      "type": "wordOrder",
+      "wordId": "d15-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Нога болит.",
+      "sentenceEn": "My leg hurts.",
+      "audio": "",
+      "tokens": [
+        "Нога",
+        "болит"
+      ],
+      "pool": [
+        "лекарство",
+        "болит",
+        "Нога",
+        "боль",
+        "голова"
+      ]
+    },
+    {
+      "id": "d15-order-5",
+      "type": "wordOrder",
+      "wordId": "d15-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Длинные ноги.",
+      "sentenceEn": "Long legs.",
+      "audio": "",
+      "tokens": [
+        "Длинные",
+        "ноги"
+      ],
+      "pool": [
+        "Длинные",
+        "ноги",
+        "лекарство",
+        "голова",
+        "рука"
+      ]
+    },
+    {
+      "id": "d15-order-6",
+      "type": "wordOrder",
+      "wordId": "d15-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Голубые глаза.",
+      "sentenceEn": "Blue eyes.",
+      "audio": "",
+      "tokens": [
+        "Голубые",
+        "глаза"
+      ],
+      "pool": [
+        "зуб",
+        "Голубые",
+        "нога",
+        "глаза",
+        "здоровье"
+      ]
+    },
+    {
+      "id": "d15-order-7",
+      "type": "wordOrder",
+      "wordId": "d15-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Закрой глаза.",
+      "sentenceEn": "Close your eyes.",
+      "audio": "",
+      "tokens": [
+        "Закрой",
+        "глаза"
+      ],
+      "pool": [
+        "врач",
+        "Закрой",
+        "аптека",
+        "глаза",
+        "лекарство"
+      ]
+    },
+    {
+      "id": "d15-order-8",
+      "type": "wordOrder",
+      "wordId": "d15-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Болит зуб.",
+      "sentenceEn": "My tooth hurts.",
+      "audio": "",
+      "tokens": [
+        "Болит",
+        "зуб"
+      ],
+      "pool": [
+        "врач",
+        "Болит",
+        "рука",
+        "нога",
+        "зуб"
+      ]
+    },
+    {
+      "id": "d15-order-9",
+      "type": "wordOrder",
+      "wordId": "d15-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Чисти зубы.",
+      "sentenceEn": "Brush your teeth.",
+      "audio": "",
+      "tokens": [
+        "Чисти",
+        "зубы"
+      ],
+      "pool": [
+        "рука",
+        "лекарство",
+        "врач",
+        "Чисти",
+        "зубы"
+      ]
+    },
+    {
+      "id": "d15-order-10",
+      "type": "wordOrder",
+      "wordId": "d15-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Сильная боль.",
+      "sentenceEn": "Strong pain.",
+      "audio": "",
+      "tokens": [
+        "Сильная",
+        "боль"
+      ],
+      "pool": [
+        "врач",
+        "нога",
+        "аптека",
+        "боль",
+        "Сильная"
+      ]
+    },
+    {
+      "id": "d15-order-11",
+      "type": "wordOrder",
+      "wordId": "d15-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Где болит?",
+      "sentenceEn": "Where does it hurt?",
+      "audio": "",
+      "tokens": [
+        "Где",
+        "болит"
+      ],
+      "pool": [
+        "глаз",
+        "нога",
+        "аптека",
+        "болит",
+        "Где"
+      ]
+    },
+    {
+      "id": "d15-order-12",
+      "type": "wordOrder",
+      "wordId": "d15-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Иду к врачу.",
+      "sentenceEn": "I am going to the doctor.",
+      "audio": "",
+      "tokens": [
+        "Иду",
+        "к",
+        "врачу"
+      ],
+      "pool": [
+        "аптека",
+        "Иду",
+        "боль",
+        "врачу",
+        "лекарство",
+        "к"
+      ]
+    },
+    {
+      "id": "d15-order-13",
+      "type": "wordOrder",
+      "wordId": "d15-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Врач помогает.",
+      "sentenceEn": "The doctor helps.",
+      "audio": "",
+      "tokens": [
+        "Врач",
+        "помогает"
+      ],
+      "pool": [
+        "помогает",
+        "глаз",
+        "Врач",
+        "голова",
+        "аптека"
+      ]
+    },
+    {
+      "id": "d15-order-14",
+      "type": "wordOrder",
+      "wordId": "d15-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Принимай лекарство.",
+      "sentenceEn": "Take the medicine.",
+      "audio": "",
+      "tokens": [
+        "Принимай",
+        "лекарство"
+      ],
+      "pool": [
+        "зуб",
+        "нога",
+        "лекарство",
+        "рука",
+        "Принимай"
+      ]
+    },
+    {
+      "id": "d15-order-15",
+      "type": "wordOrder",
+      "wordId": "d15-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Лекарство помогает.",
+      "sentenceEn": "The medicine helps.",
+      "audio": "",
+      "tokens": [
+        "Лекарство",
+        "помогает"
+      ],
+      "pool": [
+        "Лекарство",
+        "помогает",
+        "глаз",
+        "голова",
+        "зуб"
+      ]
+    },
+    {
+      "id": "d15-order-16",
+      "type": "wordOrder",
+      "wordId": "d15-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Здоровье важно.",
+      "sentenceEn": "Health is important.",
+      "audio": "",
+      "tokens": [
+        "Здоровье",
+        "важно"
+      ],
+      "pool": [
+        "голова",
+        "Здоровье",
+        "лекарство",
+        "важно",
+        "зуб"
+      ]
+    },
+    {
+      "id": "d15-order-17",
+      "type": "wordOrder",
+      "wordId": "d15-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Крепкое здоровье.",
+      "sentenceEn": "Strong health.",
+      "audio": "",
+      "tokens": [
+        "Крепкое",
+        "здоровье"
+      ],
+      "pool": [
+        "голова",
+        "здоровье",
+        "Крепкое",
+        "рука",
+        "врач"
+      ]
+    },
+    {
+      "id": "d15-order-18",
+      "type": "wordOrder",
+      "wordId": "d15-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Аптека на углу.",
+      "sentenceEn": "The pharmacy is on the corner.",
+      "audio": "",
+      "tokens": [
+        "Аптека",
+        "на",
+        "углу"
+      ],
+      "pool": [
+        "здоровье",
+        "рука",
+        "Аптека",
+        "углу",
+        "на",
+        "врач"
+      ]
+    },
+    {
+      "id": "d15-order-19",
+      "type": "wordOrder",
+      "wordId": "d15-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Иду в аптеку.",
+      "sentenceEn": "I am going to the pharmacy.",
+      "audio": "",
+      "tokens": [
+        "Иду",
+        "в",
+        "аптеку"
+      ],
+      "pool": [
+        "Иду",
+        "в",
+        "аптеку",
+        "зуб",
+        "голова",
+        "глаз"
+      ]
+    },
+    {
+      "id": "d15-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d15-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d15-w01.svg",
+      "options": [
+        "лекарство",
+        "аптека",
+        "голова",
+        "боль"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d15-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d15-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d15-w02.svg",
+      "options": [
+        "голова",
+        "глаз",
+        "рука",
+        "зуб"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d15-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d15-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d15-w03.svg",
+      "options": [
+        "рука",
+        "нога",
+        "боль",
+        "глаз"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d15-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d15-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d15-w04.svg",
+      "options": [
+        "глаз",
+        "лекарство",
+        "нога",
+        "аптека"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d15-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d15-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d15-w05.svg",
+      "options": [
+        "зуб",
+        "врач",
+        "аптека",
+        "боль"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d15-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d15-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d15-w06.svg",
+      "options": [
+        "боль",
+        "здоровье",
+        "глаз",
+        "рука"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d15-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d15-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d15-w07.svg",
+      "options": [
+        "боль",
+        "здоровье",
+        "врач",
+        "лекарство"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d15-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d15-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d15-w08.svg",
+      "options": [
+        "лекарство",
+        "зуб",
+        "нога",
+        "аптека"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d15-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d15-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d15-w09.svg",
+      "options": [
+        "здоровье",
+        "глаз",
+        "рука",
+        "зуб"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d15-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d15-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d15-w10.svg",
+      "options": [
+        "рука",
+        "здоровье",
+        "врач",
+        "аптека"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

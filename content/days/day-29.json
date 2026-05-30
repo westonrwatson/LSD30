@@ -1,0 +1,697 @@
+{
+  "day": 29,
+  "theme": "Idioms & colloquialisms",
+  "grammarFocus": "Fixed expressions",
+  "words": [
+    {
+      "id": "d29-w01",
+      "ru": "ничего себе",
+      "en": "wow / no way",
+      "audio": "/audio/day29/ничего-себе.mp3",
+      "image": "/images/vocab/d29-w01.svg",
+      "sentences": [
+        {
+          "ru": "Ничего себе!",
+          "en": "Wow!"
+        },
+        {
+          "ru": "Ничего себе новость.",
+          "en": "What news!"
+        }
+      ]
+    },
+    {
+      "id": "d29-w02",
+      "ru": "ладно",
+      "en": "okay / fine",
+      "audio": "/audio/day29/ладно.mp3",
+      "image": "/images/vocab/d29-w02.svg",
+      "sentences": [
+        {
+          "ru": "Ладно, договорились.",
+          "en": "Okay, agreed."
+        },
+        {
+          "ru": "Ладно, иду.",
+          "en": "Okay, I am going."
+        }
+      ]
+    },
+    {
+      "id": "d29-w03",
+      "ru": "точно",
+      "en": "exactly / for sure",
+      "audio": "/audio/day29/точно.mp3",
+      "image": "/images/vocab/d29-w03.svg",
+      "sentences": [
+        {
+          "ru": "Точно!",
+          "en": "Exactly!"
+        },
+        {
+          "ru": "Точно знаю.",
+          "en": "I know for sure."
+        }
+      ]
+    },
+    {
+      "id": "d29-w04",
+      "ru": "конечно",
+      "en": "of course",
+      "audio": "/audio/day29/конечно.mp3",
+      "image": "/images/vocab/d29-w04.svg",
+      "sentences": [
+        {
+          "ru": "Конечно!",
+          "en": "Of course!"
+        },
+        {
+          "ru": "Конечно, помогу.",
+          "en": "Of course, I will help."
+        }
+      ]
+    },
+    {
+      "id": "d29-w05",
+      "ru": "наверное",
+      "en": "probably",
+      "audio": "/audio/day29/наверное.mp3",
+      "image": "/images/vocab/d29-w05.svg",
+      "sentences": [
+        {
+          "ru": "Наверное, да.",
+          "en": "Probably yes."
+        },
+        {
+          "ru": "Наверное, опоздаю.",
+          "en": "I will probably be late."
+        }
+      ]
+    },
+    {
+      "id": "d29-w06",
+      "ru": "кстати",
+      "en": "by the way",
+      "audio": "/audio/day29/кстати.mp3",
+      "image": "/images/vocab/d29-w06.svg",
+      "sentences": [
+        {
+          "ru": "Кстати, как дела?",
+          "en": "By the way, how are you?"
+        },
+        {
+          "ru": "Кстати, забыл сказать.",
+          "en": "By the way, I forgot to say."
+        }
+      ]
+    },
+    {
+      "id": "d29-w07",
+      "ru": "вообще",
+      "en": "generally / at all",
+      "audio": "/audio/day29/вообще.mp3",
+      "image": "/images/vocab/d29-w07.svg",
+      "sentences": [
+        {
+          "ru": "Вообще не знаю.",
+          "en": "I don't know at all."
+        },
+        {
+          "ru": "Вообще-то да.",
+          "en": "Actually yes."
+        }
+      ]
+    },
+    {
+      "id": "d29-w08",
+      "ru": "ещё бы",
+      "en": "you bet / sure would",
+      "audio": "/audio/day29/ещё-бы.mp3",
+      "image": "/images/vocab/d29-w08.svg",
+      "sentences": [
+        {
+          "ru": "Ещё бы!",
+          "en": "You bet!"
+        },
+        {
+          "ru": "Ещё бы не рад.",
+          "en": "Of course I would be glad."
+        }
+      ]
+    },
+    {
+      "id": "d29-w09",
+      "ru": "не за что",
+      "en": "don't mention it",
+      "audio": "/audio/day29/не-за-что.mp3",
+      "image": "/images/vocab/d29-w09.svg",
+      "sentences": [
+        {
+          "ru": "Спасибо! — Не за что.",
+          "en": "Thanks! — Don't mention it."
+        },
+        {
+          "ru": "Не за что.",
+          "en": "You're welcome."
+        }
+      ]
+    },
+    {
+      "id": "d29-w10",
+      "ru": "давай",
+      "en": "come on / let's",
+      "audio": "/audio/day29/давай.mp3",
+      "image": "/images/vocab/d29-w10.svg",
+      "sentences": [
+        {
+          "ru": "Давай идём!",
+          "en": "Come on, let's go!"
+        },
+        {
+          "ru": "Давай, попробуй.",
+          "en": "Come on, try."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d29-order-0",
+      "type": "wordOrder",
+      "wordId": "d29-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Ничего себе!",
+      "sentenceEn": "Wow!",
+      "audio": "",
+      "tokens": [
+        "Ничего",
+        "себе"
+      ],
+      "pool": [
+        "конечно",
+        "точно",
+        "себе",
+        "Ничего",
+        "ещё бы"
+      ]
+    },
+    {
+      "id": "d29-order-1",
+      "type": "wordOrder",
+      "wordId": "d29-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Ничего себе новость.",
+      "sentenceEn": "What news!",
+      "audio": "",
+      "tokens": [
+        "Ничего",
+        "себе",
+        "новость"
+      ],
+      "pool": [
+        "наверное",
+        "новость",
+        "ещё бы",
+        "ладно",
+        "себе",
+        "Ничего"
+      ]
+    },
+    {
+      "id": "d29-order-2",
+      "type": "wordOrder",
+      "wordId": "d29-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Ладно, договорились.",
+      "sentenceEn": "Okay, agreed.",
+      "audio": "",
+      "tokens": [
+        "Ладно",
+        "договорились"
+      ],
+      "pool": [
+        "вообще",
+        "договорились",
+        "Ладно",
+        "точно",
+        "наверное"
+      ]
+    },
+    {
+      "id": "d29-order-3",
+      "type": "wordOrder",
+      "wordId": "d29-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Ладно, иду.",
+      "sentenceEn": "Okay, I am going.",
+      "audio": "",
+      "tokens": [
+        "Ладно",
+        "иду"
+      ],
+      "pool": [
+        "вообще",
+        "давай",
+        "ничего себе",
+        "Ладно",
+        "иду"
+      ]
+    },
+    {
+      "id": "d29-order-4",
+      "type": "wordOrder",
+      "wordId": "d29-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Точно знаю.",
+      "sentenceEn": "I know for sure.",
+      "audio": "",
+      "tokens": [
+        "Точно",
+        "знаю"
+      ],
+      "pool": [
+        "наверное",
+        "не за что",
+        "знаю",
+        "конечно",
+        "Точно"
+      ]
+    },
+    {
+      "id": "d29-order-5",
+      "type": "wordOrder",
+      "wordId": "d29-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Конечно, помогу.",
+      "sentenceEn": "Of course, I will help.",
+      "audio": "",
+      "tokens": [
+        "Конечно",
+        "помогу"
+      ],
+      "pool": [
+        "точно",
+        "не за что",
+        "помогу",
+        "ещё бы",
+        "Конечно"
+      ]
+    },
+    {
+      "id": "d29-order-6",
+      "type": "wordOrder",
+      "wordId": "d29-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Наверное, да.",
+      "sentenceEn": "Probably yes.",
+      "audio": "",
+      "tokens": [
+        "Наверное",
+        "да"
+      ],
+      "pool": [
+        "да",
+        "ещё бы",
+        "Наверное",
+        "ничего себе",
+        "конечно"
+      ]
+    },
+    {
+      "id": "d29-order-7",
+      "type": "wordOrder",
+      "wordId": "d29-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Наверное, опоздаю.",
+      "sentenceEn": "I will probably be late.",
+      "audio": "",
+      "tokens": [
+        "Наверное",
+        "опоздаю"
+      ],
+      "pool": [
+        "опоздаю",
+        "Наверное",
+        "ещё бы",
+        "не за что",
+        "давай"
+      ]
+    },
+    {
+      "id": "d29-order-8",
+      "type": "wordOrder",
+      "wordId": "d29-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Кстати, как дела?",
+      "sentenceEn": "By the way, how are you?",
+      "audio": "",
+      "tokens": [
+        "Кстати",
+        "как",
+        "дела"
+      ],
+      "pool": [
+        "дела",
+        "Кстати",
+        "давай",
+        "вообще",
+        "наверное",
+        "как"
+      ]
+    },
+    {
+      "id": "d29-order-9",
+      "type": "wordOrder",
+      "wordId": "d29-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Кстати, забыл сказать.",
+      "sentenceEn": "By the way, I forgot to say.",
+      "audio": "",
+      "tokens": [
+        "Кстати",
+        "забыл",
+        "сказать"
+      ],
+      "pool": [
+        "сказать",
+        "ладно",
+        "забыл",
+        "вообще",
+        "Кстати",
+        "ничего себе"
+      ]
+    },
+    {
+      "id": "d29-order-10",
+      "type": "wordOrder",
+      "wordId": "d29-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Вообще не знаю.",
+      "sentenceEn": "I don't know at all.",
+      "audio": "",
+      "tokens": [
+        "Вообще",
+        "не",
+        "знаю"
+      ],
+      "pool": [
+        "конечно",
+        "не за что",
+        "Вообще",
+        "не",
+        "знаю",
+        "ладно"
+      ]
+    },
+    {
+      "id": "d29-order-11",
+      "type": "wordOrder",
+      "wordId": "d29-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Вообще-то да.",
+      "sentenceEn": "Actually yes.",
+      "audio": "",
+      "tokens": [
+        "Вообще-то",
+        "да"
+      ],
+      "pool": [
+        "давай",
+        "да",
+        "Вообще-то",
+        "точно",
+        "конечно"
+      ]
+    },
+    {
+      "id": "d29-order-12",
+      "type": "wordOrder",
+      "wordId": "d29-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Ещё бы!",
+      "sentenceEn": "You bet!",
+      "audio": "",
+      "tokens": [
+        "Ещё",
+        "бы"
+      ],
+      "pool": [
+        "ладно",
+        "бы",
+        "вообще",
+        "конечно",
+        "Ещё"
+      ]
+    },
+    {
+      "id": "d29-order-13",
+      "type": "wordOrder",
+      "wordId": "d29-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Ещё бы не рад.",
+      "sentenceEn": "Of course I would be glad.",
+      "audio": "",
+      "tokens": [
+        "Ещё",
+        "бы",
+        "не",
+        "рад"
+      ],
+      "pool": [
+        "вообще",
+        "давай",
+        "не",
+        "бы",
+        "конечно",
+        "рад",
+        "Ещё"
+      ]
+    },
+    {
+      "id": "d29-order-14",
+      "type": "wordOrder",
+      "wordId": "d29-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Спасибо! — Не за что.",
+      "sentenceEn": "Thanks! — Don't mention it.",
+      "audio": "",
+      "tokens": [
+        "Спасибо",
+        "Не",
+        "за",
+        "что"
+      ],
+      "pool": [
+        "Не",
+        "что",
+        "конечно",
+        "точно",
+        "за",
+        "Спасибо",
+        "ещё бы"
+      ]
+    },
+    {
+      "id": "d29-order-15",
+      "type": "wordOrder",
+      "wordId": "d29-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Не за что.",
+      "sentenceEn": "You're welcome.",
+      "audio": "",
+      "tokens": [
+        "Не",
+        "за",
+        "что"
+      ],
+      "pool": [
+        "что",
+        "Не",
+        "точно",
+        "за",
+        "давай",
+        "кстати"
+      ]
+    },
+    {
+      "id": "d29-order-16",
+      "type": "wordOrder",
+      "wordId": "d29-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Давай идём!",
+      "sentenceEn": "Come on, let's go!",
+      "audio": "",
+      "tokens": [
+        "Давай",
+        "идём"
+      ],
+      "pool": [
+        "идём",
+        "Давай",
+        "конечно",
+        "наверное",
+        "кстати"
+      ]
+    },
+    {
+      "id": "d29-order-17",
+      "type": "wordOrder",
+      "wordId": "d29-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Давай, попробуй.",
+      "sentenceEn": "Come on, try.",
+      "audio": "",
+      "tokens": [
+        "Давай",
+        "попробуй"
+      ],
+      "pool": [
+        "не за что",
+        "попробуй",
+        "кстати",
+        "наверное",
+        "Давай"
+      ]
+    },
+    {
+      "id": "d29-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d29-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d29-w01.svg",
+      "options": [
+        "наверное",
+        "вообще",
+        "ещё бы",
+        "ничего себе"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d29-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d29-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d29-w02.svg",
+      "options": [
+        "давай",
+        "ладно",
+        "точно",
+        "ещё бы"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d29-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d29-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d29-w03.svg",
+      "options": [
+        "ничего себе",
+        "точно",
+        "кстати",
+        "конечно"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d29-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d29-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d29-w04.svg",
+      "options": [
+        "конечно",
+        "ладно",
+        "кстати",
+        "не за что"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d29-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d29-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d29-w05.svg",
+      "options": [
+        "не за что",
+        "наверное",
+        "точно",
+        "ещё бы"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d29-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d29-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d29-w06.svg",
+      "options": [
+        "давай",
+        "ещё бы",
+        "конечно",
+        "кстати"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d29-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d29-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d29-w07.svg",
+      "options": [
+        "ладно",
+        "вообще",
+        "точно",
+        "ничего себе"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d29-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d29-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d29-w08.svg",
+      "options": [
+        "ещё бы",
+        "кстати",
+        "точно",
+        "наверное"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d29-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d29-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d29-w09.svg",
+      "options": [
+        "ладно",
+        "не за что",
+        "кстати",
+        "конечно"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d29-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d29-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d29-w10.svg",
+      "options": [
+        "вообще",
+        "давай",
+        "конечно",
+        "не за что"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

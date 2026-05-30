@@ -1,0 +1,733 @@
+{
+  "day": 12,
+  "theme": "Time & schedules",
+  "grammarFocus": "Time expressions, когда/в",
+  "words": [
+    {
+      "id": "d12-w01",
+      "ru": "час",
+      "en": "hour / o'clock",
+      "audio": "/audio/day12/час.mp3",
+      "image": "/images/vocab/d12-w01.svg",
+      "sentences": [
+        {
+          "ru": "Сейчас три часа.",
+          "en": "It is three o'clock now."
+        },
+        {
+          "ru": "Час назад.",
+          "en": "An hour ago."
+        }
+      ]
+    },
+    {
+      "id": "d12-w02",
+      "ru": "минута",
+      "en": "minute",
+      "audio": "/audio/day12/минута.mp3",
+      "image": "/images/vocab/d12-w02.svg",
+      "sentences": [
+        {
+          "ru": "Подожди минуту.",
+          "en": "Wait a minute."
+        },
+        {
+          "ru": "Пять минут до автобуса.",
+          "en": "Five minutes until the bus."
+        }
+      ]
+    },
+    {
+      "id": "d12-w03",
+      "ru": "утро",
+      "en": "morning",
+      "audio": "/audio/day12/утро.mp3",
+      "image": "/images/vocab/d12-w03.svg",
+      "sentences": [
+        {
+          "ru": "Утром пью кофе.",
+          "en": "I drink coffee in the morning."
+        },
+        {
+          "ru": "Доброе утро!",
+          "en": "Good morning!"
+        }
+      ]
+    },
+    {
+      "id": "d12-w04",
+      "ru": "день",
+      "en": "day / afternoon",
+      "audio": "/audio/day12/день.mp3",
+      "image": "/images/vocab/d12-w04.svg",
+      "sentences": [
+        {
+          "ru": "Хорошего дня!",
+          "en": "Have a good day!"
+        },
+        {
+          "ru": "Днём работаю.",
+          "en": "I work during the day."
+        }
+      ]
+    },
+    {
+      "id": "d12-w05",
+      "ru": "вечер",
+      "en": "evening",
+      "audio": "/audio/day12/вечер.mp3",
+      "image": "/images/vocab/d12-w05.svg",
+      "sentences": [
+        {
+          "ru": "Добрый вечер!",
+          "en": "Good evening!"
+        },
+        {
+          "ru": "Вечером отдыхаю.",
+          "en": "I rest in the evening."
+        }
+      ]
+    },
+    {
+      "id": "d12-w06",
+      "ru": "ночь",
+      "en": "night",
+      "audio": "/audio/day12/ночь.mp3",
+      "image": "/images/vocab/d12-w06.svg",
+      "sentences": [
+        {
+          "ru": "Спокойной ночи!",
+          "en": "Good night!"
+        },
+        {
+          "ru": "Ночью тихо.",
+          "en": "It is quiet at night."
+        }
+      ]
+    },
+    {
+      "id": "d12-w07",
+      "ru": "сегодня",
+      "en": "today",
+      "audio": "/audio/day12/сегодня.mp3",
+      "image": "/images/vocab/d12-w07.svg",
+      "sentences": [
+        {
+          "ru": "Сегодня понедельник.",
+          "en": "Today is Monday."
+        },
+        {
+          "ru": "Сегодня холодно.",
+          "en": "It is cold today."
+        }
+      ]
+    },
+    {
+      "id": "d12-w08",
+      "ru": "завтра",
+      "en": "tomorrow",
+      "audio": "/audio/day12/завтра.mp3",
+      "image": "/images/vocab/d12-w08.svg",
+      "sentences": [
+        {
+          "ru": "Увидимся завтра.",
+          "en": "See you tomorrow."
+        },
+        {
+          "ru": "Завтра экзамен.",
+          "en": "The exam is tomorrow."
+        }
+      ]
+    },
+    {
+      "id": "d12-w09",
+      "ru": "вчера",
+      "en": "yesterday",
+      "audio": "/audio/day12/вчера.mp3",
+      "image": "/images/vocab/d12-w09.svg",
+      "sentences": [
+        {
+          "ru": "Вчера был дождь.",
+          "en": "It rained yesterday."
+        },
+        {
+          "ru": "Вчера я работал.",
+          "en": "I worked yesterday."
+        }
+      ]
+    },
+    {
+      "id": "d12-w10",
+      "ru": "когда",
+      "en": "when",
+      "audio": "/audio/day12/когда.mp3",
+      "image": "/images/vocab/d12-w10.svg",
+      "sentences": [
+        {
+          "ru": "Когда ты приедешь?",
+          "en": "When will you arrive?"
+        },
+        {
+          "ru": "Когда начинается?",
+          "en": "When does it start?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d12-order-0",
+      "type": "wordOrder",
+      "wordId": "d12-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Сейчас три часа.",
+      "sentenceEn": "It is three o'clock now.",
+      "audio": "",
+      "tokens": [
+        "Сейчас",
+        "три",
+        "часа"
+      ],
+      "pool": [
+        "часа",
+        "когда",
+        "сегодня",
+        "Сейчас",
+        "три",
+        "ночь"
+      ]
+    },
+    {
+      "id": "d12-order-1",
+      "type": "wordOrder",
+      "wordId": "d12-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Час назад.",
+      "sentenceEn": "An hour ago.",
+      "audio": "",
+      "tokens": [
+        "Час",
+        "назад"
+      ],
+      "pool": [
+        "ночь",
+        "назад",
+        "утро",
+        "Час",
+        "вчера"
+      ]
+    },
+    {
+      "id": "d12-order-2",
+      "type": "wordOrder",
+      "wordId": "d12-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Подожди минуту.",
+      "sentenceEn": "Wait a minute.",
+      "audio": "",
+      "tokens": [
+        "Подожди",
+        "минуту"
+      ],
+      "pool": [
+        "Подожди",
+        "минуту",
+        "завтра",
+        "когда",
+        "сегодня"
+      ]
+    },
+    {
+      "id": "d12-order-3",
+      "type": "wordOrder",
+      "wordId": "d12-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Пять минут до автобуса.",
+      "sentenceEn": "Five minutes until the bus.",
+      "audio": "",
+      "tokens": [
+        "Пять",
+        "минут",
+        "до",
+        "автобуса"
+      ],
+      "pool": [
+        "автобуса",
+        "Пять",
+        "сегодня",
+        "до",
+        "минут",
+        "ночь",
+        "завтра"
+      ]
+    },
+    {
+      "id": "d12-order-4",
+      "type": "wordOrder",
+      "wordId": "d12-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Утром пью кофе.",
+      "sentenceEn": "I drink coffee in the morning.",
+      "audio": "",
+      "tokens": [
+        "Утром",
+        "пью",
+        "кофе"
+      ],
+      "pool": [
+        "минута",
+        "когда",
+        "сегодня",
+        "Утром",
+        "кофе",
+        "пью"
+      ]
+    },
+    {
+      "id": "d12-order-5",
+      "type": "wordOrder",
+      "wordId": "d12-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Доброе утро!",
+      "sentenceEn": "Good morning!",
+      "audio": "",
+      "tokens": [
+        "Доброе",
+        "утро"
+      ],
+      "pool": [
+        "утро",
+        "минута",
+        "вчера",
+        "час",
+        "Доброе"
+      ]
+    },
+    {
+      "id": "d12-order-6",
+      "type": "wordOrder",
+      "wordId": "d12-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Хорошего дня!",
+      "sentenceEn": "Have a good day!",
+      "audio": "",
+      "tokens": [
+        "Хорошего",
+        "дня"
+      ],
+      "pool": [
+        "минута",
+        "дня",
+        "час",
+        "Хорошего",
+        "ночь"
+      ]
+    },
+    {
+      "id": "d12-order-7",
+      "type": "wordOrder",
+      "wordId": "d12-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Днём работаю.",
+      "sentenceEn": "I work during the day.",
+      "audio": "",
+      "tokens": [
+        "Днём",
+        "работаю"
+      ],
+      "pool": [
+        "Днём",
+        "час",
+        "когда",
+        "вчера",
+        "работаю"
+      ]
+    },
+    {
+      "id": "d12-order-8",
+      "type": "wordOrder",
+      "wordId": "d12-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Добрый вечер!",
+      "sentenceEn": "Good evening!",
+      "audio": "",
+      "tokens": [
+        "Добрый",
+        "вечер"
+      ],
+      "pool": [
+        "ночь",
+        "вечер",
+        "вчера",
+        "сегодня",
+        "Добрый"
+      ]
+    },
+    {
+      "id": "d12-order-9",
+      "type": "wordOrder",
+      "wordId": "d12-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Вечером отдыхаю.",
+      "sentenceEn": "I rest in the evening.",
+      "audio": "",
+      "tokens": [
+        "Вечером",
+        "отдыхаю"
+      ],
+      "pool": [
+        "Вечером",
+        "сегодня",
+        "отдыхаю",
+        "утро",
+        "вчера"
+      ]
+    },
+    {
+      "id": "d12-order-10",
+      "type": "wordOrder",
+      "wordId": "d12-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Спокойной ночи!",
+      "sentenceEn": "Good night!",
+      "audio": "",
+      "tokens": [
+        "Спокойной",
+        "ночи"
+      ],
+      "pool": [
+        "минута",
+        "ночи",
+        "завтра",
+        "Спокойной",
+        "когда"
+      ]
+    },
+    {
+      "id": "d12-order-11",
+      "type": "wordOrder",
+      "wordId": "d12-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Ночью тихо.",
+      "sentenceEn": "It is quiet at night.",
+      "audio": "",
+      "tokens": [
+        "Ночью",
+        "тихо"
+      ],
+      "pool": [
+        "час",
+        "завтра",
+        "тихо",
+        "день",
+        "Ночью"
+      ]
+    },
+    {
+      "id": "d12-order-12",
+      "type": "wordOrder",
+      "wordId": "d12-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Сегодня понедельник.",
+      "sentenceEn": "Today is Monday.",
+      "audio": "",
+      "tokens": [
+        "Сегодня",
+        "понедельник"
+      ],
+      "pool": [
+        "завтра",
+        "вчера",
+        "понедельник",
+        "Сегодня",
+        "день"
+      ]
+    },
+    {
+      "id": "d12-order-13",
+      "type": "wordOrder",
+      "wordId": "d12-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Сегодня холодно.",
+      "sentenceEn": "It is cold today.",
+      "audio": "",
+      "tokens": [
+        "Сегодня",
+        "холодно"
+      ],
+      "pool": [
+        "Сегодня",
+        "вчера",
+        "холодно",
+        "день",
+        "час"
+      ]
+    },
+    {
+      "id": "d12-order-14",
+      "type": "wordOrder",
+      "wordId": "d12-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Увидимся завтра.",
+      "sentenceEn": "See you tomorrow.",
+      "audio": "",
+      "tokens": [
+        "Увидимся",
+        "завтра"
+      ],
+      "pool": [
+        "день",
+        "завтра",
+        "Увидимся",
+        "ночь",
+        "вечер"
+      ]
+    },
+    {
+      "id": "d12-order-15",
+      "type": "wordOrder",
+      "wordId": "d12-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Завтра экзамен.",
+      "sentenceEn": "The exam is tomorrow.",
+      "audio": "",
+      "tokens": [
+        "Завтра",
+        "экзамен"
+      ],
+      "pool": [
+        "экзамен",
+        "день",
+        "Завтра",
+        "сегодня",
+        "минута"
+      ]
+    },
+    {
+      "id": "d12-order-16",
+      "type": "wordOrder",
+      "wordId": "d12-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Вчера был дождь.",
+      "sentenceEn": "It rained yesterday.",
+      "audio": "",
+      "tokens": [
+        "Вчера",
+        "был",
+        "дождь"
+      ],
+      "pool": [
+        "минута",
+        "был",
+        "когда",
+        "час",
+        "Вчера",
+        "дождь"
+      ]
+    },
+    {
+      "id": "d12-order-17",
+      "type": "wordOrder",
+      "wordId": "d12-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Вчера я работал.",
+      "sentenceEn": "I worked yesterday.",
+      "audio": "",
+      "tokens": [
+        "Вчера",
+        "я",
+        "работал"
+      ],
+      "pool": [
+        "завтра",
+        "работал",
+        "я",
+        "ночь",
+        "Вчера",
+        "когда"
+      ]
+    },
+    {
+      "id": "d12-order-18",
+      "type": "wordOrder",
+      "wordId": "d12-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Когда ты приедешь?",
+      "sentenceEn": "When will you arrive?",
+      "audio": "",
+      "tokens": [
+        "Когда",
+        "ты",
+        "приедешь"
+      ],
+      "pool": [
+        "приедешь",
+        "вчера",
+        "Когда",
+        "ты",
+        "день",
+        "ночь"
+      ]
+    },
+    {
+      "id": "d12-order-19",
+      "type": "wordOrder",
+      "wordId": "d12-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Когда начинается?",
+      "sentenceEn": "When does it start?",
+      "audio": "",
+      "tokens": [
+        "Когда",
+        "начинается"
+      ],
+      "pool": [
+        "день",
+        "начинается",
+        "сегодня",
+        "утро",
+        "Когда"
+      ]
+    },
+    {
+      "id": "d12-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d12-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d12-w01.svg",
+      "options": [
+        "когда",
+        "минута",
+        "час",
+        "завтра"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d12-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d12-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d12-w02.svg",
+      "options": [
+        "минута",
+        "вечер",
+        "когда",
+        "день"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d12-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d12-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d12-w03.svg",
+      "options": [
+        "завтра",
+        "минута",
+        "ночь",
+        "утро"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d12-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d12-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d12-w04.svg",
+      "options": [
+        "завтра",
+        "день",
+        "час",
+        "когда"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d12-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d12-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d12-w05.svg",
+      "options": [
+        "когда",
+        "вечер",
+        "вчера",
+        "утро"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d12-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d12-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d12-w06.svg",
+      "options": [
+        "когда",
+        "завтра",
+        "ночь",
+        "утро"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d12-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d12-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d12-w07.svg",
+      "options": [
+        "сегодня",
+        "когда",
+        "завтра",
+        "вечер"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d12-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d12-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d12-w08.svg",
+      "options": [
+        "вчера",
+        "сегодня",
+        "день",
+        "завтра"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d12-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d12-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d12-w09.svg",
+      "options": [
+        "когда",
+        "ночь",
+        "вчера",
+        "вечер"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d12-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d12-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d12-w10.svg",
+      "options": [
+        "вечер",
+        "вчера",
+        "утро",
+        "когда"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

@@ -1,0 +1,759 @@
+{
+  "day": 1,
+  "theme": "Greetings & introductions",
+  "grammarFocus": "Personal pronouns, быть present",
+  "words": [
+    {
+      "id": "d01-w01",
+      "ru": "привет",
+      "en": "hello (informal)",
+      "audio": "/audio/day01/привет.mp3",
+      "image": "/images/vocab/d01-w01.svg",
+      "sentences": [
+        {
+          "ru": "Привет, как дела?",
+          "en": "Hello, how are you?"
+        },
+        {
+          "ru": "Он сказал привет.",
+          "en": "He said hello."
+        }
+      ]
+    },
+    {
+      "id": "d01-w02",
+      "ru": "здравствуйте",
+      "en": "hello (formal)",
+      "audio": "/audio/day01/здравствуйте.mp3",
+      "image": "/images/vocab/d01-w02.svg",
+      "sentences": [
+        {
+          "ru": "Здравствуйте, меня зовут Анна.",
+          "en": "Hello, my name is Anna."
+        },
+        {
+          "ru": "Здравствуйте, доктор.",
+          "en": "Hello, doctor."
+        }
+      ]
+    },
+    {
+      "id": "d01-w03",
+      "ru": "до свидания",
+      "en": "goodbye",
+      "audio": "/audio/day01/до-свидания.mp3",
+      "image": "/images/vocab/d01-w03.svg",
+      "sentences": [
+        {
+          "ru": "До свидания, увидимся завтра.",
+          "en": "Goodbye, see you tomorrow."
+        },
+        {
+          "ru": "Она сказала до свидания.",
+          "en": "She said goodbye."
+        }
+      ]
+    },
+    {
+      "id": "d01-w04",
+      "ru": "спасибо",
+      "en": "thank you",
+      "audio": "/audio/day01/спасибо.mp3",
+      "image": "/images/vocab/d01-w04.svg",
+      "sentences": [
+        {
+          "ru": "Спасибо за помощь.",
+          "en": "Thank you for the help."
+        },
+        {
+          "ru": "Большое спасибо!",
+          "en": "Thank you very much!"
+        }
+      ]
+    },
+    {
+      "id": "d01-w05",
+      "ru": "пожалуйста",
+      "en": "please / you're welcome",
+      "audio": "/audio/day01/пожалуйста.mp3",
+      "image": "/images/vocab/d01-w05.svg",
+      "sentences": [
+        {
+          "ru": "Пожалуйста, садитесь.",
+          "en": "Please, sit down."
+        },
+        {
+          "ru": "Спасибо! — Пожалуйста.",
+          "en": "Thanks! — You're welcome."
+        }
+      ]
+    },
+    {
+      "id": "d01-w06",
+      "ru": "извините",
+      "en": "excuse me / sorry",
+      "audio": "/audio/day01/извините.mp3",
+      "image": "/images/vocab/d01-w06.svg",
+      "sentences": [
+        {
+          "ru": "Извините, где туалет?",
+          "en": "Excuse me, where is the bathroom?"
+        },
+        {
+          "ru": "Извините за опоздание.",
+          "en": "Sorry for being late."
+        }
+      ]
+    },
+    {
+      "id": "d01-w07",
+      "ru": "меня зовут",
+      "en": "my name is",
+      "audio": "/audio/day01/меня-зовут.mp3",
+      "image": "/images/vocab/d01-w07.svg",
+      "sentences": [
+        {
+          "ru": "Меня зовут Иван.",
+          "en": "My name is Ivan."
+        },
+        {
+          "ru": "Меня зовут Мария.",
+          "en": "My name is Maria."
+        }
+      ]
+    },
+    {
+      "id": "d01-w08",
+      "ru": "как дела",
+      "en": "how are you",
+      "audio": "/audio/day01/как-дела.mp3",
+      "image": "/images/vocab/d01-w08.svg",
+      "sentences": [
+        {
+          "ru": "Привет, как дела?",
+          "en": "Hi, how are you?"
+        },
+        {
+          "ru": "Как дела? — Хорошо.",
+          "en": "How are you? — Good."
+        }
+      ]
+    },
+    {
+      "id": "d01-w09",
+      "ru": "хорошо",
+      "en": "good / well",
+      "audio": "/audio/day01/хорошо.mp3",
+      "image": "/images/vocab/d01-w09.svg",
+      "sentences": [
+        {
+          "ru": "У меня всё хорошо.",
+          "en": "I am doing well."
+        },
+        {
+          "ru": "Это хорошо.",
+          "en": "That is good."
+        }
+      ]
+    },
+    {
+      "id": "d01-w10",
+      "ru": "очень приятно",
+      "en": "nice to meet you",
+      "audio": "/audio/day01/очень-приятно.mp3",
+      "image": "/images/vocab/d01-w10.svg",
+      "sentences": [
+        {
+          "ru": "Очень приятно познакомиться.",
+          "en": "Nice to meet you."
+        },
+        {
+          "ru": "Мне тоже очень приятно.",
+          "en": "Nice to meet you too."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d01-order-0",
+      "type": "wordOrder",
+      "wordId": "d01-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Привет, как дела?",
+      "sentenceEn": "Hello, how are you?",
+      "audio": "",
+      "tokens": [
+        "Привет",
+        "как",
+        "дела"
+      ],
+      "pool": [
+        "как",
+        "дела",
+        "спасибо",
+        "до свидания",
+        "пожалуйста",
+        "Привет"
+      ]
+    },
+    {
+      "id": "d01-order-1",
+      "type": "wordOrder",
+      "wordId": "d01-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Он сказал привет.",
+      "sentenceEn": "He said hello.",
+      "audio": "",
+      "tokens": [
+        "Он",
+        "сказал",
+        "привет"
+      ],
+      "pool": [
+        "очень приятно",
+        "сказал",
+        "Он",
+        "как дела",
+        "привет",
+        "здравствуйте"
+      ]
+    },
+    {
+      "id": "d01-order-2",
+      "type": "wordOrder",
+      "wordId": "d01-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Здравствуйте, меня зовут Анна.",
+      "sentenceEn": "Hello, my name is Anna.",
+      "audio": "",
+      "tokens": [
+        "Здравствуйте",
+        "меня",
+        "зовут",
+        "Анна"
+      ],
+      "pool": [
+        "как дела",
+        "Здравствуйте",
+        "меня зовут",
+        "очень приятно",
+        "Анна",
+        "зовут",
+        "меня"
+      ]
+    },
+    {
+      "id": "d01-order-3",
+      "type": "wordOrder",
+      "wordId": "d01-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Здравствуйте, доктор.",
+      "sentenceEn": "Hello, doctor.",
+      "audio": "",
+      "tokens": [
+        "Здравствуйте",
+        "доктор"
+      ],
+      "pool": [
+        "привет",
+        "доктор",
+        "пожалуйста",
+        "как дела",
+        "Здравствуйте"
+      ]
+    },
+    {
+      "id": "d01-order-4",
+      "type": "wordOrder",
+      "wordId": "d01-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "До свидания, увидимся завтра.",
+      "sentenceEn": "Goodbye, see you tomorrow.",
+      "audio": "",
+      "tokens": [
+        "До",
+        "свидания",
+        "увидимся",
+        "завтра"
+      ],
+      "pool": [
+        "пожалуйста",
+        "До",
+        "здравствуйте",
+        "хорошо",
+        "увидимся",
+        "свидания",
+        "завтра"
+      ]
+    },
+    {
+      "id": "d01-order-5",
+      "type": "wordOrder",
+      "wordId": "d01-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Она сказала до свидания.",
+      "sentenceEn": "She said goodbye.",
+      "audio": "",
+      "tokens": [
+        "Она",
+        "сказала",
+        "до",
+        "свидания"
+      ],
+      "pool": [
+        "сказала",
+        "до",
+        "здравствуйте",
+        "спасибо",
+        "Она",
+        "извините",
+        "свидания"
+      ]
+    },
+    {
+      "id": "d01-order-6",
+      "type": "wordOrder",
+      "wordId": "d01-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Спасибо за помощь.",
+      "sentenceEn": "Thank you for the help.",
+      "audio": "",
+      "tokens": [
+        "Спасибо",
+        "за",
+        "помощь"
+      ],
+      "pool": [
+        "меня зовут",
+        "помощь",
+        "извините",
+        "пожалуйста",
+        "за",
+        "Спасибо"
+      ]
+    },
+    {
+      "id": "d01-order-7",
+      "type": "wordOrder",
+      "wordId": "d01-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Большое спасибо!",
+      "sentenceEn": "Thank you very much!",
+      "audio": "",
+      "tokens": [
+        "Большое",
+        "спасибо"
+      ],
+      "pool": [
+        "до свидания",
+        "пожалуйста",
+        "Большое",
+        "как дела",
+        "спасибо"
+      ]
+    },
+    {
+      "id": "d01-order-8",
+      "type": "wordOrder",
+      "wordId": "d01-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Пожалуйста, садитесь.",
+      "sentenceEn": "Please, sit down.",
+      "audio": "",
+      "tokens": [
+        "Пожалуйста",
+        "садитесь"
+      ],
+      "pool": [
+        "спасибо",
+        "Пожалуйста",
+        "как дела",
+        "садитесь",
+        "до свидания"
+      ]
+    },
+    {
+      "id": "d01-order-9",
+      "type": "wordOrder",
+      "wordId": "d01-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Спасибо! — Пожалуйста.",
+      "sentenceEn": "Thanks! — You're welcome.",
+      "audio": "",
+      "tokens": [
+        "Спасибо",
+        "Пожалуйста"
+      ],
+      "pool": [
+        "Пожалуйста",
+        "Спасибо",
+        "меня зовут",
+        "здравствуйте",
+        "хорошо"
+      ]
+    },
+    {
+      "id": "d01-order-10",
+      "type": "wordOrder",
+      "wordId": "d01-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Извините, где туалет?",
+      "sentenceEn": "Excuse me, where is the bathroom?",
+      "audio": "",
+      "tokens": [
+        "Извините",
+        "где",
+        "туалет"
+      ],
+      "pool": [
+        "до свидания",
+        "Извините",
+        "хорошо",
+        "туалет",
+        "меня зовут",
+        "где"
+      ]
+    },
+    {
+      "id": "d01-order-11",
+      "type": "wordOrder",
+      "wordId": "d01-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Извините за опоздание.",
+      "sentenceEn": "Sorry for being late.",
+      "audio": "",
+      "tokens": [
+        "Извините",
+        "за",
+        "опоздание"
+      ],
+      "pool": [
+        "меня зовут",
+        "привет",
+        "пожалуйста",
+        "Извините",
+        "за",
+        "опоздание"
+      ]
+    },
+    {
+      "id": "d01-order-12",
+      "type": "wordOrder",
+      "wordId": "d01-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Меня зовут Иван.",
+      "sentenceEn": "My name is Ivan.",
+      "audio": "",
+      "tokens": [
+        "Меня",
+        "зовут",
+        "Иван"
+      ],
+      "pool": [
+        "зовут",
+        "пожалуйста",
+        "Иван",
+        "хорошо",
+        "здравствуйте",
+        "Меня"
+      ]
+    },
+    {
+      "id": "d01-order-13",
+      "type": "wordOrder",
+      "wordId": "d01-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Меня зовут Мария.",
+      "sentenceEn": "My name is Maria.",
+      "audio": "",
+      "tokens": [
+        "Меня",
+        "зовут",
+        "Мария"
+      ],
+      "pool": [
+        "Меня",
+        "Мария",
+        "как дела",
+        "зовут",
+        "очень приятно",
+        "спасибо"
+      ]
+    },
+    {
+      "id": "d01-order-14",
+      "type": "wordOrder",
+      "wordId": "d01-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Привет, как дела?",
+      "sentenceEn": "Hi, how are you?",
+      "audio": "",
+      "tokens": [
+        "Привет",
+        "как",
+        "дела"
+      ],
+      "pool": [
+        "как",
+        "дела",
+        "спасибо",
+        "Привет",
+        "до свидания",
+        "очень приятно"
+      ]
+    },
+    {
+      "id": "d01-order-15",
+      "type": "wordOrder",
+      "wordId": "d01-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Как дела? — Хорошо.",
+      "sentenceEn": "How are you? — Good.",
+      "audio": "",
+      "tokens": [
+        "Как",
+        "дела",
+        "Хорошо"
+      ],
+      "pool": [
+        "меня зовут",
+        "Как",
+        "Хорошо",
+        "хорошо",
+        "дела",
+        "до свидания"
+      ]
+    },
+    {
+      "id": "d01-order-16",
+      "type": "wordOrder",
+      "wordId": "d01-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "У меня всё хорошо.",
+      "sentenceEn": "I am doing well.",
+      "audio": "",
+      "tokens": [
+        "У",
+        "меня",
+        "всё",
+        "хорошо"
+      ],
+      "pool": [
+        "меня",
+        "привет",
+        "У",
+        "очень приятно",
+        "до свидания",
+        "всё",
+        "хорошо"
+      ]
+    },
+    {
+      "id": "d01-order-17",
+      "type": "wordOrder",
+      "wordId": "d01-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Это хорошо.",
+      "sentenceEn": "That is good.",
+      "audio": "",
+      "tokens": [
+        "Это",
+        "хорошо"
+      ],
+      "pool": [
+        "хорошо",
+        "Это",
+        "извините",
+        "пожалуйста",
+        "очень приятно"
+      ]
+    },
+    {
+      "id": "d01-order-18",
+      "type": "wordOrder",
+      "wordId": "d01-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Очень приятно познакомиться.",
+      "sentenceEn": "Nice to meet you.",
+      "audio": "",
+      "tokens": [
+        "Очень",
+        "приятно",
+        "познакомиться"
+      ],
+      "pool": [
+        "Очень",
+        "привет",
+        "пожалуйста",
+        "хорошо",
+        "познакомиться",
+        "приятно"
+      ]
+    },
+    {
+      "id": "d01-order-19",
+      "type": "wordOrder",
+      "wordId": "d01-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мне тоже очень приятно.",
+      "sentenceEn": "Nice to meet you too.",
+      "audio": "",
+      "tokens": [
+        "Мне",
+        "тоже",
+        "очень",
+        "приятно"
+      ],
+      "pool": [
+        "очень",
+        "извините",
+        "тоже",
+        "пожалуйста",
+        "как дела",
+        "Мне",
+        "приятно"
+      ]
+    },
+    {
+      "id": "d01-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d01-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d01-w01.svg",
+      "options": [
+        "пожалуйста",
+        "привет",
+        "меня зовут",
+        "как дела"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d01-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d01-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d01-w02.svg",
+      "options": [
+        "хорошо",
+        "извините",
+        "спасибо",
+        "здравствуйте"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d01-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d01-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d01-w03.svg",
+      "options": [
+        "меня зовут",
+        "извините",
+        "пожалуйста",
+        "до свидания"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d01-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d01-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d01-w04.svg",
+      "options": [
+        "меня зовут",
+        "хорошо",
+        "здравствуйте",
+        "спасибо"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d01-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d01-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d01-w05.svg",
+      "options": [
+        "как дела",
+        "извините",
+        "хорошо",
+        "пожалуйста"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d01-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d01-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d01-w06.svg",
+      "options": [
+        "до свидания",
+        "здравствуйте",
+        "пожалуйста",
+        "извините"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d01-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d01-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d01-w07.svg",
+      "options": [
+        "меня зовут",
+        "извините",
+        "пожалуйста",
+        "как дела"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d01-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d01-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d01-w08.svg",
+      "options": [
+        "пожалуйста",
+        "извините",
+        "меня зовут",
+        "как дела"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d01-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d01-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d01-w09.svg",
+      "options": [
+        "пожалуйста",
+        "хорошо",
+        "спасибо",
+        "очень приятно"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d01-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d01-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d01-w10.svg",
+      "options": [
+        "пожалуйста",
+        "извините",
+        "до свидания",
+        "очень приятно"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

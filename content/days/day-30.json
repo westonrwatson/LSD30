@@ -1,0 +1,725 @@
+{
+  "day": 30,
+  "theme": "Review marathon",
+  "grammarFocus": "Mixed interleaved everything",
+  "words": [
+    {
+      "id": "d30-w01",
+      "ru": "язык",
+      "en": "language",
+      "audio": "/audio/day30/язык.mp3",
+      "image": "/images/vocab/d30-w01.svg",
+      "sentences": [
+        {
+          "ru": "Русский язык сложный.",
+          "en": "Russian is a complex language."
+        },
+        {
+          "ru": "Изучаю язык.",
+          "en": "I study the language."
+        }
+      ]
+    },
+    {
+      "id": "d30-w02",
+      "ru": "слово",
+      "en": "word",
+      "audio": "/audio/day30/слово.mp3",
+      "image": "/images/vocab/d30-w02.svg",
+      "sentences": [
+        {
+          "ru": "Новое слово.",
+          "en": "A new word."
+        },
+        {
+          "ru": "Запомни слово.",
+          "en": "Remember the word."
+        }
+      ]
+    },
+    {
+      "id": "d30-w03",
+      "ru": "фраза",
+      "en": "phrase",
+      "audio": "/audio/day30/фраза.mp3",
+      "image": "/images/vocab/d30-w03.svg",
+      "sentences": [
+        {
+          "ru": "Полезная фраза.",
+          "en": "A useful phrase."
+        },
+        {
+          "ru": "Повтори фразу.",
+          "en": "Repeat the phrase."
+        }
+      ]
+    },
+    {
+      "id": "d30-w04",
+      "ru": "урок",
+      "en": "lesson",
+      "audio": "/audio/day30/урок.mp3",
+      "image": "/images/vocab/d30-w04.svg",
+      "sentences": [
+        {
+          "ru": "Урок интересный.",
+          "en": "The lesson is interesting."
+        },
+        {
+          "ru": "Урок закончен.",
+          "en": "The lesson is finished."
+        }
+      ]
+    },
+    {
+      "id": "d30-w05",
+      "ru": "практика",
+      "en": "practice",
+      "audio": "/audio/day30/практика.mp3",
+      "image": "/images/vocab/d30-w05.svg",
+      "sentences": [
+        {
+          "ru": "Нужна практика.",
+          "en": "Practice is needed."
+        },
+        {
+          "ru": "Практика каждый день.",
+          "en": "Practice every day."
+        }
+      ]
+    },
+    {
+      "id": "d30-w06",
+      "ru": "прогресс",
+      "en": "progress",
+      "audio": "/audio/day30/прогресс.mp3",
+      "image": "/images/vocab/d30-w06.svg",
+      "sentences": [
+        {
+          "ru": "Есть прогресс.",
+          "en": "There is progress."
+        },
+        {
+          "ru": "Хороший прогресс.",
+          "en": "Good progress."
+        }
+      ]
+    },
+    {
+      "id": "d30-w07",
+      "ru": "повторить",
+      "en": "to repeat / review",
+      "audio": "/audio/day30/повторить.mp3",
+      "image": "/images/vocab/d30-w07.svg",
+      "sentences": [
+        {
+          "ru": "Повтори слова.",
+          "en": "Review the words."
+        },
+        {
+          "ru": "Надо повторить.",
+          "en": "Need to review."
+        }
+      ]
+    },
+    {
+      "id": "d30-w08",
+      "ru": "запомнить",
+      "en": "to memorize",
+      "audio": "/audio/day30/запомнить.mp3",
+      "image": "/images/vocab/d30-w08.svg",
+      "sentences": [
+        {
+          "ru": "Запомни это.",
+          "en": "Remember this."
+        },
+        {
+          "ru": "Трудно запомнить.",
+          "en": "Hard to memorize."
+        }
+      ]
+    },
+    {
+      "id": "d30-w09",
+      "ru": "понимать",
+      "en": "to understand",
+      "audio": "/audio/day30/понимать.mp3",
+      "image": "/images/vocab/d30-w09.svg",
+      "sentences": [
+        {
+          "ru": "Понимаю русский.",
+          "en": "I understand Russian."
+        },
+        {
+          "ru": "Теперь понимаю.",
+          "en": "Now I understand."
+        }
+      ]
+    },
+    {
+      "id": "d30-w10",
+      "ru": "говорить",
+      "en": "to speak",
+      "audio": "/audio/day30/говорить.mp3",
+      "image": "/images/vocab/d30-w10.svg",
+      "sentences": [
+        {
+          "ru": "Говорю по-русски.",
+          "en": "I speak Russian."
+        },
+        {
+          "ru": "Хочу говорить лучше.",
+          "en": "I want to speak better."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d30-order-0",
+      "type": "wordOrder",
+      "wordId": "d30-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Русский язык сложный.",
+      "sentenceEn": "Russian is a complex language.",
+      "audio": "",
+      "tokens": [
+        "Русский",
+        "язык",
+        "сложный"
+      ],
+      "pool": [
+        "Русский",
+        "сложный",
+        "практика",
+        "фраза",
+        "повторить",
+        "язык"
+      ]
+    },
+    {
+      "id": "d30-order-1",
+      "type": "wordOrder",
+      "wordId": "d30-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Изучаю язык.",
+      "sentenceEn": "I study the language.",
+      "audio": "",
+      "tokens": [
+        "Изучаю",
+        "язык"
+      ],
+      "pool": [
+        "прогресс",
+        "фраза",
+        "Изучаю",
+        "язык",
+        "запомнить"
+      ]
+    },
+    {
+      "id": "d30-order-2",
+      "type": "wordOrder",
+      "wordId": "d30-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Новое слово.",
+      "sentenceEn": "A new word.",
+      "audio": "",
+      "tokens": [
+        "Новое",
+        "слово"
+      ],
+      "pool": [
+        "понимать",
+        "слово",
+        "практика",
+        "язык",
+        "Новое"
+      ]
+    },
+    {
+      "id": "d30-order-3",
+      "type": "wordOrder",
+      "wordId": "d30-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Запомни слово.",
+      "sentenceEn": "Remember the word.",
+      "audio": "",
+      "tokens": [
+        "Запомни",
+        "слово"
+      ],
+      "pool": [
+        "повторить",
+        "понимать",
+        "Запомни",
+        "фраза",
+        "слово"
+      ]
+    },
+    {
+      "id": "d30-order-4",
+      "type": "wordOrder",
+      "wordId": "d30-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Полезная фраза.",
+      "sentenceEn": "A useful phrase.",
+      "audio": "",
+      "tokens": [
+        "Полезная",
+        "фраза"
+      ],
+      "pool": [
+        "повторить",
+        "фраза",
+        "запомнить",
+        "Полезная",
+        "прогресс"
+      ]
+    },
+    {
+      "id": "d30-order-5",
+      "type": "wordOrder",
+      "wordId": "d30-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Повтори фразу.",
+      "sentenceEn": "Repeat the phrase.",
+      "audio": "",
+      "tokens": [
+        "Повтори",
+        "фразу"
+      ],
+      "pool": [
+        "Повтори",
+        "говорить",
+        "понимать",
+        "слово",
+        "фразу"
+      ]
+    },
+    {
+      "id": "d30-order-6",
+      "type": "wordOrder",
+      "wordId": "d30-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Урок интересный.",
+      "sentenceEn": "The lesson is interesting.",
+      "audio": "",
+      "tokens": [
+        "Урок",
+        "интересный"
+      ],
+      "pool": [
+        "запомнить",
+        "интересный",
+        "фраза",
+        "Урок",
+        "язык"
+      ]
+    },
+    {
+      "id": "d30-order-7",
+      "type": "wordOrder",
+      "wordId": "d30-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Урок закончен.",
+      "sentenceEn": "The lesson is finished.",
+      "audio": "",
+      "tokens": [
+        "Урок",
+        "закончен"
+      ],
+      "pool": [
+        "практика",
+        "Урок",
+        "закончен",
+        "говорить",
+        "слово"
+      ]
+    },
+    {
+      "id": "d30-order-8",
+      "type": "wordOrder",
+      "wordId": "d30-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Нужна практика.",
+      "sentenceEn": "Practice is needed.",
+      "audio": "",
+      "tokens": [
+        "Нужна",
+        "практика"
+      ],
+      "pool": [
+        "понимать",
+        "практика",
+        "урок",
+        "слово",
+        "Нужна"
+      ]
+    },
+    {
+      "id": "d30-order-9",
+      "type": "wordOrder",
+      "wordId": "d30-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Практика каждый день.",
+      "sentenceEn": "Practice every day.",
+      "audio": "",
+      "tokens": [
+        "Практика",
+        "каждый",
+        "день"
+      ],
+      "pool": [
+        "слово",
+        "Практика",
+        "день",
+        "говорить",
+        "каждый",
+        "запомнить"
+      ]
+    },
+    {
+      "id": "d30-order-10",
+      "type": "wordOrder",
+      "wordId": "d30-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Есть прогресс.",
+      "sentenceEn": "There is progress.",
+      "audio": "",
+      "tokens": [
+        "Есть",
+        "прогресс"
+      ],
+      "pool": [
+        "прогресс",
+        "урок",
+        "Есть",
+        "понимать",
+        "язык"
+      ]
+    },
+    {
+      "id": "d30-order-11",
+      "type": "wordOrder",
+      "wordId": "d30-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Хороший прогресс.",
+      "sentenceEn": "Good progress.",
+      "audio": "",
+      "tokens": [
+        "Хороший",
+        "прогресс"
+      ],
+      "pool": [
+        "Хороший",
+        "понимать",
+        "слово",
+        "урок",
+        "прогресс"
+      ]
+    },
+    {
+      "id": "d30-order-12",
+      "type": "wordOrder",
+      "wordId": "d30-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Повтори слова.",
+      "sentenceEn": "Review the words.",
+      "audio": "",
+      "tokens": [
+        "Повтори",
+        "слова"
+      ],
+      "pool": [
+        "Повтори",
+        "понимать",
+        "слово",
+        "слова",
+        "урок"
+      ]
+    },
+    {
+      "id": "d30-order-13",
+      "type": "wordOrder",
+      "wordId": "d30-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Надо повторить.",
+      "sentenceEn": "Need to review.",
+      "audio": "",
+      "tokens": [
+        "Надо",
+        "повторить"
+      ],
+      "pool": [
+        "Надо",
+        "запомнить",
+        "прогресс",
+        "повторить",
+        "понимать"
+      ]
+    },
+    {
+      "id": "d30-order-14",
+      "type": "wordOrder",
+      "wordId": "d30-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Запомни это.",
+      "sentenceEn": "Remember this.",
+      "audio": "",
+      "tokens": [
+        "Запомни",
+        "это"
+      ],
+      "pool": [
+        "понимать",
+        "язык",
+        "это",
+        "слово",
+        "Запомни"
+      ]
+    },
+    {
+      "id": "d30-order-15",
+      "type": "wordOrder",
+      "wordId": "d30-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Трудно запомнить.",
+      "sentenceEn": "Hard to memorize.",
+      "audio": "",
+      "tokens": [
+        "Трудно",
+        "запомнить"
+      ],
+      "pool": [
+        "язык",
+        "повторить",
+        "запомнить",
+        "прогресс",
+        "Трудно"
+      ]
+    },
+    {
+      "id": "d30-order-16",
+      "type": "wordOrder",
+      "wordId": "d30-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Понимаю русский.",
+      "sentenceEn": "I understand Russian.",
+      "audio": "",
+      "tokens": [
+        "Понимаю",
+        "русский"
+      ],
+      "pool": [
+        "русский",
+        "прогресс",
+        "практика",
+        "урок",
+        "Понимаю"
+      ]
+    },
+    {
+      "id": "d30-order-17",
+      "type": "wordOrder",
+      "wordId": "d30-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Теперь понимаю.",
+      "sentenceEn": "Now I understand.",
+      "audio": "",
+      "tokens": [
+        "Теперь",
+        "понимаю"
+      ],
+      "pool": [
+        "говорить",
+        "понимаю",
+        "слово",
+        "Теперь",
+        "прогресс"
+      ]
+    },
+    {
+      "id": "d30-order-18",
+      "type": "wordOrder",
+      "wordId": "d30-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Говорю по-русски.",
+      "sentenceEn": "I speak Russian.",
+      "audio": "",
+      "tokens": [
+        "Говорю",
+        "по-русски"
+      ],
+      "pool": [
+        "по-русски",
+        "язык",
+        "запомнить",
+        "Говорю",
+        "понимать"
+      ]
+    },
+    {
+      "id": "d30-order-19",
+      "type": "wordOrder",
+      "wordId": "d30-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Хочу говорить лучше.",
+      "sentenceEn": "I want to speak better.",
+      "audio": "",
+      "tokens": [
+        "Хочу",
+        "говорить",
+        "лучше"
+      ],
+      "pool": [
+        "фраза",
+        "лучше",
+        "понимать",
+        "говорить",
+        "Хочу",
+        "практика"
+      ]
+    },
+    {
+      "id": "d30-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d30-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d30-w01.svg",
+      "options": [
+        "фраза",
+        "запомнить",
+        "прогресс",
+        "язык"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d30-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d30-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d30-w02.svg",
+      "options": [
+        "язык",
+        "слово",
+        "понимать",
+        "урок"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d30-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d30-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d30-w03.svg",
+      "options": [
+        "фраза",
+        "говорить",
+        "запомнить",
+        "повторить"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d30-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d30-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d30-w04.svg",
+      "options": [
+        "слово",
+        "практика",
+        "урок",
+        "запомнить"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d30-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d30-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d30-w05.svg",
+      "options": [
+        "практика",
+        "прогресс",
+        "урок",
+        "слово"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d30-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d30-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d30-w06.svg",
+      "options": [
+        "понимать",
+        "урок",
+        "прогресс",
+        "фраза"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d30-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d30-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d30-w07.svg",
+      "options": [
+        "фраза",
+        "повторить",
+        "говорить",
+        "урок"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d30-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d30-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d30-w08.svg",
+      "options": [
+        "слово",
+        "запомнить",
+        "урок",
+        "практика"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d30-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d30-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d30-w09.svg",
+      "options": [
+        "говорить",
+        "понимать",
+        "практика",
+        "язык"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d30-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d30-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d30-w10.svg",
+      "options": [
+        "язык",
+        "урок",
+        "практика",
+        "говорить"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+let currentAudio: HTMLAudioElement | null = null;
+
+export function stopAudio(): void {
+  if (currentAudio) {
+    currentAudio.pause();
+    currentAudio = null;
+  }
+  window.speechSynthesis.cancel();
+}
+
+export function speakWithTTS(text: string, lang = 'ru-RU'): Promise<void> {
+  return new Promise((resolve, reject) => {
+    if (!window.speechSynthesis) {
+      reject(new Error('Speech synthesis not supported'));
+      return;
+    }
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = lang;
+    utterance.rate = 0.9;
+    const voices = window.speechSynthesis.getVoices();
+    const ruVoice = voices.find((v) => v.lang.startsWith('ru'));
+    if (ruVoice) utterance.voice = ruVoice;
+    utterance.onend = () => resolve();
+    utterance.onerror = () => reject(new Error('TTS failed'));
+    window.speechSynthesis.speak(utterance);
+  });
+}
+
+export async function playAudio(src: string, fallbackText?: string): Promise<void> {
+  stopAudio();
+
+  if (src) {
+    try {
+      await new Promise<void>((resolve, reject) => {
+        const audio = new Audio(src);
+        currentAudio = audio;
+        audio.onended = () => {
+          currentAudio = null;
+          resolve();
+        };
+        audio.onerror = () => {
+          currentAudio = null;
+          reject(new Error('Audio file not found'));
+        };
+        audio.play().catch(reject);
+      });
+      return;
+    } catch {
+      // fall through to TTS
+    }
+  }
+
+  if (fallbackText) {
+    await speakWithTTS(fallbackText);
+  }
+}
+
+if (typeof window !== 'undefined' && window.speechSynthesis) {
+  window.speechSynthesis.getVoices();
+  window.speechSynthesis.onvoiceschanged = () => {
+    window.speechSynthesis.getVoices();
+  };
+}

@@ -1,0 +1,727 @@
+{
+  "day": 26,
+  "theme": "Comparisons & opinions",
+  "grammarFocus": "Comparative adjectives",
+  "words": [
+    {
+      "id": "d26-w01",
+      "ru": "лучше",
+      "en": "better",
+      "audio": "/audio/day26/лучше.mp3",
+      "image": "/images/vocab/d26-w01.svg",
+      "sentences": [
+        {
+          "ru": "Это лучше.",
+          "en": "This is better."
+        },
+        {
+          "ru": "Завтра будет лучше.",
+          "en": "Tomorrow will be better."
+        }
+      ]
+    },
+    {
+      "id": "d26-w02",
+      "ru": "хуже",
+      "en": "worse",
+      "audio": "/audio/day26/хуже.mp3",
+      "image": "/images/vocab/d26-w02.svg",
+      "sentences": [
+        {
+          "ru": "Сегодня хуже.",
+          "en": "Today is worse."
+        },
+        {
+          "ru": "Не хуже.",
+          "en": "Not worse."
+        }
+      ]
+    },
+    {
+      "id": "d26-w03",
+      "ru": "больше",
+      "en": "more / bigger",
+      "audio": "/audio/day26/больше.mp3",
+      "image": "/images/vocab/d26-w03.svg",
+      "sentences": [
+        {
+          "ru": "Больше времени.",
+          "en": "More time."
+        },
+        {
+          "ru": "Нужно больше.",
+          "en": "Need more."
+        }
+      ]
+    },
+    {
+      "id": "d26-w04",
+      "ru": "меньше",
+      "en": "less / smaller",
+      "audio": "/audio/day26/меньше.mp3",
+      "image": "/images/vocab/d26-w04.svg",
+      "sentences": [
+        {
+          "ru": "Меньше сахара.",
+          "en": "Less sugar."
+        },
+        {
+          "ru": "Меньше проблем.",
+          "en": "Fewer problems."
+        }
+      ]
+    },
+    {
+      "id": "d26-w05",
+      "ru": "дороже",
+      "en": "more expensive",
+      "audio": "/audio/day26/дороже.mp3",
+      "image": "/images/vocab/d26-w05.svg",
+      "sentences": [
+        {
+          "ru": "Это дороже.",
+          "en": "This is more expensive."
+        },
+        {
+          "ru": "Дороже, чем вчера.",
+          "en": "More expensive than yesterday."
+        }
+      ]
+    },
+    {
+      "id": "d26-w06",
+      "ru": "дешевле",
+      "en": "cheaper",
+      "audio": "/audio/day26/дешевле.mp3",
+      "image": "/images/vocab/d26-w06.svg",
+      "sentences": [
+        {
+          "ru": "Здесь дешевле.",
+          "en": "It is cheaper here."
+        },
+        {
+          "ru": "Намного дешевле.",
+          "en": "Much cheaper."
+        }
+      ]
+    },
+    {
+      "id": "d26-w07",
+      "ru": "мнение",
+      "en": "opinion",
+      "audio": "/audio/day26/мнение.mp3",
+      "image": "/images/vocab/d26-w07.svg",
+      "sentences": [
+        {
+          "ru": "Моё мнение.",
+          "en": "My opinion."
+        },
+        {
+          "ru": "Какое твоё мнение?",
+          "en": "What is your opinion?"
+        }
+      ]
+    },
+    {
+      "id": "d26-w08",
+      "ru": "думаю",
+      "en": "I think",
+      "audio": "/audio/day26/думаю.mp3",
+      "image": "/images/vocab/d26-w08.svg",
+      "sentences": [
+        {
+          "ru": "Думаю, да.",
+          "en": "I think so."
+        },
+        {
+          "ru": "Что ты думаешь?",
+          "en": "What do you think?"
+        }
+      ]
+    },
+    {
+      "id": "d26-w09",
+      "ru": "согласен",
+      "en": "I agree (masc)",
+      "audio": "/audio/day26/согласен.mp3",
+      "image": "/images/vocab/d26-w09.svg",
+      "sentences": [
+        {
+          "ru": "Я согласен.",
+          "en": "I agree."
+        },
+        {
+          "ru": "Полностью согласен.",
+          "en": "I completely agree."
+        }
+      ]
+    },
+    {
+      "id": "d26-w10",
+      "ru": "кажется",
+      "en": "it seems",
+      "audio": "/audio/day26/кажется.mp3",
+      "image": "/images/vocab/d26-w10.svg",
+      "sentences": [
+        {
+          "ru": "Мне кажется.",
+          "en": "It seems to me."
+        },
+        {
+          "ru": "Кажется, дождь.",
+          "en": "It seems like rain."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d26-order-0",
+      "type": "wordOrder",
+      "wordId": "d26-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Это лучше.",
+      "sentenceEn": "This is better.",
+      "audio": "",
+      "tokens": [
+        "Это",
+        "лучше"
+      ],
+      "pool": [
+        "хуже",
+        "кажется",
+        "лучше",
+        "думаю",
+        "Это"
+      ]
+    },
+    {
+      "id": "d26-order-1",
+      "type": "wordOrder",
+      "wordId": "d26-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Завтра будет лучше.",
+      "sentenceEn": "Tomorrow will be better.",
+      "audio": "",
+      "tokens": [
+        "Завтра",
+        "будет",
+        "лучше"
+      ],
+      "pool": [
+        "хуже",
+        "больше",
+        "будет",
+        "лучше",
+        "Завтра",
+        "мнение"
+      ]
+    },
+    {
+      "id": "d26-order-2",
+      "type": "wordOrder",
+      "wordId": "d26-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Сегодня хуже.",
+      "sentenceEn": "Today is worse.",
+      "audio": "",
+      "tokens": [
+        "Сегодня",
+        "хуже"
+      ],
+      "pool": [
+        "хуже",
+        "согласен",
+        "Сегодня",
+        "кажется",
+        "больше"
+      ]
+    },
+    {
+      "id": "d26-order-3",
+      "type": "wordOrder",
+      "wordId": "d26-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Не хуже.",
+      "sentenceEn": "Not worse.",
+      "audio": "",
+      "tokens": [
+        "Не",
+        "хуже"
+      ],
+      "pool": [
+        "хуже",
+        "Не",
+        "мнение",
+        "согласен",
+        "больше"
+      ]
+    },
+    {
+      "id": "d26-order-4",
+      "type": "wordOrder",
+      "wordId": "d26-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Больше времени.",
+      "sentenceEn": "More time.",
+      "audio": "",
+      "tokens": [
+        "Больше",
+        "времени"
+      ],
+      "pool": [
+        "времени",
+        "мнение",
+        "хуже",
+        "Больше",
+        "дешевле"
+      ]
+    },
+    {
+      "id": "d26-order-5",
+      "type": "wordOrder",
+      "wordId": "d26-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Нужно больше.",
+      "sentenceEn": "Need more.",
+      "audio": "",
+      "tokens": [
+        "Нужно",
+        "больше"
+      ],
+      "pool": [
+        "дешевле",
+        "согласен",
+        "больше",
+        "Нужно",
+        "хуже"
+      ]
+    },
+    {
+      "id": "d26-order-6",
+      "type": "wordOrder",
+      "wordId": "d26-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Меньше сахара.",
+      "sentenceEn": "Less sugar.",
+      "audio": "",
+      "tokens": [
+        "Меньше",
+        "сахара"
+      ],
+      "pool": [
+        "хуже",
+        "Меньше",
+        "согласен",
+        "больше",
+        "сахара"
+      ]
+    },
+    {
+      "id": "d26-order-7",
+      "type": "wordOrder",
+      "wordId": "d26-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Меньше проблем.",
+      "sentenceEn": "Fewer problems.",
+      "audio": "",
+      "tokens": [
+        "Меньше",
+        "проблем"
+      ],
+      "pool": [
+        "мнение",
+        "лучше",
+        "дороже",
+        "проблем",
+        "Меньше"
+      ]
+    },
+    {
+      "id": "d26-order-8",
+      "type": "wordOrder",
+      "wordId": "d26-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Это дороже.",
+      "sentenceEn": "This is more expensive.",
+      "audio": "",
+      "tokens": [
+        "Это",
+        "дороже"
+      ],
+      "pool": [
+        "дешевле",
+        "Это",
+        "меньше",
+        "мнение",
+        "дороже"
+      ]
+    },
+    {
+      "id": "d26-order-9",
+      "type": "wordOrder",
+      "wordId": "d26-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Дороже, чем вчера.",
+      "sentenceEn": "More expensive than yesterday.",
+      "audio": "",
+      "tokens": [
+        "Дороже",
+        "чем",
+        "вчера"
+      ],
+      "pool": [
+        "кажется",
+        "вчера",
+        "чем",
+        "лучше",
+        "меньше",
+        "Дороже"
+      ]
+    },
+    {
+      "id": "d26-order-10",
+      "type": "wordOrder",
+      "wordId": "d26-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Здесь дешевле.",
+      "sentenceEn": "It is cheaper here.",
+      "audio": "",
+      "tokens": [
+        "Здесь",
+        "дешевле"
+      ],
+      "pool": [
+        "дешевле",
+        "дороже",
+        "больше",
+        "Здесь",
+        "согласен"
+      ]
+    },
+    {
+      "id": "d26-order-11",
+      "type": "wordOrder",
+      "wordId": "d26-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Намного дешевле.",
+      "sentenceEn": "Much cheaper.",
+      "audio": "",
+      "tokens": [
+        "Намного",
+        "дешевле"
+      ],
+      "pool": [
+        "дешевле",
+        "дороже",
+        "кажется",
+        "Намного",
+        "хуже"
+      ]
+    },
+    {
+      "id": "d26-order-12",
+      "type": "wordOrder",
+      "wordId": "d26-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Моё мнение.",
+      "sentenceEn": "My opinion.",
+      "audio": "",
+      "tokens": [
+        "Моё",
+        "мнение"
+      ],
+      "pool": [
+        "Моё",
+        "мнение",
+        "согласен",
+        "хуже",
+        "думаю"
+      ]
+    },
+    {
+      "id": "d26-order-13",
+      "type": "wordOrder",
+      "wordId": "d26-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Какое твоё мнение?",
+      "sentenceEn": "What is your opinion?",
+      "audio": "",
+      "tokens": [
+        "Какое",
+        "твоё",
+        "мнение"
+      ],
+      "pool": [
+        "твоё",
+        "лучше",
+        "больше",
+        "дороже",
+        "мнение",
+        "Какое"
+      ]
+    },
+    {
+      "id": "d26-order-14",
+      "type": "wordOrder",
+      "wordId": "d26-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Думаю, да.",
+      "sentenceEn": "I think so.",
+      "audio": "",
+      "tokens": [
+        "Думаю",
+        "да"
+      ],
+      "pool": [
+        "Думаю",
+        "дороже",
+        "дешевле",
+        "да",
+        "кажется"
+      ]
+    },
+    {
+      "id": "d26-order-15",
+      "type": "wordOrder",
+      "wordId": "d26-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Что ты думаешь?",
+      "sentenceEn": "What do you think?",
+      "audio": "",
+      "tokens": [
+        "Что",
+        "ты",
+        "думаешь"
+      ],
+      "pool": [
+        "Что",
+        "больше",
+        "лучше",
+        "ты",
+        "думаешь",
+        "дороже"
+      ]
+    },
+    {
+      "id": "d26-order-16",
+      "type": "wordOrder",
+      "wordId": "d26-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Я согласен.",
+      "sentenceEn": "I agree.",
+      "audio": "",
+      "tokens": [
+        "Я",
+        "согласен"
+      ],
+      "pool": [
+        "согласен",
+        "лучше",
+        "мнение",
+        "больше",
+        "Я"
+      ]
+    },
+    {
+      "id": "d26-order-17",
+      "type": "wordOrder",
+      "wordId": "d26-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Полностью согласен.",
+      "sentenceEn": "I completely agree.",
+      "audio": "",
+      "tokens": [
+        "Полностью",
+        "согласен"
+      ],
+      "pool": [
+        "Полностью",
+        "согласен",
+        "дороже",
+        "мнение",
+        "больше"
+      ]
+    },
+    {
+      "id": "d26-order-18",
+      "type": "wordOrder",
+      "wordId": "d26-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мне кажется.",
+      "sentenceEn": "It seems to me.",
+      "audio": "",
+      "tokens": [
+        "Мне",
+        "кажется"
+      ],
+      "pool": [
+        "Мне",
+        "хуже",
+        "кажется",
+        "дешевле",
+        "дороже"
+      ]
+    },
+    {
+      "id": "d26-order-19",
+      "type": "wordOrder",
+      "wordId": "d26-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Кажется, дождь.",
+      "sentenceEn": "It seems like rain.",
+      "audio": "",
+      "tokens": [
+        "Кажется",
+        "дождь"
+      ],
+      "pool": [
+        "меньше",
+        "хуже",
+        "Кажется",
+        "больше",
+        "дождь"
+      ]
+    },
+    {
+      "id": "d26-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d26-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d26-w01.svg",
+      "options": [
+        "кажется",
+        "больше",
+        "дороже",
+        "лучше"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d26-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d26-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d26-w02.svg",
+      "options": [
+        "кажется",
+        "дороже",
+        "меньше",
+        "хуже"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d26-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d26-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d26-w03.svg",
+      "options": [
+        "согласен",
+        "больше",
+        "хуже",
+        "дешевле"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d26-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d26-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d26-w04.svg",
+      "options": [
+        "меньше",
+        "дешевле",
+        "хуже",
+        "думаю"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d26-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d26-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d26-w05.svg",
+      "options": [
+        "думаю",
+        "дороже",
+        "согласен",
+        "больше"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d26-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d26-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d26-w06.svg",
+      "options": [
+        "дешевле",
+        "мнение",
+        "больше",
+        "кажется"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d26-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d26-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d26-w07.svg",
+      "options": [
+        "меньше",
+        "мнение",
+        "согласен",
+        "лучше"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d26-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d26-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d26-w08.svg",
+      "options": [
+        "меньше",
+        "мнение",
+        "дешевле",
+        "думаю"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d26-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d26-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d26-w09.svg",
+      "options": [
+        "больше",
+        "согласен",
+        "дороже",
+        "хуже"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d26-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d26-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d26-w10.svg",
+      "options": [
+        "хуже",
+        "кажется",
+        "лучше",
+        "дешевле"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

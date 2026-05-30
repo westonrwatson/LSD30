@@ -1,0 +1,727 @@
+{
+  "day": 23,
+  "theme": "Travel & hotel",
+  "grammarFocus": "Future tense (быть + infinitive)",
+  "words": [
+    {
+      "id": "d23-w01",
+      "ru": "отель",
+      "en": "hotel",
+      "audio": "/audio/day23/отель.mp3",
+      "image": "/images/vocab/d23-w01.svg",
+      "sentences": [
+        {
+          "ru": "Отель в центре.",
+          "en": "The hotel is downtown."
+        },
+        {
+          "ru": "Бронирую отель.",
+          "en": "I book a hotel."
+        }
+      ]
+    },
+    {
+      "id": "d23-w02",
+      "ru": "номер",
+      "en": "room (hotel)",
+      "audio": "/audio/day23/номер.mp3",
+      "image": "/images/vocab/d23-w02.svg",
+      "sentences": [
+        {
+          "ru": "Номер с видом.",
+          "en": "Room with a view."
+        },
+        {
+          "ru": "Свободный номер.",
+          "en": "Available room."
+        }
+      ]
+    },
+    {
+      "id": "d23-w03",
+      "ru": "билет",
+      "en": "ticket",
+      "audio": "/audio/day23/билет.mp3",
+      "image": "/images/vocab/d23-w03.svg",
+      "sentences": [
+        {
+          "ru": "Купи билет.",
+          "en": "Buy a ticket."
+        },
+        {
+          "ru": "Билет на поезд.",
+          "en": "Train ticket."
+        }
+      ]
+    },
+    {
+      "id": "d23-w04",
+      "ru": "паспорт",
+      "en": "passport",
+      "audio": "/audio/day23/паспорт.mp3",
+      "image": "/images/vocab/d23-w04.svg",
+      "sentences": [
+        {
+          "ru": "Мой паспорт.",
+          "en": "My passport."
+        },
+        {
+          "ru": "Покажите паспорт.",
+          "en": "Show your passport."
+        }
+      ]
+    },
+    {
+      "id": "d23-w05",
+      "ru": "багаж",
+      "en": "luggage",
+      "audio": "/audio/day23/багаж.mp3",
+      "image": "/images/vocab/d23-w05.svg",
+      "sentences": [
+        {
+          "ru": "Мой багаж.",
+          "en": "My luggage."
+        },
+        {
+          "ru": "Где багаж?",
+          "en": "Where is the luggage?"
+        }
+      ]
+    },
+    {
+      "id": "d23-w06",
+      "ru": "турист",
+      "en": "tourist",
+      "audio": "/audio/day23/турист.mp3",
+      "image": "/images/vocab/d23-w06.svg",
+      "sentences": [
+        {
+          "ru": "Я турист.",
+          "en": "I am a tourist."
+        },
+        {
+          "ru": "Много туристов.",
+          "en": "Many tourists."
+        }
+      ]
+    },
+    {
+      "id": "d23-w07",
+      "ru": "экскурсия",
+      "en": "excursion / tour",
+      "audio": "/audio/day23/экскурсия.mp3",
+      "image": "/images/vocab/d23-w07.svg",
+      "sentences": [
+        {
+          "ru": "Экскурсия завтра.",
+          "en": "The tour is tomorrow."
+        },
+        {
+          "ru": "Интересная экскурсия.",
+          "en": "An interesting tour."
+        }
+      ]
+    },
+    {
+      "id": "d23-w08",
+      "ru": "путешествие",
+      "en": "journey / trip",
+      "audio": "/audio/day23/путешествие.mp3",
+      "image": "/images/vocab/d23-w08.svg",
+      "sentences": [
+        {
+          "ru": "Хорошее путешествие.",
+          "en": "A good trip."
+        },
+        {
+          "ru": "Люблю путешествия.",
+          "en": "I love travel."
+        }
+      ]
+    },
+    {
+      "id": "d23-w09",
+      "ru": "приехать",
+      "en": "to arrive (by transport)",
+      "audio": "/audio/day23/приехать.mp3",
+      "image": "/images/vocab/d23-w09.svg",
+      "sentences": [
+        {
+          "ru": "Приеду завтра.",
+          "en": "I will arrive tomorrow."
+        },
+        {
+          "ru": "Когда приедешь?",
+          "en": "When will you arrive?"
+        }
+      ]
+    },
+    {
+      "id": "d23-w10",
+      "ru": "уехать",
+      "en": "to leave (by transport)",
+      "audio": "/audio/day23/уехать.mp3",
+      "image": "/images/vocab/d23-w10.svg",
+      "sentences": [
+        {
+          "ru": "Уеду в пятницу.",
+          "en": "I will leave on Friday."
+        },
+        {
+          "ru": "Пора уехать.",
+          "en": "Time to leave."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d23-order-0",
+      "type": "wordOrder",
+      "wordId": "d23-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Отель в центре.",
+      "sentenceEn": "The hotel is downtown.",
+      "audio": "",
+      "tokens": [
+        "Отель",
+        "в",
+        "центре"
+      ],
+      "pool": [
+        "Отель",
+        "в",
+        "турист",
+        "экскурсия",
+        "приехать",
+        "центре"
+      ]
+    },
+    {
+      "id": "d23-order-1",
+      "type": "wordOrder",
+      "wordId": "d23-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Бронирую отель.",
+      "sentenceEn": "I book a hotel.",
+      "audio": "",
+      "tokens": [
+        "Бронирую",
+        "отель"
+      ],
+      "pool": [
+        "паспорт",
+        "уехать",
+        "Бронирую",
+        "отель",
+        "багаж"
+      ]
+    },
+    {
+      "id": "d23-order-2",
+      "type": "wordOrder",
+      "wordId": "d23-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Номер с видом.",
+      "sentenceEn": "Room with a view.",
+      "audio": "",
+      "tokens": [
+        "Номер",
+        "с",
+        "видом"
+      ],
+      "pool": [
+        "Номер",
+        "экскурсия",
+        "видом",
+        "паспорт",
+        "отель",
+        "с"
+      ]
+    },
+    {
+      "id": "d23-order-3",
+      "type": "wordOrder",
+      "wordId": "d23-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Свободный номер.",
+      "sentenceEn": "Available room.",
+      "audio": "",
+      "tokens": [
+        "Свободный",
+        "номер"
+      ],
+      "pool": [
+        "приехать",
+        "путешествие",
+        "Свободный",
+        "номер",
+        "паспорт"
+      ]
+    },
+    {
+      "id": "d23-order-4",
+      "type": "wordOrder",
+      "wordId": "d23-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Купи билет.",
+      "sentenceEn": "Buy a ticket.",
+      "audio": "",
+      "tokens": [
+        "Купи",
+        "билет"
+      ],
+      "pool": [
+        "билет",
+        "номер",
+        "путешествие",
+        "приехать",
+        "Купи"
+      ]
+    },
+    {
+      "id": "d23-order-5",
+      "type": "wordOrder",
+      "wordId": "d23-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Билет на поезд.",
+      "sentenceEn": "Train ticket.",
+      "audio": "",
+      "tokens": [
+        "Билет",
+        "на",
+        "поезд"
+      ],
+      "pool": [
+        "уехать",
+        "багаж",
+        "экскурсия",
+        "поезд",
+        "Билет",
+        "на"
+      ]
+    },
+    {
+      "id": "d23-order-6",
+      "type": "wordOrder",
+      "wordId": "d23-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мой паспорт.",
+      "sentenceEn": "My passport.",
+      "audio": "",
+      "tokens": [
+        "Мой",
+        "паспорт"
+      ],
+      "pool": [
+        "багаж",
+        "отель",
+        "Мой",
+        "турист",
+        "паспорт"
+      ]
+    },
+    {
+      "id": "d23-order-7",
+      "type": "wordOrder",
+      "wordId": "d23-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Покажите паспорт.",
+      "sentenceEn": "Show your passport.",
+      "audio": "",
+      "tokens": [
+        "Покажите",
+        "паспорт"
+      ],
+      "pool": [
+        "турист",
+        "багаж",
+        "Покажите",
+        "экскурсия",
+        "паспорт"
+      ]
+    },
+    {
+      "id": "d23-order-8",
+      "type": "wordOrder",
+      "wordId": "d23-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мой багаж.",
+      "sentenceEn": "My luggage.",
+      "audio": "",
+      "tokens": [
+        "Мой",
+        "багаж"
+      ],
+      "pool": [
+        "номер",
+        "уехать",
+        "багаж",
+        "Мой",
+        "отель"
+      ]
+    },
+    {
+      "id": "d23-order-9",
+      "type": "wordOrder",
+      "wordId": "d23-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Где багаж?",
+      "sentenceEn": "Where is the luggage?",
+      "audio": "",
+      "tokens": [
+        "Где",
+        "багаж"
+      ],
+      "pool": [
+        "уехать",
+        "Где",
+        "приехать",
+        "экскурсия",
+        "багаж"
+      ]
+    },
+    {
+      "id": "d23-order-10",
+      "type": "wordOrder",
+      "wordId": "d23-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Я турист.",
+      "sentenceEn": "I am a tourist.",
+      "audio": "",
+      "tokens": [
+        "Я",
+        "турист"
+      ],
+      "pool": [
+        "паспорт",
+        "Я",
+        "отель",
+        "турист",
+        "билет"
+      ]
+    },
+    {
+      "id": "d23-order-11",
+      "type": "wordOrder",
+      "wordId": "d23-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Много туристов.",
+      "sentenceEn": "Many tourists.",
+      "audio": "",
+      "tokens": [
+        "Много",
+        "туристов"
+      ],
+      "pool": [
+        "уехать",
+        "Много",
+        "номер",
+        "туристов",
+        "багаж"
+      ]
+    },
+    {
+      "id": "d23-order-12",
+      "type": "wordOrder",
+      "wordId": "d23-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Экскурсия завтра.",
+      "sentenceEn": "The tour is tomorrow.",
+      "audio": "",
+      "tokens": [
+        "Экскурсия",
+        "завтра"
+      ],
+      "pool": [
+        "паспорт",
+        "турист",
+        "завтра",
+        "уехать",
+        "Экскурсия"
+      ]
+    },
+    {
+      "id": "d23-order-13",
+      "type": "wordOrder",
+      "wordId": "d23-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Интересная экскурсия.",
+      "sentenceEn": "An interesting tour.",
+      "audio": "",
+      "tokens": [
+        "Интересная",
+        "экскурсия"
+      ],
+      "pool": [
+        "экскурсия",
+        "билет",
+        "Интересная",
+        "паспорт",
+        "багаж"
+      ]
+    },
+    {
+      "id": "d23-order-14",
+      "type": "wordOrder",
+      "wordId": "d23-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Хорошее путешествие.",
+      "sentenceEn": "A good trip.",
+      "audio": "",
+      "tokens": [
+        "Хорошее",
+        "путешествие"
+      ],
+      "pool": [
+        "турист",
+        "Хорошее",
+        "багаж",
+        "путешествие",
+        "отель"
+      ]
+    },
+    {
+      "id": "d23-order-15",
+      "type": "wordOrder",
+      "wordId": "d23-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Люблю путешествия.",
+      "sentenceEn": "I love travel.",
+      "audio": "",
+      "tokens": [
+        "Люблю",
+        "путешествия"
+      ],
+      "pool": [
+        "номер",
+        "путешествия",
+        "билет",
+        "приехать",
+        "Люблю"
+      ]
+    },
+    {
+      "id": "d23-order-16",
+      "type": "wordOrder",
+      "wordId": "d23-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Приеду завтра.",
+      "sentenceEn": "I will arrive tomorrow.",
+      "audio": "",
+      "tokens": [
+        "Приеду",
+        "завтра"
+      ],
+      "pool": [
+        "отель",
+        "Приеду",
+        "номер",
+        "билет",
+        "завтра"
+      ]
+    },
+    {
+      "id": "d23-order-17",
+      "type": "wordOrder",
+      "wordId": "d23-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Когда приедешь?",
+      "sentenceEn": "When will you arrive?",
+      "audio": "",
+      "tokens": [
+        "Когда",
+        "приедешь"
+      ],
+      "pool": [
+        "билет",
+        "приедешь",
+        "Когда",
+        "багаж",
+        "паспорт"
+      ]
+    },
+    {
+      "id": "d23-order-18",
+      "type": "wordOrder",
+      "wordId": "d23-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Уеду в пятницу.",
+      "sentenceEn": "I will leave on Friday.",
+      "audio": "",
+      "tokens": [
+        "Уеду",
+        "в",
+        "пятницу"
+      ],
+      "pool": [
+        "Уеду",
+        "паспорт",
+        "в",
+        "пятницу",
+        "билет",
+        "путешествие"
+      ]
+    },
+    {
+      "id": "d23-order-19",
+      "type": "wordOrder",
+      "wordId": "d23-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Пора уехать.",
+      "sentenceEn": "Time to leave.",
+      "audio": "",
+      "tokens": [
+        "Пора",
+        "уехать"
+      ],
+      "pool": [
+        "отель",
+        "экскурсия",
+        "турист",
+        "уехать",
+        "Пора"
+      ]
+    },
+    {
+      "id": "d23-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d23-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d23-w01.svg",
+      "options": [
+        "путешествие",
+        "билет",
+        "приехать",
+        "отель"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d23-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d23-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d23-w02.svg",
+      "options": [
+        "номер",
+        "турист",
+        "паспорт",
+        "билет"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d23-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d23-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d23-w03.svg",
+      "options": [
+        "путешествие",
+        "приехать",
+        "билет",
+        "номер"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d23-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d23-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d23-w04.svg",
+      "options": [
+        "турист",
+        "номер",
+        "багаж",
+        "паспорт"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d23-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d23-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d23-w05.svg",
+      "options": [
+        "приехать",
+        "турист",
+        "багаж",
+        "отель"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d23-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d23-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d23-w06.svg",
+      "options": [
+        "турист",
+        "отель",
+        "уехать",
+        "багаж"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d23-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d23-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d23-w07.svg",
+      "options": [
+        "номер",
+        "экскурсия",
+        "путешествие",
+        "багаж"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d23-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d23-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d23-w08.svg",
+      "options": [
+        "уехать",
+        "номер",
+        "приехать",
+        "путешествие"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d23-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d23-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d23-w09.svg",
+      "options": [
+        "приехать",
+        "паспорт",
+        "экскурсия",
+        "путешествие"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d23-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d23-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d23-w10.svg",
+      "options": [
+        "турист",
+        "номер",
+        "паспорт",
+        "уехать"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

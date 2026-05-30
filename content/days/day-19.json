@@ -1,0 +1,731 @@
+{
+  "day": 19,
+  "theme": "Sports & movement",
+  "grammarFocus": "Verbs of motion (unidirectional)",
+  "words": [
+    {
+      "id": "d19-w01",
+      "ru": "футбол",
+      "en": "football / soccer",
+      "audio": "/audio/day19/футбол.mp3",
+      "image": "/images/vocab/d19-w01.svg",
+      "sentences": [
+        {
+          "ru": "Играем в футбол.",
+          "en": "We play football."
+        },
+        {
+          "ru": "Люблю футбол.",
+          "en": "I love football."
+        }
+      ]
+    },
+    {
+      "id": "d19-w02",
+      "ru": "бег",
+      "en": "running",
+      "audio": "/audio/day19/бег.mp3",
+      "image": "/images/vocab/d19-w02.svg",
+      "sentences": [
+        {
+          "ru": "Бег полезен.",
+          "en": "Running is healthy."
+        },
+        {
+          "ru": "Утренний бег.",
+          "en": "Morning run."
+        }
+      ]
+    },
+    {
+      "id": "d19-w03",
+      "ru": "плавание",
+      "en": "swimming",
+      "audio": "/audio/day19/плавание.mp3",
+      "image": "/images/vocab/d19-w03.svg",
+      "sentences": [
+        {
+          "ru": "Плавание — мой спорт.",
+          "en": "Swimming is my sport."
+        },
+        {
+          "ru": "Занимаюсь плаванием.",
+          "en": "I do swimming."
+        }
+      ]
+    },
+    {
+      "id": "d19-w04",
+      "ru": "тренировка",
+      "en": "training / workout",
+      "audio": "/audio/day19/тренировка.mp3",
+      "image": "/images/vocab/d19-w04.svg",
+      "sentences": [
+        {
+          "ru": "Тренировка в шесть.",
+          "en": "Training at six."
+        },
+        {
+          "ru": "Тяжёлая тренировка.",
+          "en": "Hard workout."
+        }
+      ]
+    },
+    {
+      "id": "d19-w05",
+      "ru": "команда",
+      "en": "team",
+      "audio": "/audio/day19/команда.mp3",
+      "image": "/images/vocab/d19-w05.svg",
+      "sentences": [
+        {
+          "ru": "Наша команда выиграла.",
+          "en": "Our team won."
+        },
+        {
+          "ru": "Сильная команда.",
+          "en": "Strong team."
+        }
+      ]
+    },
+    {
+      "id": "d19-w06",
+      "ru": "победа",
+      "en": "victory / win",
+      "audio": "/audio/day19/победа.mp3",
+      "image": "/images/vocab/d19-w06.svg",
+      "sentences": [
+        {
+          "ru": "Победа важна.",
+          "en": "Victory is important."
+        },
+        {
+          "ru": "Сладкая победа.",
+          "en": "Sweet victory."
+        }
+      ]
+    },
+    {
+      "id": "d19-w07",
+      "ru": "бегать",
+      "en": "to run (multi-dir)",
+      "audio": "/audio/day19/бегать.mp3",
+      "image": "/images/vocab/d19-w07.svg",
+      "sentences": [
+        {
+          "ru": "Бегаю каждый день.",
+          "en": "I run every day."
+        },
+        {
+          "ru": "Дети бегают.",
+          "en": "Children run."
+        }
+      ]
+    },
+    {
+      "id": "d19-w08",
+      "ru": "плавать",
+      "en": "to swim",
+      "audio": "/audio/day19/плавать.mp3",
+      "image": "/images/vocab/d19-w08.svg",
+      "sentences": [
+        {
+          "ru": "Плаваю в бассейне.",
+          "en": "I swim in the pool."
+        },
+        {
+          "ru": "Умею плавать.",
+          "en": "I can swim."
+        }
+      ]
+    },
+    {
+      "id": "d19-w09",
+      "ru": "прыгать",
+      "en": "to jump",
+      "audio": "/audio/day19/прыгать.mp3",
+      "image": "/images/vocab/d19-w09.svg",
+      "sentences": [
+        {
+          "ru": "Прыгаю высоко.",
+          "en": "I jump high."
+        },
+        {
+          "ru": "Кошка прыгает.",
+          "en": "The cat jumps."
+        }
+      ]
+    },
+    {
+      "id": "d19-w10",
+      "ru": "победить",
+      "en": "to win / defeat",
+      "audio": "/audio/day19/победить.mp3",
+      "image": "/images/vocab/d19-w10.svg",
+      "sentences": [
+        {
+          "ru": "Мы победили!",
+          "en": "We won!"
+        },
+        {
+          "ru": "Хочу победить.",
+          "en": "I want to win."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d19-order-0",
+      "type": "wordOrder",
+      "wordId": "d19-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Играем в футбол.",
+      "sentenceEn": "We play football.",
+      "audio": "",
+      "tokens": [
+        "Играем",
+        "в",
+        "футбол"
+      ],
+      "pool": [
+        "Играем",
+        "победить",
+        "в",
+        "футбол",
+        "победа",
+        "плавать"
+      ]
+    },
+    {
+      "id": "d19-order-1",
+      "type": "wordOrder",
+      "wordId": "d19-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Люблю футбол.",
+      "sentenceEn": "I love football.",
+      "audio": "",
+      "tokens": [
+        "Люблю",
+        "футбол"
+      ],
+      "pool": [
+        "победить",
+        "плавать",
+        "Люблю",
+        "футбол",
+        "победа"
+      ]
+    },
+    {
+      "id": "d19-order-2",
+      "type": "wordOrder",
+      "wordId": "d19-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Бег полезен.",
+      "sentenceEn": "Running is healthy.",
+      "audio": "",
+      "tokens": [
+        "Бег",
+        "полезен"
+      ],
+      "pool": [
+        "победить",
+        "Бег",
+        "тренировка",
+        "бегать",
+        "полезен"
+      ]
+    },
+    {
+      "id": "d19-order-3",
+      "type": "wordOrder",
+      "wordId": "d19-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Утренний бег.",
+      "sentenceEn": "Morning run.",
+      "audio": "",
+      "tokens": [
+        "Утренний",
+        "бег"
+      ],
+      "pool": [
+        "плавание",
+        "бег",
+        "Утренний",
+        "прыгать",
+        "футбол"
+      ]
+    },
+    {
+      "id": "d19-order-4",
+      "type": "wordOrder",
+      "wordId": "d19-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Плавание — мой спорт.",
+      "sentenceEn": "Swimming is my sport.",
+      "audio": "",
+      "tokens": [
+        "Плавание",
+        "мой",
+        "спорт"
+      ],
+      "pool": [
+        "победа",
+        "бегать",
+        "мой",
+        "спорт",
+        "Плавание",
+        "команда"
+      ]
+    },
+    {
+      "id": "d19-order-5",
+      "type": "wordOrder",
+      "wordId": "d19-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Занимаюсь плаванием.",
+      "sentenceEn": "I do swimming.",
+      "audio": "",
+      "tokens": [
+        "Занимаюсь",
+        "плаванием"
+      ],
+      "pool": [
+        "бегать",
+        "бег",
+        "Занимаюсь",
+        "плавать",
+        "плаванием"
+      ]
+    },
+    {
+      "id": "d19-order-6",
+      "type": "wordOrder",
+      "wordId": "d19-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Тренировка в шесть.",
+      "sentenceEn": "Training at six.",
+      "audio": "",
+      "tokens": [
+        "Тренировка",
+        "в",
+        "шесть"
+      ],
+      "pool": [
+        "футбол",
+        "прыгать",
+        "Тренировка",
+        "бег",
+        "в",
+        "шесть"
+      ]
+    },
+    {
+      "id": "d19-order-7",
+      "type": "wordOrder",
+      "wordId": "d19-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Тяжёлая тренировка.",
+      "sentenceEn": "Hard workout.",
+      "audio": "",
+      "tokens": [
+        "Тяжёлая",
+        "тренировка"
+      ],
+      "pool": [
+        "тренировка",
+        "плавать",
+        "Тяжёлая",
+        "футбол",
+        "победа"
+      ]
+    },
+    {
+      "id": "d19-order-8",
+      "type": "wordOrder",
+      "wordId": "d19-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Наша команда выиграла.",
+      "sentenceEn": "Our team won.",
+      "audio": "",
+      "tokens": [
+        "Наша",
+        "команда",
+        "выиграла"
+      ],
+      "pool": [
+        "команда",
+        "выиграла",
+        "бег",
+        "плавание",
+        "Наша",
+        "футбол"
+      ]
+    },
+    {
+      "id": "d19-order-9",
+      "type": "wordOrder",
+      "wordId": "d19-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Сильная команда.",
+      "sentenceEn": "Strong team.",
+      "audio": "",
+      "tokens": [
+        "Сильная",
+        "команда"
+      ],
+      "pool": [
+        "футбол",
+        "тренировка",
+        "Сильная",
+        "плавать",
+        "команда"
+      ]
+    },
+    {
+      "id": "d19-order-10",
+      "type": "wordOrder",
+      "wordId": "d19-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Победа важна.",
+      "sentenceEn": "Victory is important.",
+      "audio": "",
+      "tokens": [
+        "Победа",
+        "важна"
+      ],
+      "pool": [
+        "важна",
+        "бегать",
+        "Победа",
+        "прыгать",
+        "команда"
+      ]
+    },
+    {
+      "id": "d19-order-11",
+      "type": "wordOrder",
+      "wordId": "d19-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Сладкая победа.",
+      "sentenceEn": "Sweet victory.",
+      "audio": "",
+      "tokens": [
+        "Сладкая",
+        "победа"
+      ],
+      "pool": [
+        "плавать",
+        "Сладкая",
+        "победить",
+        "победа",
+        "плавание"
+      ]
+    },
+    {
+      "id": "d19-order-12",
+      "type": "wordOrder",
+      "wordId": "d19-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Бегаю каждый день.",
+      "sentenceEn": "I run every day.",
+      "audio": "",
+      "tokens": [
+        "Бегаю",
+        "каждый",
+        "день"
+      ],
+      "pool": [
+        "тренировка",
+        "Бегаю",
+        "победа",
+        "каждый",
+        "победить",
+        "день"
+      ]
+    },
+    {
+      "id": "d19-order-13",
+      "type": "wordOrder",
+      "wordId": "d19-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Дети бегают.",
+      "sentenceEn": "Children run.",
+      "audio": "",
+      "tokens": [
+        "Дети",
+        "бегают"
+      ],
+      "pool": [
+        "прыгать",
+        "плавание",
+        "тренировка",
+        "бегают",
+        "Дети"
+      ]
+    },
+    {
+      "id": "d19-order-14",
+      "type": "wordOrder",
+      "wordId": "d19-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Плаваю в бассейне.",
+      "sentenceEn": "I swim in the pool.",
+      "audio": "",
+      "tokens": [
+        "Плаваю",
+        "в",
+        "бассейне"
+      ],
+      "pool": [
+        "в",
+        "прыгать",
+        "бассейне",
+        "Плаваю",
+        "футбол",
+        "тренировка"
+      ]
+    },
+    {
+      "id": "d19-order-15",
+      "type": "wordOrder",
+      "wordId": "d19-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Умею плавать.",
+      "sentenceEn": "I can swim.",
+      "audio": "",
+      "tokens": [
+        "Умею",
+        "плавать"
+      ],
+      "pool": [
+        "команда",
+        "победа",
+        "плавать",
+        "Умею",
+        "бег"
+      ]
+    },
+    {
+      "id": "d19-order-16",
+      "type": "wordOrder",
+      "wordId": "d19-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Прыгаю высоко.",
+      "sentenceEn": "I jump high.",
+      "audio": "",
+      "tokens": [
+        "Прыгаю",
+        "высоко"
+      ],
+      "pool": [
+        "плавание",
+        "футбол",
+        "Прыгаю",
+        "высоко",
+        "тренировка"
+      ]
+    },
+    {
+      "id": "d19-order-17",
+      "type": "wordOrder",
+      "wordId": "d19-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Кошка прыгает.",
+      "sentenceEn": "The cat jumps.",
+      "audio": "",
+      "tokens": [
+        "Кошка",
+        "прыгает"
+      ],
+      "pool": [
+        "команда",
+        "плавание",
+        "бегать",
+        "Кошка",
+        "прыгает"
+      ]
+    },
+    {
+      "id": "d19-order-18",
+      "type": "wordOrder",
+      "wordId": "d19-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мы победили!",
+      "sentenceEn": "We won!",
+      "audio": "",
+      "tokens": [
+        "Мы",
+        "победили"
+      ],
+      "pool": [
+        "Мы",
+        "плавать",
+        "победили",
+        "победа",
+        "команда"
+      ]
+    },
+    {
+      "id": "d19-order-19",
+      "type": "wordOrder",
+      "wordId": "d19-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Хочу победить.",
+      "sentenceEn": "I want to win.",
+      "audio": "",
+      "tokens": [
+        "Хочу",
+        "победить"
+      ],
+      "pool": [
+        "победа",
+        "бег",
+        "победить",
+        "тренировка",
+        "Хочу"
+      ]
+    },
+    {
+      "id": "d19-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d19-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d19-w01.svg",
+      "options": [
+        "футбол",
+        "бегать",
+        "тренировка",
+        "бег"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d19-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d19-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d19-w02.svg",
+      "options": [
+        "команда",
+        "плавать",
+        "бег",
+        "прыгать"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d19-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d19-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d19-w03.svg",
+      "options": [
+        "тренировка",
+        "плавание",
+        "футбол",
+        "бегать"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d19-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d19-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d19-w04.svg",
+      "options": [
+        "тренировка",
+        "команда",
+        "бегать",
+        "прыгать"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d19-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d19-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d19-w05.svg",
+      "options": [
+        "бег",
+        "команда",
+        "плавать",
+        "тренировка"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d19-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d19-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d19-w06.svg",
+      "options": [
+        "прыгать",
+        "команда",
+        "победа",
+        "футбол"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d19-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d19-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d19-w07.svg",
+      "options": [
+        "тренировка",
+        "плавание",
+        "футбол",
+        "бегать"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d19-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d19-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d19-w08.svg",
+      "options": [
+        "тренировка",
+        "команда",
+        "прыгать",
+        "плавать"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d19-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d19-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d19-w09.svg",
+      "options": [
+        "команда",
+        "победа",
+        "прыгать",
+        "футбол"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d19-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d19-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d19-w10.svg",
+      "options": [
+        "команда",
+        "тренировка",
+        "победить",
+        "прыгать"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

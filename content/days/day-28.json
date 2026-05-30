@@ -1,0 +1,747 @@
+{
+  "day": 28,
+  "theme": "Conditional & wishes",
+  "grammarFocus": "бы + past/conditional mood lite",
+  "words": [
+    {
+      "id": "d28-w01",
+      "ru": "если",
+      "en": "if",
+      "audio": "/audio/day28/если.mp3",
+      "image": "/images/vocab/d28-w01.svg",
+      "sentences": [
+        {
+          "ru": "Если будет время.",
+          "en": "If there is time."
+        },
+        {
+          "ru": "Если хочешь.",
+          "en": "If you want."
+        }
+      ]
+    },
+    {
+      "id": "d28-w02",
+      "ru": "хотел бы",
+      "en": "would like (masc)",
+      "audio": "/audio/day28/хотел-бы.mp3",
+      "image": "/images/vocab/d28-w02.svg",
+      "sentences": [
+        {
+          "ru": "Я хотел бы кофе.",
+          "en": "I would like coffee."
+        },
+        {
+          "ru": "Хотел бы помочь.",
+          "en": "Would like to help."
+        }
+      ]
+    },
+    {
+      "id": "d28-w03",
+      "ru": "мог бы",
+      "en": "could (masc)",
+      "audio": "/audio/day28/мог-бы.mp3",
+      "image": "/images/vocab/d28-w03.svg",
+      "sentences": [
+        {
+          "ru": "Мог бы помочь.",
+          "en": "Could help."
+        },
+        {
+          "ru": "Не мог бы ты?",
+          "en": "Could you?"
+        }
+      ]
+    },
+    {
+      "id": "d28-w04",
+      "ru": "мечта",
+      "en": "dream",
+      "audio": "/audio/day28/мечта.mp3",
+      "image": "/images/vocab/d28-w04.svg",
+      "sentences": [
+        {
+          "ru": "Моя мечта.",
+          "en": "My dream."
+        },
+        {
+          "ru": "Мечта сбылась.",
+          "en": "The dream came true."
+        }
+      ]
+    },
+    {
+      "id": "d28-w05",
+      "ru": "надежда",
+      "en": "hope",
+      "audio": "/audio/day28/надежда.mp3",
+      "image": "/images/vocab/d28-w05.svg",
+      "sentences": [
+        {
+          "ru": "Есть надежда.",
+          "en": "There is hope."
+        },
+        {
+          "ru": "Не теряй надежду.",
+          "en": "Don't lose hope."
+        }
+      ]
+    },
+    {
+      "id": "d28-w06",
+      "ru": "желание",
+      "en": "wish / desire",
+      "audio": "/audio/day28/желание.mp3",
+      "image": "/images/vocab/d28-w06.svg",
+      "sentences": [
+        {
+          "ru": "Моё желание.",
+          "en": "My wish."
+        },
+        {
+          "ru": "Исполнение желания.",
+          "en": "Wish fulfillment."
+        }
+      ]
+    },
+    {
+      "id": "d28-w07",
+      "ru": "надеяться",
+      "en": "to hope",
+      "audio": "/audio/day28/надеяться.mp3",
+      "image": "/images/vocab/d28-w07.svg",
+      "sentences": [
+        {
+          "ru": "Надеюсь на лучшее.",
+          "en": "I hope for the best."
+        },
+        {
+          "ru": "Надеюсь, да.",
+          "en": "I hope so."
+        }
+      ]
+    },
+    {
+      "id": "d28-w08",
+      "ru": "мечтать",
+      "en": "to dream",
+      "audio": "/audio/day28/мечтать.mp3",
+      "image": "/images/vocab/d28-w08.svg",
+      "sentences": [
+        {
+          "ru": "Мечтаю о море.",
+          "en": "I dream of the sea."
+        },
+        {
+          "ru": "Не переставай мечтать.",
+          "en": "Don't stop dreaming."
+        }
+      ]
+    },
+    {
+      "id": "d28-w09",
+      "ru": "пожелать",
+      "en": "to wish",
+      "audio": "/audio/day28/пожелать.mp3",
+      "image": "/images/vocab/d28-w09.svg",
+      "sentences": [
+        {
+          "ru": "Желаю успеха.",
+          "en": "I wish you success."
+        },
+        {
+          "ru": "Что пожелаешь?",
+          "en": "What do you wish?"
+        }
+      ]
+    },
+    {
+      "id": "d28-w10",
+      "ru": "бы",
+      "en": "would / conditional particle",
+      "audio": "/audio/day28/бы.mp3",
+      "image": "/images/vocab/d28-w10.svg",
+      "sentences": [
+        {
+          "ru": "Я бы поехал.",
+          "en": "I would go."
+        },
+        {
+          "ru": "Как бы не опоздать.",
+          "en": "Hope I am not late."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d28-order-0",
+      "type": "wordOrder",
+      "wordId": "d28-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Если будет время.",
+      "sentenceEn": "If there is time.",
+      "audio": "",
+      "tokens": [
+        "Если",
+        "будет",
+        "время"
+      ],
+      "pool": [
+        "бы",
+        "надежда",
+        "надеяться",
+        "Если",
+        "будет",
+        "время"
+      ]
+    },
+    {
+      "id": "d28-order-1",
+      "type": "wordOrder",
+      "wordId": "d28-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Если хочешь.",
+      "sentenceEn": "If you want.",
+      "audio": "",
+      "tokens": [
+        "Если",
+        "хочешь"
+      ],
+      "pool": [
+        "надежда",
+        "Если",
+        "пожелать",
+        "мог бы",
+        "хочешь"
+      ]
+    },
+    {
+      "id": "d28-order-2",
+      "type": "wordOrder",
+      "wordId": "d28-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Я хотел бы кофе.",
+      "sentenceEn": "I would like coffee.",
+      "audio": "",
+      "tokens": [
+        "Я",
+        "хотел",
+        "бы",
+        "кофе"
+      ],
+      "pool": [
+        "Я",
+        "если",
+        "желание",
+        "кофе",
+        "надежда",
+        "бы",
+        "хотел"
+      ]
+    },
+    {
+      "id": "d28-order-3",
+      "type": "wordOrder",
+      "wordId": "d28-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Хотел бы помочь.",
+      "sentenceEn": "Would like to help.",
+      "audio": "",
+      "tokens": [
+        "Хотел",
+        "бы",
+        "помочь"
+      ],
+      "pool": [
+        "бы",
+        "помочь",
+        "желание",
+        "Хотел",
+        "если",
+        "надеяться"
+      ]
+    },
+    {
+      "id": "d28-order-4",
+      "type": "wordOrder",
+      "wordId": "d28-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мог бы помочь.",
+      "sentenceEn": "Could help.",
+      "audio": "",
+      "tokens": [
+        "Мог",
+        "бы",
+        "помочь"
+      ],
+      "pool": [
+        "помочь",
+        "бы",
+        "мечтать",
+        "если",
+        "пожелать",
+        "Мог"
+      ]
+    },
+    {
+      "id": "d28-order-5",
+      "type": "wordOrder",
+      "wordId": "d28-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Не мог бы ты?",
+      "sentenceEn": "Could you?",
+      "audio": "",
+      "tokens": [
+        "Не",
+        "мог",
+        "бы",
+        "ты"
+      ],
+      "pool": [
+        "ты",
+        "мог",
+        "Не",
+        "мечта",
+        "надеяться",
+        "бы",
+        "если"
+      ]
+    },
+    {
+      "id": "d28-order-6",
+      "type": "wordOrder",
+      "wordId": "d28-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Моя мечта.",
+      "sentenceEn": "My dream.",
+      "audio": "",
+      "tokens": [
+        "Моя",
+        "мечта"
+      ],
+      "pool": [
+        "надеяться",
+        "хотел бы",
+        "желание",
+        "Моя",
+        "мечта"
+      ]
+    },
+    {
+      "id": "d28-order-7",
+      "type": "wordOrder",
+      "wordId": "d28-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мечта сбылась.",
+      "sentenceEn": "The dream came true.",
+      "audio": "",
+      "tokens": [
+        "Мечта",
+        "сбылась"
+      ],
+      "pool": [
+        "Мечта",
+        "сбылась",
+        "мечтать",
+        "пожелать",
+        "бы"
+      ]
+    },
+    {
+      "id": "d28-order-8",
+      "type": "wordOrder",
+      "wordId": "d28-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Есть надежда.",
+      "sentenceEn": "There is hope.",
+      "audio": "",
+      "tokens": [
+        "Есть",
+        "надежда"
+      ],
+      "pool": [
+        "надеяться",
+        "надежда",
+        "Есть",
+        "желание",
+        "если"
+      ]
+    },
+    {
+      "id": "d28-order-9",
+      "type": "wordOrder",
+      "wordId": "d28-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Не теряй надежду.",
+      "sentenceEn": "Don't lose hope.",
+      "audio": "",
+      "tokens": [
+        "Не",
+        "теряй",
+        "надежду"
+      ],
+      "pool": [
+        "бы",
+        "если",
+        "Не",
+        "теряй",
+        "хотел бы",
+        "надежду"
+      ]
+    },
+    {
+      "id": "d28-order-10",
+      "type": "wordOrder",
+      "wordId": "d28-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Моё желание.",
+      "sentenceEn": "My wish.",
+      "audio": "",
+      "tokens": [
+        "Моё",
+        "желание"
+      ],
+      "pool": [
+        "надеяться",
+        "мечтать",
+        "мог бы",
+        "желание",
+        "Моё"
+      ]
+    },
+    {
+      "id": "d28-order-11",
+      "type": "wordOrder",
+      "wordId": "d28-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Исполнение желания.",
+      "sentenceEn": "Wish fulfillment.",
+      "audio": "",
+      "tokens": [
+        "Исполнение",
+        "желания"
+      ],
+      "pool": [
+        "пожелать",
+        "надежда",
+        "если",
+        "Исполнение",
+        "желания"
+      ]
+    },
+    {
+      "id": "d28-order-12",
+      "type": "wordOrder",
+      "wordId": "d28-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Надеюсь на лучшее.",
+      "sentenceEn": "I hope for the best.",
+      "audio": "",
+      "tokens": [
+        "Надеюсь",
+        "на",
+        "лучшее"
+      ],
+      "pool": [
+        "лучшее",
+        "пожелать",
+        "Надеюсь",
+        "на",
+        "мечтать",
+        "мечта"
+      ]
+    },
+    {
+      "id": "d28-order-13",
+      "type": "wordOrder",
+      "wordId": "d28-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Надеюсь, да.",
+      "sentenceEn": "I hope so.",
+      "audio": "",
+      "tokens": [
+        "Надеюсь",
+        "да"
+      ],
+      "pool": [
+        "хотел бы",
+        "надежда",
+        "Надеюсь",
+        "да",
+        "мечтать"
+      ]
+    },
+    {
+      "id": "d28-order-14",
+      "type": "wordOrder",
+      "wordId": "d28-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мечтаю о море.",
+      "sentenceEn": "I dream of the sea.",
+      "audio": "",
+      "tokens": [
+        "Мечтаю",
+        "о",
+        "море"
+      ],
+      "pool": [
+        "о",
+        "надеяться",
+        "пожелать",
+        "Мечтаю",
+        "хотел бы",
+        "море"
+      ]
+    },
+    {
+      "id": "d28-order-15",
+      "type": "wordOrder",
+      "wordId": "d28-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Не переставай мечтать.",
+      "sentenceEn": "Don't stop dreaming.",
+      "audio": "",
+      "tokens": [
+        "Не",
+        "переставай",
+        "мечтать"
+      ],
+      "pool": [
+        "переставай",
+        "если",
+        "Не",
+        "мечтать",
+        "желание",
+        "мечта"
+      ]
+    },
+    {
+      "id": "d28-order-16",
+      "type": "wordOrder",
+      "wordId": "d28-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Желаю успеха.",
+      "sentenceEn": "I wish you success.",
+      "audio": "",
+      "tokens": [
+        "Желаю",
+        "успеха"
+      ],
+      "pool": [
+        "Желаю",
+        "надежда",
+        "мечта",
+        "успеха",
+        "бы"
+      ]
+    },
+    {
+      "id": "d28-order-17",
+      "type": "wordOrder",
+      "wordId": "d28-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Что пожелаешь?",
+      "sentenceEn": "What do you wish?",
+      "audio": "",
+      "tokens": [
+        "Что",
+        "пожелаешь"
+      ],
+      "pool": [
+        "Что",
+        "пожелаешь",
+        "мечта",
+        "надеяться",
+        "бы"
+      ]
+    },
+    {
+      "id": "d28-order-18",
+      "type": "wordOrder",
+      "wordId": "d28-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Я бы поехал.",
+      "sentenceEn": "I would go.",
+      "audio": "",
+      "tokens": [
+        "Я",
+        "бы",
+        "поехал"
+      ],
+      "pool": [
+        "надежда",
+        "поехал",
+        "мечтать",
+        "если",
+        "бы",
+        "Я"
+      ]
+    },
+    {
+      "id": "d28-order-19",
+      "type": "wordOrder",
+      "wordId": "d28-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Как бы не опоздать.",
+      "sentenceEn": "Hope I am not late.",
+      "audio": "",
+      "tokens": [
+        "Как",
+        "бы",
+        "не",
+        "опоздать"
+      ],
+      "pool": [
+        "бы",
+        "опоздать",
+        "Как",
+        "надеяться",
+        "мечтать",
+        "не",
+        "если"
+      ]
+    },
+    {
+      "id": "d28-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d28-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d28-w01.svg",
+      "options": [
+        "если",
+        "надежда",
+        "хотел бы",
+        "надеяться"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d28-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d28-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d28-w02.svg",
+      "options": [
+        "если",
+        "хотел бы",
+        "надежда",
+        "надеяться"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d28-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d28-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d28-w03.svg",
+      "options": [
+        "мечта",
+        "мог бы",
+        "хотел бы",
+        "надежда"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d28-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d28-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d28-w04.svg",
+      "options": [
+        "мечтать",
+        "надеяться",
+        "пожелать",
+        "мечта"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d28-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d28-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d28-w05.svg",
+      "options": [
+        "если",
+        "мечтать",
+        "пожелать",
+        "надежда"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d28-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d28-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d28-w06.svg",
+      "options": [
+        "пожелать",
+        "желание",
+        "если",
+        "бы"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d28-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d28-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d28-w07.svg",
+      "options": [
+        "пожелать",
+        "желание",
+        "бы",
+        "надеяться"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d28-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d28-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d28-w08.svg",
+      "options": [
+        "мечтать",
+        "желание",
+        "бы",
+        "мог бы"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d28-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d28-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d28-w09.svg",
+      "options": [
+        "надеяться",
+        "мечтать",
+        "желание",
+        "пожелать"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d28-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d28-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d28-w10.svg",
+      "options": [
+        "желание",
+        "бы",
+        "если",
+        "мечта"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

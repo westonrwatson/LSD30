@@ -1,0 +1,725 @@
+{
+  "day": 16,
+  "theme": "Clothing & shopping",
+  "grammarFocus": "Accusative animate/inanimate",
+  "words": [
+    {
+      "id": "d16-w01",
+      "ru": "одежда",
+      "en": "clothes",
+      "audio": "/audio/day16/одежда.mp3",
+      "image": "/images/vocab/d16-w01.svg",
+      "sentences": [
+        {
+          "ru": "Новая одежда.",
+          "en": "New clothes."
+        },
+        {
+          "ru": "Магазин одежды.",
+          "en": "Clothing store."
+        }
+      ]
+    },
+    {
+      "id": "d16-w02",
+      "ru": "рубашка",
+      "en": "shirt",
+      "audio": "/audio/day16/рубашка.mp3",
+      "image": "/images/vocab/d16-w02.svg",
+      "sentences": [
+        {
+          "ru": "Белая рубашка.",
+          "en": "A white shirt."
+        },
+        {
+          "ru": "Купи рубашку.",
+          "en": "Buy a shirt."
+        }
+      ]
+    },
+    {
+      "id": "d16-w03",
+      "ru": "платье",
+      "en": "dress",
+      "audio": "/audio/day16/платье.mp3",
+      "image": "/images/vocab/d16-w03.svg",
+      "sentences": [
+        {
+          "ru": "Красивое платье.",
+          "en": "A beautiful dress."
+        },
+        {
+          "ru": "Она в платье.",
+          "en": "She is in a dress."
+        }
+      ]
+    },
+    {
+      "id": "d16-w04",
+      "ru": "брюки",
+      "en": "pants / trousers",
+      "audio": "/audio/day16/брюки.mp3",
+      "image": "/images/vocab/d16-w04.svg",
+      "sentences": [
+        {
+          "ru": "Чёрные брюки.",
+          "en": "Black pants."
+        },
+        {
+          "ru": "Новые брюки.",
+          "en": "New pants."
+        }
+      ]
+    },
+    {
+      "id": "d16-w05",
+      "ru": "обувь",
+      "en": "footwear / shoes",
+      "audio": "/audio/day16/обувь.mp3",
+      "image": "/images/vocab/d16-w05.svg",
+      "sentences": [
+        {
+          "ru": "Удобная обувь.",
+          "en": "Comfortable shoes."
+        },
+        {
+          "ru": "Магазин обуви.",
+          "en": "Shoe store."
+        }
+      ]
+    },
+    {
+      "id": "d16-w06",
+      "ru": "размер",
+      "en": "size",
+      "audio": "/audio/day16/размер.mp3",
+      "image": "/images/vocab/d16-w06.svg",
+      "sentences": [
+        {
+          "ru": "Какой размер?",
+          "en": "What size?"
+        },
+        {
+          "ru": "Мой размер — средний.",
+          "en": "My size is medium."
+        }
+      ]
+    },
+    {
+      "id": "d16-w07",
+      "ru": "цена",
+      "en": "price",
+      "audio": "/audio/day16/цена.mp3",
+      "image": "/images/vocab/d16-w07.svg",
+      "sentences": [
+        {
+          "ru": "Какая цена?",
+          "en": "What is the price?"
+        },
+        {
+          "ru": "Цена высокая.",
+          "en": "The price is high."
+        }
+      ]
+    },
+    {
+      "id": "d16-w08",
+      "ru": "скидка",
+      "en": "discount",
+      "audio": "/audio/day16/скидка.mp3",
+      "image": "/images/vocab/d16-w08.svg",
+      "sentences": [
+        {
+          "ru": "Большая скидка.",
+          "en": "A big discount."
+        },
+        {
+          "ru": "Скидка пятьдесят процентов.",
+          "en": "Fifty percent discount."
+        }
+      ]
+    },
+    {
+      "id": "d16-w09",
+      "ru": "примерить",
+      "en": "to try on",
+      "audio": "/audio/day16/примерить.mp3",
+      "image": "/images/vocab/d16-w09.svg",
+      "sentences": [
+        {
+          "ru": "Можно примерить?",
+          "en": "Can I try it on?"
+        },
+        {
+          "ru": "Примерьте это.",
+          "en": "Try this on."
+        }
+      ]
+    },
+    {
+      "id": "d16-w10",
+      "ru": "купить",
+      "en": "to buy",
+      "audio": "/audio/day16/купить.mp3",
+      "image": "/images/vocab/d16-w10.svg",
+      "sentences": [
+        {
+          "ru": "Хочу купить.",
+          "en": "I want to buy."
+        },
+        {
+          "ru": "Купи хлеб.",
+          "en": "Buy bread."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d16-order-0",
+      "type": "wordOrder",
+      "wordId": "d16-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Новая одежда.",
+      "sentenceEn": "New clothes.",
+      "audio": "",
+      "tokens": [
+        "Новая",
+        "одежда"
+      ],
+      "pool": [
+        "Новая",
+        "цена",
+        "одежда",
+        "рубашка",
+        "примерить"
+      ]
+    },
+    {
+      "id": "d16-order-1",
+      "type": "wordOrder",
+      "wordId": "d16-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Магазин одежды.",
+      "sentenceEn": "Clothing store.",
+      "audio": "",
+      "tokens": [
+        "Магазин",
+        "одежды"
+      ],
+      "pool": [
+        "размер",
+        "Магазин",
+        "платье",
+        "брюки",
+        "одежды"
+      ]
+    },
+    {
+      "id": "d16-order-2",
+      "type": "wordOrder",
+      "wordId": "d16-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Белая рубашка.",
+      "sentenceEn": "A white shirt.",
+      "audio": "",
+      "tokens": [
+        "Белая",
+        "рубашка"
+      ],
+      "pool": [
+        "Белая",
+        "цена",
+        "одежда",
+        "рубашка",
+        "скидка"
+      ]
+    },
+    {
+      "id": "d16-order-3",
+      "type": "wordOrder",
+      "wordId": "d16-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Купи рубашку.",
+      "sentenceEn": "Buy a shirt.",
+      "audio": "",
+      "tokens": [
+        "Купи",
+        "рубашку"
+      ],
+      "pool": [
+        "одежда",
+        "обувь",
+        "примерить",
+        "Купи",
+        "рубашку"
+      ]
+    },
+    {
+      "id": "d16-order-4",
+      "type": "wordOrder",
+      "wordId": "d16-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Красивое платье.",
+      "sentenceEn": "A beautiful dress.",
+      "audio": "",
+      "tokens": [
+        "Красивое",
+        "платье"
+      ],
+      "pool": [
+        "размер",
+        "обувь",
+        "одежда",
+        "платье",
+        "Красивое"
+      ]
+    },
+    {
+      "id": "d16-order-5",
+      "type": "wordOrder",
+      "wordId": "d16-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Она в платье.",
+      "sentenceEn": "She is in a dress.",
+      "audio": "",
+      "tokens": [
+        "Она",
+        "в",
+        "платье"
+      ],
+      "pool": [
+        "Она",
+        "платье",
+        "брюки",
+        "в",
+        "купить",
+        "цена"
+      ]
+    },
+    {
+      "id": "d16-order-6",
+      "type": "wordOrder",
+      "wordId": "d16-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Чёрные брюки.",
+      "sentenceEn": "Black pants.",
+      "audio": "",
+      "tokens": [
+        "Чёрные",
+        "брюки"
+      ],
+      "pool": [
+        "брюки",
+        "рубашка",
+        "Чёрные",
+        "обувь",
+        "купить"
+      ]
+    },
+    {
+      "id": "d16-order-7",
+      "type": "wordOrder",
+      "wordId": "d16-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Новые брюки.",
+      "sentenceEn": "New pants.",
+      "audio": "",
+      "tokens": [
+        "Новые",
+        "брюки"
+      ],
+      "pool": [
+        "скидка",
+        "цена",
+        "Новые",
+        "брюки",
+        "размер"
+      ]
+    },
+    {
+      "id": "d16-order-8",
+      "type": "wordOrder",
+      "wordId": "d16-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Удобная обувь.",
+      "sentenceEn": "Comfortable shoes.",
+      "audio": "",
+      "tokens": [
+        "Удобная",
+        "обувь"
+      ],
+      "pool": [
+        "скидка",
+        "примерить",
+        "одежда",
+        "обувь",
+        "Удобная"
+      ]
+    },
+    {
+      "id": "d16-order-9",
+      "type": "wordOrder",
+      "wordId": "d16-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Магазин обуви.",
+      "sentenceEn": "Shoe store.",
+      "audio": "",
+      "tokens": [
+        "Магазин",
+        "обуви"
+      ],
+      "pool": [
+        "платье",
+        "купить",
+        "Магазин",
+        "одежда",
+        "обуви"
+      ]
+    },
+    {
+      "id": "d16-order-10",
+      "type": "wordOrder",
+      "wordId": "d16-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Какой размер?",
+      "sentenceEn": "What size?",
+      "audio": "",
+      "tokens": [
+        "Какой",
+        "размер"
+      ],
+      "pool": [
+        "Какой",
+        "размер",
+        "рубашка",
+        "брюки",
+        "цена"
+      ]
+    },
+    {
+      "id": "d16-order-11",
+      "type": "wordOrder",
+      "wordId": "d16-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мой размер — средний.",
+      "sentenceEn": "My size is medium.",
+      "audio": "",
+      "tokens": [
+        "Мой",
+        "размер",
+        "средний"
+      ],
+      "pool": [
+        "размер",
+        "Мой",
+        "цена",
+        "средний",
+        "обувь",
+        "скидка"
+      ]
+    },
+    {
+      "id": "d16-order-12",
+      "type": "wordOrder",
+      "wordId": "d16-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Какая цена?",
+      "sentenceEn": "What is the price?",
+      "audio": "",
+      "tokens": [
+        "Какая",
+        "цена"
+      ],
+      "pool": [
+        "платье",
+        "цена",
+        "скидка",
+        "брюки",
+        "Какая"
+      ]
+    },
+    {
+      "id": "d16-order-13",
+      "type": "wordOrder",
+      "wordId": "d16-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Цена высокая.",
+      "sentenceEn": "The price is high.",
+      "audio": "",
+      "tokens": [
+        "Цена",
+        "высокая"
+      ],
+      "pool": [
+        "платье",
+        "Цена",
+        "купить",
+        "высокая",
+        "брюки"
+      ]
+    },
+    {
+      "id": "d16-order-14",
+      "type": "wordOrder",
+      "wordId": "d16-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Большая скидка.",
+      "sentenceEn": "A big discount.",
+      "audio": "",
+      "tokens": [
+        "Большая",
+        "скидка"
+      ],
+      "pool": [
+        "брюки",
+        "скидка",
+        "примерить",
+        "Большая",
+        "цена"
+      ]
+    },
+    {
+      "id": "d16-order-15",
+      "type": "wordOrder",
+      "wordId": "d16-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Скидка пятьдесят процентов.",
+      "sentenceEn": "Fifty percent discount.",
+      "audio": "",
+      "tokens": [
+        "Скидка",
+        "пятьдесят",
+        "процентов"
+      ],
+      "pool": [
+        "пятьдесят",
+        "обувь",
+        "примерить",
+        "цена",
+        "Скидка",
+        "процентов"
+      ]
+    },
+    {
+      "id": "d16-order-16",
+      "type": "wordOrder",
+      "wordId": "d16-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Можно примерить?",
+      "sentenceEn": "Can I try it on?",
+      "audio": "",
+      "tokens": [
+        "Можно",
+        "примерить"
+      ],
+      "pool": [
+        "размер",
+        "Можно",
+        "примерить",
+        "рубашка",
+        "одежда"
+      ]
+    },
+    {
+      "id": "d16-order-17",
+      "type": "wordOrder",
+      "wordId": "d16-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Примерьте это.",
+      "sentenceEn": "Try this on.",
+      "audio": "",
+      "tokens": [
+        "Примерьте",
+        "это"
+      ],
+      "pool": [
+        "одежда",
+        "это",
+        "брюки",
+        "Примерьте",
+        "платье"
+      ]
+    },
+    {
+      "id": "d16-order-18",
+      "type": "wordOrder",
+      "wordId": "d16-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Хочу купить.",
+      "sentenceEn": "I want to buy.",
+      "audio": "",
+      "tokens": [
+        "Хочу",
+        "купить"
+      ],
+      "pool": [
+        "примерить",
+        "Хочу",
+        "одежда",
+        "купить",
+        "размер"
+      ]
+    },
+    {
+      "id": "d16-order-19",
+      "type": "wordOrder",
+      "wordId": "d16-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Купи хлеб.",
+      "sentenceEn": "Buy bread.",
+      "audio": "",
+      "tokens": [
+        "Купи",
+        "хлеб"
+      ],
+      "pool": [
+        "хлеб",
+        "рубашка",
+        "примерить",
+        "Купи",
+        "цена"
+      ]
+    },
+    {
+      "id": "d16-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d16-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d16-w01.svg",
+      "options": [
+        "одежда",
+        "купить",
+        "платье",
+        "цена"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d16-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d16-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d16-w02.svg",
+      "options": [
+        "примерить",
+        "рубашка",
+        "одежда",
+        "брюки"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d16-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d16-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d16-w03.svg",
+      "options": [
+        "цена",
+        "платье",
+        "обувь",
+        "купить"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d16-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d16-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d16-w04.svg",
+      "options": [
+        "брюки",
+        "обувь",
+        "размер",
+        "скидка"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d16-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d16-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d16-w05.svg",
+      "options": [
+        "обувь",
+        "цена",
+        "рубашка",
+        "купить"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d16-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d16-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d16-w06.svg",
+      "options": [
+        "цена",
+        "рубашка",
+        "размер",
+        "одежда"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d16-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d16-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d16-w07.svg",
+      "options": [
+        "купить",
+        "цена",
+        "примерить",
+        "рубашка"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d16-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d16-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d16-w08.svg",
+      "options": [
+        "платье",
+        "скидка",
+        "рубашка",
+        "купить"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d16-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d16-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d16-w09.svg",
+      "options": [
+        "купить",
+        "размер",
+        "цена",
+        "примерить"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d16-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d16-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d16-w10.svg",
+      "options": [
+        "скидка",
+        "купить",
+        "цена",
+        "примерить"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,763 @@
+{
+  "day": 10,
+  "theme": "City & places",
+  "grammarFocus": "Prepositions в/на + prep case",
+  "words": [
+    {
+      "id": "d10-w01",
+      "ru": "город",
+      "en": "city",
+      "audio": "/audio/day10/город.mp3",
+      "image": "/images/vocab/d10-w01.svg",
+      "sentences": [
+        {
+          "ru": "Москва — большой город.",
+          "en": "Moscow is a big city."
+        },
+        {
+          "ru": "В городе много людей.",
+          "en": "There are many people in the city."
+        }
+      ]
+    },
+    {
+      "id": "d10-w02",
+      "ru": "улица",
+      "en": "street",
+      "audio": "/audio/day10/улица.mp3",
+      "image": "/images/vocab/d10-w02.svg",
+      "sentences": [
+        {
+          "ru": "Улица широкая.",
+          "en": "The street is wide."
+        },
+        {
+          "ru": "На этой улице магазин.",
+          "en": "There is a shop on this street."
+        }
+      ]
+    },
+    {
+      "id": "d10-w03",
+      "ru": "магазин",
+      "en": "store",
+      "audio": "/audio/day10/магазин.mp3",
+      "image": "/images/vocab/d10-w03.svg",
+      "sentences": [
+        {
+          "ru": "Магазин открыт.",
+          "en": "The store is open."
+        },
+        {
+          "ru": "Иду в магазин.",
+          "en": "I am going to the store."
+        }
+      ]
+    },
+    {
+      "id": "d10-w04",
+      "ru": "больница",
+      "en": "hospital",
+      "audio": "/audio/day10/больница.mp3",
+      "image": "/images/vocab/d10-w04.svg",
+      "sentences": [
+        {
+          "ru": "Больница рядом.",
+          "en": "The hospital is nearby."
+        },
+        {
+          "ru": "Он работает в больнице.",
+          "en": "He works at the hospital."
+        }
+      ]
+    },
+    {
+      "id": "d10-w05",
+      "ru": "школа",
+      "en": "school",
+      "audio": "/audio/day10/школа.mp3",
+      "image": "/images/vocab/d10-w05.svg",
+      "sentences": [
+        {
+          "ru": "Школа на углу.",
+          "en": "The school is on the corner."
+        },
+        {
+          "ru": "Дети в школе.",
+          "en": "The children are at school."
+        }
+      ]
+    },
+    {
+      "id": "d10-w06",
+      "ru": "парк",
+      "en": "park",
+      "audio": "/audio/day10/парк.mp3",
+      "image": "/images/vocab/d10-w06.svg",
+      "sentences": [
+        {
+          "ru": "В парке гуляют.",
+          "en": "People walk in the park."
+        },
+        {
+          "ru": "Красивый парк.",
+          "en": "A beautiful park."
+        }
+      ]
+    },
+    {
+      "id": "d10-w07",
+      "ru": "музей",
+      "en": "museum",
+      "audio": "/audio/day10/музей.mp3",
+      "image": "/images/vocab/d10-w07.svg",
+      "sentences": [
+        {
+          "ru": "Музей закрыт по понедельникам.",
+          "en": "The museum is closed on Mondays."
+        },
+        {
+          "ru": "Идём в музей.",
+          "en": "Let's go to the museum."
+        }
+      ]
+    },
+    {
+      "id": "d10-w08",
+      "ru": "театр",
+      "en": "theater",
+      "audio": "/audio/day10/театр.mp3",
+      "image": "/images/vocab/d10-w08.svg",
+      "sentences": [
+        {
+          "ru": "Театр в центре.",
+          "en": "The theater is in the center."
+        },
+        {
+          "ru": "Был в театре вчера.",
+          "en": "I was at the theater yesterday."
+        }
+      ]
+    },
+    {
+      "id": "d10-w09",
+      "ru": "станция",
+      "en": "station",
+      "audio": "/audio/day10/станция.mp3",
+      "image": "/images/vocab/d10-w09.svg",
+      "sentences": [
+        {
+          "ru": "Станция метро близко.",
+          "en": "The metro station is close."
+        },
+        {
+          "ru": "Жду на станции.",
+          "en": "I am waiting at the station."
+        }
+      ]
+    },
+    {
+      "id": "d10-w10",
+      "ru": "площадь",
+      "en": "square",
+      "audio": "/audio/day10/площадь.mp3",
+      "image": "/images/vocab/d10-w10.svg",
+      "sentences": [
+        {
+          "ru": "Красная площадь в Москве.",
+          "en": "Red Square is in Moscow."
+        },
+        {
+          "ru": "На площади народ.",
+          "en": "People on the square."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d10-order-0",
+      "type": "wordOrder",
+      "wordId": "d10-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Москва — большой город.",
+      "sentenceEn": "Moscow is a big city.",
+      "audio": "",
+      "tokens": [
+        "Москва",
+        "большой",
+        "город"
+      ],
+      "pool": [
+        "большой",
+        "магазин",
+        "Москва",
+        "станция",
+        "город",
+        "музей"
+      ]
+    },
+    {
+      "id": "d10-order-1",
+      "type": "wordOrder",
+      "wordId": "d10-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "В городе много людей.",
+      "sentenceEn": "There are many people in the city.",
+      "audio": "",
+      "tokens": [
+        "В",
+        "городе",
+        "много",
+        "людей"
+      ],
+      "pool": [
+        "городе",
+        "много",
+        "парк",
+        "больница",
+        "людей",
+        "театр",
+        "В"
+      ]
+    },
+    {
+      "id": "d10-order-2",
+      "type": "wordOrder",
+      "wordId": "d10-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Улица широкая.",
+      "sentenceEn": "The street is wide.",
+      "audio": "",
+      "tokens": [
+        "Улица",
+        "широкая"
+      ],
+      "pool": [
+        "станция",
+        "город",
+        "Улица",
+        "широкая",
+        "магазин"
+      ]
+    },
+    {
+      "id": "d10-order-3",
+      "type": "wordOrder",
+      "wordId": "d10-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "На этой улице магазин.",
+      "sentenceEn": "There is a shop on this street.",
+      "audio": "",
+      "tokens": [
+        "На",
+        "этой",
+        "улице",
+        "магазин"
+      ],
+      "pool": [
+        "музей",
+        "улице",
+        "магазин",
+        "На",
+        "город",
+        "этой",
+        "театр"
+      ]
+    },
+    {
+      "id": "d10-order-4",
+      "type": "wordOrder",
+      "wordId": "d10-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Магазин открыт.",
+      "sentenceEn": "The store is open.",
+      "audio": "",
+      "tokens": [
+        "Магазин",
+        "открыт"
+      ],
+      "pool": [
+        "парк",
+        "улица",
+        "больница",
+        "открыт",
+        "Магазин"
+      ]
+    },
+    {
+      "id": "d10-order-5",
+      "type": "wordOrder",
+      "wordId": "d10-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Иду в магазин.",
+      "sentenceEn": "I am going to the store.",
+      "audio": "",
+      "tokens": [
+        "Иду",
+        "в",
+        "магазин"
+      ],
+      "pool": [
+        "улица",
+        "в",
+        "больница",
+        "магазин",
+        "площадь",
+        "Иду"
+      ]
+    },
+    {
+      "id": "d10-order-6",
+      "type": "wordOrder",
+      "wordId": "d10-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Больница рядом.",
+      "sentenceEn": "The hospital is nearby.",
+      "audio": "",
+      "tokens": [
+        "Больница",
+        "рядом"
+      ],
+      "pool": [
+        "школа",
+        "театр",
+        "Больница",
+        "магазин",
+        "рядом"
+      ]
+    },
+    {
+      "id": "d10-order-7",
+      "type": "wordOrder",
+      "wordId": "d10-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Он работает в больнице.",
+      "sentenceEn": "He works at the hospital.",
+      "audio": "",
+      "tokens": [
+        "Он",
+        "работает",
+        "в",
+        "больнице"
+      ],
+      "pool": [
+        "музей",
+        "работает",
+        "больнице",
+        "Он",
+        "в",
+        "станция",
+        "магазин"
+      ]
+    },
+    {
+      "id": "d10-order-8",
+      "type": "wordOrder",
+      "wordId": "d10-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Школа на углу.",
+      "sentenceEn": "The school is on the corner.",
+      "audio": "",
+      "tokens": [
+        "Школа",
+        "на",
+        "углу"
+      ],
+      "pool": [
+        "театр",
+        "на",
+        "парк",
+        "углу",
+        "город",
+        "Школа"
+      ]
+    },
+    {
+      "id": "d10-order-9",
+      "type": "wordOrder",
+      "wordId": "d10-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Дети в школе.",
+      "sentenceEn": "The children are at school.",
+      "audio": "",
+      "tokens": [
+        "Дети",
+        "в",
+        "школе"
+      ],
+      "pool": [
+        "в",
+        "школе",
+        "Дети",
+        "площадь",
+        "станция",
+        "больница"
+      ]
+    },
+    {
+      "id": "d10-order-10",
+      "type": "wordOrder",
+      "wordId": "d10-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "В парке гуляют.",
+      "sentenceEn": "People walk in the park.",
+      "audio": "",
+      "tokens": [
+        "В",
+        "парке",
+        "гуляют"
+      ],
+      "pool": [
+        "парке",
+        "станция",
+        "школа",
+        "гуляют",
+        "В",
+        "город"
+      ]
+    },
+    {
+      "id": "d10-order-11",
+      "type": "wordOrder",
+      "wordId": "d10-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Красивый парк.",
+      "sentenceEn": "A beautiful park.",
+      "audio": "",
+      "tokens": [
+        "Красивый",
+        "парк"
+      ],
+      "pool": [
+        "Красивый",
+        "больница",
+        "улица",
+        "музей",
+        "парк"
+      ]
+    },
+    {
+      "id": "d10-order-12",
+      "type": "wordOrder",
+      "wordId": "d10-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Музей закрыт по понедельникам.",
+      "sentenceEn": "The museum is closed on Mondays.",
+      "audio": "",
+      "tokens": [
+        "Музей",
+        "закрыт",
+        "по",
+        "понедельникам"
+      ],
+      "pool": [
+        "школа",
+        "Музей",
+        "парк",
+        "закрыт",
+        "город",
+        "понедельникам",
+        "по"
+      ]
+    },
+    {
+      "id": "d10-order-13",
+      "type": "wordOrder",
+      "wordId": "d10-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Идём в музей.",
+      "sentenceEn": "Let's go to the museum.",
+      "audio": "",
+      "tokens": [
+        "Идём",
+        "в",
+        "музей"
+      ],
+      "pool": [
+        "в",
+        "город",
+        "театр",
+        "парк",
+        "Идём",
+        "музей"
+      ]
+    },
+    {
+      "id": "d10-order-14",
+      "type": "wordOrder",
+      "wordId": "d10-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Театр в центре.",
+      "sentenceEn": "The theater is in the center.",
+      "audio": "",
+      "tokens": [
+        "Театр",
+        "в",
+        "центре"
+      ],
+      "pool": [
+        "Театр",
+        "в",
+        "центре",
+        "улица",
+        "город",
+        "больница"
+      ]
+    },
+    {
+      "id": "d10-order-15",
+      "type": "wordOrder",
+      "wordId": "d10-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Был в театре вчера.",
+      "sentenceEn": "I was at the theater yesterday.",
+      "audio": "",
+      "tokens": [
+        "Был",
+        "в",
+        "театре",
+        "вчера"
+      ],
+      "pool": [
+        "вчера",
+        "улица",
+        "в",
+        "Был",
+        "больница",
+        "театре",
+        "парк"
+      ]
+    },
+    {
+      "id": "d10-order-16",
+      "type": "wordOrder",
+      "wordId": "d10-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Станция метро близко.",
+      "sentenceEn": "The metro station is close.",
+      "audio": "",
+      "tokens": [
+        "Станция",
+        "метро",
+        "близко"
+      ],
+      "pool": [
+        "метро",
+        "Станция",
+        "магазин",
+        "музей",
+        "близко",
+        "больница"
+      ]
+    },
+    {
+      "id": "d10-order-17",
+      "type": "wordOrder",
+      "wordId": "d10-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Жду на станции.",
+      "sentenceEn": "I am waiting at the station.",
+      "audio": "",
+      "tokens": [
+        "Жду",
+        "на",
+        "станции"
+      ],
+      "pool": [
+        "музей",
+        "станции",
+        "на",
+        "город",
+        "школа",
+        "Жду"
+      ]
+    },
+    {
+      "id": "d10-order-18",
+      "type": "wordOrder",
+      "wordId": "d10-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Красная площадь в Москве.",
+      "sentenceEn": "Red Square is in Moscow.",
+      "audio": "",
+      "tokens": [
+        "Красная",
+        "площадь",
+        "в",
+        "Москве"
+      ],
+      "pool": [
+        "площадь",
+        "музей",
+        "Красная",
+        "школа",
+        "Москве",
+        "город",
+        "в"
+      ]
+    },
+    {
+      "id": "d10-order-19",
+      "type": "wordOrder",
+      "wordId": "d10-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "На площади народ.",
+      "sentenceEn": "People on the square.",
+      "audio": "",
+      "tokens": [
+        "На",
+        "площади",
+        "народ"
+      ],
+      "pool": [
+        "народ",
+        "На",
+        "площади",
+        "парк",
+        "музей",
+        "город"
+      ]
+    },
+    {
+      "id": "d10-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d10-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d10-w01.svg",
+      "options": [
+        "больница",
+        "музей",
+        "город",
+        "станция"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d10-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d10-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d10-w02.svg",
+      "options": [
+        "магазин",
+        "школа",
+        "улица",
+        "станция"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d10-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d10-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d10-w03.svg",
+      "options": [
+        "магазин",
+        "больница",
+        "музей",
+        "станция"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d10-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d10-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d10-w04.svg",
+      "options": [
+        "парк",
+        "больница",
+        "музей",
+        "магазин"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d10-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d10-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d10-w05.svg",
+      "options": [
+        "музей",
+        "магазин",
+        "станция",
+        "школа"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d10-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d10-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d10-w06.svg",
+      "options": [
+        "парк",
+        "больница",
+        "площадь",
+        "школа"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d10-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d10-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d10-w07.svg",
+      "options": [
+        "площадь",
+        "станция",
+        "больница",
+        "музей"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d10-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d10-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d10-w08.svg",
+      "options": [
+        "площадь",
+        "театр",
+        "музей",
+        "магазин"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d10-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d10-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d10-w09.svg",
+      "options": [
+        "станция",
+        "театр",
+        "музей",
+        "улица"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d10-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d10-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d10-w10.svg",
+      "options": [
+        "магазин",
+        "площадь",
+        "музей",
+        "больница"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

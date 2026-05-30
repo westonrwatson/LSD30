@@ -1,0 +1,785 @@
+{
+  "day": 2,
+  "theme": "Numbers 1–20",
+  "grammarFocus": "Gender agreement basics",
+  "words": [
+    {
+      "id": "d02-w01",
+      "ru": "один",
+      "en": "one",
+      "audio": "/audio/day02/один.mp3",
+      "image": "/images/vocab/d02-w01.svg",
+      "sentences": [
+        {
+          "ru": "У меня один брат.",
+          "en": "I have one brother."
+        },
+        {
+          "ru": "Один, два, три...",
+          "en": "One, two, three..."
+        }
+      ]
+    },
+    {
+      "id": "d02-w02",
+      "ru": "два",
+      "en": "two",
+      "audio": "/audio/day02/два.mp3",
+      "image": "/images/vocab/d02-w02.svg",
+      "sentences": [
+        {
+          "ru": "Два яблока на столе.",
+          "en": "Two apples on the table."
+        },
+        {
+          "ru": "Мне двадцать два года.",
+          "en": "I am twenty-two years old."
+        }
+      ]
+    },
+    {
+      "id": "d02-w03",
+      "ru": "три",
+      "en": "three",
+      "audio": "/audio/day02/три.mp3",
+      "image": "/images/vocab/d02-w03.svg",
+      "sentences": [
+        {
+          "ru": "Три друга пришли.",
+          "en": "Three friends came."
+        },
+        {
+          "ru": "На столе три чашки.",
+          "en": "There are three cups on the table."
+        }
+      ]
+    },
+    {
+      "id": "d02-w04",
+      "ru": "четыре",
+      "en": "four",
+      "audio": "/audio/day02/четыре.mp3",
+      "image": "/images/vocab/d02-w04.svg",
+      "sentences": [
+        {
+          "ru": "Четыре стула в комнате.",
+          "en": "Four chairs in the room."
+        },
+        {
+          "ru": "У неё четыре кота.",
+          "en": "She has four cats."
+        }
+      ]
+    },
+    {
+      "id": "d02-w05",
+      "ru": "пять",
+      "en": "five",
+      "audio": "/audio/day02/пять.mp3",
+      "image": "/images/vocab/d02-w05.svg",
+      "sentences": [
+        {
+          "ru": "Пять минут подожди.",
+          "en": "Wait five minutes."
+        },
+        {
+          "ru": "Пять книг на полке.",
+          "en": "Five books on the shelf."
+        }
+      ]
+    },
+    {
+      "id": "d02-w06",
+      "ru": "шесть",
+      "en": "six",
+      "audio": "/audio/day02/шесть.mp3",
+      "image": "/images/vocab/d02-w06.svg",
+      "sentences": [
+        {
+          "ru": "Шесть дней в неделе работаю.",
+          "en": "I work six days a week."
+        },
+        {
+          "ru": "Ему шесть лет.",
+          "en": "He is six years old."
+        }
+      ]
+    },
+    {
+      "id": "d02-w07",
+      "ru": "семь",
+      "en": "seven",
+      "audio": "/audio/day02/семь.mp3",
+      "image": "/images/vocab/d02-w07.svg",
+      "sentences": [
+        {
+          "ru": "Семь дней — одна неделя.",
+          "en": "Seven days — one week."
+        },
+        {
+          "ru": "На улице семь машин.",
+          "en": "There are seven cars outside."
+        }
+      ]
+    },
+    {
+      "id": "d02-w08",
+      "ru": "восемь",
+      "en": "eight",
+      "audio": "/audio/day02/восемь.mp3",
+      "image": "/images/vocab/d02-w08.svg",
+      "sentences": [
+        {
+          "ru": "Восемь утра — рано.",
+          "en": "Eight in the morning is early."
+        },
+        {
+          "ru": "В классе восемь учеников.",
+          "en": "There are eight students in class."
+        }
+      ]
+    },
+    {
+      "id": "d02-w09",
+      "ru": "девять",
+      "en": "nine",
+      "audio": "/audio/day02/девять.mp3",
+      "image": "/images/vocab/d02-w09.svg",
+      "sentences": [
+        {
+          "ru": "Девять месяцев — беременность.",
+          "en": "Nine months — pregnancy."
+        },
+        {
+          "ru": "Девять этажей в доме.",
+          "en": "Nine floors in the building."
+        }
+      ]
+    },
+    {
+      "id": "d02-w10",
+      "ru": "десять",
+      "en": "ten",
+      "audio": "/audio/day02/десять.mp3",
+      "image": "/images/vocab/d02-w10.svg",
+      "sentences": [
+        {
+          "ru": "Десять рублей стоит.",
+          "en": "It costs ten rubles."
+        },
+        {
+          "ru": "Мне десять лет.",
+          "en": "I am ten years old."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d02-order-0",
+      "type": "wordOrder",
+      "wordId": "d02-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "У меня один брат.",
+      "sentenceEn": "I have one brother.",
+      "audio": "",
+      "tokens": [
+        "У",
+        "меня",
+        "один",
+        "брат"
+      ],
+      "pool": [
+        "один",
+        "три",
+        "меня",
+        "У",
+        "брат",
+        "семь",
+        "восемь"
+      ]
+    },
+    {
+      "id": "d02-order-1",
+      "type": "wordOrder",
+      "wordId": "d02-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Один, два, три...",
+      "sentenceEn": "One, two, three...",
+      "audio": "",
+      "tokens": [
+        "Один",
+        "два",
+        "три"
+      ],
+      "pool": [
+        "три",
+        "два",
+        "два",
+        "четыре",
+        "Один",
+        "три"
+      ]
+    },
+    {
+      "id": "d02-order-2",
+      "type": "wordOrder",
+      "wordId": "d02-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Два яблока на столе.",
+      "sentenceEn": "Two apples on the table.",
+      "audio": "",
+      "tokens": [
+        "Два",
+        "яблока",
+        "на",
+        "столе"
+      ],
+      "pool": [
+        "на",
+        "шесть",
+        "яблока",
+        "восемь",
+        "столе",
+        "один",
+        "Два"
+      ]
+    },
+    {
+      "id": "d02-order-3",
+      "type": "wordOrder",
+      "wordId": "d02-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мне двадцать два года.",
+      "sentenceEn": "I am twenty-two years old.",
+      "audio": "",
+      "tokens": [
+        "Мне",
+        "двадцать",
+        "два",
+        "года"
+      ],
+      "pool": [
+        "года",
+        "Мне",
+        "двадцать",
+        "десять",
+        "девять",
+        "два",
+        "один"
+      ]
+    },
+    {
+      "id": "d02-order-4",
+      "type": "wordOrder",
+      "wordId": "d02-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Три друга пришли.",
+      "sentenceEn": "Three friends came.",
+      "audio": "",
+      "tokens": [
+        "Три",
+        "друга",
+        "пришли"
+      ],
+      "pool": [
+        "девять",
+        "Три",
+        "десять",
+        "два",
+        "друга",
+        "пришли"
+      ]
+    },
+    {
+      "id": "d02-order-5",
+      "type": "wordOrder",
+      "wordId": "d02-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "На столе три чашки.",
+      "sentenceEn": "There are three cups on the table.",
+      "audio": "",
+      "tokens": [
+        "На",
+        "столе",
+        "три",
+        "чашки"
+      ],
+      "pool": [
+        "десять",
+        "чашки",
+        "На",
+        "три",
+        "восемь",
+        "столе",
+        "шесть"
+      ]
+    },
+    {
+      "id": "d02-order-6",
+      "type": "wordOrder",
+      "wordId": "d02-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Четыре стула в комнате.",
+      "sentenceEn": "Four chairs in the room.",
+      "audio": "",
+      "tokens": [
+        "Четыре",
+        "стула",
+        "в",
+        "комнате"
+      ],
+      "pool": [
+        "стула",
+        "шесть",
+        "пять",
+        "комнате",
+        "восемь",
+        "в",
+        "Четыре"
+      ]
+    },
+    {
+      "id": "d02-order-7",
+      "type": "wordOrder",
+      "wordId": "d02-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "У неё четыре кота.",
+      "sentenceEn": "She has four cats.",
+      "audio": "",
+      "tokens": [
+        "У",
+        "неё",
+        "четыре",
+        "кота"
+      ],
+      "pool": [
+        "неё",
+        "четыре",
+        "кота",
+        "семь",
+        "один",
+        "два",
+        "У"
+      ]
+    },
+    {
+      "id": "d02-order-8",
+      "type": "wordOrder",
+      "wordId": "d02-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Пять минут подожди.",
+      "sentenceEn": "Wait five minutes.",
+      "audio": "",
+      "tokens": [
+        "Пять",
+        "минут",
+        "подожди"
+      ],
+      "pool": [
+        "три",
+        "минут",
+        "семь",
+        "подожди",
+        "два",
+        "Пять"
+      ]
+    },
+    {
+      "id": "d02-order-9",
+      "type": "wordOrder",
+      "wordId": "d02-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Пять книг на полке.",
+      "sentenceEn": "Five books on the shelf.",
+      "audio": "",
+      "tokens": [
+        "Пять",
+        "книг",
+        "на",
+        "полке"
+      ],
+      "pool": [
+        "девять",
+        "на",
+        "восемь",
+        "книг",
+        "Пять",
+        "полке",
+        "два"
+      ]
+    },
+    {
+      "id": "d02-order-10",
+      "type": "wordOrder",
+      "wordId": "d02-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Шесть дней в неделе работаю.",
+      "sentenceEn": "I work six days a week.",
+      "audio": "",
+      "tokens": [
+        "Шесть",
+        "дней",
+        "в",
+        "неделе",
+        "работаю"
+      ],
+      "pool": [
+        "дней",
+        "Шесть",
+        "неделе",
+        "четыре",
+        "восемь",
+        "работаю",
+        "в",
+        "пять"
+      ]
+    },
+    {
+      "id": "d02-order-11",
+      "type": "wordOrder",
+      "wordId": "d02-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Ему шесть лет.",
+      "sentenceEn": "He is six years old.",
+      "audio": "",
+      "tokens": [
+        "Ему",
+        "шесть",
+        "лет"
+      ],
+      "pool": [
+        "шесть",
+        "два",
+        "лет",
+        "три",
+        "Ему",
+        "восемь"
+      ]
+    },
+    {
+      "id": "d02-order-12",
+      "type": "wordOrder",
+      "wordId": "d02-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Семь дней — одна неделя.",
+      "sentenceEn": "Seven days — one week.",
+      "audio": "",
+      "tokens": [
+        "Семь",
+        "дней",
+        "одна",
+        "неделя"
+      ],
+      "pool": [
+        "одна",
+        "Семь",
+        "неделя",
+        "пять",
+        "десять",
+        "дней",
+        "один"
+      ]
+    },
+    {
+      "id": "d02-order-13",
+      "type": "wordOrder",
+      "wordId": "d02-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "На улице семь машин.",
+      "sentenceEn": "There are seven cars outside.",
+      "audio": "",
+      "tokens": [
+        "На",
+        "улице",
+        "семь",
+        "машин"
+      ],
+      "pool": [
+        "шесть",
+        "десять",
+        "На",
+        "семь",
+        "пять",
+        "машин",
+        "улице"
+      ]
+    },
+    {
+      "id": "d02-order-14",
+      "type": "wordOrder",
+      "wordId": "d02-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Восемь утра — рано.",
+      "sentenceEn": "Eight in the morning is early.",
+      "audio": "",
+      "tokens": [
+        "Восемь",
+        "утра",
+        "рано"
+      ],
+      "pool": [
+        "рано",
+        "семь",
+        "Восемь",
+        "два",
+        "один",
+        "утра"
+      ]
+    },
+    {
+      "id": "d02-order-15",
+      "type": "wordOrder",
+      "wordId": "d02-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "В классе восемь учеников.",
+      "sentenceEn": "There are eight students in class.",
+      "audio": "",
+      "tokens": [
+        "В",
+        "классе",
+        "восемь",
+        "учеников"
+      ],
+      "pool": [
+        "девять",
+        "восемь",
+        "В",
+        "десять",
+        "один",
+        "классе",
+        "учеников"
+      ]
+    },
+    {
+      "id": "d02-order-16",
+      "type": "wordOrder",
+      "wordId": "d02-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Девять месяцев — беременность.",
+      "sentenceEn": "Nine months — pregnancy.",
+      "audio": "",
+      "tokens": [
+        "Девять",
+        "месяцев",
+        "беременность"
+      ],
+      "pool": [
+        "четыре",
+        "месяцев",
+        "два",
+        "беременность",
+        "шесть",
+        "Девять"
+      ]
+    },
+    {
+      "id": "d02-order-17",
+      "type": "wordOrder",
+      "wordId": "d02-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Девять этажей в доме.",
+      "sentenceEn": "Nine floors in the building.",
+      "audio": "",
+      "tokens": [
+        "Девять",
+        "этажей",
+        "в",
+        "доме"
+      ],
+      "pool": [
+        "доме",
+        "шесть",
+        "этажей",
+        "Девять",
+        "восемь",
+        "семь",
+        "в"
+      ]
+    },
+    {
+      "id": "d02-order-18",
+      "type": "wordOrder",
+      "wordId": "d02-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Десять рублей стоит.",
+      "sentenceEn": "It costs ten rubles.",
+      "audio": "",
+      "tokens": [
+        "Десять",
+        "рублей",
+        "стоит"
+      ],
+      "pool": [
+        "два",
+        "один",
+        "четыре",
+        "стоит",
+        "Десять",
+        "рублей"
+      ]
+    },
+    {
+      "id": "d02-order-19",
+      "type": "wordOrder",
+      "wordId": "d02-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мне десять лет.",
+      "sentenceEn": "I am ten years old.",
+      "audio": "",
+      "tokens": [
+        "Мне",
+        "десять",
+        "лет"
+      ],
+      "pool": [
+        "лет",
+        "девять",
+        "пять",
+        "Мне",
+        "десять",
+        "два"
+      ]
+    },
+    {
+      "id": "d02-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d02-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d02-w01.svg",
+      "options": [
+        "два",
+        "пять",
+        "девять",
+        "один"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d02-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d02-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d02-w02.svg",
+      "options": [
+        "три",
+        "два",
+        "семь",
+        "четыре"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d02-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d02-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d02-w03.svg",
+      "options": [
+        "три",
+        "два",
+        "восемь",
+        "семь"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d02-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d02-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d02-w04.svg",
+      "options": [
+        "один",
+        "восемь",
+        "шесть",
+        "четыре"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d02-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d02-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d02-w05.svg",
+      "options": [
+        "пять",
+        "десять",
+        "восемь",
+        "девять"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d02-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d02-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d02-w06.svg",
+      "options": [
+        "шесть",
+        "десять",
+        "четыре",
+        "один"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d02-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d02-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d02-w07.svg",
+      "options": [
+        "шесть",
+        "восемь",
+        "один",
+        "семь"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d02-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d02-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d02-w08.svg",
+      "options": [
+        "восемь",
+        "четыре",
+        "шесть",
+        "десять"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d02-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d02-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d02-w09.svg",
+      "options": [
+        "три",
+        "пять",
+        "четыре",
+        "девять"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d02-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d02-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d02-w10.svg",
+      "options": [
+        "два",
+        "десять",
+        "пять",
+        "четыре"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

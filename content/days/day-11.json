@@ -1,0 +1,741 @@
+{
+  "day": 11,
+  "theme": "Directions & transport",
+  "grammarFocus": "Motion verbs (идти/ехать intro)",
+  "words": [
+    {
+      "id": "d11-w01",
+      "ru": "метро",
+      "en": "metro / subway",
+      "audio": "/audio/day11/метро.mp3",
+      "image": "/images/vocab/d11-w01.svg",
+      "sentences": [
+        {
+          "ru": "Еду на метро.",
+          "en": "I take the metro."
+        },
+        {
+          "ru": "Станция метро там.",
+          "en": "The metro station is there."
+        }
+      ]
+    },
+    {
+      "id": "d11-w02",
+      "ru": "автобус",
+      "en": "bus",
+      "audio": "/audio/day11/автобус.mp3",
+      "image": "/images/vocab/d11-w02.svg",
+      "sentences": [
+        {
+          "ru": "Автобус опаздывает.",
+          "en": "The bus is late."
+        },
+        {
+          "ru": "Садись в автобус.",
+          "en": "Get on the bus."
+        }
+      ]
+    },
+    {
+      "id": "d11-w03",
+      "ru": "поезд",
+      "en": "train",
+      "audio": "/audio/day11/поезд.mp3",
+      "image": "/images/vocab/d11-w03.svg",
+      "sentences": [
+        {
+          "ru": "Поезд отправляется в шесть.",
+          "en": "The train departs at six."
+        },
+        {
+          "ru": "Еду на поезде.",
+          "en": "I travel by train."
+        }
+      ]
+    },
+    {
+      "id": "d11-w04",
+      "ru": "такси",
+      "en": "taxi",
+      "audio": "/audio/day11/такси.mp3",
+      "image": "/images/vocab/d11-w04.svg",
+      "sentences": [
+        {
+          "ru": "Вызови такси.",
+          "en": "Call a taxi."
+        },
+        {
+          "ru": "Такси ждёт нас.",
+          "en": "The taxi is waiting for us."
+        }
+      ]
+    },
+    {
+      "id": "d11-w05",
+      "ru": "направо",
+      "en": "to the right",
+      "audio": "/audio/day11/направо.mp3",
+      "image": "/images/vocab/d11-w05.svg",
+      "sentences": [
+        {
+          "ru": "Поверни направо.",
+          "en": "Turn right."
+        },
+        {
+          "ru": "Банк направо.",
+          "en": "The bank is on the right."
+        }
+      ]
+    },
+    {
+      "id": "d11-w06",
+      "ru": "налево",
+      "en": "to the left",
+      "audio": "/audio/day11/налево.mp3",
+      "image": "/images/vocab/d11-w06.svg",
+      "sentences": [
+        {
+          "ru": "Иди налево.",
+          "en": "Go left."
+        },
+        {
+          "ru": "Магазин налево.",
+          "en": "The store is on the left."
+        }
+      ]
+    },
+    {
+      "id": "d11-w07",
+      "ru": "прямо",
+      "en": "straight ahead",
+      "audio": "/audio/day11/прямо.mp3",
+      "image": "/images/vocab/d11-w07.svg",
+      "sentences": [
+        {
+          "ru": "Идите прямо.",
+          "en": "Go straight."
+        },
+        {
+          "ru": "Прямо двести метров.",
+          "en": "Straight for two hundred meters."
+        }
+      ]
+    },
+    {
+      "id": "d11-w08",
+      "ru": "рядом",
+      "en": "nearby",
+      "audio": "/audio/day11/рядом.mp3",
+      "image": "/images/vocab/d11-w08.svg",
+      "sentences": [
+        {
+          "ru": "Аптека рядом.",
+          "en": "The pharmacy is nearby."
+        },
+        {
+          "ru": "Живу рядом с парком.",
+          "en": "I live near the park."
+        }
+      ]
+    },
+    {
+      "id": "d11-w09",
+      "ru": "далеко",
+      "en": "far",
+      "audio": "/audio/day11/далеко.mp3",
+      "image": "/images/vocab/d11-w09.svg",
+      "sentences": [
+        {
+          "ru": "Станция далеко.",
+          "en": "The station is far."
+        },
+        {
+          "ru": "Далеко идти.",
+          "en": "It is far to walk."
+        }
+      ]
+    },
+    {
+      "id": "d11-w10",
+      "ru": "карта",
+      "en": "map",
+      "audio": "/audio/day11/карта.mp3",
+      "image": "/images/vocab/d11-w10.svg",
+      "sentences": [
+        {
+          "ru": "Посмотри на карту.",
+          "en": "Look at the map."
+        },
+        {
+          "ru": "Карта города.",
+          "en": "A map of the city."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d11-order-0",
+      "type": "wordOrder",
+      "wordId": "d11-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Еду на метро.",
+      "sentenceEn": "I take the metro.",
+      "audio": "",
+      "tokens": [
+        "Еду",
+        "на",
+        "метро"
+      ],
+      "pool": [
+        "рядом",
+        "на",
+        "далеко",
+        "Еду",
+        "автобус",
+        "метро"
+      ]
+    },
+    {
+      "id": "d11-order-1",
+      "type": "wordOrder",
+      "wordId": "d11-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Станция метро там.",
+      "sentenceEn": "The metro station is there.",
+      "audio": "",
+      "tokens": [
+        "Станция",
+        "метро",
+        "там"
+      ],
+      "pool": [
+        "там",
+        "направо",
+        "налево",
+        "Станция",
+        "метро",
+        "поезд"
+      ]
+    },
+    {
+      "id": "d11-order-2",
+      "type": "wordOrder",
+      "wordId": "d11-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Автобус опаздывает.",
+      "sentenceEn": "The bus is late.",
+      "audio": "",
+      "tokens": [
+        "Автобус",
+        "опаздывает"
+      ],
+      "pool": [
+        "опаздывает",
+        "далеко",
+        "такси",
+        "Автобус",
+        "направо"
+      ]
+    },
+    {
+      "id": "d11-order-3",
+      "type": "wordOrder",
+      "wordId": "d11-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Садись в автобус.",
+      "sentenceEn": "Get on the bus.",
+      "audio": "",
+      "tokens": [
+        "Садись",
+        "в",
+        "автобус"
+      ],
+      "pool": [
+        "автобус",
+        "рядом",
+        "в",
+        "прямо",
+        "Садись",
+        "поезд"
+      ]
+    },
+    {
+      "id": "d11-order-4",
+      "type": "wordOrder",
+      "wordId": "d11-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Поезд отправляется в шесть.",
+      "sentenceEn": "The train departs at six.",
+      "audio": "",
+      "tokens": [
+        "Поезд",
+        "отправляется",
+        "в",
+        "шесть"
+      ],
+      "pool": [
+        "в",
+        "карта",
+        "автобус",
+        "направо",
+        "шесть",
+        "отправляется",
+        "Поезд"
+      ]
+    },
+    {
+      "id": "d11-order-5",
+      "type": "wordOrder",
+      "wordId": "d11-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Еду на поезде.",
+      "sentenceEn": "I travel by train.",
+      "audio": "",
+      "tokens": [
+        "Еду",
+        "на",
+        "поезде"
+      ],
+      "pool": [
+        "карта",
+        "автобус",
+        "поезде",
+        "на",
+        "такси",
+        "Еду"
+      ]
+    },
+    {
+      "id": "d11-order-6",
+      "type": "wordOrder",
+      "wordId": "d11-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Вызови такси.",
+      "sentenceEn": "Call a taxi.",
+      "audio": "",
+      "tokens": [
+        "Вызови",
+        "такси"
+      ],
+      "pool": [
+        "направо",
+        "поезд",
+        "такси",
+        "налево",
+        "Вызови"
+      ]
+    },
+    {
+      "id": "d11-order-7",
+      "type": "wordOrder",
+      "wordId": "d11-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Такси ждёт нас.",
+      "sentenceEn": "The taxi is waiting for us.",
+      "audio": "",
+      "tokens": [
+        "Такси",
+        "ждёт",
+        "нас"
+      ],
+      "pool": [
+        "направо",
+        "Такси",
+        "поезд",
+        "налево",
+        "нас",
+        "ждёт"
+      ]
+    },
+    {
+      "id": "d11-order-8",
+      "type": "wordOrder",
+      "wordId": "d11-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Поверни направо.",
+      "sentenceEn": "Turn right.",
+      "audio": "",
+      "tokens": [
+        "Поверни",
+        "направо"
+      ],
+      "pool": [
+        "налево",
+        "Поверни",
+        "карта",
+        "направо",
+        "автобус"
+      ]
+    },
+    {
+      "id": "d11-order-9",
+      "type": "wordOrder",
+      "wordId": "d11-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Банк направо.",
+      "sentenceEn": "The bank is on the right.",
+      "audio": "",
+      "tokens": [
+        "Банк",
+        "направо"
+      ],
+      "pool": [
+        "поезд",
+        "Банк",
+        "такси",
+        "рядом",
+        "направо"
+      ]
+    },
+    {
+      "id": "d11-order-10",
+      "type": "wordOrder",
+      "wordId": "d11-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Иди налево.",
+      "sentenceEn": "Go left.",
+      "audio": "",
+      "tokens": [
+        "Иди",
+        "налево"
+      ],
+      "pool": [
+        "Иди",
+        "рядом",
+        "поезд",
+        "прямо",
+        "налево"
+      ]
+    },
+    {
+      "id": "d11-order-11",
+      "type": "wordOrder",
+      "wordId": "d11-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Магазин налево.",
+      "sentenceEn": "The store is on the left.",
+      "audio": "",
+      "tokens": [
+        "Магазин",
+        "налево"
+      ],
+      "pool": [
+        "налево",
+        "карта",
+        "Магазин",
+        "метро",
+        "направо"
+      ]
+    },
+    {
+      "id": "d11-order-12",
+      "type": "wordOrder",
+      "wordId": "d11-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Идите прямо.",
+      "sentenceEn": "Go straight.",
+      "audio": "",
+      "tokens": [
+        "Идите",
+        "прямо"
+      ],
+      "pool": [
+        "далеко",
+        "поезд",
+        "Идите",
+        "прямо",
+        "карта"
+      ]
+    },
+    {
+      "id": "d11-order-13",
+      "type": "wordOrder",
+      "wordId": "d11-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Прямо двести метров.",
+      "sentenceEn": "Straight for two hundred meters.",
+      "audio": "",
+      "tokens": [
+        "Прямо",
+        "двести",
+        "метров"
+      ],
+      "pool": [
+        "двести",
+        "такси",
+        "метров",
+        "направо",
+        "Прямо",
+        "рядом"
+      ]
+    },
+    {
+      "id": "d11-order-14",
+      "type": "wordOrder",
+      "wordId": "d11-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Аптека рядом.",
+      "sentenceEn": "The pharmacy is nearby.",
+      "audio": "",
+      "tokens": [
+        "Аптека",
+        "рядом"
+      ],
+      "pool": [
+        "рядом",
+        "карта",
+        "Аптека",
+        "автобус",
+        "поезд"
+      ]
+    },
+    {
+      "id": "d11-order-15",
+      "type": "wordOrder",
+      "wordId": "d11-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Живу рядом с парком.",
+      "sentenceEn": "I live near the park.",
+      "audio": "",
+      "tokens": [
+        "Живу",
+        "рядом",
+        "с",
+        "парком"
+      ],
+      "pool": [
+        "рядом",
+        "прямо",
+        "поезд",
+        "с",
+        "автобус",
+        "Живу",
+        "парком"
+      ]
+    },
+    {
+      "id": "d11-order-16",
+      "type": "wordOrder",
+      "wordId": "d11-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Станция далеко.",
+      "sentenceEn": "The station is far.",
+      "audio": "",
+      "tokens": [
+        "Станция",
+        "далеко"
+      ],
+      "pool": [
+        "автобус",
+        "направо",
+        "рядом",
+        "Станция",
+        "далеко"
+      ]
+    },
+    {
+      "id": "d11-order-17",
+      "type": "wordOrder",
+      "wordId": "d11-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Далеко идти.",
+      "sentenceEn": "It is far to walk.",
+      "audio": "",
+      "tokens": [
+        "Далеко",
+        "идти"
+      ],
+      "pool": [
+        "рядом",
+        "идти",
+        "Далеко",
+        "прямо",
+        "автобус"
+      ]
+    },
+    {
+      "id": "d11-order-18",
+      "type": "wordOrder",
+      "wordId": "d11-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Посмотри на карту.",
+      "sentenceEn": "Look at the map.",
+      "audio": "",
+      "tokens": [
+        "Посмотри",
+        "на",
+        "карту"
+      ],
+      "pool": [
+        "Посмотри",
+        "направо",
+        "поезд",
+        "налево",
+        "карту",
+        "на"
+      ]
+    },
+    {
+      "id": "d11-order-19",
+      "type": "wordOrder",
+      "wordId": "d11-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Карта города.",
+      "sentenceEn": "A map of the city.",
+      "audio": "",
+      "tokens": [
+        "Карта",
+        "города"
+      ],
+      "pool": [
+        "Карта",
+        "города",
+        "прямо",
+        "налево",
+        "направо"
+      ]
+    },
+    {
+      "id": "d11-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d11-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d11-w01.svg",
+      "options": [
+        "метро",
+        "поезд",
+        "карта",
+        "прямо"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d11-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d11-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d11-w02.svg",
+      "options": [
+        "карта",
+        "автобус",
+        "поезд",
+        "такси"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d11-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d11-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d11-w03.svg",
+      "options": [
+        "прямо",
+        "автобус",
+        "налево",
+        "поезд"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d11-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d11-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d11-w04.svg",
+      "options": [
+        "рядом",
+        "прямо",
+        "такси",
+        "направо"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d11-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d11-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d11-w05.svg",
+      "options": [
+        "автобус",
+        "такси",
+        "направо",
+        "метро"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d11-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d11-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d11-w06.svg",
+      "options": [
+        "далеко",
+        "метро",
+        "налево",
+        "автобус"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d11-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d11-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d11-w07.svg",
+      "options": [
+        "метро",
+        "прямо",
+        "налево",
+        "карта"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d11-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d11-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d11-w08.svg",
+      "options": [
+        "метро",
+        "далеко",
+        "рядом",
+        "поезд"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d11-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d11-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d11-w09.svg",
+      "options": [
+        "такси",
+        "налево",
+        "прямо",
+        "далеко"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d11-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d11-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d11-w10.svg",
+      "options": [
+        "метро",
+        "карта",
+        "поезд",
+        "прямо"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

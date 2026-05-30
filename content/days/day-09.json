@@ -1,0 +1,745 @@
+{
+  "day": 9,
+  "theme": "Home & rooms",
+  "grammarFocus": "Prepositional case (where?)",
+  "words": [
+    {
+      "id": "d09-w01",
+      "ru": "дом",
+      "en": "house / home",
+      "audio": "/audio/day09/дом.mp3",
+      "image": "/images/vocab/d09-w01.svg",
+      "sentences": [
+        {
+          "ru": "Я дома.",
+          "en": "I am at home."
+        },
+        {
+          "ru": "Большой дом в деревне.",
+          "en": "A big house in the village."
+        }
+      ]
+    },
+    {
+      "id": "d09-w02",
+      "ru": "комната",
+      "en": "room",
+      "audio": "/audio/day09/комната.mp3",
+      "image": "/images/vocab/d09-w02.svg",
+      "sentences": [
+        {
+          "ru": "Комната светлая.",
+          "en": "The room is bright."
+        },
+        {
+          "ru": "В комнате кровать.",
+          "en": "There is a bed in the room."
+        }
+      ]
+    },
+    {
+      "id": "d09-w03",
+      "ru": "кухня",
+      "en": "kitchen",
+      "audio": "/audio/day09/кухня.mp3",
+      "image": "/images/vocab/d09-w03.svg",
+      "sentences": [
+        {
+          "ru": "На кухне готовят.",
+          "en": "They cook in the kitchen."
+        },
+        {
+          "ru": "Кухня маленькая.",
+          "en": "The kitchen is small."
+        }
+      ]
+    },
+    {
+      "id": "d09-w04",
+      "ru": "спальня",
+      "en": "bedroom",
+      "audio": "/audio/day09/спальня.mp3",
+      "image": "/images/vocab/d09-w04.svg",
+      "sentences": [
+        {
+          "ru": "Спальня на втором этаже.",
+          "en": "The bedroom is on the second floor."
+        },
+        {
+          "ru": "В спальне тихо.",
+          "en": "It is quiet in the bedroom."
+        }
+      ]
+    },
+    {
+      "id": "d09-w05",
+      "ru": "ванная",
+      "en": "bathroom",
+      "audio": "/audio/day09/ванная.mp3",
+      "image": "/images/vocab/d09-w05.svg",
+      "sentences": [
+        {
+          "ru": "Ванная комната чистая.",
+          "en": "The bathroom is clean."
+        },
+        {
+          "ru": "Где ванная?",
+          "en": "Where is the bathroom?"
+        }
+      ]
+    },
+    {
+      "id": "d09-w06",
+      "ru": "окно",
+      "en": "window",
+      "audio": "/audio/day09/окно.mp3",
+      "image": "/images/vocab/d09-w06.svg",
+      "sentences": [
+        {
+          "ru": "Окно открыто.",
+          "en": "The window is open."
+        },
+        {
+          "ru": "У окна стол.",
+          "en": "A table by the window."
+        }
+      ]
+    },
+    {
+      "id": "d09-w07",
+      "ru": "дверь",
+      "en": "door",
+      "audio": "/audio/day09/дверь.mp3",
+      "image": "/images/vocab/d09-w07.svg",
+      "sentences": [
+        {
+          "ru": "Дверь закрыта.",
+          "en": "The door is closed."
+        },
+        {
+          "ru": "Открой дверь.",
+          "en": "Open the door."
+        }
+      ]
+    },
+    {
+      "id": "d09-w08",
+      "ru": "кровать",
+      "en": "bed",
+      "audio": "/audio/day09/кровать.mp3",
+      "image": "/images/vocab/d09-w08.svg",
+      "sentences": [
+        {
+          "ru": "Кровать у стены.",
+          "en": "The bed is against the wall."
+        },
+        {
+          "ru": "Удобная кровать.",
+          "en": "A comfortable bed."
+        }
+      ]
+    },
+    {
+      "id": "d09-w09",
+      "ru": "диван",
+      "en": "sofa",
+      "audio": "/audio/day09/диван.mp3",
+      "image": "/images/vocab/d09-w09.svg",
+      "sentences": [
+        {
+          "ru": "Диван в гостиной.",
+          "en": "The sofa is in the living room."
+        },
+        {
+          "ru": "Садись на диван.",
+          "en": "Sit on the sofa."
+        }
+      ]
+    },
+    {
+      "id": "d09-w10",
+      "ru": "стена",
+      "en": "wall",
+      "audio": "/audio/day09/стена.mp3",
+      "image": "/images/vocab/d09-w10.svg",
+      "sentences": [
+        {
+          "ru": "На стене картина.",
+          "en": "There is a picture on the wall."
+        },
+        {
+          "ru": "Белая стена.",
+          "en": "A white wall."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d09-order-0",
+      "type": "wordOrder",
+      "wordId": "d09-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Я дома.",
+      "sentenceEn": "I am at home.",
+      "audio": "",
+      "tokens": [
+        "Я",
+        "дома"
+      ],
+      "pool": [
+        "Я",
+        "стена",
+        "окно",
+        "диван",
+        "дома"
+      ]
+    },
+    {
+      "id": "d09-order-1",
+      "type": "wordOrder",
+      "wordId": "d09-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Большой дом в деревне.",
+      "sentenceEn": "A big house in the village.",
+      "audio": "",
+      "tokens": [
+        "Большой",
+        "дом",
+        "в",
+        "деревне"
+      ],
+      "pool": [
+        "деревне",
+        "Большой",
+        "в",
+        "ванная",
+        "комната",
+        "дом",
+        "дверь"
+      ]
+    },
+    {
+      "id": "d09-order-2",
+      "type": "wordOrder",
+      "wordId": "d09-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Комната светлая.",
+      "sentenceEn": "The room is bright.",
+      "audio": "",
+      "tokens": [
+        "Комната",
+        "светлая"
+      ],
+      "pool": [
+        "диван",
+        "спальня",
+        "светлая",
+        "Комната",
+        "кровать"
+      ]
+    },
+    {
+      "id": "d09-order-3",
+      "type": "wordOrder",
+      "wordId": "d09-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "В комнате кровать.",
+      "sentenceEn": "There is a bed in the room.",
+      "audio": "",
+      "tokens": [
+        "В",
+        "комнате",
+        "кровать"
+      ],
+      "pool": [
+        "стена",
+        "дверь",
+        "кровать",
+        "В",
+        "комнате",
+        "ванная"
+      ]
+    },
+    {
+      "id": "d09-order-4",
+      "type": "wordOrder",
+      "wordId": "d09-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "На кухне готовят.",
+      "sentenceEn": "They cook in the kitchen.",
+      "audio": "",
+      "tokens": [
+        "На",
+        "кухне",
+        "готовят"
+      ],
+      "pool": [
+        "кухне",
+        "окно",
+        "На",
+        "готовят",
+        "спальня",
+        "кровать"
+      ]
+    },
+    {
+      "id": "d09-order-5",
+      "type": "wordOrder",
+      "wordId": "d09-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Кухня маленькая.",
+      "sentenceEn": "The kitchen is small.",
+      "audio": "",
+      "tokens": [
+        "Кухня",
+        "маленькая"
+      ],
+      "pool": [
+        "маленькая",
+        "ванная",
+        "окно",
+        "стена",
+        "Кухня"
+      ]
+    },
+    {
+      "id": "d09-order-6",
+      "type": "wordOrder",
+      "wordId": "d09-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Спальня на втором этаже.",
+      "sentenceEn": "The bedroom is on the second floor.",
+      "audio": "",
+      "tokens": [
+        "Спальня",
+        "на",
+        "втором",
+        "этаже"
+      ],
+      "pool": [
+        "кровать",
+        "втором",
+        "стена",
+        "этаже",
+        "ванная",
+        "Спальня",
+        "на"
+      ]
+    },
+    {
+      "id": "d09-order-7",
+      "type": "wordOrder",
+      "wordId": "d09-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "В спальне тихо.",
+      "sentenceEn": "It is quiet in the bedroom.",
+      "audio": "",
+      "tokens": [
+        "В",
+        "спальне",
+        "тихо"
+      ],
+      "pool": [
+        "В",
+        "спальне",
+        "тихо",
+        "диван",
+        "кровать",
+        "дом"
+      ]
+    },
+    {
+      "id": "d09-order-8",
+      "type": "wordOrder",
+      "wordId": "d09-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Ванная комната чистая.",
+      "sentenceEn": "The bathroom is clean.",
+      "audio": "",
+      "tokens": [
+        "Ванная",
+        "комната",
+        "чистая"
+      ],
+      "pool": [
+        "чистая",
+        "кровать",
+        "окно",
+        "дом",
+        "комната",
+        "Ванная"
+      ]
+    },
+    {
+      "id": "d09-order-9",
+      "type": "wordOrder",
+      "wordId": "d09-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Где ванная?",
+      "sentenceEn": "Where is the bathroom?",
+      "audio": "",
+      "tokens": [
+        "Где",
+        "ванная"
+      ],
+      "pool": [
+        "Где",
+        "окно",
+        "кухня",
+        "кровать",
+        "ванная"
+      ]
+    },
+    {
+      "id": "d09-order-10",
+      "type": "wordOrder",
+      "wordId": "d09-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Окно открыто.",
+      "sentenceEn": "The window is open.",
+      "audio": "",
+      "tokens": [
+        "Окно",
+        "открыто"
+      ],
+      "pool": [
+        "стена",
+        "диван",
+        "Окно",
+        "открыто",
+        "спальня"
+      ]
+    },
+    {
+      "id": "d09-order-11",
+      "type": "wordOrder",
+      "wordId": "d09-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "У окна стол.",
+      "sentenceEn": "A table by the window.",
+      "audio": "",
+      "tokens": [
+        "У",
+        "окна",
+        "стол"
+      ],
+      "pool": [
+        "У",
+        "стена",
+        "ванная",
+        "окна",
+        "стол",
+        "комната"
+      ]
+    },
+    {
+      "id": "d09-order-12",
+      "type": "wordOrder",
+      "wordId": "d09-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Дверь закрыта.",
+      "sentenceEn": "The door is closed.",
+      "audio": "",
+      "tokens": [
+        "Дверь",
+        "закрыта"
+      ],
+      "pool": [
+        "кровать",
+        "кухня",
+        "закрыта",
+        "Дверь",
+        "стена"
+      ]
+    },
+    {
+      "id": "d09-order-13",
+      "type": "wordOrder",
+      "wordId": "d09-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Открой дверь.",
+      "sentenceEn": "Open the door.",
+      "audio": "",
+      "tokens": [
+        "Открой",
+        "дверь"
+      ],
+      "pool": [
+        "Открой",
+        "стена",
+        "дверь",
+        "комната",
+        "дом"
+      ]
+    },
+    {
+      "id": "d09-order-14",
+      "type": "wordOrder",
+      "wordId": "d09-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Кровать у стены.",
+      "sentenceEn": "The bed is against the wall.",
+      "audio": "",
+      "tokens": [
+        "Кровать",
+        "у",
+        "стены"
+      ],
+      "pool": [
+        "дверь",
+        "комната",
+        "дом",
+        "Кровать",
+        "у",
+        "стены"
+      ]
+    },
+    {
+      "id": "d09-order-15",
+      "type": "wordOrder",
+      "wordId": "d09-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Удобная кровать.",
+      "sentenceEn": "A comfortable bed.",
+      "audio": "",
+      "tokens": [
+        "Удобная",
+        "кровать"
+      ],
+      "pool": [
+        "дом",
+        "Удобная",
+        "кровать",
+        "ванная",
+        "дверь"
+      ]
+    },
+    {
+      "id": "d09-order-16",
+      "type": "wordOrder",
+      "wordId": "d09-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Диван в гостиной.",
+      "sentenceEn": "The sofa is in the living room.",
+      "audio": "",
+      "tokens": [
+        "Диван",
+        "в",
+        "гостиной"
+      ],
+      "pool": [
+        "спальня",
+        "гостиной",
+        "ванная",
+        "Диван",
+        "в",
+        "дверь"
+      ]
+    },
+    {
+      "id": "d09-order-17",
+      "type": "wordOrder",
+      "wordId": "d09-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Садись на диван.",
+      "sentenceEn": "Sit on the sofa.",
+      "audio": "",
+      "tokens": [
+        "Садись",
+        "на",
+        "диван"
+      ],
+      "pool": [
+        "окно",
+        "Садись",
+        "на",
+        "диван",
+        "спальня",
+        "кровать"
+      ]
+    },
+    {
+      "id": "d09-order-18",
+      "type": "wordOrder",
+      "wordId": "d09-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "На стене картина.",
+      "sentenceEn": "There is a picture on the wall.",
+      "audio": "",
+      "tokens": [
+        "На",
+        "стене",
+        "картина"
+      ],
+      "pool": [
+        "диван",
+        "На",
+        "картина",
+        "стене",
+        "спальня",
+        "дом"
+      ]
+    },
+    {
+      "id": "d09-order-19",
+      "type": "wordOrder",
+      "wordId": "d09-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Белая стена.",
+      "sentenceEn": "A white wall.",
+      "audio": "",
+      "tokens": [
+        "Белая",
+        "стена"
+      ],
+      "pool": [
+        "спальня",
+        "Белая",
+        "стена",
+        "дом",
+        "кровать"
+      ]
+    },
+    {
+      "id": "d09-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d09-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d09-w01.svg",
+      "options": [
+        "дом",
+        "комната",
+        "кровать",
+        "ванная"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d09-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d09-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d09-w02.svg",
+      "options": [
+        "кровать",
+        "комната",
+        "окно",
+        "спальня"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d09-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d09-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d09-w03.svg",
+      "options": [
+        "стена",
+        "ванная",
+        "спальня",
+        "кухня"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d09-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d09-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d09-w04.svg",
+      "options": [
+        "окно",
+        "дверь",
+        "кровать",
+        "спальня"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d09-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d09-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d09-w05.svg",
+      "options": [
+        "спальня",
+        "комната",
+        "диван",
+        "ванная"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d09-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d09-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d09-w06.svg",
+      "options": [
+        "окно",
+        "ванная",
+        "комната",
+        "кухня"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d09-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d09-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d09-w07.svg",
+      "options": [
+        "кровать",
+        "дом",
+        "дверь",
+        "окно"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d09-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d09-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d09-w08.svg",
+      "options": [
+        "ванная",
+        "кровать",
+        "кухня",
+        "спальня"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d09-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d09-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d09-w09.svg",
+      "options": [
+        "дверь",
+        "кухня",
+        "диван",
+        "ванная"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d09-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d09-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d09-w10.svg",
+      "options": [
+        "кровать",
+        "комната",
+        "диван",
+        "стена"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

@@ -1,0 +1,775 @@
+{
+  "day": 6,
+  "theme": "Animals",
+  "grammarFocus": "Plural noun patterns",
+  "words": [
+    {
+      "id": "d06-w01",
+      "ru": "собака",
+      "en": "dog",
+      "audio": "/audio/day06/собака.mp3",
+      "image": "/images/vocab/d06-w01.svg",
+      "sentences": [
+        {
+          "ru": "Собака бегает в парке.",
+          "en": "The dog runs in the park."
+        },
+        {
+          "ru": "Большая собака лает.",
+          "en": "The big dog barks."
+        }
+      ]
+    },
+    {
+      "id": "d06-w02",
+      "ru": "кошка",
+      "en": "cat",
+      "audio": "/audio/day06/кошка.mp3",
+      "image": "/images/vocab/d06-w02.svg",
+      "sentences": [
+        {
+          "ru": "Кошка спит на диване.",
+          "en": "The cat sleeps on the sofa."
+        },
+        {
+          "ru": "Чёрная кошка мяукает.",
+          "en": "The black cat meows."
+        }
+      ]
+    },
+    {
+      "id": "d06-w03",
+      "ru": "птица",
+      "en": "bird",
+      "audio": "/audio/day06/птица.mp3",
+      "image": "/images/vocab/d06-w03.svg",
+      "sentences": [
+        {
+          "ru": "Птица поёт утром.",
+          "en": "The bird sings in the morning."
+        },
+        {
+          "ru": "Маленькая птица летит.",
+          "en": "A small bird flies."
+        }
+      ]
+    },
+    {
+      "id": "d06-w04",
+      "ru": "рыба",
+      "en": "fish",
+      "audio": "/audio/day06/рыба.mp3",
+      "image": "/images/vocab/d06-w04.svg",
+      "sentences": [
+        {
+          "ru": "Рыба плавает в воде.",
+          "en": "The fish swims in the water."
+        },
+        {
+          "ru": "Мы едим рыбу.",
+          "en": "We eat fish."
+        }
+      ]
+    },
+    {
+      "id": "d06-w05",
+      "ru": "лошадь",
+      "en": "horse",
+      "audio": "/audio/day06/лошадь.mp3",
+      "image": "/images/vocab/d06-w05.svg",
+      "sentences": [
+        {
+          "ru": "Лошадь бежит быстро.",
+          "en": "The horse runs fast."
+        },
+        {
+          "ru": "Белая лошадь красивая.",
+          "en": "The white horse is beautiful."
+        }
+      ]
+    },
+    {
+      "id": "d06-w06",
+      "ru": "корова",
+      "en": "cow",
+      "audio": "/audio/day06/корова.mp3",
+      "image": "/images/vocab/d06-w06.svg",
+      "sentences": [
+        {
+          "ru": "Корова даёт молоко.",
+          "en": "The cow gives milk."
+        },
+        {
+          "ru": "Коровы на ферме.",
+          "en": "Cows are on the farm."
+        }
+      ]
+    },
+    {
+      "id": "d06-w07",
+      "ru": "медведь",
+      "en": "bear",
+      "audio": "/audio/day06/медведь.mp3",
+      "image": "/images/vocab/d06-w07.svg",
+      "sentences": [
+        {
+          "ru": "Медведь живёт в лесу.",
+          "en": "The bear lives in the forest."
+        },
+        {
+          "ru": "Большой медведь опасный.",
+          "en": "A big bear is dangerous."
+        }
+      ]
+    },
+    {
+      "id": "d06-w08",
+      "ru": "волк",
+      "en": "wolf",
+      "audio": "/audio/day06/волк.mp3",
+      "image": "/images/vocab/d06-w08.svg",
+      "sentences": [
+        {
+          "ru": "Волк охотится ночью.",
+          "en": "The wolf hunts at night."
+        },
+        {
+          "ru": "Серый волк в тайге.",
+          "en": "A gray wolf in the taiga."
+        }
+      ]
+    },
+    {
+      "id": "d06-w09",
+      "ru": "заяц",
+      "en": "hare / rabbit",
+      "audio": "/audio/day06/заяц.mp3",
+      "image": "/images/vocab/d06-w09.svg",
+      "sentences": [
+        {
+          "ru": "Заяц прыгает по полю.",
+          "en": "The hare jumps across the field."
+        },
+        {
+          "ru": "Белый заяц зимой.",
+          "en": "A white hare in winter."
+        }
+      ]
+    },
+    {
+      "id": "d06-w10",
+      "ru": "мышь",
+      "en": "mouse",
+      "audio": "/audio/day06/мышь.mp3",
+      "image": "/images/vocab/d06-w10.svg",
+      "sentences": [
+        {
+          "ru": "Мышь бежит под стол.",
+          "en": "The mouse runs under the table."
+        },
+        {
+          "ru": "Мыши в старом доме.",
+          "en": "Mice in the old house."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d06-order-0",
+      "type": "wordOrder",
+      "wordId": "d06-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Собака бегает в парке.",
+      "sentenceEn": "The dog runs in the park.",
+      "audio": "",
+      "tokens": [
+        "Собака",
+        "бегает",
+        "в",
+        "парке"
+      ],
+      "pool": [
+        "кошка",
+        "в",
+        "заяц",
+        "Собака",
+        "парке",
+        "бегает",
+        "волк"
+      ]
+    },
+    {
+      "id": "d06-order-1",
+      "type": "wordOrder",
+      "wordId": "d06-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Большая собака лает.",
+      "sentenceEn": "The big dog barks.",
+      "audio": "",
+      "tokens": [
+        "Большая",
+        "собака",
+        "лает"
+      ],
+      "pool": [
+        "лошадь",
+        "заяц",
+        "Большая",
+        "кошка",
+        "лает",
+        "собака"
+      ]
+    },
+    {
+      "id": "d06-order-2",
+      "type": "wordOrder",
+      "wordId": "d06-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Кошка спит на диване.",
+      "sentenceEn": "The cat sleeps on the sofa.",
+      "audio": "",
+      "tokens": [
+        "Кошка",
+        "спит",
+        "на",
+        "диване"
+      ],
+      "pool": [
+        "Кошка",
+        "рыба",
+        "собака",
+        "на",
+        "диване",
+        "спит",
+        "волк"
+      ]
+    },
+    {
+      "id": "d06-order-3",
+      "type": "wordOrder",
+      "wordId": "d06-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Чёрная кошка мяукает.",
+      "sentenceEn": "The black cat meows.",
+      "audio": "",
+      "tokens": [
+        "Чёрная",
+        "кошка",
+        "мяукает"
+      ],
+      "pool": [
+        "медведь",
+        "кошка",
+        "мяукает",
+        "лошадь",
+        "птица",
+        "Чёрная"
+      ]
+    },
+    {
+      "id": "d06-order-4",
+      "type": "wordOrder",
+      "wordId": "d06-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Птица поёт утром.",
+      "sentenceEn": "The bird sings in the morning.",
+      "audio": "",
+      "tokens": [
+        "Птица",
+        "поёт",
+        "утром"
+      ],
+      "pool": [
+        "Птица",
+        "рыба",
+        "мышь",
+        "утром",
+        "заяц",
+        "поёт"
+      ]
+    },
+    {
+      "id": "d06-order-5",
+      "type": "wordOrder",
+      "wordId": "d06-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Маленькая птица летит.",
+      "sentenceEn": "A small bird flies.",
+      "audio": "",
+      "tokens": [
+        "Маленькая",
+        "птица",
+        "летит"
+      ],
+      "pool": [
+        "Маленькая",
+        "лошадь",
+        "мышь",
+        "волк",
+        "птица",
+        "летит"
+      ]
+    },
+    {
+      "id": "d06-order-6",
+      "type": "wordOrder",
+      "wordId": "d06-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Рыба плавает в воде.",
+      "sentenceEn": "The fish swims in the water.",
+      "audio": "",
+      "tokens": [
+        "Рыба",
+        "плавает",
+        "в",
+        "воде"
+      ],
+      "pool": [
+        "волк",
+        "воде",
+        "плавает",
+        "в",
+        "мышь",
+        "заяц",
+        "Рыба"
+      ]
+    },
+    {
+      "id": "d06-order-7",
+      "type": "wordOrder",
+      "wordId": "d06-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мы едим рыбу.",
+      "sentenceEn": "We eat fish.",
+      "audio": "",
+      "tokens": [
+        "Мы",
+        "едим",
+        "рыбу"
+      ],
+      "pool": [
+        "медведь",
+        "рыбу",
+        "мышь",
+        "Мы",
+        "едим",
+        "птица"
+      ]
+    },
+    {
+      "id": "d06-order-8",
+      "type": "wordOrder",
+      "wordId": "d06-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Лошадь бежит быстро.",
+      "sentenceEn": "The horse runs fast.",
+      "audio": "",
+      "tokens": [
+        "Лошадь",
+        "бежит",
+        "быстро"
+      ],
+      "pool": [
+        "Лошадь",
+        "рыба",
+        "мышь",
+        "бежит",
+        "быстро",
+        "заяц"
+      ]
+    },
+    {
+      "id": "d06-order-9",
+      "type": "wordOrder",
+      "wordId": "d06-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Белая лошадь красивая.",
+      "sentenceEn": "The white horse is beautiful.",
+      "audio": "",
+      "tokens": [
+        "Белая",
+        "лошадь",
+        "красивая"
+      ],
+      "pool": [
+        "лошадь",
+        "птица",
+        "волк",
+        "Белая",
+        "мышь",
+        "красивая"
+      ]
+    },
+    {
+      "id": "d06-order-10",
+      "type": "wordOrder",
+      "wordId": "d06-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Корова даёт молоко.",
+      "sentenceEn": "The cow gives milk.",
+      "audio": "",
+      "tokens": [
+        "Корова",
+        "даёт",
+        "молоко"
+      ],
+      "pool": [
+        "молоко",
+        "даёт",
+        "кошка",
+        "Корова",
+        "волк",
+        "мышь"
+      ]
+    },
+    {
+      "id": "d06-order-11",
+      "type": "wordOrder",
+      "wordId": "d06-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Коровы на ферме.",
+      "sentenceEn": "Cows are on the farm.",
+      "audio": "",
+      "tokens": [
+        "Коровы",
+        "на",
+        "ферме"
+      ],
+      "pool": [
+        "ферме",
+        "мышь",
+        "на",
+        "птица",
+        "Коровы",
+        "волк"
+      ]
+    },
+    {
+      "id": "d06-order-12",
+      "type": "wordOrder",
+      "wordId": "d06-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Медведь живёт в лесу.",
+      "sentenceEn": "The bear lives in the forest.",
+      "audio": "",
+      "tokens": [
+        "Медведь",
+        "живёт",
+        "в",
+        "лесу"
+      ],
+      "pool": [
+        "в",
+        "волк",
+        "Медведь",
+        "лесу",
+        "живёт",
+        "лошадь",
+        "птица"
+      ]
+    },
+    {
+      "id": "d06-order-13",
+      "type": "wordOrder",
+      "wordId": "d06-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Большой медведь опасный.",
+      "sentenceEn": "A big bear is dangerous.",
+      "audio": "",
+      "tokens": [
+        "Большой",
+        "медведь",
+        "опасный"
+      ],
+      "pool": [
+        "опасный",
+        "Большой",
+        "лошадь",
+        "собака",
+        "рыба",
+        "медведь"
+      ]
+    },
+    {
+      "id": "d06-order-14",
+      "type": "wordOrder",
+      "wordId": "d06-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Волк охотится ночью.",
+      "sentenceEn": "The wolf hunts at night.",
+      "audio": "",
+      "tokens": [
+        "Волк",
+        "охотится",
+        "ночью"
+      ],
+      "pool": [
+        "медведь",
+        "корова",
+        "ночью",
+        "охотится",
+        "Волк",
+        "собака"
+      ]
+    },
+    {
+      "id": "d06-order-15",
+      "type": "wordOrder",
+      "wordId": "d06-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Серый волк в тайге.",
+      "sentenceEn": "A gray wolf in the taiga.",
+      "audio": "",
+      "tokens": [
+        "Серый",
+        "волк",
+        "в",
+        "тайге"
+      ],
+      "pool": [
+        "птица",
+        "в",
+        "тайге",
+        "Серый",
+        "лошадь",
+        "медведь",
+        "волк"
+      ]
+    },
+    {
+      "id": "d06-order-16",
+      "type": "wordOrder",
+      "wordId": "d06-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Заяц прыгает по полю.",
+      "sentenceEn": "The hare jumps across the field.",
+      "audio": "",
+      "tokens": [
+        "Заяц",
+        "прыгает",
+        "по",
+        "полю"
+      ],
+      "pool": [
+        "корова",
+        "Заяц",
+        "прыгает",
+        "мышь",
+        "собака",
+        "полю",
+        "по"
+      ]
+    },
+    {
+      "id": "d06-order-17",
+      "type": "wordOrder",
+      "wordId": "d06-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Белый заяц зимой.",
+      "sentenceEn": "A white hare in winter.",
+      "audio": "",
+      "tokens": [
+        "Белый",
+        "заяц",
+        "зимой"
+      ],
+      "pool": [
+        "Белый",
+        "заяц",
+        "мышь",
+        "зимой",
+        "лошадь",
+        "кошка"
+      ]
+    },
+    {
+      "id": "d06-order-18",
+      "type": "wordOrder",
+      "wordId": "d06-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мышь бежит под стол.",
+      "sentenceEn": "The mouse runs under the table.",
+      "audio": "",
+      "tokens": [
+        "Мышь",
+        "бежит",
+        "под",
+        "стол"
+      ],
+      "pool": [
+        "под",
+        "заяц",
+        "стол",
+        "корова",
+        "волк",
+        "Мышь",
+        "бежит"
+      ]
+    },
+    {
+      "id": "d06-order-19",
+      "type": "wordOrder",
+      "wordId": "d06-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мыши в старом доме.",
+      "sentenceEn": "Mice in the old house.",
+      "audio": "",
+      "tokens": [
+        "Мыши",
+        "в",
+        "старом",
+        "доме"
+      ],
+      "pool": [
+        "старом",
+        "доме",
+        "рыба",
+        "в",
+        "волк",
+        "Мыши",
+        "заяц"
+      ]
+    },
+    {
+      "id": "d06-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d06-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d06-w01.svg",
+      "options": [
+        "корова",
+        "волк",
+        "собака",
+        "мышь"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d06-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d06-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d06-w02.svg",
+      "options": [
+        "рыба",
+        "заяц",
+        "корова",
+        "кошка"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d06-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d06-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d06-w03.svg",
+      "options": [
+        "мышь",
+        "лошадь",
+        "кошка",
+        "птица"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d06-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d06-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d06-w04.svg",
+      "options": [
+        "корова",
+        "медведь",
+        "мышь",
+        "рыба"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d06-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d06-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d06-w05.svg",
+      "options": [
+        "лошадь",
+        "собака",
+        "волк",
+        "кошка"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d06-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d06-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d06-w06.svg",
+      "options": [
+        "кошка",
+        "рыба",
+        "лошадь",
+        "корова"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d06-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d06-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d06-w07.svg",
+      "options": [
+        "кошка",
+        "корова",
+        "медведь",
+        "волк"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d06-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d06-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d06-w08.svg",
+      "options": [
+        "корова",
+        "рыба",
+        "собака",
+        "волк"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d06-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d06-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d06-w09.svg",
+      "options": [
+        "кошка",
+        "волк",
+        "медведь",
+        "заяц"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d06-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d06-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d06-w10.svg",
+      "options": [
+        "заяц",
+        "собака",
+        "мышь",
+        "волк"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

@@ -1,0 +1,725 @@
+{
+  "day": 27,
+  "theme": "Past events & stories",
+  "grammarFocus": "Past tense (verbs)",
+  "words": [
+    {
+      "id": "d27-w01",
+      "ru": "вчера",
+      "en": "yesterday",
+      "audio": "/audio/day27/вчера.mp3",
+      "image": "/images/vocab/d27-w01.svg",
+      "sentences": [
+        {
+          "ru": "Вчера был дождь.",
+          "en": "It rained yesterday."
+        },
+        {
+          "ru": "Вчера работал.",
+          "en": "I worked yesterday."
+        }
+      ]
+    },
+    {
+      "id": "d27-w02",
+      "ru": "рассказ",
+      "en": "story / tale",
+      "audio": "/audio/day27/рассказ.mp3",
+      "image": "/images/vocab/d27-w02.svg",
+      "sentences": [
+        {
+          "ru": "Интересный рассказ.",
+          "en": "An interesting story."
+        },
+        {
+          "ru": "Расскажи рассказ.",
+          "en": "Tell a story."
+        }
+      ]
+    },
+    {
+      "id": "d27-w03",
+      "ru": "помнить",
+      "en": "to remember",
+      "audio": "/audio/day27/помнить.mp3",
+      "image": "/images/vocab/d27-w03.svg",
+      "sentences": [
+        {
+          "ru": "Помню всё.",
+          "en": "I remember everything."
+        },
+        {
+          "ru": "Не помню.",
+          "en": "I don't remember."
+        }
+      ]
+    },
+    {
+      "id": "d27-w04",
+      "ru": "забыть",
+      "en": "to forget",
+      "audio": "/audio/day27/забыть.mp3",
+      "image": "/images/vocab/d27-w04.svg",
+      "sentences": [
+        {
+          "ru": "Забыл ключи.",
+          "en": "I forgot the keys."
+        },
+        {
+          "ru": "Не забудь.",
+          "en": "Don't forget."
+        }
+      ]
+    },
+    {
+      "id": "d27-w05",
+      "ru": "случиться",
+      "en": "to happen",
+      "audio": "/audio/day27/случиться.mp3",
+      "image": "/images/vocab/d27-w05.svg",
+      "sentences": [
+        {
+          "ru": "Что случилось?",
+          "en": "What happened?"
+        },
+        {
+          "ru": "Это случилось вчера.",
+          "en": "It happened yesterday."
+        }
+      ]
+    },
+    {
+      "id": "d27-w06",
+      "ru": "встретить",
+      "en": "to meet",
+      "audio": "/audio/day27/встретить.mp3",
+      "image": "/images/vocab/d27-w06.svg",
+      "sentences": [
+        {
+          "ru": "Встретил друга.",
+          "en": "I met a friend."
+        },
+        {
+          "ru": "Приятно встретить.",
+          "en": "Nice to meet."
+        }
+      ]
+    },
+    {
+      "id": "d27-w07",
+      "ru": "сказать",
+      "en": "to say / tell",
+      "audio": "/audio/day27/сказать.mp3",
+      "image": "/images/vocab/d27-w07.svg",
+      "sentences": [
+        {
+          "ru": "Сказал правду.",
+          "en": "He told the truth."
+        },
+        {
+          "ru": "Что ты сказал?",
+          "en": "What did you say?"
+        }
+      ]
+    },
+    {
+      "id": "d27-w08",
+      "ru": "услышать",
+      "en": "to hear (completed)",
+      "audio": "/audio/day27/услышать.mp3",
+      "image": "/images/vocab/d27-w08.svg",
+      "sentences": [
+        {
+          "ru": "Услышал новость.",
+          "en": "I heard the news."
+        },
+        {
+          "ru": "Услышал шум.",
+          "en": "I heard a noise."
+        }
+      ]
+    },
+    {
+      "id": "d27-w09",
+      "ru": "увидеть",
+      "en": "to see (completed)",
+      "audio": "/audio/day27/увидеть.mp3",
+      "image": "/images/vocab/d27-w09.svg",
+      "sentences": [
+        {
+          "ru": "Увидел море.",
+          "en": "I saw the sea."
+        },
+        {
+          "ru": "Рад увидеть.",
+          "en": "Glad to see."
+        }
+      ]
+    },
+    {
+      "id": "d27-w10",
+      "ru": "понять",
+      "en": "to understand",
+      "audio": "/audio/day27/понять.mp3",
+      "image": "/images/vocab/d27-w10.svg",
+      "sentences": [
+        {
+          "ru": "Понял урок.",
+          "en": "I understood the lesson."
+        },
+        {
+          "ru": "Теперь понимаю.",
+          "en": "Now I understand."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d27-order-0",
+      "type": "wordOrder",
+      "wordId": "d27-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Вчера был дождь.",
+      "sentenceEn": "It rained yesterday.",
+      "audio": "",
+      "tokens": [
+        "Вчера",
+        "был",
+        "дождь"
+      ],
+      "pool": [
+        "забыть",
+        "сказать",
+        "Вчера",
+        "был",
+        "дождь",
+        "увидеть"
+      ]
+    },
+    {
+      "id": "d27-order-1",
+      "type": "wordOrder",
+      "wordId": "d27-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Вчера работал.",
+      "sentenceEn": "I worked yesterday.",
+      "audio": "",
+      "tokens": [
+        "Вчера",
+        "работал"
+      ],
+      "pool": [
+        "понять",
+        "случиться",
+        "забыть",
+        "Вчера",
+        "работал"
+      ]
+    },
+    {
+      "id": "d27-order-2",
+      "type": "wordOrder",
+      "wordId": "d27-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Интересный рассказ.",
+      "sentenceEn": "An interesting story.",
+      "audio": "",
+      "tokens": [
+        "Интересный",
+        "рассказ"
+      ],
+      "pool": [
+        "забыть",
+        "сказать",
+        "рассказ",
+        "Интересный",
+        "понять"
+      ]
+    },
+    {
+      "id": "d27-order-3",
+      "type": "wordOrder",
+      "wordId": "d27-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Расскажи рассказ.",
+      "sentenceEn": "Tell a story.",
+      "audio": "",
+      "tokens": [
+        "Расскажи",
+        "рассказ"
+      ],
+      "pool": [
+        "рассказ",
+        "Расскажи",
+        "помнить",
+        "понять",
+        "услышать"
+      ]
+    },
+    {
+      "id": "d27-order-4",
+      "type": "wordOrder",
+      "wordId": "d27-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Помню всё.",
+      "sentenceEn": "I remember everything.",
+      "audio": "",
+      "tokens": [
+        "Помню",
+        "всё"
+      ],
+      "pool": [
+        "рассказ",
+        "всё",
+        "забыть",
+        "Помню",
+        "увидеть"
+      ]
+    },
+    {
+      "id": "d27-order-5",
+      "type": "wordOrder",
+      "wordId": "d27-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Не помню.",
+      "sentenceEn": "I don't remember.",
+      "audio": "",
+      "tokens": [
+        "Не",
+        "помню"
+      ],
+      "pool": [
+        "помню",
+        "сказать",
+        "рассказ",
+        "вчера",
+        "Не"
+      ]
+    },
+    {
+      "id": "d27-order-6",
+      "type": "wordOrder",
+      "wordId": "d27-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Забыл ключи.",
+      "sentenceEn": "I forgot the keys.",
+      "audio": "",
+      "tokens": [
+        "Забыл",
+        "ключи"
+      ],
+      "pool": [
+        "Забыл",
+        "услышать",
+        "встретить",
+        "ключи",
+        "вчера"
+      ]
+    },
+    {
+      "id": "d27-order-7",
+      "type": "wordOrder",
+      "wordId": "d27-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Не забудь.",
+      "sentenceEn": "Don't forget.",
+      "audio": "",
+      "tokens": [
+        "Не",
+        "забудь"
+      ],
+      "pool": [
+        "сказать",
+        "Не",
+        "забудь",
+        "вчера",
+        "услышать"
+      ]
+    },
+    {
+      "id": "d27-order-8",
+      "type": "wordOrder",
+      "wordId": "d27-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Что случилось?",
+      "sentenceEn": "What happened?",
+      "audio": "",
+      "tokens": [
+        "Что",
+        "случилось"
+      ],
+      "pool": [
+        "случилось",
+        "Что",
+        "увидеть",
+        "забыть",
+        "вчера"
+      ]
+    },
+    {
+      "id": "d27-order-9",
+      "type": "wordOrder",
+      "wordId": "d27-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Это случилось вчера.",
+      "sentenceEn": "It happened yesterday.",
+      "audio": "",
+      "tokens": [
+        "Это",
+        "случилось",
+        "вчера"
+      ],
+      "pool": [
+        "забыть",
+        "случилось",
+        "рассказ",
+        "вчера",
+        "Это",
+        "понять"
+      ]
+    },
+    {
+      "id": "d27-order-10",
+      "type": "wordOrder",
+      "wordId": "d27-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Встретил друга.",
+      "sentenceEn": "I met a friend.",
+      "audio": "",
+      "tokens": [
+        "Встретил",
+        "друга"
+      ],
+      "pool": [
+        "Встретил",
+        "помнить",
+        "друга",
+        "забыть",
+        "вчера"
+      ]
+    },
+    {
+      "id": "d27-order-11",
+      "type": "wordOrder",
+      "wordId": "d27-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Приятно встретить.",
+      "sentenceEn": "Nice to meet.",
+      "audio": "",
+      "tokens": [
+        "Приятно",
+        "встретить"
+      ],
+      "pool": [
+        "случиться",
+        "забыть",
+        "Приятно",
+        "встретить",
+        "помнить"
+      ]
+    },
+    {
+      "id": "d27-order-12",
+      "type": "wordOrder",
+      "wordId": "d27-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Сказал правду.",
+      "sentenceEn": "He told the truth.",
+      "audio": "",
+      "tokens": [
+        "Сказал",
+        "правду"
+      ],
+      "pool": [
+        "Сказал",
+        "рассказ",
+        "правду",
+        "понять",
+        "услышать"
+      ]
+    },
+    {
+      "id": "d27-order-13",
+      "type": "wordOrder",
+      "wordId": "d27-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Что ты сказал?",
+      "sentenceEn": "What did you say?",
+      "audio": "",
+      "tokens": [
+        "Что",
+        "ты",
+        "сказал"
+      ],
+      "pool": [
+        "помнить",
+        "вчера",
+        "встретить",
+        "Что",
+        "сказал",
+        "ты"
+      ]
+    },
+    {
+      "id": "d27-order-14",
+      "type": "wordOrder",
+      "wordId": "d27-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Услышал новость.",
+      "sentenceEn": "I heard the news.",
+      "audio": "",
+      "tokens": [
+        "Услышал",
+        "новость"
+      ],
+      "pool": [
+        "случиться",
+        "забыть",
+        "встретить",
+        "новость",
+        "Услышал"
+      ]
+    },
+    {
+      "id": "d27-order-15",
+      "type": "wordOrder",
+      "wordId": "d27-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Услышал шум.",
+      "sentenceEn": "I heard a noise.",
+      "audio": "",
+      "tokens": [
+        "Услышал",
+        "шум"
+      ],
+      "pool": [
+        "встретить",
+        "Услышал",
+        "сказать",
+        "понять",
+        "шум"
+      ]
+    },
+    {
+      "id": "d27-order-16",
+      "type": "wordOrder",
+      "wordId": "d27-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Увидел море.",
+      "sentenceEn": "I saw the sea.",
+      "audio": "",
+      "tokens": [
+        "Увидел",
+        "море"
+      ],
+      "pool": [
+        "помнить",
+        "море",
+        "Увидел",
+        "сказать",
+        "рассказ"
+      ]
+    },
+    {
+      "id": "d27-order-17",
+      "type": "wordOrder",
+      "wordId": "d27-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Рад увидеть.",
+      "sentenceEn": "Glad to see.",
+      "audio": "",
+      "tokens": [
+        "Рад",
+        "увидеть"
+      ],
+      "pool": [
+        "Рад",
+        "встретить",
+        "увидеть",
+        "вчера",
+        "понять"
+      ]
+    },
+    {
+      "id": "d27-order-18",
+      "type": "wordOrder",
+      "wordId": "d27-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Понял урок.",
+      "sentenceEn": "I understood the lesson.",
+      "audio": "",
+      "tokens": [
+        "Понял",
+        "урок"
+      ],
+      "pool": [
+        "увидеть",
+        "встретить",
+        "урок",
+        "случиться",
+        "Понял"
+      ]
+    },
+    {
+      "id": "d27-order-19",
+      "type": "wordOrder",
+      "wordId": "d27-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Теперь понимаю.",
+      "sentenceEn": "Now I understand.",
+      "audio": "",
+      "tokens": [
+        "Теперь",
+        "понимаю"
+      ],
+      "pool": [
+        "понимаю",
+        "забыть",
+        "Теперь",
+        "рассказ",
+        "встретить"
+      ]
+    },
+    {
+      "id": "d27-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d27-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d27-w01.svg",
+      "options": [
+        "понять",
+        "случиться",
+        "помнить",
+        "вчера"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d27-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d27-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d27-w02.svg",
+      "options": [
+        "сказать",
+        "рассказ",
+        "вчера",
+        "понять"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d27-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d27-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d27-w03.svg",
+      "options": [
+        "помнить",
+        "услышать",
+        "сказать",
+        "вчера"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d27-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d27-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d27-w04.svg",
+      "options": [
+        "понять",
+        "забыть",
+        "случиться",
+        "сказать"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d27-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d27-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d27-w05.svg",
+      "options": [
+        "сказать",
+        "забыть",
+        "случиться",
+        "вчера"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d27-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d27-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d27-w06.svg",
+      "options": [
+        "сказать",
+        "понять",
+        "встретить",
+        "случиться"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d27-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d27-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d27-w07.svg",
+      "options": [
+        "сказать",
+        "вчера",
+        "услышать",
+        "случиться"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d27-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d27-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d27-w08.svg",
+      "options": [
+        "увидеть",
+        "услышать",
+        "забыть",
+        "сказать"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d27-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d27-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d27-w09.svg",
+      "options": [
+        "забыть",
+        "сказать",
+        "увидеть",
+        "случиться"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d27-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d27-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d27-w10.svg",
+      "options": [
+        "понять",
+        "рассказ",
+        "помнить",
+        "увидеть"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

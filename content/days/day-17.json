@@ -1,0 +1,729 @@
+{
+  "day": 17,
+  "theme": "Work & professions",
+  "grammarFocus": "Instrumental (быть + profession)",
+  "words": [
+    {
+      "id": "d17-w01",
+      "ru": "работа",
+      "en": "work / job",
+      "audio": "/audio/day17/работа.mp3",
+      "image": "/images/vocab/d17-w01.svg",
+      "sentences": [
+        {
+          "ru": "Я на работе.",
+          "en": "I am at work."
+        },
+        {
+          "ru": "Работа интересная.",
+          "en": "The job is interesting."
+        }
+      ]
+    },
+    {
+      "id": "d17-w02",
+      "ru": "офис",
+      "en": "office",
+      "audio": "/audio/day17/офис.mp3",
+      "image": "/images/vocab/d17-w02.svg",
+      "sentences": [
+        {
+          "ru": "Офис в центре.",
+          "en": "The office is downtown."
+        },
+        {
+          "ru": "Иду в офис.",
+          "en": "I am going to the office."
+        }
+      ]
+    },
+    {
+      "id": "d17-w03",
+      "ru": "учитель",
+      "en": "teacher",
+      "audio": "/audio/day17/учитель.mp3",
+      "image": "/images/vocab/d17-w03.svg",
+      "sentences": [
+        {
+          "ru": "Она учитель.",
+          "en": "She is a teacher."
+        },
+        {
+          "ru": "Хороший учитель.",
+          "en": "A good teacher."
+        }
+      ]
+    },
+    {
+      "id": "d17-w04",
+      "ru": "инженер",
+      "en": "engineer",
+      "audio": "/audio/day17/инженер.mp3",
+      "image": "/images/vocab/d17-w04.svg",
+      "sentences": [
+        {
+          "ru": "Он инженер.",
+          "en": "He is an engineer."
+        },
+        {
+          "ru": "Инженер работает.",
+          "en": "The engineer works."
+        }
+      ]
+    },
+    {
+      "id": "d17-w05",
+      "ru": "врач",
+      "en": "doctor",
+      "audio": "/audio/day17/врач.mp3",
+      "image": "/images/vocab/d17-w05.svg",
+      "sentences": [
+        {
+          "ru": "Моя сестра врач.",
+          "en": "My sister is a doctor."
+        },
+        {
+          "ru": "Врач в больнице.",
+          "en": "The doctor is at the hospital."
+        }
+      ]
+    },
+    {
+      "id": "d17-w06",
+      "ru": "студент",
+      "en": "student",
+      "audio": "/audio/day17/студент.mp3",
+      "image": "/images/vocab/d17-w06.svg",
+      "sentences": [
+        {
+          "ru": "Я студент.",
+          "en": "I am a student."
+        },
+        {
+          "ru": "Студенты учатся.",
+          "en": "Students study."
+        }
+      ]
+    },
+    {
+      "id": "d17-w07",
+      "ru": "начальник",
+      "en": "boss / manager",
+      "audio": "/audio/day17/начальник.mp3",
+      "image": "/images/vocab/d17-w07.svg",
+      "sentences": [
+        {
+          "ru": "Начальник строгий.",
+          "en": "The boss is strict."
+        },
+        {
+          "ru": "Мой начальник.",
+          "en": "My boss."
+        }
+      ]
+    },
+    {
+      "id": "d17-w08",
+      "ru": "зарплата",
+      "en": "salary",
+      "audio": "/audio/day17/зарплата.mp3",
+      "image": "/images/vocab/d17-w08.svg",
+      "sentences": [
+        {
+          "ru": "Зарплата хорошая.",
+          "en": "The salary is good."
+        },
+        {
+          "ru": "Когда зарплата?",
+          "en": "When is payday?"
+        }
+      ]
+    },
+    {
+      "id": "d17-w09",
+      "ru": "коллега",
+      "en": "colleague",
+      "audio": "/audio/day17/коллега.mp3",
+      "image": "/images/vocab/d17-w09.svg",
+      "sentences": [
+        {
+          "ru": "Мой коллега.",
+          "en": "My colleague."
+        },
+        {
+          "ru": "Коллеги помогают.",
+          "en": "Colleagues help."
+        }
+      ]
+    },
+    {
+      "id": "d17-w10",
+      "ru": "карьера",
+      "en": "career",
+      "audio": "/audio/day17/карьера.mp3",
+      "image": "/images/vocab/d17-w10.svg",
+      "sentences": [
+        {
+          "ru": "Карьера важна.",
+          "en": "Career is important."
+        },
+        {
+          "ru": "Успешная карьера.",
+          "en": "A successful career."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d17-order-0",
+      "type": "wordOrder",
+      "wordId": "d17-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Я на работе.",
+      "sentenceEn": "I am at work.",
+      "audio": "",
+      "tokens": [
+        "Я",
+        "на",
+        "работе"
+      ],
+      "pool": [
+        "учитель",
+        "работе",
+        "на",
+        "Я",
+        "инженер",
+        "зарплата"
+      ]
+    },
+    {
+      "id": "d17-order-1",
+      "type": "wordOrder",
+      "wordId": "d17-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Работа интересная.",
+      "sentenceEn": "The job is interesting.",
+      "audio": "",
+      "tokens": [
+        "Работа",
+        "интересная"
+      ],
+      "pool": [
+        "учитель",
+        "студент",
+        "интересная",
+        "врач",
+        "Работа"
+      ]
+    },
+    {
+      "id": "d17-order-2",
+      "type": "wordOrder",
+      "wordId": "d17-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Офис в центре.",
+      "sentenceEn": "The office is downtown.",
+      "audio": "",
+      "tokens": [
+        "Офис",
+        "в",
+        "центре"
+      ],
+      "pool": [
+        "карьера",
+        "в",
+        "работа",
+        "Офис",
+        "центре",
+        "коллега"
+      ]
+    },
+    {
+      "id": "d17-order-3",
+      "type": "wordOrder",
+      "wordId": "d17-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Иду в офис.",
+      "sentenceEn": "I am going to the office.",
+      "audio": "",
+      "tokens": [
+        "Иду",
+        "в",
+        "офис"
+      ],
+      "pool": [
+        "учитель",
+        "офис",
+        "начальник",
+        "зарплата",
+        "Иду",
+        "в"
+      ]
+    },
+    {
+      "id": "d17-order-4",
+      "type": "wordOrder",
+      "wordId": "d17-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Она учитель.",
+      "sentenceEn": "She is a teacher.",
+      "audio": "",
+      "tokens": [
+        "Она",
+        "учитель"
+      ],
+      "pool": [
+        "врач",
+        "карьера",
+        "учитель",
+        "зарплата",
+        "Она"
+      ]
+    },
+    {
+      "id": "d17-order-5",
+      "type": "wordOrder",
+      "wordId": "d17-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Хороший учитель.",
+      "sentenceEn": "A good teacher.",
+      "audio": "",
+      "tokens": [
+        "Хороший",
+        "учитель"
+      ],
+      "pool": [
+        "карьера",
+        "инженер",
+        "зарплата",
+        "учитель",
+        "Хороший"
+      ]
+    },
+    {
+      "id": "d17-order-6",
+      "type": "wordOrder",
+      "wordId": "d17-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Он инженер.",
+      "sentenceEn": "He is an engineer.",
+      "audio": "",
+      "tokens": [
+        "Он",
+        "инженер"
+      ],
+      "pool": [
+        "коллега",
+        "зарплата",
+        "офис",
+        "Он",
+        "инженер"
+      ]
+    },
+    {
+      "id": "d17-order-7",
+      "type": "wordOrder",
+      "wordId": "d17-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Инженер работает.",
+      "sentenceEn": "The engineer works.",
+      "audio": "",
+      "tokens": [
+        "Инженер",
+        "работает"
+      ],
+      "pool": [
+        "Инженер",
+        "работает",
+        "карьера",
+        "врач",
+        "начальник"
+      ]
+    },
+    {
+      "id": "d17-order-8",
+      "type": "wordOrder",
+      "wordId": "d17-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Моя сестра врач.",
+      "sentenceEn": "My sister is a doctor.",
+      "audio": "",
+      "tokens": [
+        "Моя",
+        "сестра",
+        "врач"
+      ],
+      "pool": [
+        "Моя",
+        "инженер",
+        "работа",
+        "сестра",
+        "учитель",
+        "врач"
+      ]
+    },
+    {
+      "id": "d17-order-9",
+      "type": "wordOrder",
+      "wordId": "d17-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Врач в больнице.",
+      "sentenceEn": "The doctor is at the hospital.",
+      "audio": "",
+      "tokens": [
+        "Врач",
+        "в",
+        "больнице"
+      ],
+      "pool": [
+        "карьера",
+        "Врач",
+        "инженер",
+        "студент",
+        "в",
+        "больнице"
+      ]
+    },
+    {
+      "id": "d17-order-10",
+      "type": "wordOrder",
+      "wordId": "d17-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Я студент.",
+      "sentenceEn": "I am a student.",
+      "audio": "",
+      "tokens": [
+        "Я",
+        "студент"
+      ],
+      "pool": [
+        "врач",
+        "офис",
+        "Я",
+        "студент",
+        "карьера"
+      ]
+    },
+    {
+      "id": "d17-order-11",
+      "type": "wordOrder",
+      "wordId": "d17-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Студенты учатся.",
+      "sentenceEn": "Students study.",
+      "audio": "",
+      "tokens": [
+        "Студенты",
+        "учатся"
+      ],
+      "pool": [
+        "инженер",
+        "учатся",
+        "коллега",
+        "Студенты",
+        "работа"
+      ]
+    },
+    {
+      "id": "d17-order-12",
+      "type": "wordOrder",
+      "wordId": "d17-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Начальник строгий.",
+      "sentenceEn": "The boss is strict.",
+      "audio": "",
+      "tokens": [
+        "Начальник",
+        "строгий"
+      ],
+      "pool": [
+        "карьера",
+        "строгий",
+        "Начальник",
+        "врач",
+        "учитель"
+      ]
+    },
+    {
+      "id": "d17-order-13",
+      "type": "wordOrder",
+      "wordId": "d17-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мой начальник.",
+      "sentenceEn": "My boss.",
+      "audio": "",
+      "tokens": [
+        "Мой",
+        "начальник"
+      ],
+      "pool": [
+        "работа",
+        "начальник",
+        "офис",
+        "карьера",
+        "Мой"
+      ]
+    },
+    {
+      "id": "d17-order-14",
+      "type": "wordOrder",
+      "wordId": "d17-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Зарплата хорошая.",
+      "sentenceEn": "The salary is good.",
+      "audio": "",
+      "tokens": [
+        "Зарплата",
+        "хорошая"
+      ],
+      "pool": [
+        "Зарплата",
+        "учитель",
+        "карьера",
+        "офис",
+        "хорошая"
+      ]
+    },
+    {
+      "id": "d17-order-15",
+      "type": "wordOrder",
+      "wordId": "d17-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Когда зарплата?",
+      "sentenceEn": "When is payday?",
+      "audio": "",
+      "tokens": [
+        "Когда",
+        "зарплата"
+      ],
+      "pool": [
+        "Когда",
+        "работа",
+        "учитель",
+        "зарплата",
+        "врач"
+      ]
+    },
+    {
+      "id": "d17-order-16",
+      "type": "wordOrder",
+      "wordId": "d17-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мой коллега.",
+      "sentenceEn": "My colleague.",
+      "audio": "",
+      "tokens": [
+        "Мой",
+        "коллега"
+      ],
+      "pool": [
+        "работа",
+        "коллега",
+        "студент",
+        "инженер",
+        "Мой"
+      ]
+    },
+    {
+      "id": "d17-order-17",
+      "type": "wordOrder",
+      "wordId": "d17-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Коллеги помогают.",
+      "sentenceEn": "Colleagues help.",
+      "audio": "",
+      "tokens": [
+        "Коллеги",
+        "помогают"
+      ],
+      "pool": [
+        "начальник",
+        "учитель",
+        "Коллеги",
+        "офис",
+        "помогают"
+      ]
+    },
+    {
+      "id": "d17-order-18",
+      "type": "wordOrder",
+      "wordId": "d17-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Карьера важна.",
+      "sentenceEn": "Career is important.",
+      "audio": "",
+      "tokens": [
+        "Карьера",
+        "важна"
+      ],
+      "pool": [
+        "важна",
+        "зарплата",
+        "Карьера",
+        "коллега",
+        "начальник"
+      ]
+    },
+    {
+      "id": "d17-order-19",
+      "type": "wordOrder",
+      "wordId": "d17-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Успешная карьера.",
+      "sentenceEn": "A successful career.",
+      "audio": "",
+      "tokens": [
+        "Успешная",
+        "карьера"
+      ],
+      "pool": [
+        "Успешная",
+        "работа",
+        "учитель",
+        "карьера",
+        "офис"
+      ]
+    },
+    {
+      "id": "d17-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d17-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d17-w01.svg",
+      "options": [
+        "инженер",
+        "работа",
+        "врач",
+        "офис"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d17-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d17-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d17-w02.svg",
+      "options": [
+        "карьера",
+        "начальник",
+        "офис",
+        "студент"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d17-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d17-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d17-w03.svg",
+      "options": [
+        "учитель",
+        "работа",
+        "начальник",
+        "инженер"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d17-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d17-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d17-w04.svg",
+      "options": [
+        "инженер",
+        "зарплата",
+        "коллега",
+        "врач"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d17-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d17-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d17-w05.svg",
+      "options": [
+        "врач",
+        "инженер",
+        "зарплата",
+        "студент"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d17-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d17-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d17-w06.svg",
+      "options": [
+        "студент",
+        "учитель",
+        "офис",
+        "врач"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d17-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d17-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d17-w07.svg",
+      "options": [
+        "начальник",
+        "студент",
+        "инженер",
+        "офис"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d17-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d17-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d17-w08.svg",
+      "options": [
+        "учитель",
+        "работа",
+        "студент",
+        "зарплата"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d17-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d17-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d17-w09.svg",
+      "options": [
+        "инженер",
+        "коллега",
+        "зарплата",
+        "учитель"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d17-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d17-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d17-w10.svg",
+      "options": [
+        "инженер",
+        "учитель",
+        "карьера",
+        "работа"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

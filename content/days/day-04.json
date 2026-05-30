@@ -1,0 +1,775 @@
+{
+  "day": 4,
+  "theme": "Colors & descriptions",
+  "grammarFocus": "Adjective agreement (nominative)",
+  "words": [
+    {
+      "id": "d04-w01",
+      "ru": "красный",
+      "en": "red",
+      "audio": "/audio/day04/красный.mp3",
+      "image": "/images/vocab/d04-w01.svg",
+      "sentences": [
+        {
+          "ru": "Красная машина стоит там.",
+          "en": "The red car is parked there."
+        },
+        {
+          "ru": "Я люблю красный цвет.",
+          "en": "I love the color red."
+        }
+      ]
+    },
+    {
+      "id": "d04-w02",
+      "ru": "синий",
+      "en": "blue",
+      "audio": "/audio/day04/синий.mp3",
+      "image": "/images/vocab/d04-w02.svg",
+      "sentences": [
+        {
+          "ru": "Синее небо сегодня.",
+          "en": "The sky is blue today."
+        },
+        {
+          "ru": "У него синие глаза.",
+          "en": "He has blue eyes."
+        }
+      ]
+    },
+    {
+      "id": "d04-w03",
+      "ru": "зелёный",
+      "en": "green",
+      "audio": "/audio/day04/зелёный.mp3",
+      "image": "/images/vocab/d04-w03.svg",
+      "sentences": [
+        {
+          "ru": "Зелёный парк рядом.",
+          "en": "There is a green park nearby."
+        },
+        {
+          "ru": "Зелёное яблоко на столе.",
+          "en": "A green apple on the table."
+        }
+      ]
+    },
+    {
+      "id": "d04-w04",
+      "ru": "белый",
+      "en": "white",
+      "audio": "/audio/day04/белый.mp3",
+      "image": "/images/vocab/d04-w04.svg",
+      "sentences": [
+        {
+          "ru": "Белый снег зимой.",
+          "en": "White snow in winter."
+        },
+        {
+          "ru": "Белая рубашка чистая.",
+          "en": "The white shirt is clean."
+        }
+      ]
+    },
+    {
+      "id": "d04-w05",
+      "ru": "чёрный",
+      "en": "black",
+      "audio": "/audio/day04/чёрный.mp3",
+      "image": "/images/vocab/d04-w05.svg",
+      "sentences": [
+        {
+          "ru": "Чёрная кошка на крыше.",
+          "en": "A black cat on the roof."
+        },
+        {
+          "ru": "Чёрный кофе без сахара.",
+          "en": "Black coffee without sugar."
+        }
+      ]
+    },
+    {
+      "id": "d04-w06",
+      "ru": "большой",
+      "en": "big",
+      "audio": "/audio/day04/большой.mp3",
+      "image": "/images/vocab/d04-w06.svg",
+      "sentences": [
+        {
+          "ru": "Большой дом на улице.",
+          "en": "A big house on the street."
+        },
+        {
+          "ru": "Москва — большой город.",
+          "en": "Moscow is a big city."
+        }
+      ]
+    },
+    {
+      "id": "d04-w07",
+      "ru": "маленький",
+      "en": "small",
+      "audio": "/audio/day04/маленький.mp3",
+      "image": "/images/vocab/d04-w07.svg",
+      "sentences": [
+        {
+          "ru": "Маленький ребёнок спит.",
+          "en": "A small child is sleeping."
+        },
+        {
+          "ru": "Маленькая комната уютная.",
+          "en": "The small room is cozy."
+        }
+      ]
+    },
+    {
+      "id": "d04-w08",
+      "ru": "красивый",
+      "en": "beautiful",
+      "audio": "/audio/day04/красивый.mp3",
+      "image": "/images/vocab/d04-w08.svg",
+      "sentences": [
+        {
+          "ru": "Красивый закат сегодня.",
+          "en": "A beautiful sunset today."
+        },
+        {
+          "ru": "Она красивая женщина.",
+          "en": "She is a beautiful woman."
+        }
+      ]
+    },
+    {
+      "id": "d04-w09",
+      "ru": "новый",
+      "en": "new",
+      "audio": "/audio/day04/новый.mp3",
+      "image": "/images/vocab/d04-w09.svg",
+      "sentences": [
+        {
+          "ru": "Новый телефон работает.",
+          "en": "The new phone works."
+        },
+        {
+          "ru": "Новая машина быстрая.",
+          "en": "The new car is fast."
+        }
+      ]
+    },
+    {
+      "id": "d04-w10",
+      "ru": "старый",
+      "en": "old",
+      "audio": "/audio/day04/старый.mp3",
+      "image": "/images/vocab/d04-w10.svg",
+      "sentences": [
+        {
+          "ru": "Старый дом в центре.",
+          "en": "An old house in the center."
+        },
+        {
+          "ru": "Старый друг приехал.",
+          "en": "An old friend arrived."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d04-order-0",
+      "type": "wordOrder",
+      "wordId": "d04-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Красная машина стоит там.",
+      "sentenceEn": "The red car is parked there.",
+      "audio": "",
+      "tokens": [
+        "Красная",
+        "машина",
+        "стоит",
+        "там"
+      ],
+      "pool": [
+        "там",
+        "машина",
+        "чёрный",
+        "синий",
+        "Красная",
+        "красивый",
+        "стоит"
+      ]
+    },
+    {
+      "id": "d04-order-1",
+      "type": "wordOrder",
+      "wordId": "d04-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Я люблю красный цвет.",
+      "sentenceEn": "I love the color red.",
+      "audio": "",
+      "tokens": [
+        "Я",
+        "люблю",
+        "красный",
+        "цвет"
+      ],
+      "pool": [
+        "люблю",
+        "чёрный",
+        "цвет",
+        "красный",
+        "белый",
+        "Я",
+        "маленький"
+      ]
+    },
+    {
+      "id": "d04-order-2",
+      "type": "wordOrder",
+      "wordId": "d04-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Синее небо сегодня.",
+      "sentenceEn": "The sky is blue today.",
+      "audio": "",
+      "tokens": [
+        "Синее",
+        "небо",
+        "сегодня"
+      ],
+      "pool": [
+        "зелёный",
+        "небо",
+        "красивый",
+        "Синее",
+        "сегодня",
+        "большой"
+      ]
+    },
+    {
+      "id": "d04-order-3",
+      "type": "wordOrder",
+      "wordId": "d04-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "У него синие глаза.",
+      "sentenceEn": "He has blue eyes.",
+      "audio": "",
+      "tokens": [
+        "У",
+        "него",
+        "синие",
+        "глаза"
+      ],
+      "pool": [
+        "него",
+        "глаза",
+        "новый",
+        "У",
+        "старый",
+        "синие",
+        "маленький"
+      ]
+    },
+    {
+      "id": "d04-order-4",
+      "type": "wordOrder",
+      "wordId": "d04-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Зелёный парк рядом.",
+      "sentenceEn": "There is a green park nearby.",
+      "audio": "",
+      "tokens": [
+        "Зелёный",
+        "парк",
+        "рядом"
+      ],
+      "pool": [
+        "парк",
+        "чёрный",
+        "новый",
+        "Зелёный",
+        "рядом",
+        "маленький"
+      ]
+    },
+    {
+      "id": "d04-order-5",
+      "type": "wordOrder",
+      "wordId": "d04-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Зелёное яблоко на столе.",
+      "sentenceEn": "A green apple on the table.",
+      "audio": "",
+      "tokens": [
+        "Зелёное",
+        "яблоко",
+        "на",
+        "столе"
+      ],
+      "pool": [
+        "чёрный",
+        "яблоко",
+        "Зелёное",
+        "столе",
+        "на",
+        "новый",
+        "маленький"
+      ]
+    },
+    {
+      "id": "d04-order-6",
+      "type": "wordOrder",
+      "wordId": "d04-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Белый снег зимой.",
+      "sentenceEn": "White snow in winter.",
+      "audio": "",
+      "tokens": [
+        "Белый",
+        "снег",
+        "зимой"
+      ],
+      "pool": [
+        "Белый",
+        "маленький",
+        "зимой",
+        "чёрный",
+        "снег",
+        "красивый"
+      ]
+    },
+    {
+      "id": "d04-order-7",
+      "type": "wordOrder",
+      "wordId": "d04-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Белая рубашка чистая.",
+      "sentenceEn": "The white shirt is clean.",
+      "audio": "",
+      "tokens": [
+        "Белая",
+        "рубашка",
+        "чистая"
+      ],
+      "pool": [
+        "чёрный",
+        "чистая",
+        "большой",
+        "Белая",
+        "рубашка",
+        "синий"
+      ]
+    },
+    {
+      "id": "d04-order-8",
+      "type": "wordOrder",
+      "wordId": "d04-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Чёрная кошка на крыше.",
+      "sentenceEn": "A black cat on the roof.",
+      "audio": "",
+      "tokens": [
+        "Чёрная",
+        "кошка",
+        "на",
+        "крыше"
+      ],
+      "pool": [
+        "кошка",
+        "крыше",
+        "Чёрная",
+        "старый",
+        "на",
+        "большой",
+        "маленький"
+      ]
+    },
+    {
+      "id": "d04-order-9",
+      "type": "wordOrder",
+      "wordId": "d04-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Чёрный кофе без сахара.",
+      "sentenceEn": "Black coffee without sugar.",
+      "audio": "",
+      "tokens": [
+        "Чёрный",
+        "кофе",
+        "без",
+        "сахара"
+      ],
+      "pool": [
+        "без",
+        "кофе",
+        "зелёный",
+        "новый",
+        "красивый",
+        "Чёрный",
+        "сахара"
+      ]
+    },
+    {
+      "id": "d04-order-10",
+      "type": "wordOrder",
+      "wordId": "d04-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Большой дом на улице.",
+      "sentenceEn": "A big house on the street.",
+      "audio": "",
+      "tokens": [
+        "Большой",
+        "дом",
+        "на",
+        "улице"
+      ],
+      "pool": [
+        "дом",
+        "Большой",
+        "старый",
+        "белый",
+        "улице",
+        "синий",
+        "на"
+      ]
+    },
+    {
+      "id": "d04-order-11",
+      "type": "wordOrder",
+      "wordId": "d04-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Москва — большой город.",
+      "sentenceEn": "Moscow is a big city.",
+      "audio": "",
+      "tokens": [
+        "Москва",
+        "большой",
+        "город"
+      ],
+      "pool": [
+        "зелёный",
+        "большой",
+        "Москва",
+        "город",
+        "белый",
+        "синий"
+      ]
+    },
+    {
+      "id": "d04-order-12",
+      "type": "wordOrder",
+      "wordId": "d04-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Маленький ребёнок спит.",
+      "sentenceEn": "A small child is sleeping.",
+      "audio": "",
+      "tokens": [
+        "Маленький",
+        "ребёнок",
+        "спит"
+      ],
+      "pool": [
+        "ребёнок",
+        "спит",
+        "новый",
+        "большой",
+        "Маленький",
+        "зелёный"
+      ]
+    },
+    {
+      "id": "d04-order-13",
+      "type": "wordOrder",
+      "wordId": "d04-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Маленькая комната уютная.",
+      "sentenceEn": "The small room is cozy.",
+      "audio": "",
+      "tokens": [
+        "Маленькая",
+        "комната",
+        "уютная"
+      ],
+      "pool": [
+        "чёрный",
+        "комната",
+        "красивый",
+        "Маленькая",
+        "уютная",
+        "большой"
+      ]
+    },
+    {
+      "id": "d04-order-14",
+      "type": "wordOrder",
+      "wordId": "d04-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Красивый закат сегодня.",
+      "sentenceEn": "A beautiful sunset today.",
+      "audio": "",
+      "tokens": [
+        "Красивый",
+        "закат",
+        "сегодня"
+      ],
+      "pool": [
+        "сегодня",
+        "Красивый",
+        "большой",
+        "красный",
+        "маленький",
+        "закат"
+      ]
+    },
+    {
+      "id": "d04-order-15",
+      "type": "wordOrder",
+      "wordId": "d04-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Она красивая женщина.",
+      "sentenceEn": "She is a beautiful woman.",
+      "audio": "",
+      "tokens": [
+        "Она",
+        "красивая",
+        "женщина"
+      ],
+      "pool": [
+        "Она",
+        "женщина",
+        "маленький",
+        "новый",
+        "старый",
+        "красивая"
+      ]
+    },
+    {
+      "id": "d04-order-16",
+      "type": "wordOrder",
+      "wordId": "d04-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Новый телефон работает.",
+      "sentenceEn": "The new phone works.",
+      "audio": "",
+      "tokens": [
+        "Новый",
+        "телефон",
+        "работает"
+      ],
+      "pool": [
+        "Новый",
+        "красный",
+        "телефон",
+        "зелёный",
+        "большой",
+        "работает"
+      ]
+    },
+    {
+      "id": "d04-order-17",
+      "type": "wordOrder",
+      "wordId": "d04-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Новая машина быстрая.",
+      "sentenceEn": "The new car is fast.",
+      "audio": "",
+      "tokens": [
+        "Новая",
+        "машина",
+        "быстрая"
+      ],
+      "pool": [
+        "большой",
+        "машина",
+        "красный",
+        "старый",
+        "быстрая",
+        "Новая"
+      ]
+    },
+    {
+      "id": "d04-order-18",
+      "type": "wordOrder",
+      "wordId": "d04-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Старый дом в центре.",
+      "sentenceEn": "An old house in the center.",
+      "audio": "",
+      "tokens": [
+        "Старый",
+        "дом",
+        "в",
+        "центре"
+      ],
+      "pool": [
+        "красивый",
+        "большой",
+        "в",
+        "Старый",
+        "центре",
+        "дом",
+        "чёрный"
+      ]
+    },
+    {
+      "id": "d04-order-19",
+      "type": "wordOrder",
+      "wordId": "d04-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Старый друг приехал.",
+      "sentenceEn": "An old friend arrived.",
+      "audio": "",
+      "tokens": [
+        "Старый",
+        "друг",
+        "приехал"
+      ],
+      "pool": [
+        "друг",
+        "красный",
+        "приехал",
+        "маленький",
+        "Старый",
+        "зелёный"
+      ]
+    },
+    {
+      "id": "d04-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d04-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d04-w01.svg",
+      "options": [
+        "синий",
+        "маленький",
+        "красный",
+        "чёрный"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d04-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d04-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d04-w02.svg",
+      "options": [
+        "большой",
+        "синий",
+        "красный",
+        "старый"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d04-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d04-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d04-w03.svg",
+      "options": [
+        "маленький",
+        "зелёный",
+        "красивый",
+        "синий"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d04-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d04-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d04-w04.svg",
+      "options": [
+        "большой",
+        "чёрный",
+        "белый",
+        "новый"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d04-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d04-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d04-w05.svg",
+      "options": [
+        "красный",
+        "маленький",
+        "новый",
+        "чёрный"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d04-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d04-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d04-w06.svg",
+      "options": [
+        "новый",
+        "большой",
+        "зелёный",
+        "старый"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d04-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d04-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d04-w07.svg",
+      "options": [
+        "синий",
+        "старый",
+        "красивый",
+        "маленький"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d04-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d04-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d04-w08.svg",
+      "options": [
+        "синий",
+        "красивый",
+        "маленький",
+        "старый"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d04-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d04-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d04-w09.svg",
+      "options": [
+        "новый",
+        "зелёный",
+        "маленький",
+        "белый"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d04-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d04-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d04-w10.svg",
+      "options": [
+        "зелёный",
+        "старый",
+        "синий",
+        "красивый"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

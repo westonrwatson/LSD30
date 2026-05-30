@@ -1,0 +1,729 @@
+{
+  "day": 20,
+  "theme": "Nature & outdoors",
+  "grammarFocus": "Genitive plural (some patterns)",
+  "words": [
+    {
+      "id": "d20-w01",
+      "ru": "лес",
+      "en": "forest",
+      "audio": "/audio/day20/лес.mp3",
+      "image": "/images/vocab/d20-w01.svg",
+      "sentences": [
+        {
+          "ru": "Гуляем в лесу.",
+          "en": "We walk in the forest."
+        },
+        {
+          "ru": "Тёмный лес.",
+          "en": "Dark forest."
+        }
+      ]
+    },
+    {
+      "id": "d20-w02",
+      "ru": "река",
+      "en": "river",
+      "audio": "/audio/day20/река.mp3",
+      "image": "/images/vocab/d20-w02.svg",
+      "sentences": [
+        {
+          "ru": "Река широкая.",
+          "en": "The river is wide."
+        },
+        {
+          "ru": "Большая река.",
+          "en": "A big river."
+        }
+      ]
+    },
+    {
+      "id": "d20-w03",
+      "ru": "гора",
+      "en": "mountain",
+      "audio": "/audio/day20/гора.mp3",
+      "image": "/images/vocab/d20-w03.svg",
+      "sentences": [
+        {
+          "ru": "Высокая гора.",
+          "en": "A high mountain."
+        },
+        {
+          "ru": "В горах холодно.",
+          "en": "It is cold in the mountains."
+        }
+      ]
+    },
+    {
+      "id": "d20-w04",
+      "ru": "море",
+      "en": "sea",
+      "audio": "/audio/day20/море.mp3",
+      "image": "/images/vocab/d20-w04.svg",
+      "sentences": [
+        {
+          "ru": "Море синее.",
+          "en": "The sea is blue."
+        },
+        {
+          "ru": "Летом на море.",
+          "en": "At the sea in summer."
+        }
+      ]
+    },
+    {
+      "id": "d20-w05",
+      "ru": "озеро",
+      "en": "lake",
+      "audio": "/audio/day20/озеро.mp3",
+      "image": "/images/vocab/d20-w05.svg",
+      "sentences": [
+        {
+          "ru": "Озеро глубокое.",
+          "en": "The lake is deep."
+        },
+        {
+          "ru": "У озера дом.",
+          "en": "A house by the lake."
+        }
+      ]
+    },
+    {
+      "id": "d20-w06",
+      "ru": "дерево",
+      "en": "tree",
+      "audio": "/audio/day20/дерево.mp3",
+      "image": "/images/vocab/d20-w06.svg",
+      "sentences": [
+        {
+          "ru": "Высокое дерево.",
+          "en": "A tall tree."
+        },
+        {
+          "ru": "Много деревьев.",
+          "en": "Many trees."
+        }
+      ]
+    },
+    {
+      "id": "d20-w07",
+      "ru": "цветок",
+      "en": "flower",
+      "audio": "/audio/day20/цветок.mp3",
+      "image": "/images/vocab/d20-w07.svg",
+      "sentences": [
+        {
+          "ru": "Красивый цветок.",
+          "en": "A beautiful flower."
+        },
+        {
+          "ru": "Букет цветов.",
+          "en": "A bouquet of flowers."
+        }
+      ]
+    },
+    {
+      "id": "d20-w08",
+      "ru": "природа",
+      "en": "nature",
+      "audio": "/audio/day20/природа.mp3",
+      "image": "/images/vocab/d20-w08.svg",
+      "sentences": [
+        {
+          "ru": "Люблю природу.",
+          "en": "I love nature."
+        },
+        {
+          "ru": "Красивая природа.",
+          "en": "Beautiful nature."
+        }
+      ]
+    },
+    {
+      "id": "d20-w09",
+      "ru": "воздух",
+      "en": "air",
+      "audio": "/audio/day20/воздух.mp3",
+      "image": "/images/vocab/d20-w09.svg",
+      "sentences": [
+        {
+          "ru": "Свежий воздух.",
+          "en": "Fresh air."
+        },
+        {
+          "ru": "Чистый воздух.",
+          "en": "Clean air."
+        }
+      ]
+    },
+    {
+      "id": "d20-w10",
+      "ru": "остров",
+      "en": "island",
+      "audio": "/audio/day20/остров.mp3",
+      "image": "/images/vocab/d20-w10.svg",
+      "sentences": [
+        {
+          "ru": "Остров в море.",
+          "en": "An island in the sea."
+        },
+        {
+          "ru": "Тропический остров.",
+          "en": "A tropical island."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d20-order-0",
+      "type": "wordOrder",
+      "wordId": "d20-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Гуляем в лесу.",
+      "sentenceEn": "We walk in the forest.",
+      "audio": "",
+      "tokens": [
+        "Гуляем",
+        "в",
+        "лесу"
+      ],
+      "pool": [
+        "лесу",
+        "гора",
+        "дерево",
+        "в",
+        "природа",
+        "Гуляем"
+      ]
+    },
+    {
+      "id": "d20-order-1",
+      "type": "wordOrder",
+      "wordId": "d20-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Тёмный лес.",
+      "sentenceEn": "Dark forest.",
+      "audio": "",
+      "tokens": [
+        "Тёмный",
+        "лес"
+      ],
+      "pool": [
+        "лес",
+        "Тёмный",
+        "гора",
+        "цветок",
+        "воздух"
+      ]
+    },
+    {
+      "id": "d20-order-2",
+      "type": "wordOrder",
+      "wordId": "d20-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Река широкая.",
+      "sentenceEn": "The river is wide.",
+      "audio": "",
+      "tokens": [
+        "Река",
+        "широкая"
+      ],
+      "pool": [
+        "широкая",
+        "остров",
+        "Река",
+        "воздух",
+        "лес"
+      ]
+    },
+    {
+      "id": "d20-order-3",
+      "type": "wordOrder",
+      "wordId": "d20-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Большая река.",
+      "sentenceEn": "A big river.",
+      "audio": "",
+      "tokens": [
+        "Большая",
+        "река"
+      ],
+      "pool": [
+        "Большая",
+        "лес",
+        "озеро",
+        "гора",
+        "река"
+      ]
+    },
+    {
+      "id": "d20-order-4",
+      "type": "wordOrder",
+      "wordId": "d20-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Высокая гора.",
+      "sentenceEn": "A high mountain.",
+      "audio": "",
+      "tokens": [
+        "Высокая",
+        "гора"
+      ],
+      "pool": [
+        "гора",
+        "дерево",
+        "остров",
+        "Высокая",
+        "река"
+      ]
+    },
+    {
+      "id": "d20-order-5",
+      "type": "wordOrder",
+      "wordId": "d20-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "В горах холодно.",
+      "sentenceEn": "It is cold in the mountains.",
+      "audio": "",
+      "tokens": [
+        "В",
+        "горах",
+        "холодно"
+      ],
+      "pool": [
+        "море",
+        "холодно",
+        "остров",
+        "река",
+        "В",
+        "горах"
+      ]
+    },
+    {
+      "id": "d20-order-6",
+      "type": "wordOrder",
+      "wordId": "d20-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Море синее.",
+      "sentenceEn": "The sea is blue.",
+      "audio": "",
+      "tokens": [
+        "Море",
+        "синее"
+      ],
+      "pool": [
+        "дерево",
+        "Море",
+        "синее",
+        "гора",
+        "лес"
+      ]
+    },
+    {
+      "id": "d20-order-7",
+      "type": "wordOrder",
+      "wordId": "d20-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Летом на море.",
+      "sentenceEn": "At the sea in summer.",
+      "audio": "",
+      "tokens": [
+        "Летом",
+        "на",
+        "море"
+      ],
+      "pool": [
+        "остров",
+        "на",
+        "море",
+        "гора",
+        "Летом",
+        "озеро"
+      ]
+    },
+    {
+      "id": "d20-order-8",
+      "type": "wordOrder",
+      "wordId": "d20-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Озеро глубокое.",
+      "sentenceEn": "The lake is deep.",
+      "audio": "",
+      "tokens": [
+        "Озеро",
+        "глубокое"
+      ],
+      "pool": [
+        "лес",
+        "дерево",
+        "остров",
+        "глубокое",
+        "Озеро"
+      ]
+    },
+    {
+      "id": "d20-order-9",
+      "type": "wordOrder",
+      "wordId": "d20-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "У озера дом.",
+      "sentenceEn": "A house by the lake.",
+      "audio": "",
+      "tokens": [
+        "У",
+        "озера",
+        "дом"
+      ],
+      "pool": [
+        "У",
+        "лес",
+        "озера",
+        "дом",
+        "река",
+        "гора"
+      ]
+    },
+    {
+      "id": "d20-order-10",
+      "type": "wordOrder",
+      "wordId": "d20-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Высокое дерево.",
+      "sentenceEn": "A tall tree.",
+      "audio": "",
+      "tokens": [
+        "Высокое",
+        "дерево"
+      ],
+      "pool": [
+        "Высокое",
+        "цветок",
+        "гора",
+        "дерево",
+        "река"
+      ]
+    },
+    {
+      "id": "d20-order-11",
+      "type": "wordOrder",
+      "wordId": "d20-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Много деревьев.",
+      "sentenceEn": "Many trees.",
+      "audio": "",
+      "tokens": [
+        "Много",
+        "деревьев"
+      ],
+      "pool": [
+        "природа",
+        "цветок",
+        "деревьев",
+        "озеро",
+        "Много"
+      ]
+    },
+    {
+      "id": "d20-order-12",
+      "type": "wordOrder",
+      "wordId": "d20-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Красивый цветок.",
+      "sentenceEn": "A beautiful flower.",
+      "audio": "",
+      "tokens": [
+        "Красивый",
+        "цветок"
+      ],
+      "pool": [
+        "река",
+        "Красивый",
+        "воздух",
+        "цветок",
+        "гора"
+      ]
+    },
+    {
+      "id": "d20-order-13",
+      "type": "wordOrder",
+      "wordId": "d20-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Букет цветов.",
+      "sentenceEn": "A bouquet of flowers.",
+      "audio": "",
+      "tokens": [
+        "Букет",
+        "цветов"
+      ],
+      "pool": [
+        "остров",
+        "цветов",
+        "озеро",
+        "Букет",
+        "лес"
+      ]
+    },
+    {
+      "id": "d20-order-14",
+      "type": "wordOrder",
+      "wordId": "d20-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Люблю природу.",
+      "sentenceEn": "I love nature.",
+      "audio": "",
+      "tokens": [
+        "Люблю",
+        "природу"
+      ],
+      "pool": [
+        "озеро",
+        "природу",
+        "гора",
+        "Люблю",
+        "цветок"
+      ]
+    },
+    {
+      "id": "d20-order-15",
+      "type": "wordOrder",
+      "wordId": "d20-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Красивая природа.",
+      "sentenceEn": "Beautiful nature.",
+      "audio": "",
+      "tokens": [
+        "Красивая",
+        "природа"
+      ],
+      "pool": [
+        "озеро",
+        "гора",
+        "природа",
+        "Красивая",
+        "цветок"
+      ]
+    },
+    {
+      "id": "d20-order-16",
+      "type": "wordOrder",
+      "wordId": "d20-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Свежий воздух.",
+      "sentenceEn": "Fresh air.",
+      "audio": "",
+      "tokens": [
+        "Свежий",
+        "воздух"
+      ],
+      "pool": [
+        "Свежий",
+        "озеро",
+        "река",
+        "цветок",
+        "воздух"
+      ]
+    },
+    {
+      "id": "d20-order-17",
+      "type": "wordOrder",
+      "wordId": "d20-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Чистый воздух.",
+      "sentenceEn": "Clean air.",
+      "audio": "",
+      "tokens": [
+        "Чистый",
+        "воздух"
+      ],
+      "pool": [
+        "остров",
+        "воздух",
+        "река",
+        "Чистый",
+        "гора"
+      ]
+    },
+    {
+      "id": "d20-order-18",
+      "type": "wordOrder",
+      "wordId": "d20-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Остров в море.",
+      "sentenceEn": "An island in the sea.",
+      "audio": "",
+      "tokens": [
+        "Остров",
+        "в",
+        "море"
+      ],
+      "pool": [
+        "в",
+        "Остров",
+        "озеро",
+        "море",
+        "река",
+        "гора"
+      ]
+    },
+    {
+      "id": "d20-order-19",
+      "type": "wordOrder",
+      "wordId": "d20-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Тропический остров.",
+      "sentenceEn": "A tropical island.",
+      "audio": "",
+      "tokens": [
+        "Тропический",
+        "остров"
+      ],
+      "pool": [
+        "река",
+        "Тропический",
+        "дерево",
+        "остров",
+        "природа"
+      ]
+    },
+    {
+      "id": "d20-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d20-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d20-w01.svg",
+      "options": [
+        "природа",
+        "дерево",
+        "лес",
+        "воздух"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d20-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d20-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d20-w02.svg",
+      "options": [
+        "море",
+        "природа",
+        "лес",
+        "река"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d20-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d20-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d20-w03.svg",
+      "options": [
+        "море",
+        "гора",
+        "река",
+        "озеро"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d20-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d20-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d20-w04.svg",
+      "options": [
+        "дерево",
+        "природа",
+        "остров",
+        "море"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d20-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d20-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d20-w05.svg",
+      "options": [
+        "море",
+        "озеро",
+        "цветок",
+        "гора"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d20-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d20-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d20-w06.svg",
+      "options": [
+        "цветок",
+        "остров",
+        "лес",
+        "дерево"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d20-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d20-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d20-w07.svg",
+      "options": [
+        "море",
+        "гора",
+        "дерево",
+        "цветок"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d20-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d20-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d20-w08.svg",
+      "options": [
+        "гора",
+        "природа",
+        "дерево",
+        "воздух"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d20-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d20-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d20-w09.svg",
+      "options": [
+        "природа",
+        "воздух",
+        "гора",
+        "море"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d20-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d20-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d20-w10.svg",
+      "options": [
+        "дерево",
+        "лес",
+        "остров",
+        "река"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

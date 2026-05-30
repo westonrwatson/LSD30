@@ -1,0 +1,725 @@
+{
+  "day": 24,
+  "theme": "Phone & messaging",
+  "grammarFocus": "Imperative mood",
+  "words": [
+    {
+      "id": "d24-w01",
+      "ru": "звонок",
+      "en": "call / ring",
+      "audio": "/audio/day24/звонок.mp3",
+      "image": "/images/vocab/d24-w01.svg",
+      "sentences": [
+        {
+          "ru": "Телефонный звонок.",
+          "en": "Phone call."
+        },
+        {
+          "ru": "Жду звонка.",
+          "en": "Waiting for a call."
+        }
+      ]
+    },
+    {
+      "id": "d24-w02",
+      "ru": "сообщение",
+      "en": "message",
+      "audio": "/audio/day24/сообщение.mp3",
+      "image": "/images/vocab/d24-w02.svg",
+      "sentences": [
+        {
+          "ru": "Новое сообщение.",
+          "en": "New message."
+        },
+        {
+          "ru": "Отправь сообщение.",
+          "en": "Send a message."
+        }
+      ]
+    },
+    {
+      "id": "d24-w03",
+      "ru": "номер",
+      "en": "number",
+      "audio": "/audio/day24/номер.mp3",
+      "image": "/images/vocab/d24-w03.svg",
+      "sentences": [
+        {
+          "ru": "Какой номер?",
+          "en": "What number?"
+        },
+        {
+          "ru": "Номер телефона.",
+          "en": "Phone number."
+        }
+      ]
+    },
+    {
+      "id": "d24-w04",
+      "ru": "ответить",
+      "en": "to answer / reply",
+      "audio": "/audio/day24/ответить.mp3",
+      "image": "/images/vocab/d24-w04.svg",
+      "sentences": [
+        {
+          "ru": "Ответь на звонок.",
+          "en": "Answer the call."
+        },
+        {
+          "ru": "Ответь, пожалуйста.",
+          "en": "Reply, please."
+        }
+      ]
+    },
+    {
+      "id": "d24-w05",
+      "ru": "позвонить",
+      "en": "to call",
+      "audio": "/audio/day24/позвонить.mp3",
+      "image": "/images/vocab/d24-w05.svg",
+      "sentences": [
+        {
+          "ru": "Позвони мне.",
+          "en": "Call me."
+        },
+        {
+          "ru": "Я позвоню.",
+          "en": "I will call."
+        }
+      ]
+    },
+    {
+      "id": "d24-w06",
+      "ru": "отправить",
+      "en": "to send",
+      "audio": "/audio/day24/отправить.mp3",
+      "image": "/images/vocab/d24-w06.svg",
+      "sentences": [
+        {
+          "ru": "Отправь фото.",
+          "en": "Send the photo."
+        },
+        {
+          "ru": "Отправлю завтра.",
+          "en": "I will send tomorrow."
+        }
+      ]
+    },
+    {
+      "id": "d24-w07",
+      "ru": "получить",
+      "en": "to receive",
+      "audio": "/audio/day24/получить.mp3",
+      "image": "/images/vocab/d24-w07.svg",
+      "sentences": [
+        {
+          "ru": "Получил сообщение.",
+          "en": "I received a message."
+        },
+        {
+          "ru": "Получишь завтра.",
+          "en": "You will receive tomorrow."
+        }
+      ]
+    },
+    {
+      "id": "d24-w08",
+      "ru": "ждать",
+      "en": "to wait",
+      "audio": "/audio/day24/ждать.mp3",
+      "image": "/images/vocab/d24-w08.svg",
+      "sentences": [
+        {
+          "ru": "Жду ответа.",
+          "en": "Waiting for an answer."
+        },
+        {
+          "ru": "Подожди минуту.",
+          "en": "Wait a minute."
+        }
+      ]
+    },
+    {
+      "id": "d24-w09",
+      "ru": "слышать",
+      "en": "to hear",
+      "audio": "/audio/day24/слышать.mp3",
+      "image": "/images/vocab/d24-w09.svg",
+      "sentences": [
+        {
+          "ru": "Ты меня слышишь?",
+          "en": "Can you hear me?"
+        },
+        {
+          "ru": "Плохо слышно.",
+          "en": "Hard to hear."
+        }
+      ]
+    },
+    {
+      "id": "d24-w10",
+      "ru": "говорить",
+      "en": "to speak / talk",
+      "audio": "/audio/day24/говорить.mp3",
+      "image": "/images/vocab/d24-w10.svg",
+      "sentences": [
+        {
+          "ru": "Говори громче.",
+          "en": "Speak louder."
+        },
+        {
+          "ru": "О чём говорим?",
+          "en": "What are we talking about?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d24-order-0",
+      "type": "wordOrder",
+      "wordId": "d24-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Телефонный звонок.",
+      "sentenceEn": "Phone call.",
+      "audio": "",
+      "tokens": [
+        "Телефонный",
+        "звонок"
+      ],
+      "pool": [
+        "звонок",
+        "отправить",
+        "ждать",
+        "Телефонный",
+        "номер"
+      ]
+    },
+    {
+      "id": "d24-order-1",
+      "type": "wordOrder",
+      "wordId": "d24-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Жду звонка.",
+      "sentenceEn": "Waiting for a call.",
+      "audio": "",
+      "tokens": [
+        "Жду",
+        "звонка"
+      ],
+      "pool": [
+        "сообщение",
+        "звонка",
+        "Жду",
+        "позвонить",
+        "слышать"
+      ]
+    },
+    {
+      "id": "d24-order-2",
+      "type": "wordOrder",
+      "wordId": "d24-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Новое сообщение.",
+      "sentenceEn": "New message.",
+      "audio": "",
+      "tokens": [
+        "Новое",
+        "сообщение"
+      ],
+      "pool": [
+        "сообщение",
+        "звонок",
+        "Новое",
+        "получить",
+        "говорить"
+      ]
+    },
+    {
+      "id": "d24-order-3",
+      "type": "wordOrder",
+      "wordId": "d24-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Отправь сообщение.",
+      "sentenceEn": "Send a message.",
+      "audio": "",
+      "tokens": [
+        "Отправь",
+        "сообщение"
+      ],
+      "pool": [
+        "звонок",
+        "сообщение",
+        "номер",
+        "ответить",
+        "Отправь"
+      ]
+    },
+    {
+      "id": "d24-order-4",
+      "type": "wordOrder",
+      "wordId": "d24-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Какой номер?",
+      "sentenceEn": "What number?",
+      "audio": "",
+      "tokens": [
+        "Какой",
+        "номер"
+      ],
+      "pool": [
+        "номер",
+        "Какой",
+        "сообщение",
+        "говорить",
+        "звонок"
+      ]
+    },
+    {
+      "id": "d24-order-5",
+      "type": "wordOrder",
+      "wordId": "d24-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Номер телефона.",
+      "sentenceEn": "Phone number.",
+      "audio": "",
+      "tokens": [
+        "Номер",
+        "телефона"
+      ],
+      "pool": [
+        "сообщение",
+        "Номер",
+        "ждать",
+        "телефона",
+        "отправить"
+      ]
+    },
+    {
+      "id": "d24-order-6",
+      "type": "wordOrder",
+      "wordId": "d24-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Ответь на звонок.",
+      "sentenceEn": "Answer the call.",
+      "audio": "",
+      "tokens": [
+        "Ответь",
+        "на",
+        "звонок"
+      ],
+      "pool": [
+        "на",
+        "получить",
+        "Ответь",
+        "номер",
+        "ждать",
+        "звонок"
+      ]
+    },
+    {
+      "id": "d24-order-7",
+      "type": "wordOrder",
+      "wordId": "d24-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Ответь, пожалуйста.",
+      "sentenceEn": "Reply, please.",
+      "audio": "",
+      "tokens": [
+        "Ответь",
+        "пожалуйста"
+      ],
+      "pool": [
+        "сообщение",
+        "слышать",
+        "пожалуйста",
+        "звонок",
+        "Ответь"
+      ]
+    },
+    {
+      "id": "d24-order-8",
+      "type": "wordOrder",
+      "wordId": "d24-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Позвони мне.",
+      "sentenceEn": "Call me.",
+      "audio": "",
+      "tokens": [
+        "Позвони",
+        "мне"
+      ],
+      "pool": [
+        "ждать",
+        "слышать",
+        "Позвони",
+        "звонок",
+        "мне"
+      ]
+    },
+    {
+      "id": "d24-order-9",
+      "type": "wordOrder",
+      "wordId": "d24-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Я позвоню.",
+      "sentenceEn": "I will call.",
+      "audio": "",
+      "tokens": [
+        "Я",
+        "позвоню"
+      ],
+      "pool": [
+        "ждать",
+        "позвоню",
+        "ответить",
+        "получить",
+        "Я"
+      ]
+    },
+    {
+      "id": "d24-order-10",
+      "type": "wordOrder",
+      "wordId": "d24-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Отправь фото.",
+      "sentenceEn": "Send the photo.",
+      "audio": "",
+      "tokens": [
+        "Отправь",
+        "фото"
+      ],
+      "pool": [
+        "фото",
+        "получить",
+        "Отправь",
+        "говорить",
+        "ждать"
+      ]
+    },
+    {
+      "id": "d24-order-11",
+      "type": "wordOrder",
+      "wordId": "d24-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Отправлю завтра.",
+      "sentenceEn": "I will send tomorrow.",
+      "audio": "",
+      "tokens": [
+        "Отправлю",
+        "завтра"
+      ],
+      "pool": [
+        "говорить",
+        "ответить",
+        "слышать",
+        "завтра",
+        "Отправлю"
+      ]
+    },
+    {
+      "id": "d24-order-12",
+      "type": "wordOrder",
+      "wordId": "d24-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Получил сообщение.",
+      "sentenceEn": "I received a message.",
+      "audio": "",
+      "tokens": [
+        "Получил",
+        "сообщение"
+      ],
+      "pool": [
+        "позвонить",
+        "слышать",
+        "Получил",
+        "сообщение",
+        "номер"
+      ]
+    },
+    {
+      "id": "d24-order-13",
+      "type": "wordOrder",
+      "wordId": "d24-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Получишь завтра.",
+      "sentenceEn": "You will receive tomorrow.",
+      "audio": "",
+      "tokens": [
+        "Получишь",
+        "завтра"
+      ],
+      "pool": [
+        "звонок",
+        "говорить",
+        "Получишь",
+        "отправить",
+        "завтра"
+      ]
+    },
+    {
+      "id": "d24-order-14",
+      "type": "wordOrder",
+      "wordId": "d24-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Жду ответа.",
+      "sentenceEn": "Waiting for an answer.",
+      "audio": "",
+      "tokens": [
+        "Жду",
+        "ответа"
+      ],
+      "pool": [
+        "номер",
+        "ответа",
+        "Жду",
+        "сообщение",
+        "ответить"
+      ]
+    },
+    {
+      "id": "d24-order-15",
+      "type": "wordOrder",
+      "wordId": "d24-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Подожди минуту.",
+      "sentenceEn": "Wait a minute.",
+      "audio": "",
+      "tokens": [
+        "Подожди",
+        "минуту"
+      ],
+      "pool": [
+        "получить",
+        "отправить",
+        "номер",
+        "Подожди",
+        "минуту"
+      ]
+    },
+    {
+      "id": "d24-order-16",
+      "type": "wordOrder",
+      "wordId": "d24-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Ты меня слышишь?",
+      "sentenceEn": "Can you hear me?",
+      "audio": "",
+      "tokens": [
+        "Ты",
+        "меня",
+        "слышишь"
+      ],
+      "pool": [
+        "меня",
+        "звонок",
+        "Ты",
+        "получить",
+        "позвонить",
+        "слышишь"
+      ]
+    },
+    {
+      "id": "d24-order-17",
+      "type": "wordOrder",
+      "wordId": "d24-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Плохо слышно.",
+      "sentenceEn": "Hard to hear.",
+      "audio": "",
+      "tokens": [
+        "Плохо",
+        "слышно"
+      ],
+      "pool": [
+        "Плохо",
+        "отправить",
+        "позвонить",
+        "слышно",
+        "ждать"
+      ]
+    },
+    {
+      "id": "d24-order-18",
+      "type": "wordOrder",
+      "wordId": "d24-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Говори громче.",
+      "sentenceEn": "Speak louder.",
+      "audio": "",
+      "tokens": [
+        "Говори",
+        "громче"
+      ],
+      "pool": [
+        "позвонить",
+        "Говори",
+        "слышать",
+        "громче",
+        "ждать"
+      ]
+    },
+    {
+      "id": "d24-order-19",
+      "type": "wordOrder",
+      "wordId": "d24-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "О чём говорим?",
+      "sentenceEn": "What are we talking about?",
+      "audio": "",
+      "tokens": [
+        "О",
+        "чём",
+        "говорим"
+      ],
+      "pool": [
+        "О",
+        "номер",
+        "ждать",
+        "чём",
+        "отправить",
+        "говорим"
+      ]
+    },
+    {
+      "id": "d24-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d24-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d24-w01.svg",
+      "options": [
+        "говорить",
+        "номер",
+        "получить",
+        "звонок"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d24-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d24-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d24-w02.svg",
+      "options": [
+        "отправить",
+        "слышать",
+        "сообщение",
+        "ответить"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d24-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d24-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d24-w03.svg",
+      "options": [
+        "номер",
+        "ждать",
+        "говорить",
+        "слышать"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d24-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d24-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d24-w04.svg",
+      "options": [
+        "ответить",
+        "звонок",
+        "позвонить",
+        "сообщение"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d24-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d24-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d24-w05.svg",
+      "options": [
+        "позвонить",
+        "сообщение",
+        "слышать",
+        "номер"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d24-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d24-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d24-w06.svg",
+      "options": [
+        "ответить",
+        "позвонить",
+        "номер",
+        "отправить"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d24-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d24-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d24-w07.svg",
+      "options": [
+        "слышать",
+        "получить",
+        "отправить",
+        "сообщение"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d24-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d24-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d24-w08.svg",
+      "options": [
+        "ждать",
+        "звонок",
+        "позвонить",
+        "говорить"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d24-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d24-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d24-w09.svg",
+      "options": [
+        "сообщение",
+        "звонок",
+        "говорить",
+        "слышать"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d24-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d24-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d24-w10.svg",
+      "options": [
+        "номер",
+        "получить",
+        "слышать",
+        "говорить"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

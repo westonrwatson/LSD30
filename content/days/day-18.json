@@ -1,0 +1,735 @@
+{
+  "day": 18,
+  "theme": "Hobbies & free time",
+  "grammarFocus": "Verb aspect intro (perfective/imperfective)",
+  "words": [
+    {
+      "id": "d18-w01",
+      "ru": "хобби",
+      "en": "hobby",
+      "audio": "/audio/day18/хобби.mp3",
+      "image": "/images/vocab/d18-w01.svg",
+      "sentences": [
+        {
+          "ru": "Моё хобби — музыка.",
+          "en": "My hobby is music."
+        },
+        {
+          "ru": "Какое у тебя хобби?",
+          "en": "What is your hobby?"
+        }
+      ]
+    },
+    {
+      "id": "d18-w02",
+      "ru": "музыка",
+      "en": "music",
+      "audio": "/audio/day18/музыка.mp3",
+      "image": "/images/vocab/d18-w02.svg",
+      "sentences": [
+        {
+          "ru": "Я люблю музыку.",
+          "en": "I love music."
+        },
+        {
+          "ru": "Громкая музыка.",
+          "en": "Loud music."
+        }
+      ]
+    },
+    {
+      "id": "d18-w03",
+      "ru": "кино",
+      "en": "cinema / movies",
+      "audio": "/audio/day18/кино.mp3",
+      "image": "/images/vocab/d18-w03.svg",
+      "sentences": [
+        {
+          "ru": "Идём в кино.",
+          "en": "Let's go to the movies."
+        },
+        {
+          "ru": "Хорошее кино.",
+          "en": "A good movie."
+        }
+      ]
+    },
+    {
+      "id": "d18-w04",
+      "ru": "книга",
+      "en": "book",
+      "audio": "/audio/day18/книга.mp3",
+      "image": "/images/vocab/d18-w04.svg",
+      "sentences": [
+        {
+          "ru": "Интересная книга.",
+          "en": "An interesting book."
+        },
+        {
+          "ru": "Читаю книгу.",
+          "en": "I am reading a book."
+        }
+      ]
+    },
+    {
+      "id": "d18-w05",
+      "ru": "спорт",
+      "en": "sport",
+      "audio": "/audio/day18/спорт.mp3",
+      "image": "/images/vocab/d18-w05.svg",
+      "sentences": [
+        {
+          "ru": "Занимаюсь спортом.",
+          "en": "I do sports."
+        },
+        {
+          "ru": "Спорт полезен.",
+          "en": "Sport is healthy."
+        }
+      ]
+    },
+    {
+      "id": "d18-w06",
+      "ru": "игра",
+      "en": "game",
+      "audio": "/audio/day18/игра.mp3",
+      "image": "/images/vocab/d18-w06.svg",
+      "sentences": [
+        {
+          "ru": "Играем в игру.",
+          "en": "We play a game."
+        },
+        {
+          "ru": "Интересная игра.",
+          "en": "An interesting game."
+        }
+      ]
+    },
+    {
+      "id": "d18-w07",
+      "ru": "рисовать",
+      "en": "to draw",
+      "audio": "/audio/day18/рисовать.mp3",
+      "image": "/images/vocab/d18-w07.svg",
+      "sentences": [
+        {
+          "ru": "Люблю рисовать.",
+          "en": "I like to draw."
+        },
+        {
+          "ru": "Рисую картину.",
+          "en": "I am drawing a picture."
+        }
+      ]
+    },
+    {
+      "id": "d18-w08",
+      "ru": "читать",
+      "en": "to read",
+      "audio": "/audio/day18/читать.mp3",
+      "image": "/images/vocab/d18-w08.svg",
+      "sentences": [
+        {
+          "ru": "Читаю каждый день.",
+          "en": "I read every day."
+        },
+        {
+          "ru": "Читай книгу.",
+          "en": "Read the book."
+        }
+      ]
+    },
+    {
+      "id": "d18-w09",
+      "ru": "слушать",
+      "en": "to listen",
+      "audio": "/audio/day18/слушать.mp3",
+      "image": "/images/vocab/d18-w09.svg",
+      "sentences": [
+        {
+          "ru": "Слушаю музыку.",
+          "en": "I listen to music."
+        },
+        {
+          "ru": "Слушай внимательно.",
+          "en": "Listen carefully."
+        }
+      ]
+    },
+    {
+      "id": "d18-w10",
+      "ru": "смотреть",
+      "en": "to watch / look",
+      "audio": "/audio/day18/смотреть.mp3",
+      "image": "/images/vocab/d18-w10.svg",
+      "sentences": [
+        {
+          "ru": "Смотрю кино.",
+          "en": "I watch movies."
+        },
+        {
+          "ru": "Смотри на меня.",
+          "en": "Look at me."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d18-order-0",
+      "type": "wordOrder",
+      "wordId": "d18-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Моё хобби — музыка.",
+      "sentenceEn": "My hobby is music.",
+      "audio": "",
+      "tokens": [
+        "Моё",
+        "хобби",
+        "музыка"
+      ],
+      "pool": [
+        "хобби",
+        "Моё",
+        "книга",
+        "музыка",
+        "кино",
+        "музыка"
+      ]
+    },
+    {
+      "id": "d18-order-1",
+      "type": "wordOrder",
+      "wordId": "d18-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Какое у тебя хобби?",
+      "sentenceEn": "What is your hobby?",
+      "audio": "",
+      "tokens": [
+        "Какое",
+        "у",
+        "тебя",
+        "хобби"
+      ],
+      "pool": [
+        "тебя",
+        "книга",
+        "хобби",
+        "кино",
+        "смотреть",
+        "у",
+        "Какое"
+      ]
+    },
+    {
+      "id": "d18-order-2",
+      "type": "wordOrder",
+      "wordId": "d18-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Я люблю музыку.",
+      "sentenceEn": "I love music.",
+      "audio": "",
+      "tokens": [
+        "Я",
+        "люблю",
+        "музыку"
+      ],
+      "pool": [
+        "люблю",
+        "музыку",
+        "Я",
+        "спорт",
+        "игра",
+        "рисовать"
+      ]
+    },
+    {
+      "id": "d18-order-3",
+      "type": "wordOrder",
+      "wordId": "d18-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Громкая музыка.",
+      "sentenceEn": "Loud music.",
+      "audio": "",
+      "tokens": [
+        "Громкая",
+        "музыка"
+      ],
+      "pool": [
+        "книга",
+        "Громкая",
+        "игра",
+        "музыка",
+        "слушать"
+      ]
+    },
+    {
+      "id": "d18-order-4",
+      "type": "wordOrder",
+      "wordId": "d18-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Идём в кино.",
+      "sentenceEn": "Let's go to the movies.",
+      "audio": "",
+      "tokens": [
+        "Идём",
+        "в",
+        "кино"
+      ],
+      "pool": [
+        "рисовать",
+        "книга",
+        "в",
+        "спорт",
+        "кино",
+        "Идём"
+      ]
+    },
+    {
+      "id": "d18-order-5",
+      "type": "wordOrder",
+      "wordId": "d18-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Хорошее кино.",
+      "sentenceEn": "A good movie.",
+      "audio": "",
+      "tokens": [
+        "Хорошее",
+        "кино"
+      ],
+      "pool": [
+        "хобби",
+        "музыка",
+        "Хорошее",
+        "кино",
+        "слушать"
+      ]
+    },
+    {
+      "id": "d18-order-6",
+      "type": "wordOrder",
+      "wordId": "d18-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Интересная книга.",
+      "sentenceEn": "An interesting book.",
+      "audio": "",
+      "tokens": [
+        "Интересная",
+        "книга"
+      ],
+      "pool": [
+        "кино",
+        "Интересная",
+        "хобби",
+        "музыка",
+        "книга"
+      ]
+    },
+    {
+      "id": "d18-order-7",
+      "type": "wordOrder",
+      "wordId": "d18-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Читаю книгу.",
+      "sentenceEn": "I am reading a book.",
+      "audio": "",
+      "tokens": [
+        "Читаю",
+        "книгу"
+      ],
+      "pool": [
+        "смотреть",
+        "игра",
+        "книгу",
+        "Читаю",
+        "спорт"
+      ]
+    },
+    {
+      "id": "d18-order-8",
+      "type": "wordOrder",
+      "wordId": "d18-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Занимаюсь спортом.",
+      "sentenceEn": "I do sports.",
+      "audio": "",
+      "tokens": [
+        "Занимаюсь",
+        "спортом"
+      ],
+      "pool": [
+        "рисовать",
+        "Занимаюсь",
+        "музыка",
+        "игра",
+        "спортом"
+      ]
+    },
+    {
+      "id": "d18-order-9",
+      "type": "wordOrder",
+      "wordId": "d18-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Спорт полезен.",
+      "sentenceEn": "Sport is healthy.",
+      "audio": "",
+      "tokens": [
+        "Спорт",
+        "полезен"
+      ],
+      "pool": [
+        "слушать",
+        "Спорт",
+        "полезен",
+        "читать",
+        "кино"
+      ]
+    },
+    {
+      "id": "d18-order-10",
+      "type": "wordOrder",
+      "wordId": "d18-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Играем в игру.",
+      "sentenceEn": "We play a game.",
+      "audio": "",
+      "tokens": [
+        "Играем",
+        "в",
+        "игру"
+      ],
+      "pool": [
+        "читать",
+        "спорт",
+        "игру",
+        "Играем",
+        "в",
+        "кино"
+      ]
+    },
+    {
+      "id": "d18-order-11",
+      "type": "wordOrder",
+      "wordId": "d18-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Интересная игра.",
+      "sentenceEn": "An interesting game.",
+      "audio": "",
+      "tokens": [
+        "Интересная",
+        "игра"
+      ],
+      "pool": [
+        "рисовать",
+        "игра",
+        "Интересная",
+        "смотреть",
+        "хобби"
+      ]
+    },
+    {
+      "id": "d18-order-12",
+      "type": "wordOrder",
+      "wordId": "d18-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Люблю рисовать.",
+      "sentenceEn": "I like to draw.",
+      "audio": "",
+      "tokens": [
+        "Люблю",
+        "рисовать"
+      ],
+      "pool": [
+        "хобби",
+        "рисовать",
+        "Люблю",
+        "книга",
+        "читать"
+      ]
+    },
+    {
+      "id": "d18-order-13",
+      "type": "wordOrder",
+      "wordId": "d18-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Рисую картину.",
+      "sentenceEn": "I am drawing a picture.",
+      "audio": "",
+      "tokens": [
+        "Рисую",
+        "картину"
+      ],
+      "pool": [
+        "Рисую",
+        "спорт",
+        "музыка",
+        "кино",
+        "картину"
+      ]
+    },
+    {
+      "id": "d18-order-14",
+      "type": "wordOrder",
+      "wordId": "d18-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Читаю каждый день.",
+      "sentenceEn": "I read every day.",
+      "audio": "",
+      "tokens": [
+        "Читаю",
+        "каждый",
+        "день"
+      ],
+      "pool": [
+        "рисовать",
+        "день",
+        "книга",
+        "слушать",
+        "каждый",
+        "Читаю"
+      ]
+    },
+    {
+      "id": "d18-order-15",
+      "type": "wordOrder",
+      "wordId": "d18-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Читай книгу.",
+      "sentenceEn": "Read the book.",
+      "audio": "",
+      "tokens": [
+        "Читай",
+        "книгу"
+      ],
+      "pool": [
+        "Читай",
+        "слушать",
+        "хобби",
+        "музыка",
+        "книгу"
+      ]
+    },
+    {
+      "id": "d18-order-16",
+      "type": "wordOrder",
+      "wordId": "d18-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Слушаю музыку.",
+      "sentenceEn": "I listen to music.",
+      "audio": "",
+      "tokens": [
+        "Слушаю",
+        "музыку"
+      ],
+      "pool": [
+        "спорт",
+        "кино",
+        "музыку",
+        "книга",
+        "Слушаю"
+      ]
+    },
+    {
+      "id": "d18-order-17",
+      "type": "wordOrder",
+      "wordId": "d18-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Слушай внимательно.",
+      "sentenceEn": "Listen carefully.",
+      "audio": "",
+      "tokens": [
+        "Слушай",
+        "внимательно"
+      ],
+      "pool": [
+        "музыка",
+        "смотреть",
+        "хобби",
+        "Слушай",
+        "внимательно"
+      ]
+    },
+    {
+      "id": "d18-order-18",
+      "type": "wordOrder",
+      "wordId": "d18-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Смотрю кино.",
+      "sentenceEn": "I watch movies.",
+      "audio": "",
+      "tokens": [
+        "Смотрю",
+        "кино"
+      ],
+      "pool": [
+        "Смотрю",
+        "рисовать",
+        "книга",
+        "музыка",
+        "кино"
+      ]
+    },
+    {
+      "id": "d18-order-19",
+      "type": "wordOrder",
+      "wordId": "d18-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Смотри на меня.",
+      "sentenceEn": "Look at me.",
+      "audio": "",
+      "tokens": [
+        "Смотри",
+        "на",
+        "меня"
+      ],
+      "pool": [
+        "спорт",
+        "Смотри",
+        "книга",
+        "хобби",
+        "меня",
+        "на"
+      ]
+    },
+    {
+      "id": "d18-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d18-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d18-w01.svg",
+      "options": [
+        "рисовать",
+        "книга",
+        "слушать",
+        "хобби"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d18-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d18-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d18-w02.svg",
+      "options": [
+        "музыка",
+        "кино",
+        "игра",
+        "смотреть"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d18-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d18-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d18-w03.svg",
+      "options": [
+        "музыка",
+        "хобби",
+        "кино",
+        "спорт"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d18-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d18-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d18-w04.svg",
+      "options": [
+        "хобби",
+        "музыка",
+        "книга",
+        "смотреть"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d18-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d18-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d18-w05.svg",
+      "options": [
+        "игра",
+        "рисовать",
+        "хобби",
+        "спорт"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d18-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d18-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d18-w06.svg",
+      "options": [
+        "музыка",
+        "хобби",
+        "игра",
+        "читать"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d18-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d18-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d18-w07.svg",
+      "options": [
+        "хобби",
+        "рисовать",
+        "читать",
+        "смотреть"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d18-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d18-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d18-w08.svg",
+      "options": [
+        "читать",
+        "рисовать",
+        "книга",
+        "спорт"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d18-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d18-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d18-w09.svg",
+      "options": [
+        "слушать",
+        "спорт",
+        "игра",
+        "книга"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d18-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d18-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d18-w10.svg",
+      "options": [
+        "смотреть",
+        "рисовать",
+        "кино",
+        "книга"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

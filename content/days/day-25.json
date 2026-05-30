@@ -1,0 +1,725 @@
+{
+  "day": 25,
+  "theme": "Household chores",
+  "grammarFocus": "Reflexive verbs (-ся)",
+  "words": [
+    {
+      "id": "d25-w01",
+      "ru": "уборка",
+      "en": "cleaning",
+      "audio": "/audio/day25/уборка.mp3",
+      "image": "/images/vocab/d25-w01.svg",
+      "sentences": [
+        {
+          "ru": "Делаю уборку.",
+          "en": "I am cleaning."
+        },
+        {
+          "ru": "Генеральная уборка.",
+          "en": "Deep cleaning."
+        }
+      ]
+    },
+    {
+      "id": "d25-w02",
+      "ru": "стирка",
+      "en": "laundry",
+      "audio": "/audio/day25/стирка.mp3",
+      "image": "/images/vocab/d25-w02.svg",
+      "sentences": [
+        {
+          "ru": "Стирка готова.",
+          "en": "Laundry is done."
+        },
+        {
+          "ru": "Машина для стирки.",
+          "en": "Washing machine."
+        }
+      ]
+    },
+    {
+      "id": "d25-w03",
+      "ru": "готовить",
+      "en": "to cook / prepare",
+      "audio": "/audio/day25/готовить.mp3",
+      "image": "/images/vocab/d25-w03.svg",
+      "sentences": [
+        {
+          "ru": "Готовлю обед.",
+          "en": "I am cooking lunch."
+        },
+        {
+          "ru": "Люблю готовить.",
+          "en": "I like to cook."
+        }
+      ]
+    },
+    {
+      "id": "d25-w04",
+      "ru": "мыть",
+      "en": "to wash",
+      "audio": "/audio/day25/мыть.mp3",
+      "image": "/images/vocab/d25-w04.svg",
+      "sentences": [
+        {
+          "ru": "Мою посуду.",
+          "en": "I wash the dishes."
+        },
+        {
+          "ru": "Мой руки.",
+          "en": "Wash your hands."
+        }
+      ]
+    },
+    {
+      "id": "d25-w05",
+      "ru": "убирать",
+      "en": "to clean / tidy",
+      "audio": "/audio/day25/убирать.mp3",
+      "image": "/images/vocab/d25-w05.svg",
+      "sentences": [
+        {
+          "ru": "Убираю комнату.",
+          "en": "I clean the room."
+        },
+        {
+          "ru": "Надо убрать.",
+          "en": "Need to tidy up."
+        }
+      ]
+    },
+    {
+      "id": "d25-w06",
+      "ru": "стирать",
+      "en": "to do laundry",
+      "audio": "/audio/day25/стирать.mp3",
+      "image": "/images/vocab/d25-w06.svg",
+      "sentences": [
+        {
+          "ru": "Стираю бельё.",
+          "en": "I do the laundry."
+        },
+        {
+          "ru": "Стираю каждую неделю.",
+          "en": "I do laundry every week."
+        }
+      ]
+    },
+    {
+      "id": "d25-w07",
+      "ru": "гладить",
+      "en": "to iron",
+      "audio": "/audio/day25/гладить.mp3",
+      "image": "/images/vocab/d25-w07.svg",
+      "sentences": [
+        {
+          "ru": "Глажу рубашку.",
+          "en": "I iron the shirt."
+        },
+        {
+          "ru": "Ненавижу гладить.",
+          "en": "I hate ironing."
+        }
+      ]
+    },
+    {
+      "id": "d25-w08",
+      "ru": "пылесос",
+      "en": "vacuum cleaner",
+      "audio": "/audio/day25/пылесос.mp3",
+      "image": "/images/vocab/d25-w08.svg",
+      "sentences": [
+        {
+          "ru": "Включи пылесос.",
+          "en": "Turn on the vacuum."
+        },
+        {
+          "ru": "Новый пылесос.",
+          "en": "New vacuum cleaner."
+        }
+      ]
+    },
+    {
+      "id": "d25-w09",
+      "ru": "мусор",
+      "en": "trash / garbage",
+      "audio": "/audio/day25/мусор.mp3",
+      "image": "/images/vocab/d25-w09.svg",
+      "sentences": [
+        {
+          "ru": "Вынеси мусор.",
+          "en": "Take out the trash."
+        },
+        {
+          "ru": "Мусорное ведро.",
+          "en": "Trash bin."
+        }
+      ]
+    },
+    {
+      "id": "d25-w10",
+      "ru": "просыпаться",
+      "en": "to wake up",
+      "audio": "/audio/day25/просыпаться.mp3",
+      "image": "/images/vocab/d25-w10.svg",
+      "sentences": [
+        {
+          "ru": "Просыпаюсь в семь.",
+          "en": "I wake up at seven."
+        },
+        {
+          "ru": "Трудно просыпаться.",
+          "en": "Hard to wake up."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d25-order-0",
+      "type": "wordOrder",
+      "wordId": "d25-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Делаю уборку.",
+      "sentenceEn": "I am cleaning.",
+      "audio": "",
+      "tokens": [
+        "Делаю",
+        "уборку"
+      ],
+      "pool": [
+        "стирка",
+        "уборку",
+        "мусор",
+        "стирать",
+        "Делаю"
+      ]
+    },
+    {
+      "id": "d25-order-1",
+      "type": "wordOrder",
+      "wordId": "d25-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Генеральная уборка.",
+      "sentenceEn": "Deep cleaning.",
+      "audio": "",
+      "tokens": [
+        "Генеральная",
+        "уборка"
+      ],
+      "pool": [
+        "Генеральная",
+        "пылесос",
+        "стирать",
+        "просыпаться",
+        "уборка"
+      ]
+    },
+    {
+      "id": "d25-order-2",
+      "type": "wordOrder",
+      "wordId": "d25-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Стирка готова.",
+      "sentenceEn": "Laundry is done.",
+      "audio": "",
+      "tokens": [
+        "Стирка",
+        "готова"
+      ],
+      "pool": [
+        "готова",
+        "Стирка",
+        "просыпаться",
+        "гладить",
+        "мусор"
+      ]
+    },
+    {
+      "id": "d25-order-3",
+      "type": "wordOrder",
+      "wordId": "d25-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Машина для стирки.",
+      "sentenceEn": "Washing machine.",
+      "audio": "",
+      "tokens": [
+        "Машина",
+        "для",
+        "стирки"
+      ],
+      "pool": [
+        "стирки",
+        "уборка",
+        "Машина",
+        "мусор",
+        "мыть",
+        "для"
+      ]
+    },
+    {
+      "id": "d25-order-4",
+      "type": "wordOrder",
+      "wordId": "d25-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Готовлю обед.",
+      "sentenceEn": "I am cooking lunch.",
+      "audio": "",
+      "tokens": [
+        "Готовлю",
+        "обед"
+      ],
+      "pool": [
+        "мусор",
+        "обед",
+        "уборка",
+        "Готовлю",
+        "пылесос"
+      ]
+    },
+    {
+      "id": "d25-order-5",
+      "type": "wordOrder",
+      "wordId": "d25-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Люблю готовить.",
+      "sentenceEn": "I like to cook.",
+      "audio": "",
+      "tokens": [
+        "Люблю",
+        "готовить"
+      ],
+      "pool": [
+        "мыть",
+        "просыпаться",
+        "готовить",
+        "Люблю",
+        "убирать"
+      ]
+    },
+    {
+      "id": "d25-order-6",
+      "type": "wordOrder",
+      "wordId": "d25-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мою посуду.",
+      "sentenceEn": "I wash the dishes.",
+      "audio": "",
+      "tokens": [
+        "Мою",
+        "посуду"
+      ],
+      "pool": [
+        "Мою",
+        "готовить",
+        "просыпаться",
+        "уборка",
+        "посуду"
+      ]
+    },
+    {
+      "id": "d25-order-7",
+      "type": "wordOrder",
+      "wordId": "d25-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мой руки.",
+      "sentenceEn": "Wash your hands.",
+      "audio": "",
+      "tokens": [
+        "Мой",
+        "руки"
+      ],
+      "pool": [
+        "мусор",
+        "Мой",
+        "готовить",
+        "просыпаться",
+        "руки"
+      ]
+    },
+    {
+      "id": "d25-order-8",
+      "type": "wordOrder",
+      "wordId": "d25-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Убираю комнату.",
+      "sentenceEn": "I clean the room.",
+      "audio": "",
+      "tokens": [
+        "Убираю",
+        "комнату"
+      ],
+      "pool": [
+        "стирать",
+        "комнату",
+        "гладить",
+        "Убираю",
+        "мыть"
+      ]
+    },
+    {
+      "id": "d25-order-9",
+      "type": "wordOrder",
+      "wordId": "d25-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Надо убрать.",
+      "sentenceEn": "Need to tidy up.",
+      "audio": "",
+      "tokens": [
+        "Надо",
+        "убрать"
+      ],
+      "pool": [
+        "стирать",
+        "Надо",
+        "убрать",
+        "гладить",
+        "мусор"
+      ]
+    },
+    {
+      "id": "d25-order-10",
+      "type": "wordOrder",
+      "wordId": "d25-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Стираю бельё.",
+      "sentenceEn": "I do the laundry.",
+      "audio": "",
+      "tokens": [
+        "Стираю",
+        "бельё"
+      ],
+      "pool": [
+        "Стираю",
+        "уборка",
+        "бельё",
+        "мусор",
+        "гладить"
+      ]
+    },
+    {
+      "id": "d25-order-11",
+      "type": "wordOrder",
+      "wordId": "d25-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Стираю каждую неделю.",
+      "sentenceEn": "I do laundry every week.",
+      "audio": "",
+      "tokens": [
+        "Стираю",
+        "каждую",
+        "неделю"
+      ],
+      "pool": [
+        "уборка",
+        "Стираю",
+        "неделю",
+        "каждую",
+        "пылесос",
+        "просыпаться"
+      ]
+    },
+    {
+      "id": "d25-order-12",
+      "type": "wordOrder",
+      "wordId": "d25-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Глажу рубашку.",
+      "sentenceEn": "I iron the shirt.",
+      "audio": "",
+      "tokens": [
+        "Глажу",
+        "рубашку"
+      ],
+      "pool": [
+        "мусор",
+        "уборка",
+        "рубашку",
+        "Глажу",
+        "готовить"
+      ]
+    },
+    {
+      "id": "d25-order-13",
+      "type": "wordOrder",
+      "wordId": "d25-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Ненавижу гладить.",
+      "sentenceEn": "I hate ironing.",
+      "audio": "",
+      "tokens": [
+        "Ненавижу",
+        "гладить"
+      ],
+      "pool": [
+        "гладить",
+        "убирать",
+        "уборка",
+        "Ненавижу",
+        "мыть"
+      ]
+    },
+    {
+      "id": "d25-order-14",
+      "type": "wordOrder",
+      "wordId": "d25-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Включи пылесос.",
+      "sentenceEn": "Turn on the vacuum.",
+      "audio": "",
+      "tokens": [
+        "Включи",
+        "пылесос"
+      ],
+      "pool": [
+        "убирать",
+        "Включи",
+        "стирать",
+        "пылесос",
+        "готовить"
+      ]
+    },
+    {
+      "id": "d25-order-15",
+      "type": "wordOrder",
+      "wordId": "d25-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Новый пылесос.",
+      "sentenceEn": "New vacuum cleaner.",
+      "audio": "",
+      "tokens": [
+        "Новый",
+        "пылесос"
+      ],
+      "pool": [
+        "мусор",
+        "пылесос",
+        "Новый",
+        "просыпаться",
+        "стирка"
+      ]
+    },
+    {
+      "id": "d25-order-16",
+      "type": "wordOrder",
+      "wordId": "d25-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Вынеси мусор.",
+      "sentenceEn": "Take out the trash.",
+      "audio": "",
+      "tokens": [
+        "Вынеси",
+        "мусор"
+      ],
+      "pool": [
+        "Вынеси",
+        "мыть",
+        "пылесос",
+        "гладить",
+        "мусор"
+      ]
+    },
+    {
+      "id": "d25-order-17",
+      "type": "wordOrder",
+      "wordId": "d25-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мусорное ведро.",
+      "sentenceEn": "Trash bin.",
+      "audio": "",
+      "tokens": [
+        "Мусорное",
+        "ведро"
+      ],
+      "pool": [
+        "Мусорное",
+        "ведро",
+        "готовить",
+        "стирка",
+        "стирать"
+      ]
+    },
+    {
+      "id": "d25-order-18",
+      "type": "wordOrder",
+      "wordId": "d25-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Просыпаюсь в семь.",
+      "sentenceEn": "I wake up at seven.",
+      "audio": "",
+      "tokens": [
+        "Просыпаюсь",
+        "в",
+        "семь"
+      ],
+      "pool": [
+        "в",
+        "стирка",
+        "семь",
+        "мусор",
+        "гладить",
+        "Просыпаюсь"
+      ]
+    },
+    {
+      "id": "d25-order-19",
+      "type": "wordOrder",
+      "wordId": "d25-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Трудно просыпаться.",
+      "sentenceEn": "Hard to wake up.",
+      "audio": "",
+      "tokens": [
+        "Трудно",
+        "просыпаться"
+      ],
+      "pool": [
+        "готовить",
+        "Трудно",
+        "стирать",
+        "просыпаться",
+        "уборка"
+      ]
+    },
+    {
+      "id": "d25-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d25-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d25-w01.svg",
+      "options": [
+        "просыпаться",
+        "мусор",
+        "убирать",
+        "уборка"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d25-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d25-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d25-w02.svg",
+      "options": [
+        "мыть",
+        "стирка",
+        "уборка",
+        "убирать"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d25-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d25-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d25-w03.svg",
+      "options": [
+        "готовить",
+        "уборка",
+        "стирка",
+        "убирать"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d25-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d25-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d25-w04.svg",
+      "options": [
+        "стирка",
+        "уборка",
+        "мыть",
+        "стирать"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d25-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d25-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d25-w05.svg",
+      "options": [
+        "убирать",
+        "стирка",
+        "мусор",
+        "стирать"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d25-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d25-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d25-w06.svg",
+      "options": [
+        "готовить",
+        "гладить",
+        "пылесос",
+        "стирать"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d25-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d25-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d25-w07.svg",
+      "options": [
+        "гладить",
+        "стирать",
+        "убирать",
+        "пылесос"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d25-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d25-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d25-w08.svg",
+      "options": [
+        "стирка",
+        "мыть",
+        "мусор",
+        "пылесос"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d25-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d25-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d25-w09.svg",
+      "options": [
+        "пылесос",
+        "просыпаться",
+        "мусор",
+        "убирать"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d25-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d25-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d25-w10.svg",
+      "options": [
+        "гладить",
+        "просыпаться",
+        "мыть",
+        "готовить"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

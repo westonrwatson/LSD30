@@ -1,0 +1,777 @@
+{
+  "day": 5,
+  "theme": "Family & people",
+  "grammarFocus": "Possessive pronouns",
+  "words": [
+    {
+      "id": "d05-w01",
+      "ru": "мама",
+      "en": "mom",
+      "audio": "/audio/day05/мама.mp3",
+      "image": "/images/vocab/d05-w01.svg",
+      "sentences": [
+        {
+          "ru": "Моя мама дома.",
+          "en": "My mom is at home."
+        },
+        {
+          "ru": "Мама готовит обед.",
+          "en": "Mom is cooking lunch."
+        }
+      ]
+    },
+    {
+      "id": "d05-w02",
+      "ru": "папа",
+      "en": "dad",
+      "audio": "/audio/day05/папа.mp3",
+      "image": "/images/vocab/d05-w02.svg",
+      "sentences": [
+        {
+          "ru": "Мой папа на работе.",
+          "en": "My dad is at work."
+        },
+        {
+          "ru": "Папа читает газету.",
+          "en": "Dad is reading the newspaper."
+        }
+      ]
+    },
+    {
+      "id": "d05-w03",
+      "ru": "брат",
+      "en": "brother",
+      "audio": "/audio/day05/брат.mp3",
+      "image": "/images/vocab/d05-w03.svg",
+      "sentences": [
+        {
+          "ru": "У меня один брат.",
+          "en": "I have one brother."
+        },
+        {
+          "ru": "Мой брат студент.",
+          "en": "My brother is a student."
+        }
+      ]
+    },
+    {
+      "id": "d05-w04",
+      "ru": "сестра",
+      "en": "sister",
+      "audio": "/audio/day05/сестра.mp3",
+      "image": "/images/vocab/d05-w04.svg",
+      "sentences": [
+        {
+          "ru": "Моя сестра врач.",
+          "en": "My sister is a doctor."
+        },
+        {
+          "ru": "Сестра живёт в Питере.",
+          "en": "My sister lives in St. Petersburg."
+        }
+      ]
+    },
+    {
+      "id": "d05-w05",
+      "ru": "сын",
+      "en": "son",
+      "audio": "/audio/day05/сын.mp3",
+      "image": "/images/vocab/d05-w05.svg",
+      "sentences": [
+        {
+          "ru": "Их сын учится в школе.",
+          "en": "Their son studies at school."
+        },
+        {
+          "ru": "Мой сын пять лет.",
+          "en": "My son is five years old."
+        }
+      ]
+    },
+    {
+      "id": "d05-w06",
+      "ru": "дочь",
+      "en": "daughter",
+      "audio": "/audio/day05/дочь.mp3",
+      "image": "/images/vocab/d05-w06.svg",
+      "sentences": [
+        {
+          "ru": "Наша дочь музыкант.",
+          "en": "Our daughter is a musician."
+        },
+        {
+          "ru": "Дочь поёт песню.",
+          "en": "The daughter is singing a song."
+        }
+      ]
+    },
+    {
+      "id": "d05-w07",
+      "ru": "бабушка",
+      "en": "grandmother",
+      "audio": "/audio/day05/бабушка.mp3",
+      "image": "/images/vocab/d05-w07.svg",
+      "sentences": [
+        {
+          "ru": "Бабушка живёт в деревне.",
+          "en": "Grandma lives in the village."
+        },
+        {
+          "ru": "Моя бабушка готовит борщ.",
+          "en": "My grandma makes borscht."
+        }
+      ]
+    },
+    {
+      "id": "d05-w08",
+      "ru": "дедушка",
+      "en": "grandfather",
+      "audio": "/audio/day05/дедушка.mp3",
+      "image": "/images/vocab/d05-w08.svg",
+      "sentences": [
+        {
+          "ru": "Дедушка рассказывает истории.",
+          "en": "Grandpa tells stories."
+        },
+        {
+          "ru": "Мой дедушка рыбак.",
+          "en": "My grandpa is a fisherman."
+        }
+      ]
+    },
+    {
+      "id": "d05-w09",
+      "ru": "муж",
+      "en": "husband",
+      "audio": "/audio/day05/муж.mp3",
+      "image": "/images/vocab/d05-w09.svg",
+      "sentences": [
+        {
+          "ru": "Её муж инженер.",
+          "en": "Her husband is an engineer."
+        },
+        {
+          "ru": "Мой муж дома.",
+          "en": "My husband is at home."
+        }
+      ]
+    },
+    {
+      "id": "d05-w10",
+      "ru": "жена",
+      "en": "wife",
+      "audio": "/audio/day05/жена.mp3",
+      "image": "/images/vocab/d05-w10.svg",
+      "sentences": [
+        {
+          "ru": "Его жена учитель.",
+          "en": "His wife is a teacher."
+        },
+        {
+          "ru": "Жена работает в больнице.",
+          "en": "The wife works at the hospital."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d05-order-0",
+      "type": "wordOrder",
+      "wordId": "d05-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Моя мама дома.",
+      "sentenceEn": "My mom is at home.",
+      "audio": "",
+      "tokens": [
+        "Моя",
+        "мама",
+        "дома"
+      ],
+      "pool": [
+        "мама",
+        "жена",
+        "дома",
+        "папа",
+        "Моя",
+        "дочь"
+      ]
+    },
+    {
+      "id": "d05-order-1",
+      "type": "wordOrder",
+      "wordId": "d05-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мама готовит обед.",
+      "sentenceEn": "Mom is cooking lunch.",
+      "audio": "",
+      "tokens": [
+        "Мама",
+        "готовит",
+        "обед"
+      ],
+      "pool": [
+        "брат",
+        "обед",
+        "готовит",
+        "Мама",
+        "сын",
+        "сестра"
+      ]
+    },
+    {
+      "id": "d05-order-2",
+      "type": "wordOrder",
+      "wordId": "d05-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мой папа на работе.",
+      "sentenceEn": "My dad is at work.",
+      "audio": "",
+      "tokens": [
+        "Мой",
+        "папа",
+        "на",
+        "работе"
+      ],
+      "pool": [
+        "жена",
+        "на",
+        "сестра",
+        "папа",
+        "работе",
+        "мама",
+        "Мой"
+      ]
+    },
+    {
+      "id": "d05-order-3",
+      "type": "wordOrder",
+      "wordId": "d05-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Папа читает газету.",
+      "sentenceEn": "Dad is reading the newspaper.",
+      "audio": "",
+      "tokens": [
+        "Папа",
+        "читает",
+        "газету"
+      ],
+      "pool": [
+        "сестра",
+        "читает",
+        "брат",
+        "Папа",
+        "газету",
+        "муж"
+      ]
+    },
+    {
+      "id": "d05-order-4",
+      "type": "wordOrder",
+      "wordId": "d05-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "У меня один брат.",
+      "sentenceEn": "I have one brother.",
+      "audio": "",
+      "tokens": [
+        "У",
+        "меня",
+        "один",
+        "брат"
+      ],
+      "pool": [
+        "жена",
+        "один",
+        "папа",
+        "мама",
+        "У",
+        "брат",
+        "меня"
+      ]
+    },
+    {
+      "id": "d05-order-5",
+      "type": "wordOrder",
+      "wordId": "d05-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мой брат студент.",
+      "sentenceEn": "My brother is a student.",
+      "audio": "",
+      "tokens": [
+        "Мой",
+        "брат",
+        "студент"
+      ],
+      "pool": [
+        "дедушка",
+        "сестра",
+        "брат",
+        "сын",
+        "Мой",
+        "студент"
+      ]
+    },
+    {
+      "id": "d05-order-6",
+      "type": "wordOrder",
+      "wordId": "d05-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Моя сестра врач.",
+      "sentenceEn": "My sister is a doctor.",
+      "audio": "",
+      "tokens": [
+        "Моя",
+        "сестра",
+        "врач"
+      ],
+      "pool": [
+        "дедушка",
+        "сестра",
+        "Моя",
+        "папа",
+        "жена",
+        "врач"
+      ]
+    },
+    {
+      "id": "d05-order-7",
+      "type": "wordOrder",
+      "wordId": "d05-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Сестра живёт в Питере.",
+      "sentenceEn": "My sister lives in St. Petersburg.",
+      "audio": "",
+      "tokens": [
+        "Сестра",
+        "живёт",
+        "в",
+        "Питере"
+      ],
+      "pool": [
+        "в",
+        "Питере",
+        "муж",
+        "сын",
+        "бабушка",
+        "живёт",
+        "Сестра"
+      ]
+    },
+    {
+      "id": "d05-order-8",
+      "type": "wordOrder",
+      "wordId": "d05-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Их сын учится в школе.",
+      "sentenceEn": "Their son studies at school.",
+      "audio": "",
+      "tokens": [
+        "Их",
+        "сын",
+        "учится",
+        "в",
+        "школе"
+      ],
+      "pool": [
+        "муж",
+        "сестра",
+        "дочь",
+        "учится",
+        "в",
+        "Их",
+        "школе",
+        "сын"
+      ]
+    },
+    {
+      "id": "d05-order-9",
+      "type": "wordOrder",
+      "wordId": "d05-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мой сын пять лет.",
+      "sentenceEn": "My son is five years old.",
+      "audio": "",
+      "tokens": [
+        "Мой",
+        "сын",
+        "пять",
+        "лет"
+      ],
+      "pool": [
+        "дедушка",
+        "лет",
+        "сестра",
+        "пять",
+        "дочь",
+        "сын",
+        "Мой"
+      ]
+    },
+    {
+      "id": "d05-order-10",
+      "type": "wordOrder",
+      "wordId": "d05-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Наша дочь музыкант.",
+      "sentenceEn": "Our daughter is a musician.",
+      "audio": "",
+      "tokens": [
+        "Наша",
+        "дочь",
+        "музыкант"
+      ],
+      "pool": [
+        "брат",
+        "Наша",
+        "бабушка",
+        "дедушка",
+        "музыкант",
+        "дочь"
+      ]
+    },
+    {
+      "id": "d05-order-11",
+      "type": "wordOrder",
+      "wordId": "d05-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Дочь поёт песню.",
+      "sentenceEn": "The daughter is singing a song.",
+      "audio": "",
+      "tokens": [
+        "Дочь",
+        "поёт",
+        "песню"
+      ],
+      "pool": [
+        "Дочь",
+        "жена",
+        "поёт",
+        "песню",
+        "сын",
+        "сестра"
+      ]
+    },
+    {
+      "id": "d05-order-12",
+      "type": "wordOrder",
+      "wordId": "d05-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Бабушка живёт в деревне.",
+      "sentenceEn": "Grandma lives in the village.",
+      "audio": "",
+      "tokens": [
+        "Бабушка",
+        "живёт",
+        "в",
+        "деревне"
+      ],
+      "pool": [
+        "муж",
+        "Бабушка",
+        "дедушка",
+        "в",
+        "живёт",
+        "папа",
+        "деревне"
+      ]
+    },
+    {
+      "id": "d05-order-13",
+      "type": "wordOrder",
+      "wordId": "d05-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Моя бабушка готовит борщ.",
+      "sentenceEn": "My grandma makes borscht.",
+      "audio": "",
+      "tokens": [
+        "Моя",
+        "бабушка",
+        "готовит",
+        "борщ"
+      ],
+      "pool": [
+        "Моя",
+        "борщ",
+        "бабушка",
+        "мама",
+        "сын",
+        "дочь",
+        "готовит"
+      ]
+    },
+    {
+      "id": "d05-order-14",
+      "type": "wordOrder",
+      "wordId": "d05-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Дедушка рассказывает истории.",
+      "sentenceEn": "Grandpa tells stories.",
+      "audio": "",
+      "tokens": [
+        "Дедушка",
+        "рассказывает",
+        "истории"
+      ],
+      "pool": [
+        "Дедушка",
+        "рассказывает",
+        "бабушка",
+        "папа",
+        "муж",
+        "истории"
+      ]
+    },
+    {
+      "id": "d05-order-15",
+      "type": "wordOrder",
+      "wordId": "d05-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мой дедушка рыбак.",
+      "sentenceEn": "My grandpa is a fisherman.",
+      "audio": "",
+      "tokens": [
+        "Мой",
+        "дедушка",
+        "рыбак"
+      ],
+      "pool": [
+        "Мой",
+        "сестра",
+        "рыбак",
+        "папа",
+        "дедушка",
+        "сын"
+      ]
+    },
+    {
+      "id": "d05-order-16",
+      "type": "wordOrder",
+      "wordId": "d05-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Её муж инженер.",
+      "sentenceEn": "Her husband is an engineer.",
+      "audio": "",
+      "tokens": [
+        "Её",
+        "муж",
+        "инженер"
+      ],
+      "pool": [
+        "муж",
+        "бабушка",
+        "инженер",
+        "Её",
+        "сын",
+        "дедушка"
+      ]
+    },
+    {
+      "id": "d05-order-17",
+      "type": "wordOrder",
+      "wordId": "d05-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мой муж дома.",
+      "sentenceEn": "My husband is at home.",
+      "audio": "",
+      "tokens": [
+        "Мой",
+        "муж",
+        "дома"
+      ],
+      "pool": [
+        "Мой",
+        "папа",
+        "дома",
+        "сестра",
+        "муж",
+        "брат"
+      ]
+    },
+    {
+      "id": "d05-order-18",
+      "type": "wordOrder",
+      "wordId": "d05-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Его жена учитель.",
+      "sentenceEn": "His wife is a teacher.",
+      "audio": "",
+      "tokens": [
+        "Его",
+        "жена",
+        "учитель"
+      ],
+      "pool": [
+        "папа",
+        "Его",
+        "бабушка",
+        "учитель",
+        "жена",
+        "сын"
+      ]
+    },
+    {
+      "id": "d05-order-19",
+      "type": "wordOrder",
+      "wordId": "d05-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Жена работает в больнице.",
+      "sentenceEn": "The wife works at the hospital.",
+      "audio": "",
+      "tokens": [
+        "Жена",
+        "работает",
+        "в",
+        "больнице"
+      ],
+      "pool": [
+        "Жена",
+        "дочь",
+        "сестра",
+        "в",
+        "больнице",
+        "работает",
+        "сын"
+      ]
+    },
+    {
+      "id": "d05-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d05-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d05-w01.svg",
+      "options": [
+        "мама",
+        "сестра",
+        "жена",
+        "брат"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d05-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d05-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d05-w02.svg",
+      "options": [
+        "дочь",
+        "сын",
+        "дедушка",
+        "папа"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d05-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d05-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d05-w03.svg",
+      "options": [
+        "жена",
+        "муж",
+        "брат",
+        "бабушка"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d05-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d05-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d05-w04.svg",
+      "options": [
+        "сестра",
+        "дочь",
+        "жена",
+        "дедушка"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d05-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d05-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d05-w05.svg",
+      "options": [
+        "папа",
+        "сын",
+        "дедушка",
+        "бабушка"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d05-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d05-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d05-w06.svg",
+      "options": [
+        "сын",
+        "дочь",
+        "муж",
+        "бабушка"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d05-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d05-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d05-w07.svg",
+      "options": [
+        "дочь",
+        "дедушка",
+        "бабушка",
+        "жена"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d05-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d05-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d05-w08.svg",
+      "options": [
+        "папа",
+        "дедушка",
+        "жена",
+        "бабушка"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d05-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d05-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d05-w09.svg",
+      "options": [
+        "муж",
+        "бабушка",
+        "брат",
+        "папа"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d05-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d05-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d05-w10.svg",
+      "options": [
+        "бабушка",
+        "жена",
+        "сын",
+        "сестра"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

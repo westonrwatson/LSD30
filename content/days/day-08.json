@@ -1,0 +1,749 @@
+{
+  "day": 8,
+  "theme": "At the café / restaurant",
+  "grammarFocus": "Polite requests (можно, хотеть)",
+  "words": [
+    {
+      "id": "d08-w01",
+      "ru": "меню",
+      "en": "menu",
+      "audio": "/audio/day08/меню.mp3",
+      "image": "/images/vocab/d08-w01.svg",
+      "sentences": [
+        {
+          "ru": "Можно меню, пожалуйста?",
+          "en": "Can I have the menu, please?"
+        },
+        {
+          "ru": "Меню на столе.",
+          "en": "The menu is on the table."
+        }
+      ]
+    },
+    {
+      "id": "d08-w02",
+      "ru": "официант",
+      "en": "waiter",
+      "audio": "/audio/day08/официант.mp3",
+      "image": "/images/vocab/d08-w02.svg",
+      "sentences": [
+        {
+          "ru": "Официант приносит заказ.",
+          "en": "The waiter brings the order."
+        },
+        {
+          "ru": "Позовите официанта.",
+          "en": "Call the waiter."
+        }
+      ]
+    },
+    {
+      "id": "d08-w03",
+      "ru": "счёт",
+      "en": "bill / check",
+      "audio": "/audio/day08/счёт.mp3",
+      "image": "/images/vocab/d08-w03.svg",
+      "sentences": [
+        {
+          "ru": "Счёт, пожалуйста.",
+          "en": "The bill, please."
+        },
+        {
+          "ru": "Счёт за столом.",
+          "en": "The bill for the table."
+        }
+      ]
+    },
+    {
+      "id": "d08-w04",
+      "ru": "заказ",
+      "en": "order",
+      "audio": "/audio/day08/заказ.mp3",
+      "image": "/images/vocab/d08-w04.svg",
+      "sentences": [
+        {
+          "ru": "Я делаю заказ.",
+          "en": "I am placing an order."
+        },
+        {
+          "ru": "Заказ готов.",
+          "en": "The order is ready."
+        }
+      ]
+    },
+    {
+      "id": "d08-w05",
+      "ru": "стол",
+      "en": "table",
+      "audio": "/audio/day08/стол.mp3",
+      "image": "/images/vocab/d08-w05.svg",
+      "sentences": [
+        {
+          "ru": "Стол у окна свободен.",
+          "en": "The table by the window is free."
+        },
+        {
+          "ru": "Забронируйте стол.",
+          "en": "Reserve a table."
+        }
+      ]
+    },
+    {
+      "id": "d08-w06",
+      "ru": "завтрак",
+      "en": "breakfast",
+      "audio": "/audio/day08/завтрак.mp3",
+      "image": "/images/vocab/d08-w06.svg",
+      "sentences": [
+        {
+          "ru": "Завтрак с восьми.",
+          "en": "Breakfast from eight."
+        },
+        {
+          "ru": "Завтрак включён.",
+          "en": "Breakfast is included."
+        }
+      ]
+    },
+    {
+      "id": "d08-w07",
+      "ru": "обед",
+      "en": "lunch",
+      "audio": "/audio/day08/обед.mp3",
+      "image": "/images/vocab/d08-w07.svg",
+      "sentences": [
+        {
+          "ru": "Обед в два часа.",
+          "en": "Lunch at two o'clock."
+        },
+        {
+          "ru": "Где пообедать?",
+          "en": "Where to have lunch?"
+        }
+      ]
+    },
+    {
+      "id": "d08-w08",
+      "ru": "ужин",
+      "en": "dinner",
+      "audio": "/audio/day08/ужин.mp3",
+      "image": "/images/vocab/d08-w08.svg",
+      "sentences": [
+        {
+          "ru": "Ужин в ресторане.",
+          "en": "Dinner at the restaurant."
+        },
+        {
+          "ru": "Ужин готов.",
+          "en": "Dinner is ready."
+        }
+      ]
+    },
+    {
+      "id": "d08-w09",
+      "ru": "хочу",
+      "en": "I want",
+      "audio": "/audio/day08/хочу.mp3",
+      "image": "/images/vocab/d08-w09.svg",
+      "sentences": [
+        {
+          "ru": "Я хочу кофе.",
+          "en": "I want coffee."
+        },
+        {
+          "ru": "Что вы хотите?",
+          "en": "What would you like?"
+        }
+      ]
+    },
+    {
+      "id": "d08-w10",
+      "ru": "можно",
+      "en": "may I / is it allowed",
+      "audio": "/audio/day08/можно.mp3",
+      "image": "/images/vocab/d08-w10.svg",
+      "sentences": [
+        {
+          "ru": "Можно сюда сесть?",
+          "en": "May I sit here?"
+        },
+        {
+          "ru": "Можно ещё хлеба?",
+          "en": "May I have more bread?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d08-order-0",
+      "type": "wordOrder",
+      "wordId": "d08-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Можно меню, пожалуйста?",
+      "sentenceEn": "Can I have the menu, please?",
+      "audio": "",
+      "tokens": [
+        "Можно",
+        "меню",
+        "пожалуйста"
+      ],
+      "pool": [
+        "Можно",
+        "меню",
+        "стол",
+        "пожалуйста",
+        "ужин",
+        "счёт"
+      ]
+    },
+    {
+      "id": "d08-order-1",
+      "type": "wordOrder",
+      "wordId": "d08-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Меню на столе.",
+      "sentenceEn": "The menu is on the table.",
+      "audio": "",
+      "tokens": [
+        "Меню",
+        "на",
+        "столе"
+      ],
+      "pool": [
+        "заказ",
+        "столе",
+        "счёт",
+        "на",
+        "официант",
+        "Меню"
+      ]
+    },
+    {
+      "id": "d08-order-2",
+      "type": "wordOrder",
+      "wordId": "d08-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Официант приносит заказ.",
+      "sentenceEn": "The waiter brings the order.",
+      "audio": "",
+      "tokens": [
+        "Официант",
+        "приносит",
+        "заказ"
+      ],
+      "pool": [
+        "меню",
+        "можно",
+        "приносит",
+        "заказ",
+        "Официант",
+        "стол"
+      ]
+    },
+    {
+      "id": "d08-order-3",
+      "type": "wordOrder",
+      "wordId": "d08-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Позовите официанта.",
+      "sentenceEn": "Call the waiter.",
+      "audio": "",
+      "tokens": [
+        "Позовите",
+        "официанта"
+      ],
+      "pool": [
+        "обед",
+        "Позовите",
+        "завтрак",
+        "стол",
+        "официанта"
+      ]
+    },
+    {
+      "id": "d08-order-4",
+      "type": "wordOrder",
+      "wordId": "d08-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Счёт, пожалуйста.",
+      "sentenceEn": "The bill, please.",
+      "audio": "",
+      "tokens": [
+        "Счёт",
+        "пожалуйста"
+      ],
+      "pool": [
+        "пожалуйста",
+        "официант",
+        "обед",
+        "Счёт",
+        "заказ"
+      ]
+    },
+    {
+      "id": "d08-order-5",
+      "type": "wordOrder",
+      "wordId": "d08-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Счёт за столом.",
+      "sentenceEn": "The bill for the table.",
+      "audio": "",
+      "tokens": [
+        "Счёт",
+        "за",
+        "столом"
+      ],
+      "pool": [
+        "за",
+        "хочу",
+        "меню",
+        "можно",
+        "Счёт",
+        "столом"
+      ]
+    },
+    {
+      "id": "d08-order-6",
+      "type": "wordOrder",
+      "wordId": "d08-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Я делаю заказ.",
+      "sentenceEn": "I am placing an order.",
+      "audio": "",
+      "tokens": [
+        "Я",
+        "делаю",
+        "заказ"
+      ],
+      "pool": [
+        "хочу",
+        "счёт",
+        "Я",
+        "заказ",
+        "делаю",
+        "можно"
+      ]
+    },
+    {
+      "id": "d08-order-7",
+      "type": "wordOrder",
+      "wordId": "d08-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Заказ готов.",
+      "sentenceEn": "The order is ready.",
+      "audio": "",
+      "tokens": [
+        "Заказ",
+        "готов"
+      ],
+      "pool": [
+        "счёт",
+        "Заказ",
+        "готов",
+        "ужин",
+        "меню"
+      ]
+    },
+    {
+      "id": "d08-order-8",
+      "type": "wordOrder",
+      "wordId": "d08-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Стол у окна свободен.",
+      "sentenceEn": "The table by the window is free.",
+      "audio": "",
+      "tokens": [
+        "Стол",
+        "у",
+        "окна",
+        "свободен"
+      ],
+      "pool": [
+        "окна",
+        "счёт",
+        "у",
+        "свободен",
+        "Стол",
+        "хочу",
+        "официант"
+      ]
+    },
+    {
+      "id": "d08-order-9",
+      "type": "wordOrder",
+      "wordId": "d08-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Забронируйте стол.",
+      "sentenceEn": "Reserve a table.",
+      "audio": "",
+      "tokens": [
+        "Забронируйте",
+        "стол"
+      ],
+      "pool": [
+        "ужин",
+        "завтрак",
+        "хочу",
+        "стол",
+        "Забронируйте"
+      ]
+    },
+    {
+      "id": "d08-order-10",
+      "type": "wordOrder",
+      "wordId": "d08-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Завтрак с восьми.",
+      "sentenceEn": "Breakfast from eight.",
+      "audio": "",
+      "tokens": [
+        "Завтрак",
+        "с",
+        "восьми"
+      ],
+      "pool": [
+        "ужин",
+        "меню",
+        "восьми",
+        "Завтрак",
+        "с",
+        "стол"
+      ]
+    },
+    {
+      "id": "d08-order-11",
+      "type": "wordOrder",
+      "wordId": "d08-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Завтрак включён.",
+      "sentenceEn": "Breakfast is included.",
+      "audio": "",
+      "tokens": [
+        "Завтрак",
+        "включён"
+      ],
+      "pool": [
+        "включён",
+        "Завтрак",
+        "хочу",
+        "заказ",
+        "меню"
+      ]
+    },
+    {
+      "id": "d08-order-12",
+      "type": "wordOrder",
+      "wordId": "d08-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Обед в два часа.",
+      "sentenceEn": "Lunch at two o'clock.",
+      "audio": "",
+      "tokens": [
+        "Обед",
+        "в",
+        "два",
+        "часа"
+      ],
+      "pool": [
+        "два",
+        "в",
+        "меню",
+        "хочу",
+        "Обед",
+        "часа",
+        "можно"
+      ]
+    },
+    {
+      "id": "d08-order-13",
+      "type": "wordOrder",
+      "wordId": "d08-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Где пообедать?",
+      "sentenceEn": "Where to have lunch?",
+      "audio": "",
+      "tokens": [
+        "Где",
+        "пообедать"
+      ],
+      "pool": [
+        "Где",
+        "официант",
+        "меню",
+        "пообедать",
+        "стол"
+      ]
+    },
+    {
+      "id": "d08-order-14",
+      "type": "wordOrder",
+      "wordId": "d08-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Ужин в ресторане.",
+      "sentenceEn": "Dinner at the restaurant.",
+      "audio": "",
+      "tokens": [
+        "Ужин",
+        "в",
+        "ресторане"
+      ],
+      "pool": [
+        "меню",
+        "в",
+        "ресторане",
+        "Ужин",
+        "заказ",
+        "официант"
+      ]
+    },
+    {
+      "id": "d08-order-15",
+      "type": "wordOrder",
+      "wordId": "d08-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Ужин готов.",
+      "sentenceEn": "Dinner is ready.",
+      "audio": "",
+      "tokens": [
+        "Ужин",
+        "готов"
+      ],
+      "pool": [
+        "можно",
+        "Ужин",
+        "готов",
+        "хочу",
+        "стол"
+      ]
+    },
+    {
+      "id": "d08-order-16",
+      "type": "wordOrder",
+      "wordId": "d08-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Я хочу кофе.",
+      "sentenceEn": "I want coffee.",
+      "audio": "",
+      "tokens": [
+        "Я",
+        "хочу",
+        "кофе"
+      ],
+      "pool": [
+        "Я",
+        "счёт",
+        "можно",
+        "хочу",
+        "кофе",
+        "заказ"
+      ]
+    },
+    {
+      "id": "d08-order-17",
+      "type": "wordOrder",
+      "wordId": "d08-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Что вы хотите?",
+      "sentenceEn": "What would you like?",
+      "audio": "",
+      "tokens": [
+        "Что",
+        "вы",
+        "хотите"
+      ],
+      "pool": [
+        "Что",
+        "вы",
+        "хотите",
+        "официант",
+        "завтрак",
+        "меню"
+      ]
+    },
+    {
+      "id": "d08-order-18",
+      "type": "wordOrder",
+      "wordId": "d08-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Можно сюда сесть?",
+      "sentenceEn": "May I sit here?",
+      "audio": "",
+      "tokens": [
+        "Можно",
+        "сюда",
+        "сесть"
+      ],
+      "pool": [
+        "Можно",
+        "обед",
+        "заказ",
+        "счёт",
+        "сесть",
+        "сюда"
+      ]
+    },
+    {
+      "id": "d08-order-19",
+      "type": "wordOrder",
+      "wordId": "d08-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Можно ещё хлеба?",
+      "sentenceEn": "May I have more bread?",
+      "audio": "",
+      "tokens": [
+        "Можно",
+        "ещё",
+        "хлеба"
+      ],
+      "pool": [
+        "ужин",
+        "хочу",
+        "меню",
+        "хлеба",
+        "ещё",
+        "Можно"
+      ]
+    },
+    {
+      "id": "d08-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d08-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d08-w01.svg",
+      "options": [
+        "ужин",
+        "завтрак",
+        "официант",
+        "меню"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d08-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d08-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d08-w02.svg",
+      "options": [
+        "хочу",
+        "официант",
+        "заказ",
+        "стол"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d08-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d08-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d08-w03.svg",
+      "options": [
+        "обед",
+        "стол",
+        "счёт",
+        "заказ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d08-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d08-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d08-w04.svg",
+      "options": [
+        "можно",
+        "заказ",
+        "завтрак",
+        "обед"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d08-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d08-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d08-w05.svg",
+      "options": [
+        "обед",
+        "хочу",
+        "стол",
+        "заказ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d08-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d08-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d08-w06.svg",
+      "options": [
+        "счёт",
+        "завтрак",
+        "официант",
+        "хочу"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d08-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d08-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d08-w07.svg",
+      "options": [
+        "обед",
+        "меню",
+        "счёт",
+        "заказ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d08-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d08-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d08-w08.svg",
+      "options": [
+        "ужин",
+        "заказ",
+        "меню",
+        "можно"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d08-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d08-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d08-w09.svg",
+      "options": [
+        "официант",
+        "хочу",
+        "можно",
+        "заказ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d08-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d08-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d08-w10.svg",
+      "options": [
+        "официант",
+        "ужин",
+        "счёт",
+        "можно"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

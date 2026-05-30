@@ -1,0 +1,775 @@
+{
+  "day": 7,
+  "theme": "Food & drinks",
+  "grammarFocus": "Accusative (direct object, eat/drink)",
+  "words": [
+    {
+      "id": "d07-w01",
+      "ru": "хлеб",
+      "en": "bread",
+      "audio": "/audio/day07/хлеб.mp3",
+      "image": "/images/vocab/d07-w01.svg",
+      "sentences": [
+        {
+          "ru": "Я ем хлеб с маслом.",
+          "en": "I eat bread with butter."
+        },
+        {
+          "ru": "Свежий хлеб вкусный.",
+          "en": "Fresh bread is tasty."
+        }
+      ]
+    },
+    {
+      "id": "d07-w02",
+      "ru": "молоко",
+      "en": "milk",
+      "audio": "/audio/day07/молоко.mp3",
+      "image": "/images/vocab/d07-w02.svg",
+      "sentences": [
+        {
+          "ru": "Дети пьют молоко.",
+          "en": "Children drink milk."
+        },
+        {
+          "ru": "Я покупаю молоко.",
+          "en": "I buy milk."
+        }
+      ]
+    },
+    {
+      "id": "d07-w03",
+      "ru": "вода",
+      "en": "water",
+      "audio": "/audio/day07/вода.mp3",
+      "image": "/images/vocab/d07-w03.svg",
+      "sentences": [
+        {
+          "ru": "Мне нужна вода.",
+          "en": "I need water."
+        },
+        {
+          "ru": "Пью воду каждый день.",
+          "en": "I drink water every day."
+        }
+      ]
+    },
+    {
+      "id": "d07-w04",
+      "ru": "кофе",
+      "en": "coffee",
+      "audio": "/audio/day07/кофе.mp3",
+      "image": "/images/vocab/d07-w04.svg",
+      "sentences": [
+        {
+          "ru": "Утром пью кофе.",
+          "en": "I drink coffee in the morning."
+        },
+        {
+          "ru": "Чёрный кофе без сахара.",
+          "en": "Black coffee without sugar."
+        }
+      ]
+    },
+    {
+      "id": "d07-w05",
+      "ru": "чай",
+      "en": "tea",
+      "audio": "/audio/day07/чай.mp3",
+      "image": "/images/vocab/d07-w05.svg",
+      "sentences": [
+        {
+          "ru": "Русские любят чай.",
+          "en": "Russians love tea."
+        },
+        {
+          "ru": "Зелёный чай полезный.",
+          "en": "Green tea is healthy."
+        }
+      ]
+    },
+    {
+      "id": "d07-w06",
+      "ru": "сыр",
+      "en": "cheese",
+      "audio": "/audio/day07/сыр.mp3",
+      "image": "/images/vocab/d07-w06.svg",
+      "sentences": [
+        {
+          "ru": "Я ем сыр на завтрак.",
+          "en": "I eat cheese for breakfast."
+        },
+        {
+          "ru": "Русский сыр вкусный.",
+          "en": "Russian cheese is tasty."
+        }
+      ]
+    },
+    {
+      "id": "d07-w07",
+      "ru": "мясо",
+      "en": "meat",
+      "audio": "/audio/day07/мясо.mp3",
+      "image": "/images/vocab/d07-w07.svg",
+      "sentences": [
+        {
+          "ru": "Он не ест мясо.",
+          "en": "He does not eat meat."
+        },
+        {
+          "ru": "Мясо на сковороде.",
+          "en": "Meat in the pan."
+        }
+      ]
+    },
+    {
+      "id": "d07-w08",
+      "ru": "суп",
+      "en": "soup",
+      "audio": "/audio/day07/суп.mp3",
+      "image": "/images/vocab/d07-w08.svg",
+      "sentences": [
+        {
+          "ru": "Бабушка варит суп.",
+          "en": "Grandma cooks soup."
+        },
+        {
+          "ru": "Горячий суп на столе.",
+          "en": "Hot soup on the table."
+        }
+      ]
+    },
+    {
+      "id": "d07-w09",
+      "ru": "яблоко",
+      "en": "apple",
+      "audio": "/audio/day07/яблоко.mp3",
+      "image": "/images/vocab/d07-w09.svg",
+      "sentences": [
+        {
+          "ru": "Я ем яблоко.",
+          "en": "I eat an apple."
+        },
+        {
+          "ru": "Красное яблоко сладкое.",
+          "en": "The red apple is sweet."
+        }
+      ]
+    },
+    {
+      "id": "d07-w10",
+      "ru": "борщ",
+      "en": "borscht",
+      "audio": "/audio/day07/борщ.mp3",
+      "image": "/images/vocab/d07-w10.svg",
+      "sentences": [
+        {
+          "ru": "Борщ — русский суп.",
+          "en": "Borscht is a Russian soup."
+        },
+        {
+          "ru": "Я люблю борщ.",
+          "en": "I love borscht."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d07-order-0",
+      "type": "wordOrder",
+      "wordId": "d07-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Я ем хлеб с маслом.",
+      "sentenceEn": "I eat bread with butter.",
+      "audio": "",
+      "tokens": [
+        "Я",
+        "ем",
+        "хлеб",
+        "с",
+        "маслом"
+      ],
+      "pool": [
+        "борщ",
+        "мясо",
+        "кофе",
+        "хлеб",
+        "ем",
+        "маслом",
+        "с",
+        "Я"
+      ]
+    },
+    {
+      "id": "d07-order-1",
+      "type": "wordOrder",
+      "wordId": "d07-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Свежий хлеб вкусный.",
+      "sentenceEn": "Fresh bread is tasty.",
+      "audio": "",
+      "tokens": [
+        "Свежий",
+        "хлеб",
+        "вкусный"
+      ],
+      "pool": [
+        "суп",
+        "сыр",
+        "вкусный",
+        "хлеб",
+        "яблоко",
+        "Свежий"
+      ]
+    },
+    {
+      "id": "d07-order-2",
+      "type": "wordOrder",
+      "wordId": "d07-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Дети пьют молоко.",
+      "sentenceEn": "Children drink milk.",
+      "audio": "",
+      "tokens": [
+        "Дети",
+        "пьют",
+        "молоко"
+      ],
+      "pool": [
+        "сыр",
+        "Дети",
+        "молоко",
+        "борщ",
+        "пьют",
+        "мясо"
+      ]
+    },
+    {
+      "id": "d07-order-3",
+      "type": "wordOrder",
+      "wordId": "d07-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Я покупаю молоко.",
+      "sentenceEn": "I buy milk.",
+      "audio": "",
+      "tokens": [
+        "Я",
+        "покупаю",
+        "молоко"
+      ],
+      "pool": [
+        "вода",
+        "хлеб",
+        "покупаю",
+        "молоко",
+        "Я",
+        "суп"
+      ]
+    },
+    {
+      "id": "d07-order-4",
+      "type": "wordOrder",
+      "wordId": "d07-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мне нужна вода.",
+      "sentenceEn": "I need water.",
+      "audio": "",
+      "tokens": [
+        "Мне",
+        "нужна",
+        "вода"
+      ],
+      "pool": [
+        "суп",
+        "нужна",
+        "мясо",
+        "вода",
+        "сыр",
+        "Мне"
+      ]
+    },
+    {
+      "id": "d07-order-5",
+      "type": "wordOrder",
+      "wordId": "d07-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Пью воду каждый день.",
+      "sentenceEn": "I drink water every day.",
+      "audio": "",
+      "tokens": [
+        "Пью",
+        "воду",
+        "каждый",
+        "день"
+      ],
+      "pool": [
+        "воду",
+        "сыр",
+        "мясо",
+        "чай",
+        "Пью",
+        "день",
+        "каждый"
+      ]
+    },
+    {
+      "id": "d07-order-6",
+      "type": "wordOrder",
+      "wordId": "d07-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Утром пью кофе.",
+      "sentenceEn": "I drink coffee in the morning.",
+      "audio": "",
+      "tokens": [
+        "Утром",
+        "пью",
+        "кофе"
+      ],
+      "pool": [
+        "пью",
+        "Утром",
+        "кофе",
+        "борщ",
+        "суп",
+        "хлеб"
+      ]
+    },
+    {
+      "id": "d07-order-7",
+      "type": "wordOrder",
+      "wordId": "d07-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Чёрный кофе без сахара.",
+      "sentenceEn": "Black coffee without sugar.",
+      "audio": "",
+      "tokens": [
+        "Чёрный",
+        "кофе",
+        "без",
+        "сахара"
+      ],
+      "pool": [
+        "борщ",
+        "молоко",
+        "кофе",
+        "сахара",
+        "яблоко",
+        "без",
+        "Чёрный"
+      ]
+    },
+    {
+      "id": "d07-order-8",
+      "type": "wordOrder",
+      "wordId": "d07-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Русские любят чай.",
+      "sentenceEn": "Russians love tea.",
+      "audio": "",
+      "tokens": [
+        "Русские",
+        "любят",
+        "чай"
+      ],
+      "pool": [
+        "хлеб",
+        "любят",
+        "молоко",
+        "Русские",
+        "сыр",
+        "чай"
+      ]
+    },
+    {
+      "id": "d07-order-9",
+      "type": "wordOrder",
+      "wordId": "d07-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Зелёный чай полезный.",
+      "sentenceEn": "Green tea is healthy.",
+      "audio": "",
+      "tokens": [
+        "Зелёный",
+        "чай",
+        "полезный"
+      ],
+      "pool": [
+        "молоко",
+        "чай",
+        "Зелёный",
+        "полезный",
+        "яблоко",
+        "борщ"
+      ]
+    },
+    {
+      "id": "d07-order-10",
+      "type": "wordOrder",
+      "wordId": "d07-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Я ем сыр на завтрак.",
+      "sentenceEn": "I eat cheese for breakfast.",
+      "audio": "",
+      "tokens": [
+        "Я",
+        "ем",
+        "сыр",
+        "на",
+        "завтрак"
+      ],
+      "pool": [
+        "ем",
+        "завтрак",
+        "на",
+        "мясо",
+        "сыр",
+        "вода",
+        "Я",
+        "яблоко"
+      ]
+    },
+    {
+      "id": "d07-order-11",
+      "type": "wordOrder",
+      "wordId": "d07-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Русский сыр вкусный.",
+      "sentenceEn": "Russian cheese is tasty.",
+      "audio": "",
+      "tokens": [
+        "Русский",
+        "сыр",
+        "вкусный"
+      ],
+      "pool": [
+        "мясо",
+        "сыр",
+        "вкусный",
+        "Русский",
+        "кофе",
+        "молоко"
+      ]
+    },
+    {
+      "id": "d07-order-12",
+      "type": "wordOrder",
+      "wordId": "d07-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Он не ест мясо.",
+      "sentenceEn": "He does not eat meat.",
+      "audio": "",
+      "tokens": [
+        "Он",
+        "не",
+        "ест",
+        "мясо"
+      ],
+      "pool": [
+        "сыр",
+        "вода",
+        "молоко",
+        "мясо",
+        "не",
+        "Он",
+        "ест"
+      ]
+    },
+    {
+      "id": "d07-order-13",
+      "type": "wordOrder",
+      "wordId": "d07-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мясо на сковороде.",
+      "sentenceEn": "Meat in the pan.",
+      "audio": "",
+      "tokens": [
+        "Мясо",
+        "на",
+        "сковороде"
+      ],
+      "pool": [
+        "вода",
+        "кофе",
+        "сыр",
+        "на",
+        "сковороде",
+        "Мясо"
+      ]
+    },
+    {
+      "id": "d07-order-14",
+      "type": "wordOrder",
+      "wordId": "d07-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Бабушка варит суп.",
+      "sentenceEn": "Grandma cooks soup.",
+      "audio": "",
+      "tokens": [
+        "Бабушка",
+        "варит",
+        "суп"
+      ],
+      "pool": [
+        "молоко",
+        "варит",
+        "суп",
+        "хлеб",
+        "Бабушка",
+        "сыр"
+      ]
+    },
+    {
+      "id": "d07-order-15",
+      "type": "wordOrder",
+      "wordId": "d07-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Горячий суп на столе.",
+      "sentenceEn": "Hot soup on the table.",
+      "audio": "",
+      "tokens": [
+        "Горячий",
+        "суп",
+        "на",
+        "столе"
+      ],
+      "pool": [
+        "борщ",
+        "на",
+        "мясо",
+        "кофе",
+        "столе",
+        "суп",
+        "Горячий"
+      ]
+    },
+    {
+      "id": "d07-order-16",
+      "type": "wordOrder",
+      "wordId": "d07-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Я ем яблоко.",
+      "sentenceEn": "I eat an apple.",
+      "audio": "",
+      "tokens": [
+        "Я",
+        "ем",
+        "яблоко"
+      ],
+      "pool": [
+        "Я",
+        "яблоко",
+        "ем",
+        "вода",
+        "суп",
+        "кофе"
+      ]
+    },
+    {
+      "id": "d07-order-17",
+      "type": "wordOrder",
+      "wordId": "d07-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Красное яблоко сладкое.",
+      "sentenceEn": "The red apple is sweet.",
+      "audio": "",
+      "tokens": [
+        "Красное",
+        "яблоко",
+        "сладкое"
+      ],
+      "pool": [
+        "борщ",
+        "Красное",
+        "мясо",
+        "яблоко",
+        "сладкое",
+        "суп"
+      ]
+    },
+    {
+      "id": "d07-order-18",
+      "type": "wordOrder",
+      "wordId": "d07-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Борщ — русский суп.",
+      "sentenceEn": "Borscht is a Russian soup.",
+      "audio": "",
+      "tokens": [
+        "Борщ",
+        "русский",
+        "суп"
+      ],
+      "pool": [
+        "суп",
+        "русский",
+        "яблоко",
+        "кофе",
+        "вода",
+        "Борщ"
+      ]
+    },
+    {
+      "id": "d07-order-19",
+      "type": "wordOrder",
+      "wordId": "d07-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Я люблю борщ.",
+      "sentenceEn": "I love borscht.",
+      "audio": "",
+      "tokens": [
+        "Я",
+        "люблю",
+        "борщ"
+      ],
+      "pool": [
+        "люблю",
+        "борщ",
+        "сыр",
+        "Я",
+        "суп",
+        "вода"
+      ]
+    },
+    {
+      "id": "d07-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d07-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d07-w01.svg",
+      "options": [
+        "мясо",
+        "вода",
+        "суп",
+        "хлеб"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d07-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d07-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d07-w02.svg",
+      "options": [
+        "кофе",
+        "хлеб",
+        "молоко",
+        "сыр"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d07-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d07-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d07-w03.svg",
+      "options": [
+        "кофе",
+        "вода",
+        "чай",
+        "сыр"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d07-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d07-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d07-w04.svg",
+      "options": [
+        "кофе",
+        "суп",
+        "сыр",
+        "вода"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d07-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d07-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d07-w05.svg",
+      "options": [
+        "хлеб",
+        "чай",
+        "суп",
+        "мясо"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d07-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d07-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d07-w06.svg",
+      "options": [
+        "сыр",
+        "яблоко",
+        "борщ",
+        "мясо"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d07-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d07-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d07-w07.svg",
+      "options": [
+        "молоко",
+        "чай",
+        "борщ",
+        "мясо"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d07-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d07-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d07-w08.svg",
+      "options": [
+        "борщ",
+        "чай",
+        "хлеб",
+        "суп"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d07-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d07-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d07-w09.svg",
+      "options": [
+        "вода",
+        "яблоко",
+        "суп",
+        "кофе"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d07-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d07-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d07-w10.svg",
+      "options": [
+        "сыр",
+        "борщ",
+        "хлеб",
+        "чай"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,735 @@
+{
+  "day": 13,
+  "theme": "Days, months, seasons",
+  "grammarFocus": "Genitive singular (dates)",
+  "words": [
+    {
+      "id": "d13-w01",
+      "ru": "понедельник",
+      "en": "Monday",
+      "audio": "/audio/day13/понедельник.mp3",
+      "image": "/images/vocab/d13-w01.svg",
+      "sentences": [
+        {
+          "ru": "В понедельник работаю.",
+          "en": "I work on Monday."
+        },
+        {
+          "ru": "Следующий понедельник.",
+          "en": "Next Monday."
+        }
+      ]
+    },
+    {
+      "id": "d13-w02",
+      "ru": "январь",
+      "en": "January",
+      "audio": "/audio/day13/январь.mp3",
+      "image": "/images/vocab/d13-w02.svg",
+      "sentences": [
+        {
+          "ru": "Январь — холодный месяц.",
+          "en": "January is a cold month."
+        },
+        {
+          "ru": "В январе снег.",
+          "en": "There is snow in January."
+        }
+      ]
+    },
+    {
+      "id": "d13-w03",
+      "ru": "зима",
+      "en": "winter",
+      "audio": "/audio/day13/зима.mp3",
+      "image": "/images/vocab/d13-w03.svg",
+      "sentences": [
+        {
+          "ru": "Зимой холодно.",
+          "en": "It is cold in winter."
+        },
+        {
+          "ru": "Зима длинная.",
+          "en": "Winter is long."
+        }
+      ]
+    },
+    {
+      "id": "d13-w04",
+      "ru": "весна",
+      "en": "spring",
+      "audio": "/audio/day13/весна.mp3",
+      "image": "/images/vocab/d13-w04.svg",
+      "sentences": [
+        {
+          "ru": "Весной тепло.",
+          "en": "It is warm in spring."
+        },
+        {
+          "ru": "Весна красивая.",
+          "en": "Spring is beautiful."
+        }
+      ]
+    },
+    {
+      "id": "d13-w05",
+      "ru": "лето",
+      "en": "summer",
+      "audio": "/audio/day13/лето.mp3",
+      "image": "/images/vocab/d13-w05.svg",
+      "sentences": [
+        {
+          "ru": "Летом еду на море.",
+          "en": "In summer I go to the sea."
+        },
+        {
+          "ru": "Лето короткое.",
+          "en": "Summer is short."
+        }
+      ]
+    },
+    {
+      "id": "d13-w06",
+      "ru": "осень",
+      "en": "autumn / fall",
+      "audio": "/audio/day13/осень.mp3",
+      "image": "/images/vocab/d13-w06.svg",
+      "sentences": [
+        {
+          "ru": "Осенью дождь.",
+          "en": "It rains in autumn."
+        },
+        {
+          "ru": "Осень золотая.",
+          "en": "Autumn is golden."
+        }
+      ]
+    },
+    {
+      "id": "d13-w07",
+      "ru": "неделя",
+      "en": "week",
+      "audio": "/audio/day13/неделя.mp3",
+      "image": "/images/vocab/d13-w07.svg",
+      "sentences": [
+        {
+          "ru": "На следующей неделе.",
+          "en": "Next week."
+        },
+        {
+          "ru": "Неделя пролетела.",
+          "en": "The week flew by."
+        }
+      ]
+    },
+    {
+      "id": "d13-w08",
+      "ru": "месяц",
+      "en": "month",
+      "audio": "/audio/day13/месяц.mp3",
+      "image": "/images/vocab/d13-w08.svg",
+      "sentences": [
+        {
+          "ru": "Месяц назад.",
+          "en": "A month ago."
+        },
+        {
+          "ru": "Каждый месяц.",
+          "en": "Every month."
+        }
+      ]
+    },
+    {
+      "id": "d13-w09",
+      "ru": "дата",
+      "en": "date",
+      "audio": "/audio/day13/дата.mp3",
+      "image": "/images/vocab/d13-w09.svg",
+      "sentences": [
+        {
+          "ru": "Какая сегодня дата?",
+          "en": "What is the date today?"
+        },
+        {
+          "ru": "Дата рождения.",
+          "en": "Date of birth."
+        }
+      ]
+    },
+    {
+      "id": "d13-w10",
+      "ru": "праздник",
+      "en": "holiday",
+      "audio": "/audio/day13/праздник.mp3",
+      "image": "/images/vocab/d13-w10.svg",
+      "sentences": [
+        {
+          "ru": "Сегодня праздник.",
+          "en": "Today is a holiday."
+        },
+        {
+          "ru": "С Новым годом!",
+          "en": "Happy New Year!"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d13-order-0",
+      "type": "wordOrder",
+      "wordId": "d13-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "В понедельник работаю.",
+      "sentenceEn": "I work on Monday.",
+      "audio": "",
+      "tokens": [
+        "В",
+        "понедельник",
+        "работаю"
+      ],
+      "pool": [
+        "понедельник",
+        "лето",
+        "зима",
+        "работаю",
+        "неделя",
+        "В"
+      ]
+    },
+    {
+      "id": "d13-order-1",
+      "type": "wordOrder",
+      "wordId": "d13-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Следующий понедельник.",
+      "sentenceEn": "Next Monday.",
+      "audio": "",
+      "tokens": [
+        "Следующий",
+        "понедельник"
+      ],
+      "pool": [
+        "зима",
+        "понедельник",
+        "месяц",
+        "Следующий",
+        "январь"
+      ]
+    },
+    {
+      "id": "d13-order-2",
+      "type": "wordOrder",
+      "wordId": "d13-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Январь — холодный месяц.",
+      "sentenceEn": "January is a cold month.",
+      "audio": "",
+      "tokens": [
+        "Январь",
+        "холодный",
+        "месяц"
+      ],
+      "pool": [
+        "месяц",
+        "холодный",
+        "Январь",
+        "понедельник",
+        "осень",
+        "праздник"
+      ]
+    },
+    {
+      "id": "d13-order-3",
+      "type": "wordOrder",
+      "wordId": "d13-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "В январе снег.",
+      "sentenceEn": "There is snow in January.",
+      "audio": "",
+      "tokens": [
+        "В",
+        "январе",
+        "снег"
+      ],
+      "pool": [
+        "осень",
+        "В",
+        "лето",
+        "январе",
+        "снег",
+        "понедельник"
+      ]
+    },
+    {
+      "id": "d13-order-4",
+      "type": "wordOrder",
+      "wordId": "d13-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Зимой холодно.",
+      "sentenceEn": "It is cold in winter.",
+      "audio": "",
+      "tokens": [
+        "Зимой",
+        "холодно"
+      ],
+      "pool": [
+        "неделя",
+        "понедельник",
+        "холодно",
+        "весна",
+        "Зимой"
+      ]
+    },
+    {
+      "id": "d13-order-5",
+      "type": "wordOrder",
+      "wordId": "d13-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Зима длинная.",
+      "sentenceEn": "Winter is long.",
+      "audio": "",
+      "tokens": [
+        "Зима",
+        "длинная"
+      ],
+      "pool": [
+        "праздник",
+        "январь",
+        "дата",
+        "Зима",
+        "длинная"
+      ]
+    },
+    {
+      "id": "d13-order-6",
+      "type": "wordOrder",
+      "wordId": "d13-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Весной тепло.",
+      "sentenceEn": "It is warm in spring.",
+      "audio": "",
+      "tokens": [
+        "Весной",
+        "тепло"
+      ],
+      "pool": [
+        "праздник",
+        "Весной",
+        "тепло",
+        "зима",
+        "январь"
+      ]
+    },
+    {
+      "id": "d13-order-7",
+      "type": "wordOrder",
+      "wordId": "d13-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Весна красивая.",
+      "sentenceEn": "Spring is beautiful.",
+      "audio": "",
+      "tokens": [
+        "Весна",
+        "красивая"
+      ],
+      "pool": [
+        "Весна",
+        "январь",
+        "зима",
+        "осень",
+        "красивая"
+      ]
+    },
+    {
+      "id": "d13-order-8",
+      "type": "wordOrder",
+      "wordId": "d13-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Летом еду на море.",
+      "sentenceEn": "In summer I go to the sea.",
+      "audio": "",
+      "tokens": [
+        "Летом",
+        "еду",
+        "на",
+        "море"
+      ],
+      "pool": [
+        "море",
+        "Летом",
+        "осень",
+        "на",
+        "еду",
+        "весна",
+        "месяц"
+      ]
+    },
+    {
+      "id": "d13-order-9",
+      "type": "wordOrder",
+      "wordId": "d13-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Лето короткое.",
+      "sentenceEn": "Summer is short.",
+      "audio": "",
+      "tokens": [
+        "Лето",
+        "короткое"
+      ],
+      "pool": [
+        "весна",
+        "январь",
+        "Лето",
+        "короткое",
+        "месяц"
+      ]
+    },
+    {
+      "id": "d13-order-10",
+      "type": "wordOrder",
+      "wordId": "d13-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Осенью дождь.",
+      "sentenceEn": "It rains in autumn.",
+      "audio": "",
+      "tokens": [
+        "Осенью",
+        "дождь"
+      ],
+      "pool": [
+        "Осенью",
+        "весна",
+        "дождь",
+        "январь",
+        "праздник"
+      ]
+    },
+    {
+      "id": "d13-order-11",
+      "type": "wordOrder",
+      "wordId": "d13-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Осень золотая.",
+      "sentenceEn": "Autumn is golden.",
+      "audio": "",
+      "tokens": [
+        "Осень",
+        "золотая"
+      ],
+      "pool": [
+        "золотая",
+        "месяц",
+        "январь",
+        "Осень",
+        "праздник"
+      ]
+    },
+    {
+      "id": "d13-order-12",
+      "type": "wordOrder",
+      "wordId": "d13-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "На следующей неделе.",
+      "sentenceEn": "Next week.",
+      "audio": "",
+      "tokens": [
+        "На",
+        "следующей",
+        "неделе"
+      ],
+      "pool": [
+        "лето",
+        "следующей",
+        "неделе",
+        "дата",
+        "весна",
+        "На"
+      ]
+    },
+    {
+      "id": "d13-order-13",
+      "type": "wordOrder",
+      "wordId": "d13-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Неделя пролетела.",
+      "sentenceEn": "The week flew by.",
+      "audio": "",
+      "tokens": [
+        "Неделя",
+        "пролетела"
+      ],
+      "pool": [
+        "пролетела",
+        "весна",
+        "Неделя",
+        "понедельник",
+        "лето"
+      ]
+    },
+    {
+      "id": "d13-order-14",
+      "type": "wordOrder",
+      "wordId": "d13-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Месяц назад.",
+      "sentenceEn": "A month ago.",
+      "audio": "",
+      "tokens": [
+        "Месяц",
+        "назад"
+      ],
+      "pool": [
+        "Месяц",
+        "назад",
+        "весна",
+        "зима",
+        "осень"
+      ]
+    },
+    {
+      "id": "d13-order-15",
+      "type": "wordOrder",
+      "wordId": "d13-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Каждый месяц.",
+      "sentenceEn": "Every month.",
+      "audio": "",
+      "tokens": [
+        "Каждый",
+        "месяц"
+      ],
+      "pool": [
+        "Каждый",
+        "январь",
+        "месяц",
+        "понедельник",
+        "праздник"
+      ]
+    },
+    {
+      "id": "d13-order-16",
+      "type": "wordOrder",
+      "wordId": "d13-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Какая сегодня дата?",
+      "sentenceEn": "What is the date today?",
+      "audio": "",
+      "tokens": [
+        "Какая",
+        "сегодня",
+        "дата"
+      ],
+      "pool": [
+        "осень",
+        "сегодня",
+        "зима",
+        "Какая",
+        "весна",
+        "дата"
+      ]
+    },
+    {
+      "id": "d13-order-17",
+      "type": "wordOrder",
+      "wordId": "d13-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Дата рождения.",
+      "sentenceEn": "Date of birth.",
+      "audio": "",
+      "tokens": [
+        "Дата",
+        "рождения"
+      ],
+      "pool": [
+        "Дата",
+        "рождения",
+        "праздник",
+        "понедельник",
+        "весна"
+      ]
+    },
+    {
+      "id": "d13-order-18",
+      "type": "wordOrder",
+      "wordId": "d13-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Сегодня праздник.",
+      "sentenceEn": "Today is a holiday.",
+      "audio": "",
+      "tokens": [
+        "Сегодня",
+        "праздник"
+      ],
+      "pool": [
+        "праздник",
+        "весна",
+        "лето",
+        "Сегодня",
+        "январь"
+      ]
+    },
+    {
+      "id": "d13-order-19",
+      "type": "wordOrder",
+      "wordId": "d13-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "С Новым годом!",
+      "sentenceEn": "Happy New Year!",
+      "audio": "",
+      "tokens": [
+        "С",
+        "Новым",
+        "годом"
+      ],
+      "pool": [
+        "Новым",
+        "С",
+        "лето",
+        "месяц",
+        "понедельник",
+        "годом"
+      ]
+    },
+    {
+      "id": "d13-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d13-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d13-w01.svg",
+      "options": [
+        "понедельник",
+        "январь",
+        "зима",
+        "месяц"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d13-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d13-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d13-w02.svg",
+      "options": [
+        "праздник",
+        "январь",
+        "дата",
+        "весна"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d13-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d13-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d13-w03.svg",
+      "options": [
+        "зима",
+        "осень",
+        "неделя",
+        "весна"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d13-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d13-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d13-w04.svg",
+      "options": [
+        "весна",
+        "зима",
+        "дата",
+        "месяц"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d13-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d13-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d13-w05.svg",
+      "options": [
+        "праздник",
+        "лето",
+        "месяц",
+        "дата"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d13-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d13-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d13-w06.svg",
+      "options": [
+        "зима",
+        "месяц",
+        "лето",
+        "осень"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d13-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d13-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d13-w07.svg",
+      "options": [
+        "неделя",
+        "праздник",
+        "месяц",
+        "январь"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d13-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d13-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d13-w08.svg",
+      "options": [
+        "лето",
+        "праздник",
+        "январь",
+        "месяц"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d13-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d13-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d13-w09.svg",
+      "options": [
+        "зима",
+        "дата",
+        "месяц",
+        "осень"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d13-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d13-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d13-w10.svg",
+      "options": [
+        "осень",
+        "понедельник",
+        "праздник",
+        "весна"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

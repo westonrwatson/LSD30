@@ -1,0 +1,725 @@
+{
+  "day": 14,
+  "theme": "Weather",
+  "grammarFocus": "Impersonal constructions (холодно)",
+  "words": [
+    {
+      "id": "d14-w01",
+      "ru": "погода",
+      "en": "weather",
+      "audio": "/audio/day14/погода.mp3",
+      "image": "/images/vocab/d14-w01.svg",
+      "sentences": [
+        {
+          "ru": "Погода хорошая.",
+          "en": "The weather is good."
+        },
+        {
+          "ru": "Какая погода?",
+          "en": "What is the weather like?"
+        }
+      ]
+    },
+    {
+      "id": "d14-w02",
+      "ru": "дождь",
+      "en": "rain",
+      "audio": "/audio/day14/дождь.mp3",
+      "image": "/images/vocab/d14-w02.svg",
+      "sentences": [
+        {
+          "ru": "Идёт дождь.",
+          "en": "It is raining."
+        },
+        {
+          "ru": "Дождь весь день.",
+          "en": "Rain all day."
+        }
+      ]
+    },
+    {
+      "id": "d14-w03",
+      "ru": "снег",
+      "en": "snow",
+      "audio": "/audio/day14/снег.mp3",
+      "image": "/images/vocab/d14-w03.svg",
+      "sentences": [
+        {
+          "ru": "Идёт снег.",
+          "en": "It is snowing."
+        },
+        {
+          "ru": "Белый снег.",
+          "en": "White snow."
+        }
+      ]
+    },
+    {
+      "id": "d14-w04",
+      "ru": "солнце",
+      "en": "sun",
+      "audio": "/audio/day14/солнце.mp3",
+      "image": "/images/vocab/d14-w04.svg",
+      "sentences": [
+        {
+          "ru": "Солнце светит.",
+          "en": "The sun is shining."
+        },
+        {
+          "ru": "Яркое солнце.",
+          "en": "Bright sun."
+        }
+      ]
+    },
+    {
+      "id": "d14-w05",
+      "ru": "ветер",
+      "en": "wind",
+      "audio": "/audio/day14/ветер.mp3",
+      "image": "/images/vocab/d14-w05.svg",
+      "sentences": [
+        {
+          "ru": "Сильный ветер.",
+          "en": "Strong wind."
+        },
+        {
+          "ru": "Ветер холодный.",
+          "en": "The wind is cold."
+        }
+      ]
+    },
+    {
+      "id": "d14-w06",
+      "ru": "жарко",
+      "en": "hot (weather)",
+      "audio": "/audio/day14/жарко.mp3",
+      "image": "/images/vocab/d14-w06.svg",
+      "sentences": [
+        {
+          "ru": "Сегодня жарко.",
+          "en": "It is hot today."
+        },
+        {
+          "ru": "Летом жарко.",
+          "en": "It is hot in summer."
+        }
+      ]
+    },
+    {
+      "id": "d14-w07",
+      "ru": "холодно",
+      "en": "cold (weather)",
+      "audio": "/audio/day14/холодно.mp3",
+      "image": "/images/vocab/d14-w07.svg",
+      "sentences": [
+        {
+          "ru": "Зимой холодно.",
+          "en": "It is cold in winter."
+        },
+        {
+          "ru": "Мне холодно.",
+          "en": "I am cold."
+        }
+      ]
+    },
+    {
+      "id": "d14-w08",
+      "ru": "тепло",
+      "en": "warm (weather)",
+      "audio": "/audio/day14/тепло.mp3",
+      "image": "/images/vocab/d14-w08.svg",
+      "sentences": [
+        {
+          "ru": "Весной тепло.",
+          "en": "It is warm in spring."
+        },
+        {
+          "ru": "Сегодня тепло.",
+          "en": "It is warm today."
+        }
+      ]
+    },
+    {
+      "id": "d14-w09",
+      "ru": "облако",
+      "en": "cloud",
+      "audio": "/audio/day14/облако.mp3",
+      "image": "/images/vocab/d14-w09.svg",
+      "sentences": [
+        {
+          "ru": "На небе облака.",
+          "en": "Clouds in the sky."
+        },
+        {
+          "ru": "Серые облака.",
+          "en": "Gray clouds."
+        }
+      ]
+    },
+    {
+      "id": "d14-w10",
+      "ru": "градус",
+      "en": "degree",
+      "audio": "/audio/day14/градус.mp3",
+      "image": "/images/vocab/d14-w10.svg",
+      "sentences": [
+        {
+          "ru": "Минус десять градусов.",
+          "en": "Minus ten degrees."
+        },
+        {
+          "ru": "Сколько градусов?",
+          "en": "How many degrees?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "d14-order-0",
+      "type": "wordOrder",
+      "wordId": "d14-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Погода хорошая.",
+      "sentenceEn": "The weather is good.",
+      "audio": "",
+      "tokens": [
+        "Погода",
+        "хорошая"
+      ],
+      "pool": [
+        "хорошая",
+        "солнце",
+        "Погода",
+        "холодно",
+        "жарко"
+      ]
+    },
+    {
+      "id": "d14-order-1",
+      "type": "wordOrder",
+      "wordId": "d14-w01",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Какая погода?",
+      "sentenceEn": "What is the weather like?",
+      "audio": "",
+      "tokens": [
+        "Какая",
+        "погода"
+      ],
+      "pool": [
+        "Какая",
+        "облако",
+        "холодно",
+        "погода",
+        "снег"
+      ]
+    },
+    {
+      "id": "d14-order-2",
+      "type": "wordOrder",
+      "wordId": "d14-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Идёт дождь.",
+      "sentenceEn": "It is raining.",
+      "audio": "",
+      "tokens": [
+        "Идёт",
+        "дождь"
+      ],
+      "pool": [
+        "тепло",
+        "Идёт",
+        "облако",
+        "дождь",
+        "градус"
+      ]
+    },
+    {
+      "id": "d14-order-3",
+      "type": "wordOrder",
+      "wordId": "d14-w02",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Дождь весь день.",
+      "sentenceEn": "Rain all day.",
+      "audio": "",
+      "tokens": [
+        "Дождь",
+        "весь",
+        "день"
+      ],
+      "pool": [
+        "Дождь",
+        "день",
+        "снег",
+        "солнце",
+        "градус",
+        "весь"
+      ]
+    },
+    {
+      "id": "d14-order-4",
+      "type": "wordOrder",
+      "wordId": "d14-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Идёт снег.",
+      "sentenceEn": "It is snowing.",
+      "audio": "",
+      "tokens": [
+        "Идёт",
+        "снег"
+      ],
+      "pool": [
+        "градус",
+        "тепло",
+        "снег",
+        "солнце",
+        "Идёт"
+      ]
+    },
+    {
+      "id": "d14-order-5",
+      "type": "wordOrder",
+      "wordId": "d14-w03",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Белый снег.",
+      "sentenceEn": "White snow.",
+      "audio": "",
+      "tokens": [
+        "Белый",
+        "снег"
+      ],
+      "pool": [
+        "ветер",
+        "Белый",
+        "погода",
+        "облако",
+        "снег"
+      ]
+    },
+    {
+      "id": "d14-order-6",
+      "type": "wordOrder",
+      "wordId": "d14-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Солнце светит.",
+      "sentenceEn": "The sun is shining.",
+      "audio": "",
+      "tokens": [
+        "Солнце",
+        "светит"
+      ],
+      "pool": [
+        "жарко",
+        "ветер",
+        "светит",
+        "Солнце",
+        "дождь"
+      ]
+    },
+    {
+      "id": "d14-order-7",
+      "type": "wordOrder",
+      "wordId": "d14-w04",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Яркое солнце.",
+      "sentenceEn": "Bright sun.",
+      "audio": "",
+      "tokens": [
+        "Яркое",
+        "солнце"
+      ],
+      "pool": [
+        "снег",
+        "холодно",
+        "Яркое",
+        "солнце",
+        "ветер"
+      ]
+    },
+    {
+      "id": "d14-order-8",
+      "type": "wordOrder",
+      "wordId": "d14-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Сильный ветер.",
+      "sentenceEn": "Strong wind.",
+      "audio": "",
+      "tokens": [
+        "Сильный",
+        "ветер"
+      ],
+      "pool": [
+        "погода",
+        "ветер",
+        "снег",
+        "жарко",
+        "Сильный"
+      ]
+    },
+    {
+      "id": "d14-order-9",
+      "type": "wordOrder",
+      "wordId": "d14-w05",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Ветер холодный.",
+      "sentenceEn": "The wind is cold.",
+      "audio": "",
+      "tokens": [
+        "Ветер",
+        "холодный"
+      ],
+      "pool": [
+        "градус",
+        "Ветер",
+        "дождь",
+        "холодный",
+        "холодно"
+      ]
+    },
+    {
+      "id": "d14-order-10",
+      "type": "wordOrder",
+      "wordId": "d14-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Сегодня жарко.",
+      "sentenceEn": "It is hot today.",
+      "audio": "",
+      "tokens": [
+        "Сегодня",
+        "жарко"
+      ],
+      "pool": [
+        "Сегодня",
+        "жарко",
+        "снег",
+        "тепло",
+        "погода"
+      ]
+    },
+    {
+      "id": "d14-order-11",
+      "type": "wordOrder",
+      "wordId": "d14-w06",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Летом жарко.",
+      "sentenceEn": "It is hot in summer.",
+      "audio": "",
+      "tokens": [
+        "Летом",
+        "жарко"
+      ],
+      "pool": [
+        "Летом",
+        "холодно",
+        "тепло",
+        "дождь",
+        "жарко"
+      ]
+    },
+    {
+      "id": "d14-order-12",
+      "type": "wordOrder",
+      "wordId": "d14-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Зимой холодно.",
+      "sentenceEn": "It is cold in winter.",
+      "audio": "",
+      "tokens": [
+        "Зимой",
+        "холодно"
+      ],
+      "pool": [
+        "Зимой",
+        "облако",
+        "погода",
+        "холодно",
+        "градус"
+      ]
+    },
+    {
+      "id": "d14-order-13",
+      "type": "wordOrder",
+      "wordId": "d14-w07",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Мне холодно.",
+      "sentenceEn": "I am cold.",
+      "audio": "",
+      "tokens": [
+        "Мне",
+        "холодно"
+      ],
+      "pool": [
+        "облако",
+        "холодно",
+        "погода",
+        "тепло",
+        "Мне"
+      ]
+    },
+    {
+      "id": "d14-order-14",
+      "type": "wordOrder",
+      "wordId": "d14-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Весной тепло.",
+      "sentenceEn": "It is warm in spring.",
+      "audio": "",
+      "tokens": [
+        "Весной",
+        "тепло"
+      ],
+      "pool": [
+        "солнце",
+        "холодно",
+        "облако",
+        "Весной",
+        "тепло"
+      ]
+    },
+    {
+      "id": "d14-order-15",
+      "type": "wordOrder",
+      "wordId": "d14-w08",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Сегодня тепло.",
+      "sentenceEn": "It is warm today.",
+      "audio": "",
+      "tokens": [
+        "Сегодня",
+        "тепло"
+      ],
+      "pool": [
+        "дождь",
+        "погода",
+        "снег",
+        "Сегодня",
+        "тепло"
+      ]
+    },
+    {
+      "id": "d14-order-16",
+      "type": "wordOrder",
+      "wordId": "d14-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "На небе облака.",
+      "sentenceEn": "Clouds in the sky.",
+      "audio": "",
+      "tokens": [
+        "На",
+        "небе",
+        "облака"
+      ],
+      "pool": [
+        "дождь",
+        "На",
+        "жарко",
+        "облака",
+        "небе",
+        "погода"
+      ]
+    },
+    {
+      "id": "d14-order-17",
+      "type": "wordOrder",
+      "wordId": "d14-w09",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Серые облака.",
+      "sentenceEn": "Gray clouds.",
+      "audio": "",
+      "tokens": [
+        "Серые",
+        "облака"
+      ],
+      "pool": [
+        "Серые",
+        "ветер",
+        "облака",
+        "дождь",
+        "тепло"
+      ]
+    },
+    {
+      "id": "d14-order-18",
+      "type": "wordOrder",
+      "wordId": "d14-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Минус десять градусов.",
+      "sentenceEn": "Minus ten degrees.",
+      "audio": "",
+      "tokens": [
+        "Минус",
+        "десять",
+        "градусов"
+      ],
+      "pool": [
+        "дождь",
+        "Минус",
+        "градусов",
+        "жарко",
+        "облако",
+        "десять"
+      ]
+    },
+    {
+      "id": "d14-order-19",
+      "type": "wordOrder",
+      "wordId": "d14-w10",
+      "prompt": "Listen and put the words in order:",
+      "sentence": "Сколько градусов?",
+      "sentenceEn": "How many degrees?",
+      "audio": "",
+      "tokens": [
+        "Сколько",
+        "градусов"
+      ],
+      "pool": [
+        "снег",
+        "жарко",
+        "тепло",
+        "Сколько",
+        "градусов"
+      ]
+    },
+    {
+      "id": "d14-pic-01",
+      "type": "pictureMatch",
+      "wordId": "d14-w01",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d14-w01.svg",
+      "options": [
+        "снег",
+        "погода",
+        "облако",
+        "холодно"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d14-pic-02",
+      "type": "pictureMatch",
+      "wordId": "d14-w02",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d14-w02.svg",
+      "options": [
+        "градус",
+        "холодно",
+        "дождь",
+        "облако"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d14-pic-03",
+      "type": "pictureMatch",
+      "wordId": "d14-w03",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d14-w03.svg",
+      "options": [
+        "дождь",
+        "снег",
+        "градус",
+        "тепло"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d14-pic-04",
+      "type": "pictureMatch",
+      "wordId": "d14-w04",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d14-w04.svg",
+      "options": [
+        "солнце",
+        "холодно",
+        "погода",
+        "дождь"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d14-pic-05",
+      "type": "pictureMatch",
+      "wordId": "d14-w05",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d14-w05.svg",
+      "options": [
+        "снег",
+        "тепло",
+        "облако",
+        "ветер"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d14-pic-06",
+      "type": "pictureMatch",
+      "wordId": "d14-w06",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d14-w06.svg",
+      "options": [
+        "снег",
+        "жарко",
+        "холодно",
+        "ветер"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d14-pic-07",
+      "type": "pictureMatch",
+      "wordId": "d14-w07",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d14-w07.svg",
+      "options": [
+        "холодно",
+        "солнце",
+        "погода",
+        "градус"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d14-pic-08",
+      "type": "pictureMatch",
+      "wordId": "d14-w08",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d14-w08.svg",
+      "options": [
+        "ветер",
+        "дождь",
+        "солнце",
+        "тепло"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d14-pic-09",
+      "type": "pictureMatch",
+      "wordId": "d14-w09",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d14-w09.svg",
+      "options": [
+        "облако",
+        "тепло",
+        "снег",
+        "градус"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d14-pic-10",
+      "type": "pictureMatch",
+      "wordId": "d14-w10",
+      "prompt": "Which word matches this picture?",
+      "image": "/images/vocab/d14-w10.svg",
+      "options": [
+        "снег",
+        "жарко",
+        "дождь",
+        "градус"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}
