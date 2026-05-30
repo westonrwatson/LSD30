@@ -8,7 +8,8 @@
       "ru": "голова",
       "en": "head",
       "audio": "/audio/day15/голова.mp3",
-      "image": "/images/vocab/d15-w01.svg",
+      "image": "/images/vocab/d15-w01.jpg",
+      "imageCredit": "originally posted to Flickr as Male human head louse (CC BY-SA 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "У меня болит голова.",
@@ -25,7 +26,8 @@
       "ru": "рука",
       "en": "arm / hand",
       "audio": "/audio/day15/рука.mp3",
-      "image": "/images/vocab/d15-w02.svg",
+      "image": "/images/vocab/d15-w02.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Подними руку.",
@@ -42,7 +44,8 @@
       "ru": "нога",
       "en": "leg / foot",
       "audio": "/audio/day15/нога.mp3",
-      "image": "/images/vocab/d15-w03.svg",
+      "image": "/images/vocab/d15-w03.jpg",
+      "imageCredit": "http://www.sxc.hu/photo/113818 (Attribution via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Нога болит.",
@@ -59,7 +62,8 @@
       "ru": "глаз",
       "en": "eye",
       "audio": "/audio/day15/глаз.mp3",
-      "image": "/images/vocab/d15-w04.svg",
+      "image": "/images/vocab/d15-w04.jpg",
+      "imageCredit": "Own work (CC BY-SA 2.5 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Голубые глаза.",
@@ -76,7 +80,8 @@
       "ru": "зуб",
       "en": "tooth",
       "audio": "/audio/day15/зуб.mp3",
-      "image": "/images/vocab/d15-w05.svg",
+      "image": "/images/vocab/d15-w05.png",
+      "imageCredit": "BodyParts3D http://lifesciencedb.jp/bp3d/ (CC BY-SA 2.1 jp via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Болит зуб.",
@@ -93,7 +98,8 @@
       "ru": "боль",
       "en": "pain",
       "audio": "/audio/day15/боль.mp3",
-      "image": "/images/vocab/d15-w06.svg",
+      "image": "/images/vocab/d15-w06.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Сильная боль.",
@@ -110,7 +116,8 @@
       "ru": "врач",
       "en": "doctor",
       "audio": "/audio/day15/врач.mp3",
-      "image": "/images/vocab/d15-w07.svg",
+      "image": "/images/vocab/d15-w07.png",
+      "imageCredit": "Book scan (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Иду к врачу.",
@@ -127,7 +134,8 @@
       "ru": "лекарство",
       "en": "medicine",
       "audio": "/audio/day15/лекарство.mp3",
-      "image": "/images/vocab/d15-w08.svg",
+      "image": "/images/vocab/d15-w08.png",
+      "imageCredit": "https://business.westcoastchamber.org/member-directory/Details/university-of-michigan-health-west-883688 (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Принимай лекарство.",
@@ -144,7 +152,8 @@
       "ru": "здоровье",
       "en": "health",
       "audio": "/audio/day15/здоровье.mp3",
-      "image": "/images/vocab/d15-w09.svg",
+      "image": "/images/vocab/d15-w09.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Здоровье важно.",
@@ -190,13 +199,13 @@
         "голова"
       ],
       "pool": [
-        "аптека",
-        "голова",
-        "лекарство",
+        "У",
         "болит",
         "меня",
-        "нога",
-        "У"
+        "глаз",
+        "аптека",
+        "рука",
+        "голова"
       ]
     },
     {
@@ -212,11 +221,11 @@
         "кружится"
       ],
       "pool": [
+        "нога",
+        "Голова",
+        "зуб",
         "кружится",
-        "боль",
-        "лекарство",
-        "здоровье",
-        "Голова"
+        "боль"
       ]
     },
     {
@@ -232,11 +241,11 @@
         "руку"
       ],
       "pool": [
-        "аптека",
+        "зуб",
+        "нога",
         "Подними",
-        "боль",
         "руку",
-        "лекарство"
+        "голова"
       ]
     },
     {
@@ -252,11 +261,11 @@
         "рука"
       ],
       "pool": [
-        "аптека",
-        "врач",
-        "лекарство",
         "Правая",
-        "рука"
+        "здоровье",
+        "лекарство",
+        "рука",
+        "зуб"
       ]
     },
     {
@@ -272,11 +281,11 @@
         "болит"
       ],
       "pool": [
-        "лекарство",
-        "болит",
-        "Нога",
+        "здоровье",
         "боль",
-        "голова"
+        "болит",
+        "лекарство",
+        "Нога"
       ]
     },
     {
@@ -292,11 +301,11 @@
         "ноги"
       ],
       "pool": [
-        "Длинные",
-        "ноги",
         "лекарство",
+        "Длинные",
         "голова",
-        "рука"
+        "ноги",
+        "здоровье"
       ]
     },
     {
@@ -312,11 +321,11 @@
         "глаза"
       ],
       "pool": [
-        "зуб",
-        "Голубые",
+        "врач",
         "нога",
-        "глаза",
-        "здоровье"
+        "голова",
+        "Голубые",
+        "глаза"
       ]
     },
     {
@@ -332,11 +341,11 @@
         "глаза"
       ],
       "pool": [
-        "врач",
-        "Закрой",
-        "аптека",
         "глаза",
-        "лекарство"
+        "Закрой",
+        "голова",
+        "зуб",
+        "аптека"
       ]
     },
     {
@@ -352,11 +361,11 @@
         "зуб"
       ],
       "pool": [
-        "врач",
-        "Болит",
-        "рука",
-        "нога",
-        "зуб"
+        "глаз",
+        "зуб",
+        "здоровье",
+        "боль",
+        "Болит"
       ]
     },
     {
@@ -372,11 +381,11 @@
         "зубы"
       ],
       "pool": [
-        "рука",
-        "лекарство",
-        "врач",
         "Чисти",
-        "зубы"
+        "боль",
+        "зубы",
+        "рука",
+        "глаз"
       ]
     },
     {
@@ -392,11 +401,11 @@
         "боль"
       ],
       "pool": [
-        "врач",
-        "нога",
         "аптека",
+        "лекарство",
+        "Сильная",
         "боль",
-        "Сильная"
+        "глаз"
       ]
     },
     {
@@ -412,11 +421,11 @@
         "болит"
       ],
       "pool": [
-        "глаз",
         "нога",
-        "аптека",
         "болит",
-        "Где"
+        "рука",
+        "Где",
+        "лекарство"
       ]
     },
     {
@@ -433,12 +442,12 @@
         "врачу"
       ],
       "pool": [
-        "аптека",
-        "Иду",
-        "боль",
+        "здоровье",
         "врачу",
-        "лекарство",
-        "к"
+        "глаз",
+        "к",
+        "Иду",
+        "аптека"
       ]
     },
     {
@@ -454,11 +463,11 @@
         "помогает"
       ],
       "pool": [
-        "помогает",
-        "глаз",
         "Врач",
-        "голова",
-        "аптека"
+        "нога",
+        "аптека",
+        "боль",
+        "помогает"
       ]
     },
     {
@@ -475,10 +484,10 @@
       ],
       "pool": [
         "зуб",
+        "Принимай",
         "нога",
-        "лекарство",
         "рука",
-        "Принимай"
+        "лекарство"
       ]
     },
     {
@@ -494,11 +503,11 @@
         "помогает"
       ],
       "pool": [
-        "Лекарство",
         "помогает",
+        "нога",
         "глаз",
-        "голова",
-        "зуб"
+        "зуб",
+        "Лекарство"
       ]
     },
     {
@@ -514,11 +523,11 @@
         "важно"
       ],
       "pool": [
-        "голова",
         "Здоровье",
-        "лекарство",
+        "глаз",
+        "нога",
         "важно",
-        "зуб"
+        "голова"
       ]
     },
     {
@@ -534,11 +543,11 @@
         "здоровье"
       ],
       "pool": [
+        "врач",
         "голова",
         "здоровье",
-        "Крепкое",
-        "рука",
-        "врач"
+        "лекарство",
+        "Крепкое"
       ]
     },
     {
@@ -555,12 +564,12 @@
         "углу"
       ],
       "pool": [
-        "здоровье",
-        "рука",
-        "Аптека",
         "углу",
+        "зуб",
+        "голова",
         "на",
-        "врач"
+        "нога",
+        "Аптека"
       ]
     },
     {
@@ -578,11 +587,11 @@
       ],
       "pool": [
         "Иду",
-        "в",
-        "аптеку",
-        "зуб",
+        "лекарство",
+        "здоровье",
         "голова",
-        "глаз"
+        "в",
+        "аптеку"
       ]
     },
     {
@@ -590,12 +599,12 @@
       "type": "pictureMatch",
       "wordId": "d15-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d15-w01.svg",
+      "image": "/images/vocab/d15-w01.jpg",
       "options": [
-        "лекарство",
+        "врач",
         "аптека",
         "голова",
-        "боль"
+        "глаз"
       ],
       "correctIndex": 2
     },
@@ -604,12 +613,12 @@
       "type": "pictureMatch",
       "wordId": "d15-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d15-w02.svg",
+      "image": "/images/vocab/d15-w02.jpg",
       "options": [
         "голова",
-        "глаз",
+        "врач",
         "рука",
-        "зуб"
+        "нога"
       ],
       "correctIndex": 2
     },
@@ -618,26 +627,26 @@
       "type": "pictureMatch",
       "wordId": "d15-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d15-w03.svg",
+      "image": "/images/vocab/d15-w03.jpg",
       "options": [
-        "рука",
-        "нога",
-        "боль",
-        "глаз"
+        "врач",
+        "голова",
+        "лекарство",
+        "нога"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "d15-pic-04",
       "type": "pictureMatch",
       "wordId": "d15-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d15-w04.svg",
+      "image": "/images/vocab/d15-w04.jpg",
       "options": [
         "глаз",
-        "лекарство",
-        "нога",
-        "аптека"
+        "рука",
+        "голова",
+        "врач"
       ],
       "correctIndex": 0
     },
@@ -646,53 +655,53 @@
       "type": "pictureMatch",
       "wordId": "d15-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d15-w05.svg",
+      "image": "/images/vocab/d15-w05.png",
       "options": [
-        "зуб",
-        "врач",
         "аптека",
-        "боль"
+        "зуб",
+        "нога",
+        "рука"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d15-pic-06",
       "type": "pictureMatch",
       "wordId": "d15-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d15-w06.svg",
+      "image": "/images/vocab/d15-w06.jpg",
       "options": [
+        "лекарство",
         "боль",
-        "здоровье",
-        "глаз",
-        "рука"
+        "рука",
+        "голова"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d15-pic-07",
       "type": "pictureMatch",
       "wordId": "d15-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d15-w07.svg",
+      "image": "/images/vocab/d15-w07.png",
       "options": [
-        "боль",
-        "здоровье",
+        "нога",
         "врач",
-        "лекарство"
+        "аптека",
+        "зуб"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "d15-pic-08",
       "type": "pictureMatch",
       "wordId": "d15-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d15-w08.svg",
+      "image": "/images/vocab/d15-w08.png",
       "options": [
         "лекарство",
-        "зуб",
         "нога",
+        "глаз",
         "аптека"
       ],
       "correctIndex": 0
@@ -702,14 +711,14 @@
       "type": "pictureMatch",
       "wordId": "d15-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d15-w09.svg",
+      "image": "/images/vocab/d15-w09.jpg",
       "options": [
-        "здоровье",
-        "глаз",
         "рука",
-        "зуб"
+        "аптека",
+        "глаз",
+        "здоровье"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "d15-pic-10",
@@ -718,12 +727,12 @@
       "prompt": "Which word matches this picture?",
       "image": "/images/vocab/d15-w10.svg",
       "options": [
-        "рука",
-        "здоровье",
         "врач",
-        "аптека"
+        "рука",
+        "аптека",
+        "здоровье"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     }
   ]
 }

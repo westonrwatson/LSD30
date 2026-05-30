@@ -8,7 +8,8 @@
       "ru": "погода",
       "en": "weather",
       "audio": "/audio/day14/погода.mp3",
-      "image": "/images/vocab/d14-w01.svg",
+      "image": "/images/vocab/d14-w01.jpg",
+      "imageCredit": "Own work (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Погода хорошая.",
@@ -25,7 +26,8 @@
       "ru": "дождь",
       "en": "rain",
       "audio": "/audio/day14/дождь.mp3",
-      "image": "/images/vocab/d14-w02.svg",
+      "image": "/images/vocab/d14-w02.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Идёт дождь.",
@@ -42,7 +44,8 @@
       "ru": "снег",
       "en": "snow",
       "audio": "/audio/day14/снег.mp3",
-      "image": "/images/vocab/d14-w03.svg",
+      "image": "/images/vocab/d14-w03.jpg",
+      "imageCredit": "This file was derived from: View on Gyakar.jpg (CC BY 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Идёт снег.",
@@ -59,7 +62,8 @@
       "ru": "солнце",
       "en": "sun",
       "audio": "/audio/day14/солнце.mp3",
-      "image": "/images/vocab/d14-w04.svg",
+      "image": "/images/vocab/d14-w04.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Солнце светит.",
@@ -76,7 +80,8 @@
       "ru": "ветер",
       "en": "wind",
       "audio": "/audio/day14/ветер.mp3",
-      "image": "/images/vocab/d14-w05.svg",
+      "image": "/images/vocab/d14-w05.jpg",
+      "imageCredit": "https://pikwizard.com/photo/sky-atmosphere-clouds/f718abf3dd5858465c1c85c2508ee193 (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Сильный ветер.",
@@ -93,7 +98,8 @@
       "ru": "жарко",
       "en": "hot (weather)",
       "audio": "/audio/day14/жарко.mp3",
-      "image": "/images/vocab/d14-w06.svg",
+      "image": "/images/vocab/d14-w06.jpg",
+      "imageCredit": "Own work (CC BY 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Сегодня жарко.",
@@ -110,7 +116,8 @@
       "ru": "холодно",
       "en": "cold (weather)",
       "audio": "/audio/day14/холодно.mp3",
-      "image": "/images/vocab/d14-w07.svg",
+      "image": "/images/vocab/d14-w07.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Зимой холодно.",
@@ -127,7 +134,8 @@
       "ru": "тепло",
       "en": "warm (weather)",
       "audio": "/audio/day14/тепло.mp3",
-      "image": "/images/vocab/d14-w08.svg",
+      "image": "/images/vocab/d14-w08.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Весной тепло.",
@@ -144,7 +152,8 @@
       "ru": "облако",
       "en": "cloud",
       "audio": "/audio/day14/облако.mp3",
-      "image": "/images/vocab/d14-w09.svg",
+      "image": "/images/vocab/d14-w09.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "На небе облака.",
@@ -161,7 +170,8 @@
       "ru": "градус",
       "en": "degree",
       "audio": "/audio/day14/градус.mp3",
-      "image": "/images/vocab/d14-w10.svg",
+      "image": "/images/vocab/d14-w10.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Минус десять градусов.",
@@ -188,11 +198,11 @@
         "хорошая"
       ],
       "pool": [
-        "хорошая",
         "солнце",
-        "Погода",
         "холодно",
-        "жарко"
+        "градус",
+        "хорошая",
+        "Погода"
       ]
     },
     {
@@ -208,10 +218,10 @@
         "погода"
       ],
       "pool": [
-        "Какая",
-        "облако",
         "холодно",
+        "Какая",
         "погода",
+        "солнце",
         "снег"
       ]
     },
@@ -228,11 +238,11 @@
         "дождь"
       ],
       "pool": [
-        "тепло",
+        "жарко",
+        "градус",
         "Идёт",
-        "облако",
-        "дождь",
-        "градус"
+        "тепло",
+        "дождь"
       ]
     },
     {
@@ -249,12 +259,12 @@
         "день"
       ],
       "pool": [
+        "холодно",
+        "солнце",
+        "весь",
         "Дождь",
         "день",
-        "снег",
-        "солнце",
-        "градус",
-        "весь"
+        "градус"
       ]
     },
     {
@@ -270,11 +280,11 @@
         "снег"
       ],
       "pool": [
-        "градус",
-        "тепло",
         "снег",
+        "Идёт",
+        "погода",
         "солнце",
-        "Идёт"
+        "жарко"
       ]
     },
     {
@@ -290,11 +300,11 @@
         "снег"
       ],
       "pool": [
-        "ветер",
+        "снег",
         "Белый",
         "погода",
-        "облако",
-        "снег"
+        "ветер",
+        "облако"
       ]
     },
     {
@@ -310,11 +320,11 @@
         "светит"
       ],
       "pool": [
-        "жарко",
-        "ветер",
+        "облако",
         "светит",
-        "Солнце",
-        "дождь"
+        "холодно",
+        "жарко",
+        "Солнце"
       ]
     },
     {
@@ -330,11 +340,11 @@
         "солнце"
       ],
       "pool": [
-        "снег",
-        "холодно",
+        "ветер",
         "Яркое",
+        "погода",
         "солнце",
-        "ветер"
+        "облако"
       ]
     },
     {
@@ -350,10 +360,10 @@
         "ветер"
       ],
       "pool": [
-        "погода",
         "ветер",
-        "снег",
-        "жарко",
+        "солнце",
+        "погода",
+        "облако",
         "Сильный"
       ]
     },
@@ -370,10 +380,10 @@
         "холодный"
       ],
       "pool": [
-        "градус",
-        "Ветер",
-        "дождь",
+        "облако",
         "холодный",
+        "Ветер",
+        "солнце",
         "холодно"
       ]
     },
@@ -390,11 +400,11 @@
         "жарко"
       ],
       "pool": [
-        "Сегодня",
-        "жарко",
         "снег",
-        "тепло",
-        "погода"
+        "жарко",
+        "ветер",
+        "холодно",
+        "Сегодня"
       ]
     },
     {
@@ -410,11 +420,11 @@
         "жарко"
       ],
       "pool": [
-        "Летом",
-        "холодно",
-        "тепло",
-        "дождь",
-        "жарко"
+        "солнце",
+        "погода",
+        "градус",
+        "жарко",
+        "Летом"
       ]
     },
     {
@@ -430,11 +440,11 @@
         "холодно"
       ],
       "pool": [
-        "Зимой",
-        "облако",
-        "погода",
+        "жарко",
         "холодно",
-        "градус"
+        "Зимой",
+        "солнце",
+        "снег"
       ]
     },
     {
@@ -450,11 +460,11 @@
         "холодно"
       ],
       "pool": [
+        "Мне",
+        "снег",
+        "ветер",
         "облако",
-        "холодно",
-        "погода",
-        "тепло",
-        "Мне"
+        "холодно"
       ]
     },
     {
@@ -470,11 +480,11 @@
         "тепло"
       ],
       "pool": [
-        "солнце",
-        "холодно",
-        "облако",
+        "тепло",
+        "снег",
         "Весной",
-        "тепло"
+        "холодно",
+        "облако"
       ]
     },
     {
@@ -490,11 +500,11 @@
         "тепло"
       ],
       "pool": [
-        "дождь",
-        "погода",
+        "градус",
         "снег",
-        "Сегодня",
-        "тепло"
+        "солнце",
+        "тепло",
+        "Сегодня"
       ]
     },
     {
@@ -511,12 +521,12 @@
         "облака"
       ],
       "pool": [
+        "тепло",
         "дождь",
+        "холодно",
         "На",
-        "жарко",
-        "облака",
         "небе",
-        "погода"
+        "облака"
       ]
     },
     {
@@ -532,11 +542,11 @@
         "облака"
       ],
       "pool": [
-        "Серые",
-        "ветер",
         "облака",
         "дождь",
-        "тепло"
+        "тепло",
+        "Серые",
+        "градус"
       ]
     },
     {
@@ -553,12 +563,12 @@
         "градусов"
       ],
       "pool": [
-        "дождь",
+        "холодно",
+        "десять",
         "Минус",
+        "дождь",
         "градусов",
-        "жарко",
-        "облако",
-        "десять"
+        "тепло"
       ]
     },
     {
@@ -574,11 +584,11 @@
         "градусов"
       ],
       "pool": [
-        "снег",
-        "жарко",
-        "тепло",
         "Сколько",
-        "градусов"
+        "холодно",
+        "тепло",
+        "градусов",
+        "погода"
       ]
     },
     {
@@ -586,39 +596,39 @@
       "type": "pictureMatch",
       "wordId": "d14-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d14-w01.svg",
+      "image": "/images/vocab/d14-w01.jpg",
       "options": [
-        "снег",
-        "погода",
+        "холодно",
         "облако",
-        "холодно"
+        "погода",
+        "дождь"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "d14-pic-02",
       "type": "pictureMatch",
       "wordId": "d14-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d14-w02.svg",
+      "image": "/images/vocab/d14-w02.jpg",
       "options": [
-        "градус",
-        "холодно",
+        "солнце",
         "дождь",
-        "облако"
+        "тепло",
+        "жарко"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "d14-pic-03",
       "type": "pictureMatch",
       "wordId": "d14-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d14-w03.svg",
+      "image": "/images/vocab/d14-w03.jpg",
       "options": [
-        "дождь",
+        "ветер",
         "снег",
-        "градус",
+        "облако",
         "тепло"
       ],
       "correctIndex": 1
@@ -628,40 +638,40 @@
       "type": "pictureMatch",
       "wordId": "d14-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d14-w04.svg",
+      "image": "/images/vocab/d14-w04.jpg",
       "options": [
-        "солнце",
+        "ветер",
+        "дождь",
         "холодно",
-        "погода",
-        "дождь"
+        "солнце"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "d14-pic-05",
       "type": "pictureMatch",
       "wordId": "d14-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d14-w05.svg",
+      "image": "/images/vocab/d14-w05.jpg",
       "options": [
-        "снег",
-        "тепло",
-        "облако",
-        "ветер"
+        "холодно",
+        "ветер",
+        "погода",
+        "тепло"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "d14-pic-06",
       "type": "pictureMatch",
       "wordId": "d14-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d14-w06.svg",
+      "image": "/images/vocab/d14-w06.jpg",
       "options": [
-        "снег",
+        "солнце",
         "жарко",
-        "холодно",
-        "ветер"
+        "градус",
+        "дождь"
       ],
       "correctIndex": 1
     },
@@ -670,12 +680,12 @@
       "type": "pictureMatch",
       "wordId": "d14-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d14-w07.svg",
+      "image": "/images/vocab/d14-w07.jpg",
       "options": [
         "холодно",
-        "солнце",
-        "погода",
-        "градус"
+        "ветер",
+        "жарко",
+        "снег"
       ],
       "correctIndex": 0
     },
@@ -684,11 +694,11 @@
       "type": "pictureMatch",
       "wordId": "d14-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d14-w08.svg",
+      "image": "/images/vocab/d14-w08.jpg",
       "options": [
-        "ветер",
-        "дождь",
         "солнце",
+        "погода",
+        "снег",
         "тепло"
       ],
       "correctIndex": 3
@@ -698,28 +708,28 @@
       "type": "pictureMatch",
       "wordId": "d14-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d14-w09.svg",
+      "image": "/images/vocab/d14-w09.jpg",
       "options": [
+        "жарко",
         "облако",
-        "тепло",
-        "снег",
-        "градус"
+        "градус",
+        "погода"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d14-pic-10",
       "type": "pictureMatch",
       "wordId": "d14-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d14-w10.svg",
+      "image": "/images/vocab/d14-w10.jpg",
       "options": [
-        "снег",
-        "жарко",
+        "градус",
         "дождь",
-        "градус"
+        "холодно",
+        "снег"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     }
   ]
 }

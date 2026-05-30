@@ -8,7 +8,8 @@
       "ru": "один",
       "en": "one",
       "audio": "/audio/day02/один.mp3",
-      "image": "/images/vocab/d02-w01.svg",
+      "image": "/images/vocab/d02-w01.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "У меня один брат.",
@@ -25,7 +26,8 @@
       "ru": "два",
       "en": "two",
       "audio": "/audio/day02/два.mp3",
-      "image": "/images/vocab/d02-w02.svg",
+      "image": "/images/vocab/d02-w02.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Два яблока на столе.",
@@ -42,7 +44,8 @@
       "ru": "три",
       "en": "three",
       "audio": "/audio/day02/три.mp3",
-      "image": "/images/vocab/d02-w03.svg",
+      "image": "/images/vocab/d02-w03.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Три друга пришли.",
@@ -59,7 +62,8 @@
       "ru": "четыре",
       "en": "four",
       "audio": "/audio/day02/четыре.mp3",
-      "image": "/images/vocab/d02-w04.svg",
+      "image": "/images/vocab/d02-w04.jpg",
+      "imageCredit": "Restored version of Image:AdmFarragut.jpg; Library of Congress CALL NUMBER: LC-BH82- 4054 , [P&amp;P]; (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Четыре стула в комнате.",
@@ -76,7 +80,8 @@
       "ru": "пять",
       "en": "five",
       "audio": "/audio/day02/пять.mp3",
-      "image": "/images/vocab/d02-w05.svg",
+      "image": "/images/vocab/d02-w05.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Пять минут подожди.",
@@ -93,7 +98,8 @@
       "ru": "шесть",
       "en": "six",
       "audio": "/audio/day02/шесть.mp3",
-      "image": "/images/vocab/d02-w06.svg",
+      "image": "/images/vocab/d02-w06.png",
+      "imageCredit": "https://imgbin.com/free-png/6 (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Шесть дней в неделе работаю.",
@@ -110,7 +116,8 @@
       "ru": "семь",
       "en": "seven",
       "audio": "/audio/day02/семь.mp3",
-      "image": "/images/vocab/d02-w07.svg",
+      "image": "/images/vocab/d02-w07.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Семь дней — одна неделя.",
@@ -127,7 +134,8 @@
       "ru": "восемь",
       "en": "eight",
       "audio": "/audio/day02/восемь.mp3",
-      "image": "/images/vocab/d02-w08.svg",
+      "image": "/images/vocab/d02-w08.png",
+      "imageCredit": "Transferred from en.wikipedia to Commons by Dcirovic. (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Восемь утра — рано.",
@@ -144,7 +152,8 @@
       "ru": "девять",
       "en": "nine",
       "audio": "/audio/day02/девять.mp3",
-      "image": "/images/vocab/d02-w09.svg",
+      "image": "/images/vocab/d02-w09.png",
+      "imageCredit": "United States Social Security Administration (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Девять месяцев — беременность.",
@@ -161,7 +170,8 @@
       "ru": "десять",
       "en": "ten",
       "audio": "/audio/day02/десять.mp3",
-      "image": "/images/vocab/d02-w10.svg",
+      "image": "/images/vocab/d02-w10.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Десять рублей стоит.",
@@ -190,13 +200,13 @@
         "брат"
       ],
       "pool": [
-        "один",
-        "три",
-        "меня",
-        "У",
         "брат",
-        "семь",
-        "восемь"
+        "У",
+        "один",
+        "десять",
+        "меня",
+        "девять",
+        "четыре"
       ]
     },
     {
@@ -213,12 +223,12 @@
         "три"
       ],
       "pool": [
-        "три",
-        "два",
-        "два",
-        "четыре",
         "Один",
-        "три"
+        "два",
+        "три",
+        "девять",
+        "три",
+        "пять"
       ]
     },
     {
@@ -236,13 +246,13 @@
         "столе"
       ],
       "pool": [
-        "на",
+        "столе",
+        "Два",
         "шесть",
         "яблока",
-        "восемь",
-        "столе",
-        "один",
-        "Два"
+        "семь",
+        "девять",
+        "на"
       ]
     },
     {
@@ -260,13 +270,13 @@
         "года"
       ],
       "pool": [
-        "года",
         "Мне",
-        "двадцать",
-        "десять",
-        "девять",
+        "года",
+        "три",
+        "четыре",
         "два",
-        "один"
+        "пять",
+        "двадцать"
       ]
     },
     {
@@ -283,12 +293,12 @@
         "пришли"
       ],
       "pool": [
-        "девять",
-        "Три",
-        "десять",
-        "два",
         "друга",
-        "пришли"
+        "пришли",
+        "пять",
+        "Три",
+        "два",
+        "четыре"
       ]
     },
     {
@@ -306,13 +316,13 @@
         "чашки"
       ],
       "pool": [
-        "десять",
-        "чашки",
-        "На",
-        "три",
-        "восемь",
         "столе",
-        "шесть"
+        "два",
+        "чашки",
+        "семь",
+        "три",
+        "На",
+        "восемь"
       ]
     },
     {
@@ -330,13 +340,13 @@
         "комнате"
       ],
       "pool": [
-        "стула",
-        "шесть",
-        "пять",
-        "комнате",
-        "восемь",
         "в",
-        "Четыре"
+        "стула",
+        "Четыре",
+        "один",
+        "комнате",
+        "три",
+        "десять"
       ]
     },
     {
@@ -354,13 +364,13 @@
         "кота"
       ],
       "pool": [
-        "неё",
-        "четыре",
-        "кота",
         "семь",
-        "один",
-        "два",
-        "У"
+        "кота",
+        "пять",
+        "неё",
+        "девять",
+        "У",
+        "четыре"
       ]
     },
     {
@@ -377,12 +387,12 @@
         "подожди"
       ],
       "pool": [
-        "три",
-        "минут",
-        "семь",
         "подожди",
-        "два",
-        "Пять"
+        "десять",
+        "Пять",
+        "девять",
+        "четыре",
+        "минут"
       ]
     },
     {
@@ -400,13 +410,13 @@
         "полке"
       ],
       "pool": [
-        "девять",
         "на",
-        "восемь",
-        "книг",
         "Пять",
-        "полке",
-        "два"
+        "шесть",
+        "четыре",
+        "книг",
+        "два",
+        "полке"
       ]
     },
     {
@@ -425,14 +435,14 @@
         "работаю"
       ],
       "pool": [
-        "дней",
-        "Шесть",
-        "неделе",
         "четыре",
-        "восемь",
         "работаю",
+        "Шесть",
         "в",
-        "пять"
+        "неделе",
+        "семь",
+        "восемь",
+        "дней"
       ]
     },
     {
@@ -449,12 +459,12 @@
         "лет"
       ],
       "pool": [
-        "шесть",
         "два",
-        "лет",
-        "три",
+        "четыре",
         "Ему",
-        "восемь"
+        "три",
+        "шесть",
+        "лет"
       ]
     },
     {
@@ -472,13 +482,13 @@
         "неделя"
       ],
       "pool": [
-        "одна",
-        "Семь",
-        "неделя",
-        "пять",
-        "десять",
         "дней",
-        "один"
+        "девять",
+        "неделя",
+        "Семь",
+        "одна",
+        "четыре",
+        "шесть"
       ]
     },
     {
@@ -497,12 +507,12 @@
       ],
       "pool": [
         "шесть",
-        "десять",
         "На",
         "семь",
-        "пять",
-        "машин",
-        "улице"
+        "улице",
+        "четыре",
+        "девять",
+        "машин"
       ]
     },
     {
@@ -519,12 +529,12 @@
         "рано"
       ],
       "pool": [
-        "рано",
-        "семь",
         "Восемь",
-        "два",
+        "утра",
+        "десять",
         "один",
-        "утра"
+        "рано",
+        "шесть"
       ]
     },
     {
@@ -542,12 +552,12 @@
         "учеников"
       ],
       "pool": [
-        "девять",
-        "восемь",
-        "В",
-        "десять",
         "один",
         "классе",
+        "восемь",
+        "В",
+        "четыре",
+        "десять",
         "учеников"
       ]
     },
@@ -565,12 +575,12 @@
         "беременность"
       ],
       "pool": [
-        "четыре",
-        "месяцев",
         "два",
+        "три",
+        "Девять",
+        "месяцев",
         "беременность",
-        "шесть",
-        "Девять"
+        "пять"
       ]
     },
     {
@@ -588,13 +598,13 @@
         "доме"
       ],
       "pool": [
-        "доме",
-        "шесть",
-        "этажей",
         "Девять",
-        "восемь",
-        "семь",
-        "в"
+        "шесть",
+        "в",
+        "доме",
+        "три",
+        "один",
+        "этажей"
       ]
     },
     {
@@ -611,12 +621,12 @@
         "стоит"
       ],
       "pool": [
-        "два",
-        "один",
-        "четыре",
         "стоит",
+        "шесть",
+        "два",
         "Десять",
-        "рублей"
+        "рублей",
+        "пять"
       ]
     },
     {
@@ -633,12 +643,12 @@
         "лет"
       ],
       "pool": [
-        "лет",
-        "девять",
-        "пять",
-        "Мне",
         "десять",
-        "два"
+        "лет",
+        "шесть",
+        "пять",
+        "четыре",
+        "Мне"
       ]
     },
     {
@@ -646,11 +656,11 @@
       "type": "pictureMatch",
       "wordId": "d02-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d02-w01.svg",
+      "image": "/images/vocab/d02-w01.jpg",
       "options": [
-        "два",
-        "пять",
+        "восемь",
         "девять",
+        "пять",
         "один"
       ],
       "correctIndex": 3
@@ -660,12 +670,12 @@
       "type": "pictureMatch",
       "wordId": "d02-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d02-w02.svg",
+      "image": "/images/vocab/d02-w02.jpg",
       "options": [
         "три",
         "два",
-        "семь",
-        "четыре"
+        "один",
+        "десять"
       ],
       "correctIndex": 1
     },
@@ -674,12 +684,12 @@
       "type": "pictureMatch",
       "wordId": "d02-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d02-w03.svg",
+      "image": "/images/vocab/d02-w03.jpg",
       "options": [
         "три",
-        "два",
-        "восемь",
-        "семь"
+        "четыре",
+        "семь",
+        "десять"
       ],
       "correctIndex": 0
     },
@@ -688,11 +698,11 @@
       "type": "pictureMatch",
       "wordId": "d02-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d02-w04.svg",
+      "image": "/images/vocab/d02-w04.jpg",
       "options": [
-        "один",
-        "восемь",
-        "шесть",
+        "девять",
+        "пять",
+        "два",
         "четыре"
       ],
       "correctIndex": 3
@@ -702,54 +712,54 @@
       "type": "pictureMatch",
       "wordId": "d02-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d02-w05.svg",
+      "image": "/images/vocab/d02-w05.jpg",
       "options": [
+        "семь",
         "пять",
-        "десять",
-        "восемь",
+        "шесть",
         "девять"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d02-pic-06",
       "type": "pictureMatch",
       "wordId": "d02-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d02-w06.svg",
+      "image": "/images/vocab/d02-w06.png",
       "options": [
+        "один",
         "шесть",
-        "десять",
-        "четыре",
-        "один"
+        "семь",
+        "десять"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d02-pic-07",
       "type": "pictureMatch",
       "wordId": "d02-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d02-w07.svg",
+      "image": "/images/vocab/d02-w07.jpg",
       "options": [
-        "шесть",
-        "восемь",
-        "один",
-        "семь"
+        "семь",
+        "девять",
+        "пять",
+        "десять"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "d02-pic-08",
       "type": "pictureMatch",
       "wordId": "d02-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d02-w08.svg",
+      "image": "/images/vocab/d02-w08.png",
       "options": [
         "восемь",
-        "четыре",
-        "шесть",
-        "десять"
+        "два",
+        "один",
+        "девять"
       ],
       "correctIndex": 0
     },
@@ -758,28 +768,28 @@
       "type": "pictureMatch",
       "wordId": "d02-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d02-w09.svg",
+      "image": "/images/vocab/d02-w09.png",
       "options": [
-        "три",
-        "пять",
         "четыре",
-        "девять"
+        "шесть",
+        "девять",
+        "семь"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "d02-pic-10",
       "type": "pictureMatch",
       "wordId": "d02-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d02-w10.svg",
+      "image": "/images/vocab/d02-w10.jpg",
       "options": [
         "два",
-        "десять",
-        "пять",
-        "четыре"
+        "четыре",
+        "один",
+        "десять"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     }
   ]
 }

@@ -8,7 +8,8 @@
       "ru": "счастье",
       "en": "happiness",
       "audio": "/audio/day22/счастье.mp3",
-      "image": "/images/vocab/d22-w01.svg",
+      "image": "/images/vocab/d22-w01.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Счастье важно.",
@@ -25,7 +26,8 @@
       "ru": "любовь",
       "en": "love",
       "audio": "/audio/day22/любовь.mp3",
-      "image": "/images/vocab/d22-w02.svg",
+      "image": "/images/vocab/d22-w02.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Любовь сильная.",
@@ -42,7 +44,8 @@
       "ru": "радость",
       "en": "joy",
       "audio": "/audio/day22/радость.mp3",
-      "image": "/images/vocab/d22-w03.svg",
+      "image": "/images/vocab/d22-w03.jpg",
+      "imageCredit": "http://thebestphotos.ru/archives/5187?nggpage=3 (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Большая радость.",
@@ -59,7 +62,8 @@
       "ru": "грусть",
       "en": "sadness",
       "audio": "/audio/day22/грусть.mp3",
-      "image": "/images/vocab/d22-w04.svg",
+      "image": "/images/vocab/d22-w04.png",
+      "imageCredit": "https://www.istockphoto.com/vector/sad-face-icon-unhappy-face-symbol-gm934714316-255870475 (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Грусть проходит.",
@@ -76,7 +80,8 @@
       "ru": "страх",
       "en": "fear",
       "audio": "/audio/day22/страх.mp3",
-      "image": "/images/vocab/d22-w05.svg",
+      "image": "/images/vocab/d22-w05.jpg",
+      "imageCredit": "Internet Archive identifier: lettersonhumanbo00clow (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Страх уходит.",
@@ -93,7 +98,8 @@
       "ru": "злой",
       "en": "angry",
       "audio": "/audio/day22/злой.mp3",
-      "image": "/images/vocab/d22-w06.svg",
+      "image": "/images/vocab/d22-w06.jpg",
+      "imageCredit": "Own work (CC BY 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Он зол.",
@@ -110,7 +116,8 @@
       "ru": "добрый",
       "en": "kind",
       "audio": "/audio/day22/добрый.mp3",
-      "image": "/images/vocab/d22-w07.svg",
+      "image": "/images/vocab/d22-w07.jpg",
+      "imageCredit": "This image is available from the United States Library of Congress's Prints and Photographs division under the digital ID nclc.01451.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing. (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Она добрая.",
@@ -127,7 +134,8 @@
       "ru": "умный",
       "en": "smart",
       "audio": "/audio/day22/умный.mp3",
-      "image": "/images/vocab/d22-w08.svg",
+      "image": "/images/vocab/d22-w08.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Он умный.",
@@ -144,7 +152,8 @@
       "ru": "ленивый",
       "en": "lazy",
       "audio": "/audio/day22/ленивый.mp3",
-      "image": "/images/vocab/d22-w09.svg",
+      "image": "/images/vocab/d22-w09.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Я ленив.",
@@ -161,7 +170,8 @@
       "ru": "смелый",
       "en": "brave",
       "audio": "/audio/day22/смелый.mp3",
-      "image": "/images/vocab/d22-w10.svg",
+      "image": "/images/vocab/d22-w10.jpg",
+      "imageCredit": "https://www.flickr.com/photos/scottishgovernment/7399139470/ (CC BY 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Она смела.",
@@ -188,11 +198,11 @@
         "важно"
       ],
       "pool": [
-        "ленивый",
         "Счастье",
-        "важно",
-        "грусть",
-        "умный"
+        "радость",
+        "добрый",
+        "ленивый",
+        "важно"
       ]
     },
     {
@@ -208,11 +218,11 @@
         "счастья"
       ],
       "pool": [
-        "страх",
-        "добрый",
-        "ленивый",
         "счастья",
-        "Желаю"
+        "Желаю",
+        "радость",
+        "смелый",
+        "злой"
       ]
     },
     {
@@ -229,10 +239,10 @@
       ],
       "pool": [
         "сильная",
-        "смелый",
+        "страх",
         "Любовь",
-        "радость",
-        "ленивый"
+        "умный",
+        "добрый"
       ]
     },
     {
@@ -249,12 +259,12 @@
         "семье"
       ],
       "pool": [
-        "счастье",
         "семье",
-        "добрый",
-        "грусть",
+        "Любовь",
         "к",
-        "Любовь"
+        "ленивый",
+        "страх",
+        "умный"
       ]
     },
     {
@@ -270,10 +280,10 @@
         "радость"
       ],
       "pool": [
+        "ленивый",
+        "злой",
+        "смелый",
         "радость",
-        "страх",
-        "счастье",
-        "умный",
         "Большая"
       ]
     },
@@ -291,12 +301,12 @@
         "глазах"
       ],
       "pool": [
+        "в",
         "глазах",
         "грусть",
-        "в",
-        "любовь",
         "Радость",
-        "смелый"
+        "любовь",
+        "страх"
       ]
     },
     {
@@ -312,11 +322,11 @@
         "проходит"
       ],
       "pool": [
-        "радость",
-        "страх",
-        "умный",
         "проходит",
-        "Грусть"
+        "любовь",
+        "Грусть",
+        "ленивый",
+        "счастье"
       ]
     },
     {
@@ -332,10 +342,10 @@
         "грусти"
       ],
       "pool": [
-        "страх",
-        "счастье",
-        "Без",
+        "смелый",
         "радость",
+        "Без",
+        "умный",
         "грусти"
       ]
     },
@@ -353,10 +363,10 @@
       ],
       "pool": [
         "злой",
-        "уходит",
+        "любовь",
         "Страх",
-        "счастье",
-        "умный"
+        "грусть",
+        "уходит"
       ]
     },
     {
@@ -373,10 +383,10 @@
       ],
       "pool": [
         "Нет",
+        "грусть",
         "добрый",
         "страха",
-        "злой",
-        "грусть"
+        "счастье"
       ]
     },
     {
@@ -392,11 +402,11 @@
         "зол"
       ],
       "pool": [
-        "счастье",
-        "Он",
         "любовь",
+        "ленивый",
+        "Он",
         "зол",
-        "радость"
+        "страх"
       ]
     },
     {
@@ -414,11 +424,11 @@
       ],
       "pool": [
         "Не",
+        "счастье",
         "страх",
         "будь",
-        "злым",
-        "грусть",
-        "умный"
+        "ленивый",
+        "злым"
       ]
     },
     {
@@ -434,11 +444,11 @@
         "добрая"
       ],
       "pool": [
-        "радость",
-        "любовь",
+        "грусть",
         "добрая",
+        "счастье",
         "Она",
-        "смелый"
+        "злой"
       ]
     },
     {
@@ -454,11 +464,11 @@
         "человек"
       ],
       "pool": [
-        "радость",
-        "ленивый",
+        "страх",
         "Добрый",
-        "любовь",
-        "человек"
+        "человек",
+        "злой",
+        "ленивый"
       ]
     },
     {
@@ -475,10 +485,10 @@
       ],
       "pool": [
         "Он",
+        "умный",
         "радость",
         "страх",
-        "умный",
-        "смелый"
+        "грусть"
       ]
     },
     {
@@ -495,10 +505,10 @@
       ],
       "pool": [
         "Умная",
+        "грусть",
         "девочка",
-        "страх",
-        "злой",
-        "смелый"
+        "радость",
+        "добрый"
       ]
     },
     {
@@ -514,11 +524,11 @@
         "ленив"
       ],
       "pool": [
-        "любовь",
-        "Я",
-        "умный",
         "страх",
-        "ленив"
+        "счастье",
+        "смелый",
+        "ленив",
+        "Я"
       ]
     },
     {
@@ -535,12 +545,12 @@
         "ленивым"
       ],
       "pool": [
+        "добрый",
+        "злой",
+        "ленивым",
+        "счастье",
         "Не",
-        "любовь",
-        "смелый",
-        "радость",
-        "будь",
-        "ленивым"
+        "будь"
       ]
     },
     {
@@ -556,11 +566,11 @@
         "смела"
       ],
       "pool": [
-        "Она",
-        "смела",
-        "счастье",
         "любовь",
-        "радость"
+        "смела",
+        "Она",
+        "радость",
+        "умный"
       ]
     },
     {
@@ -576,11 +586,11 @@
         "солдат"
       ],
       "pool": [
-        "ленивый",
-        "любовь",
-        "радость",
         "Смелый",
-        "солдат"
+        "грусть",
+        "солдат",
+        "страх",
+        "радость"
       ]
     },
     {
@@ -588,123 +598,123 @@
       "type": "pictureMatch",
       "wordId": "d22-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d22-w01.svg",
+      "image": "/images/vocab/d22-w01.jpg",
       "options": [
-        "страх",
-        "злой",
+        "счастье",
+        "смелый",
         "грусть",
-        "счастье"
+        "добрый"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "d22-pic-02",
       "type": "pictureMatch",
       "wordId": "d22-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d22-w02.svg",
+      "image": "/images/vocab/d22-w02.jpg",
       "options": [
+        "счастье",
+        "ленивый",
         "смелый",
-        "страх",
-        "любовь",
-        "радость"
+        "любовь"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "d22-pic-03",
       "type": "pictureMatch",
       "wordId": "d22-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d22-w03.svg",
+      "image": "/images/vocab/d22-w03.jpg",
       "options": [
+        "любовь",
+        "страх",
         "радость",
-        "злой",
-        "счастье",
-        "страх"
+        "злой"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "d22-pic-04",
       "type": "pictureMatch",
       "wordId": "d22-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d22-w04.svg",
+      "image": "/images/vocab/d22-w04.png",
       "options": [
+        "добрый",
         "смелый",
         "грусть",
-        "счастье",
-        "страх"
+        "радость"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "d22-pic-05",
       "type": "pictureMatch",
       "wordId": "d22-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d22-w05.svg",
+      "image": "/images/vocab/d22-w05.jpg",
       "options": [
-        "злой",
-        "добрый",
-        "любовь",
-        "страх"
+        "счастье",
+        "страх",
+        "радость",
+        "ленивый"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "d22-pic-06",
       "type": "pictureMatch",
       "wordId": "d22-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d22-w06.svg",
+      "image": "/images/vocab/d22-w06.jpg",
       "options": [
-        "ленивый",
         "злой",
-        "радость",
-        "добрый"
+        "ленивый",
+        "страх",
+        "любовь"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "d22-pic-07",
       "type": "pictureMatch",
       "wordId": "d22-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d22-w07.svg",
+      "image": "/images/vocab/d22-w07.jpg",
       "options": [
-        "умный",
         "смелый",
-        "добрый",
-        "ленивый"
+        "страх",
+        "счастье",
+        "добрый"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "d22-pic-08",
       "type": "pictureMatch",
       "wordId": "d22-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d22-w08.svg",
+      "image": "/images/vocab/d22-w08.jpg",
       "options": [
-        "грусть",
-        "ленивый",
+        "умный",
+        "смелый",
         "злой",
-        "умный"
+        "добрый"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "d22-pic-09",
       "type": "pictureMatch",
       "wordId": "d22-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d22-w09.svg",
+      "image": "/images/vocab/d22-w09.jpg",
       "options": [
-        "умный",
-        "страх",
+        "радость",
         "грусть",
+        "добрый",
         "ленивый"
       ],
       "correctIndex": 3
@@ -714,14 +724,14 @@
       "type": "pictureMatch",
       "wordId": "d22-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d22-w10.svg",
+      "image": "/images/vocab/d22-w10.jpg",
       "options": [
-        "грусть",
-        "счастье",
         "смелый",
-        "добрый"
+        "добрый",
+        "любовь",
+        "злой"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     }
   ]
 }

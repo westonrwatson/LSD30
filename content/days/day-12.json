@@ -8,7 +8,8 @@
       "ru": "час",
       "en": "hour / o'clock",
       "audio": "/audio/day12/час.mp3",
-      "image": "/images/vocab/d12-w01.svg",
+      "image": "/images/vocab/d12-w01.png",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Сейчас три часа.",
@@ -25,7 +26,8 @@
       "ru": "минута",
       "en": "minute",
       "audio": "/audio/day12/минута.mp3",
-      "image": "/images/vocab/d12-w02.svg",
+      "image": "/images/vocab/d12-w02.jpg",
+      "imageCredit": "Here (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Подожди минуту.",
@@ -42,7 +44,8 @@
       "ru": "утро",
       "en": "morning",
       "audio": "/audio/day12/утро.mp3",
-      "image": "/images/vocab/d12-w03.svg",
+      "image": "/images/vocab/d12-w03.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Утром пью кофе.",
@@ -59,7 +62,8 @@
       "ru": "день",
       "en": "day / afternoon",
       "audio": "/audio/day12/день.mp3",
-      "image": "/images/vocab/d12-w04.svg",
+      "image": "/images/vocab/d12-w04.png",
+      "imageCredit": "Graham, Joseph, Newman, William, and Stacy, John, 2008, The geologic time spiral—A path to the past (ver. 1.1): U.S. Geological Survey General Information Product 58, poster, 1 sheet. Available online at http://pubs.usgs.gov/gip/2008/58/ (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Хорошего дня!",
@@ -76,7 +80,8 @@
       "ru": "вечер",
       "en": "evening",
       "audio": "/audio/day12/вечер.mp3",
-      "image": "/images/vocab/d12-w05.svg",
+      "image": "/images/vocab/d12-w05.jpg",
+      "imageCredit": "Evening time (CC BY-SA 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Добрый вечер!",
@@ -93,7 +98,8 @@
       "ru": "ночь",
       "en": "night",
       "audio": "/audio/day12/ночь.mp3",
-      "image": "/images/vocab/d12-w06.svg",
+      "image": "/images/vocab/d12-w06.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Спокойной ночи!",
@@ -110,7 +116,8 @@
       "ru": "сегодня",
       "en": "today",
       "audio": "/audio/day12/сегодня.mp3",
-      "image": "/images/vocab/d12-w07.svg",
+      "image": "/images/vocab/d12-w07.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Сегодня понедельник.",
@@ -127,7 +134,8 @@
       "ru": "завтра",
       "en": "tomorrow",
       "audio": "/audio/day12/завтра.mp3",
-      "image": "/images/vocab/d12-w08.svg",
+      "image": "/images/vocab/d12-w08.jpg",
+      "imageCredit": "Time (CC BY-SA 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Увидимся завтра.",
@@ -144,7 +152,8 @@
       "ru": "вчера",
       "en": "yesterday",
       "audio": "/audio/day12/вчера.mp3",
-      "image": "/images/vocab/d12-w09.svg",
+      "image": "/images/vocab/d12-w09.jpg",
+      "imageCredit": "https://archive.org/details/timemachineinven00well (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Вчера был дождь.",
@@ -161,7 +170,8 @@
       "ru": "когда",
       "en": "when",
       "audio": "/audio/day12/когда.mp3",
-      "image": "/images/vocab/d12-w10.svg",
+      "image": "/images/vocab/d12-w10.png",
+      "imageCredit": "Own work (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Когда ты приедешь?",
@@ -189,12 +199,12 @@
         "часа"
       ],
       "pool": [
+        "вечер",
+        "утро",
         "часа",
-        "когда",
-        "сегодня",
         "Сейчас",
         "три",
-        "ночь"
+        "день"
       ]
     },
     {
@@ -210,11 +220,11 @@
         "назад"
       ],
       "pool": [
-        "ночь",
         "назад",
+        "когда",
         "утро",
-        "Час",
-        "вчера"
+        "минута",
+        "Час"
       ]
     },
     {
@@ -230,11 +240,11 @@
         "минуту"
       ],
       "pool": [
-        "Подожди",
+        "день",
         "минуту",
-        "завтра",
         "когда",
-        "сегодня"
+        "Подожди",
+        "ночь"
       ]
     },
     {
@@ -252,13 +262,13 @@
         "автобуса"
       ],
       "pool": [
-        "автобуса",
-        "Пять",
-        "сегодня",
         "до",
+        "когда",
+        "день",
+        "Пять",
         "минут",
-        "ночь",
-        "завтра"
+        "час",
+        "автобуса"
       ]
     },
     {
@@ -275,12 +285,12 @@
         "кофе"
       ],
       "pool": [
-        "минута",
         "когда",
-        "сегодня",
         "Утром",
-        "кофе",
-        "пью"
+        "ночь",
+        "пью",
+        "вчера",
+        "кофе"
       ]
     },
     {
@@ -297,10 +307,10 @@
       ],
       "pool": [
         "утро",
-        "минута",
-        "вчера",
+        "сегодня",
+        "Доброе",
         "час",
-        "Доброе"
+        "вчера"
       ]
     },
     {
@@ -316,11 +326,11 @@
         "дня"
       ],
       "pool": [
-        "минута",
-        "дня",
-        "час",
         "Хорошего",
-        "ночь"
+        "ночь",
+        "дня",
+        "сегодня",
+        "минута"
       ]
     },
     {
@@ -336,11 +346,11 @@
         "работаю"
       ],
       "pool": [
-        "Днём",
-        "час",
-        "когда",
-        "вчера",
-        "работаю"
+        "утро",
+        "ночь",
+        "сегодня",
+        "работаю",
+        "Днём"
       ]
     },
     {
@@ -356,11 +366,11 @@
         "вечер"
       ],
       "pool": [
-        "ночь",
         "вечер",
-        "вчера",
-        "сегодня",
-        "Добрый"
+        "минута",
+        "Добрый",
+        "день",
+        "когда"
       ]
     },
     {
@@ -376,11 +386,11 @@
         "отдыхаю"
       ],
       "pool": [
-        "Вечером",
         "сегодня",
         "отдыхаю",
-        "утро",
-        "вчера"
+        "Вечером",
+        "вчера",
+        "ночь"
       ]
     },
     {
@@ -396,11 +406,11 @@
         "ночи"
       ],
       "pool": [
-        "минута",
+        "сегодня",
+        "когда",
         "ночи",
-        "завтра",
-        "Спокойной",
-        "когда"
+        "утро",
+        "Спокойной"
       ]
     },
     {
@@ -416,11 +426,11 @@
         "тихо"
       ],
       "pool": [
-        "час",
-        "завтра",
-        "тихо",
         "день",
-        "Ночью"
+        "вечер",
+        "Ночью",
+        "завтра",
+        "тихо"
       ]
     },
     {
@@ -436,11 +446,11 @@
         "понедельник"
       ],
       "pool": [
-        "завтра",
         "вчера",
+        "минута",
         "понедельник",
         "Сегодня",
-        "день"
+        "утро"
       ]
     },
     {
@@ -457,9 +467,9 @@
       ],
       "pool": [
         "Сегодня",
-        "вчера",
         "холодно",
         "день",
+        "утро",
         "час"
       ]
     },
@@ -476,11 +486,11 @@
         "завтра"
       ],
       "pool": [
-        "день",
         "завтра",
         "Увидимся",
-        "ночь",
-        "вечер"
+        "минута",
+        "час",
+        "день"
       ]
     },
     {
@@ -497,10 +507,10 @@
       ],
       "pool": [
         "экзамен",
-        "день",
+        "когда",
         "Завтра",
-        "сегодня",
-        "минута"
+        "минута",
+        "ночь"
       ]
     },
     {
@@ -517,12 +527,12 @@
         "дождь"
       ],
       "pool": [
-        "минута",
         "был",
+        "день",
         "когда",
-        "час",
-        "Вчера",
-        "дождь"
+        "дождь",
+        "ночь",
+        "Вчера"
       ]
     },
     {
@@ -539,12 +549,12 @@
         "работал"
       ],
       "pool": [
-        "завтра",
+        "когда",
+        "вечер",
         "работал",
         "я",
-        "ночь",
-        "Вчера",
-        "когда"
+        "сегодня",
+        "Вчера"
       ]
     },
     {
@@ -561,11 +571,11 @@
         "приедешь"
       ],
       "pool": [
-        "приедешь",
-        "вчера",
-        "Когда",
+        "утро",
         "ты",
-        "день",
+        "приедешь",
+        "Когда",
+        "вечер",
         "ночь"
       ]
     },
@@ -582,11 +592,11 @@
         "начинается"
       ],
       "pool": [
-        "день",
         "начинается",
-        "сегодня",
-        "утро",
-        "Когда"
+        "завтра",
+        "час",
+        "Когда",
+        "минута"
       ]
     },
     {
@@ -594,12 +604,12 @@
       "type": "pictureMatch",
       "wordId": "d12-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d12-w01.svg",
+      "image": "/images/vocab/d12-w01.png",
       "options": [
-        "когда",
+        "день",
         "минута",
         "час",
-        "завтра"
+        "сегодня"
       ],
       "correctIndex": 2
     },
@@ -608,25 +618,25 @@
       "type": "pictureMatch",
       "wordId": "d12-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d12-w02.svg",
+      "image": "/images/vocab/d12-w02.jpg",
       "options": [
-        "минута",
         "вечер",
-        "когда",
-        "день"
+        "минута",
+        "день",
+        "завтра"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d12-pic-03",
       "type": "pictureMatch",
       "wordId": "d12-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d12-w03.svg",
+      "image": "/images/vocab/d12-w03.jpg",
       "options": [
-        "завтра",
-        "минута",
+        "когда",
         "ночь",
+        "вчера",
         "утро"
       ],
       "correctIndex": 3
@@ -636,12 +646,12 @@
       "type": "pictureMatch",
       "wordId": "d12-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d12-w04.svg",
+      "image": "/images/vocab/d12-w04.png",
       "options": [
-        "завтра",
+        "ночь",
         "день",
-        "час",
-        "когда"
+        "вечер",
+        "вчера"
       ],
       "correctIndex": 1
     },
@@ -650,12 +660,12 @@
       "type": "pictureMatch",
       "wordId": "d12-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d12-w05.svg",
+      "image": "/images/vocab/d12-w05.jpg",
       "options": [
-        "когда",
+        "завтра",
         "вечер",
-        "вчера",
-        "утро"
+        "утро",
+        "день"
       ],
       "correctIndex": 1
     },
@@ -664,39 +674,39 @@
       "type": "pictureMatch",
       "wordId": "d12-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d12-w06.svg",
+      "image": "/images/vocab/d12-w06.jpg",
       "options": [
-        "когда",
-        "завтра",
+        "час",
         "ночь",
-        "утро"
+        "утро",
+        "сегодня"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "d12-pic-07",
       "type": "pictureMatch",
       "wordId": "d12-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d12-w07.svg",
+      "image": "/images/vocab/d12-w07.jpg",
       "options": [
+        "день",
         "сегодня",
-        "когда",
-        "завтра",
-        "вечер"
+        "час",
+        "когда"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d12-pic-08",
       "type": "pictureMatch",
       "wordId": "d12-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d12-w08.svg",
+      "image": "/images/vocab/d12-w08.jpg",
       "options": [
-        "вчера",
-        "сегодня",
         "день",
+        "вечер",
+        "час",
         "завтра"
       ],
       "correctIndex": 3
@@ -706,12 +716,12 @@
       "type": "pictureMatch",
       "wordId": "d12-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d12-w09.svg",
+      "image": "/images/vocab/d12-w09.jpg",
       "options": [
-        "когда",
+        "сегодня",
         "ночь",
         "вчера",
-        "вечер"
+        "завтра"
       ],
       "correctIndex": 2
     },
@@ -720,14 +730,14 @@
       "type": "pictureMatch",
       "wordId": "d12-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d12-w10.svg",
+      "image": "/images/vocab/d12-w10.png",
       "options": [
+        "когда",
+        "завтра",
         "вечер",
-        "вчера",
-        "утро",
-        "когда"
+        "ночь"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     }
   ]
 }

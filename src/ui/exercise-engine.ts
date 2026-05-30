@@ -168,9 +168,6 @@ export function renderExercise(
   if (exercise.type === 'wordOrder') {
     return renderWordOrder(exercise, callbacks, options);
   }
-  if (exercise.type === 'pictureGallery') {
-    return renderPictureGallery(exercise, callbacks, options);
-  }
   if (exercise.type === 'pictureMatch') {
     return renderPictureMatch(exercise, callbacks, options);
   }
@@ -324,47 +321,6 @@ function renderFlashcardDeck(
   return root;
 }
 
-function renderPictureGallery(
-  exercise: Extract<Exercise, { type: 'pictureGallery' }>,
-  callbacks: ExerciseCallbacks,
-  options: ExerciseRenderOptions,
-): HTMLElement {
-  const words = options.words ?? [];
-  const { root, body, footer } = lessonShell(
-    options.phaseLabel ?? 'Pictures',
-    exercise.prompt,
-    'lesson-step--pictures',
-  );
-
-  const grid = el('div', 'picture-grid');
-  for (const word of words) {
-    const card = el('article', 'picture-card');
-    const img = document.createElement('img');
-    img.className = 'picture-card-img';
-    img.src = word.image;
-    img.alt = '';
-    img.loading = 'lazy';
-    card.appendChild(img);
-
-    const text = el('div', 'picture-card-text');
-    text.appendChild(el('p', 'picture-card-ru', word.ru));
-    text.appendChild(el('p', 'picture-card-en', word.en));
-    card.appendChild(text);
-
-    card.appendChild(createIconAudioButton(() => playAudio(word.audio, word.ru), `Play ${word.ru}`));
-    grid.appendChild(card);
-  }
-  body.appendChild(grid);
-
-  footer.appendChild(
-    createPrimaryButton('Continue', () => {
-      callbacks.onSubmit({ correct: true });
-    }),
-  );
-
-  return root;
-}
-
 function renderPictureMatch(
   exercise: Extract<Exercise, { type: 'pictureMatch' }>,
   callbacks: ExerciseCallbacks,
@@ -377,16 +333,30 @@ function renderPictureMatch(
     'lesson-step--pictures lesson-step--picture-match',
   );
 
+  const layout = el('div', 'picture-match-layout');
+
+  const visual = el('div', 'picture-match-visual');
   const frame = el('div', 'picture-match-frame');
   const img = document.createElement('img');
   img.className = 'picture-match-img';
   img.src = exercise.image;
-  img.alt = '';
+  img.alt = word ? `Picture for ${word.en}` : '';
+  img.loading = 'eager';
   frame.appendChild(img);
-  body.appendChild(frame);
+  visual.appendChild(frame);
+
+  if (word?.imageCredit) {
+    visual.appendChild(el('p', 'picture-match-credit', word.imageCredit));
+  }
+  layout.appendChild(visual);
+
+  const panel = el('div', 'picture-match-panel');
+
+  const optionsGrid = el('div', 'picture-options');
+  panel.appendChild(optionsGrid);
 
   const feedback = el('p', 'feedback hidden');
-  body.appendChild(feedback);
+  panel.appendChild(feedback);
 
   const reveal = el('div', 'lesson-reveal hidden');
   reveal.classList.add('lesson-reveal--incorrect');
@@ -400,10 +370,10 @@ function renderPictureMatch(
       }),
     );
   }
-  body.appendChild(reveal);
+  panel.appendChild(reveal);
 
-  const optionsGrid = el('div', 'picture-options');
-  body.appendChild(optionsGrid);
+  layout.appendChild(panel);
+  body.appendChild(layout);
 
   const actionsRow = el('div', 'lesson-footer-actions');
   if (options.canGoBack) {
@@ -455,8 +425,7 @@ function renderPictureMatch(
     nextBtn.classList.remove('hidden');
   }
 
-  for (let i = 0; i < exercise.options.length; i++) {
-    const label = exercise.options[i]!;
+  for (const label of exercise.options) {
     const btn = el('button', 'picture-option', label);
     btn.type = 'button';
     btn.addEventListener('click', () => pickOption(label, btn));

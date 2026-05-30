@@ -1478,93 +1478,74 @@ body.study-active #app {
   height: 2.75rem;
 }
 
-/* ——— Picture section ——— */
+/* ——— Picture quiz ——— */
 
-.picture-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: clamp(0.65rem, 2vw, 0.85rem);
+.lesson-step--picture-match .lesson-step-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
+
+.picture-match-layout {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.85rem, 2.5vh, 1.25rem);
+  flex: 1;
+  min-height: 0;
   width: 100%;
 }
 
-.picture-card {
-  display: flex;
-  flex-direction: column;
-  gap: 0.45rem;
-  padding: 0.5rem;
-  background: rgba(255, 255, 255, 0.06);
-  border: var(--line-width) solid rgba(255, 255, 255, 0.35);
-}
-
-.picture-card-img {
-  display: block;
+.picture-match-visual {
+  flex-shrink: 0;
   width: 100%;
-  aspect-ratio: 1;
-  object-fit: cover;
-  background: #faf8ff;
-}
-
-.picture-card-text {
-  display: flex;
-  flex-direction: column;
-  gap: 0.15rem;
-  min-width: 0;
-}
-
-.picture-card-ru {
-  font-size: clamp(0.95rem, 2.1vh, 1.05rem);
-  font-weight: 700;
-  line-height: 1.2;
-}
-
-.picture-card-en {
-  font-size: clamp(0.78rem, 1.7vh, 0.88rem);
-  color: var(--muted);
-  line-height: 1.25;
-}
-
-.picture-card .lesson-icon-audio-btn {
-  align-self: flex-start;
-  width: 2.75rem;
-  height: 2.75rem;
 }
 
 .picture-match-frame {
-  width: min(100%, 20rem);
-  margin: 0 auto;
-  padding: 0.5rem;
-  background: rgba(255, 255, 255, 0.06);
+  width: 100%;
+  padding: 0.4rem;
+  background: rgba(255, 255, 255, 0.08);
   border: var(--line-width) solid rgba(255, 255, 255, 0.45);
 }
 
 .picture-match-img {
   display: block;
   width: 100%;
-  aspect-ratio: 1;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
-  background: #faf8ff;
+  background: #f3f0fa;
 }
 
-.lesson-step--picture-match .picture-match-frame {
-  margin: 0;
+.picture-match-credit {
+  margin-top: 0.35rem;
+  font-size: clamp(0.62rem, 1.4vh, 0.72rem);
+  line-height: 1.35;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.picture-match-panel {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.5rem, 1.5vh, 0.75rem);
+  flex: 1;
+  min-height: 0;
 }
 
 .picture-options {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.55rem;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
   width: 100%;
-  margin-top: clamp(0.75rem, 2vh, 1rem);
 }
 
 .picture-option {
-  min-height: 3.1rem;
-  padding: 0.65rem 0.75rem;
+  min-height: 3.25rem;
+  padding: 0.75rem 0.85rem;
   font-family: inherit;
-  font-size: clamp(0.92rem, 2vh, 1.02rem);
+  font-size: clamp(0.95rem, 2.1vh, 1.05rem);
   font-weight: 700;
-  line-height: 1.2;
-  text-align: center;
+  line-height: 1.25;
+  text-align: left;
   color: var(--fg);
   background: transparent;
   border: var(--line-width) solid rgba(255, 255, 255, 0.55);
@@ -1595,6 +1576,10 @@ body.study-active #app {
 
 .picture-options.is-resolved .picture-option:not(.is-correct):not(.is-incorrect) {
   opacity: 0.45;
+}
+
+.lesson-step--picture-match .lesson-reveal {
+  margin-top: 0;
 }
 
 .lesson-secondary-btn {
@@ -2448,10 +2433,6 @@ body.study-active #app {
     grid-template-columns: 1fr;
   }
 
-  .picture-grid {
-    grid-template-columns: 1fr;
-  }
-
   .plan-row {
     grid-template-columns: auto 1fr;
   }
@@ -2475,7 +2456,8 @@ body.study-active #app {
   }
 
   .lesson-step--vocab,
-  .lesson-step--flashcards {
+  .lesson-step--flashcards,
+  .lesson-step--pictures {
     max-width: 100%;
   }
 
@@ -2506,13 +2488,15 @@ body.study-active #app {
     gap: 0.85rem;
   }
 
-  .picture-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0.85rem;
+  .picture-match-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+    gap: clamp(1rem, 2.5vw, 1.5rem);
+    align-items: start;
   }
 
-  .picture-match-frame {
-    width: min(100%, 22rem);
+  .picture-match-panel {
+    justify-content: center;
   }
 
   .flashcard-compact {
@@ -2591,17 +2575,25 @@ body.study-active #app {
     gap: 1rem;
   }
 
-  .picture-grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 1rem;
+  .picture-match-layout {
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+    gap: clamp(1.25rem, 3vw, 2rem);
+    align-items: center;
   }
 
-  .picture-match-frame {
-    width: min(100%, 24rem);
+  .picture-match-img {
+    aspect-ratio: 1;
+    max-height: min(22rem, 52vh);
   }
 
   .picture-options {
-    max-width: 36rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.65rem;
+  }
+
+  .picture-option {
+    min-height: 3.5rem;
+    text-align: center;
   }
 
   .flashcard-compact .flashcard-face {

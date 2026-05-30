@@ -8,7 +8,8 @@
       "ru": "город",
       "en": "city",
       "audio": "/audio/day10/город.mp3",
-      "image": "/images/vocab/d10-w01.svg",
+      "image": "/images/vocab/d10-w01.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Москва — большой город.",
@@ -25,7 +26,8 @@
       "ru": "улица",
       "en": "street",
       "audio": "/audio/day10/улица.mp3",
-      "image": "/images/vocab/d10-w02.svg",
+      "image": "/images/vocab/d10-w02.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Улица широкая.",
@@ -42,7 +44,8 @@
       "ru": "магазин",
       "en": "store",
       "audio": "/audio/day10/магазин.mp3",
-      "image": "/images/vocab/d10-w03.svg",
+      "image": "/images/vocab/d10-w03.jpg",
+      "imageCredit": "[1] [2] [3] (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Магазин открыт.",
@@ -59,7 +62,8 @@
       "ru": "больница",
       "en": "hospital",
       "audio": "/audio/day10/больница.mp3",
-      "image": "/images/vocab/d10-w04.svg",
+      "image": "/images/vocab/d10-w04.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Больница рядом.",
@@ -76,7 +80,8 @@
       "ru": "школа",
       "en": "school",
       "audio": "/audio/day10/школа.mp3",
-      "image": "/images/vocab/d10-w05.svg",
+      "image": "/images/vocab/d10-w05.jpg",
+      "imageCredit": "Own work (CC BY 2.5 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Школа на углу.",
@@ -93,7 +98,8 @@
       "ru": "парк",
       "en": "park",
       "audio": "/audio/day10/парк.mp3",
-      "image": "/images/vocab/d10-w06.svg",
+      "image": "/images/vocab/d10-w06.jpg",
+      "imageCredit": "Own work (Original text: self-made) (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "В парке гуляют.",
@@ -110,7 +116,8 @@
       "ru": "музей",
       "en": "museum",
       "audio": "/audio/day10/музей.mp3",
-      "image": "/images/vocab/d10-w07.svg",
+      "image": "/images/vocab/d10-w07.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Музей закрыт по понедельникам.",
@@ -127,7 +134,8 @@
       "ru": "театр",
       "en": "theater",
       "audio": "/audio/day10/театр.mp3",
-      "image": "/images/vocab/d10-w08.svg",
+      "image": "/images/vocab/d10-w08.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Театр в центре.",
@@ -144,7 +152,8 @@
       "ru": "станция",
       "en": "station",
       "audio": "/audio/day10/станция.mp3",
-      "image": "/images/vocab/d10-w09.svg",
+      "image": "/images/vocab/d10-w09.jpg",
+      "imageCredit": "Own work by mattbuck. (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Станция метро близко.",
@@ -161,7 +170,8 @@
       "ru": "площадь",
       "en": "square",
       "audio": "/audio/day10/площадь.mp3",
-      "image": "/images/vocab/d10-w10.svg",
+      "image": "/images/vocab/d10-w10.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Красная площадь в Москве.",
@@ -189,12 +199,12 @@
         "город"
       ],
       "pool": [
-        "большой",
-        "магазин",
+        "школа",
         "Москва",
-        "станция",
+        "магазин",
+        "большой",
         "город",
-        "музей"
+        "парк"
       ]
     },
     {
@@ -212,13 +222,13 @@
         "людей"
       ],
       "pool": [
-        "городе",
+        "станция",
         "много",
+        "В",
         "парк",
-        "больница",
+        "музей",
         "людей",
-        "театр",
-        "В"
+        "городе"
       ]
     },
     {
@@ -234,11 +244,11 @@
         "широкая"
       ],
       "pool": [
-        "станция",
         "город",
-        "Улица",
+        "музей",
+        "станция",
         "широкая",
-        "магазин"
+        "Улица"
       ]
     },
     {
@@ -256,13 +266,13 @@
         "магазин"
       ],
       "pool": [
-        "музей",
-        "улице",
-        "магазин",
         "На",
-        "город",
-        "этой",
-        "театр"
+        "магазин",
+        "площадь",
+        "улице",
+        "школа",
+        "магазин",
+        "этой"
       ]
     },
     {
@@ -278,11 +288,11 @@
         "открыт"
       ],
       "pool": [
-        "парк",
+        "площадь",
+        "Магазин",
         "улица",
-        "больница",
-        "открыт",
-        "Магазин"
+        "музей",
+        "открыт"
       ]
     },
     {
@@ -299,12 +309,12 @@
         "магазин"
       ],
       "pool": [
-        "улица",
-        "в",
-        "больница",
+        "парк",
         "магазин",
-        "площадь",
-        "Иду"
+        "в",
+        "музей",
+        "Иду",
+        "площадь"
       ]
     },
     {
@@ -320,11 +330,11 @@
         "рядом"
       ],
       "pool": [
-        "школа",
-        "театр",
+        "рядом",
+        "город",
+        "улица",
         "Больница",
-        "магазин",
-        "рядом"
+        "станция"
       ]
     },
     {
@@ -342,13 +352,13 @@
         "больнице"
       ],
       "pool": [
-        "музей",
         "работает",
-        "больнице",
         "Он",
+        "больнице",
         "в",
-        "станция",
-        "магазин"
+        "магазин",
+        "площадь",
+        "музей"
       ]
     },
     {
@@ -365,12 +375,12 @@
         "углу"
       ],
       "pool": [
-        "театр",
+        "музей",
         "на",
+        "Школа",
+        "станция",
         "парк",
-        "углу",
-        "город",
-        "Школа"
+        "углу"
       ]
     },
     {
@@ -387,12 +397,12 @@
         "школе"
       ],
       "pool": [
+        "город",
         "в",
-        "школе",
         "Дети",
-        "площадь",
-        "станция",
-        "больница"
+        "магазин",
+        "музей",
+        "школе"
       ]
     },
     {
@@ -409,12 +419,12 @@
         "гуляют"
       ],
       "pool": [
-        "парке",
-        "станция",
-        "школа",
+        "площадь",
+        "магазин",
         "гуляют",
         "В",
-        "город"
+        "парке",
+        "школа"
       ]
     },
     {
@@ -431,10 +441,10 @@
       ],
       "pool": [
         "Красивый",
-        "больница",
-        "улица",
-        "музей",
-        "парк"
+        "магазин",
+        "площадь",
+        "парк",
+        "школа"
       ]
     },
     {
@@ -452,13 +462,13 @@
         "понедельникам"
       ],
       "pool": [
-        "школа",
-        "Музей",
-        "парк",
         "закрыт",
-        "город",
+        "улица",
+        "Музей",
         "понедельникам",
-        "по"
+        "театр",
+        "по",
+        "магазин"
       ]
     },
     {
@@ -475,12 +485,12 @@
         "музей"
       ],
       "pool": [
-        "в",
-        "город",
-        "театр",
-        "парк",
+        "улица",
+        "школа",
+        "больница",
         "Идём",
-        "музей"
+        "музей",
+        "в"
       ]
     },
     {
@@ -497,12 +507,12 @@
         "центре"
       ],
       "pool": [
-        "Театр",
-        "в",
+        "больница",
         "центре",
-        "улица",
-        "город",
-        "больница"
+        "музей",
+        "парк",
+        "Театр",
+        "в"
       ]
     },
     {
@@ -520,13 +530,13 @@
         "вчера"
       ],
       "pool": [
-        "вчера",
         "улица",
-        "в",
         "Был",
         "больница",
         "театре",
-        "парк"
+        "площадь",
+        "в",
+        "вчера"
       ]
     },
     {
@@ -544,11 +554,11 @@
       ],
       "pool": [
         "метро",
-        "Станция",
-        "магазин",
+        "город",
+        "улица",
         "музей",
-        "близко",
-        "больница"
+        "Станция",
+        "близко"
       ]
     },
     {
@@ -565,11 +575,11 @@
         "станции"
       ],
       "pool": [
-        "музей",
-        "станции",
         "на",
-        "город",
-        "школа",
+        "станции",
+        "театр",
+        "площадь",
+        "больница",
         "Жду"
       ]
     },
@@ -588,13 +598,13 @@
         "Москве"
       ],
       "pool": [
-        "площадь",
-        "музей",
-        "Красная",
-        "школа",
-        "Москве",
+        "парк",
+        "магазин",
         "город",
-        "в"
+        "в",
+        "Красная",
+        "площадь",
+        "Москве"
       ]
     },
     {
@@ -611,12 +621,12 @@
         "народ"
       ],
       "pool": [
-        "народ",
         "На",
         "площади",
-        "парк",
         "музей",
-        "город"
+        "театр",
+        "народ",
+        "школа"
       ]
     },
     {
@@ -624,54 +634,54 @@
       "type": "pictureMatch",
       "wordId": "d10-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d10-w01.svg",
+      "image": "/images/vocab/d10-w01.jpg",
       "options": [
-        "больница",
-        "музей",
-        "город",
-        "станция"
+        "улица",
+        "театр",
+        "площадь",
+        "город"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "d10-pic-02",
       "type": "pictureMatch",
       "wordId": "d10-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d10-w02.svg",
+      "image": "/images/vocab/d10-w02.jpg",
       "options": [
-        "магазин",
-        "школа",
-        "улица",
-        "станция"
+        "парк",
+        "станция",
+        "город",
+        "улица"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "d10-pic-03",
       "type": "pictureMatch",
       "wordId": "d10-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d10-w03.svg",
+      "image": "/images/vocab/d10-w03.jpg",
       "options": [
+        "улица",
         "магазин",
-        "больница",
-        "музей",
-        "станция"
+        "театр",
+        "больница"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d10-pic-04",
       "type": "pictureMatch",
       "wordId": "d10-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d10-w04.svg",
+      "image": "/images/vocab/d10-w04.jpg",
       "options": [
-        "парк",
+        "магазин",
         "больница",
-        "музей",
-        "магазин"
+        "парк",
+        "площадь"
       ],
       "correctIndex": 1
     },
@@ -680,84 +690,84 @@
       "type": "pictureMatch",
       "wordId": "d10-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d10-w05.svg",
+      "image": "/images/vocab/d10-w05.jpg",
       "options": [
-        "музей",
-        "магазин",
+        "больница",
+        "школа",
         "станция",
-        "школа"
+        "парк"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "d10-pic-06",
       "type": "pictureMatch",
       "wordId": "d10-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d10-w06.svg",
+      "image": "/images/vocab/d10-w06.jpg",
       "options": [
-        "парк",
-        "больница",
-        "площадь",
-        "школа"
+        "город",
+        "театр",
+        "школа",
+        "парк"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "d10-pic-07",
       "type": "pictureMatch",
       "wordId": "d10-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d10-w07.svg",
+      "image": "/images/vocab/d10-w07.jpg",
       "options": [
         "площадь",
-        "станция",
-        "больница",
-        "музей"
+        "музей",
+        "город",
+        "театр"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "d10-pic-08",
       "type": "pictureMatch",
       "wordId": "d10-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d10-w08.svg",
+      "image": "/images/vocab/d10-w08.jpg",
       "options": [
+        "улица",
+        "город",
         "площадь",
-        "театр",
-        "музей",
-        "магазин"
+        "театр"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "d10-pic-09",
       "type": "pictureMatch",
       "wordId": "d10-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d10-w09.svg",
+      "image": "/images/vocab/d10-w09.jpg",
       "options": [
-        "станция",
         "театр",
-        "музей",
-        "улица"
+        "улица",
+        "город",
+        "станция"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "d10-pic-10",
       "type": "pictureMatch",
       "wordId": "d10-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d10-w10.svg",
+      "image": "/images/vocab/d10-w10.jpg",
       "options": [
+        "больница",
         "магазин",
-        "площадь",
-        "музей",
-        "больница"
+        "город",
+        "площадь"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     }
   ]
 }

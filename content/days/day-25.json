@@ -8,7 +8,8 @@
       "ru": "уборка",
       "en": "cleaning",
       "audio": "/audio/day25/уборка.mp3",
-      "image": "/images/vocab/d25-w01.svg",
+      "image": "/images/vocab/d25-w01.jpg",
+      "imageCredit": "Own work (CC BY 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Делаю уборку.",
@@ -25,7 +26,8 @@
       "ru": "стирка",
       "en": "laundry",
       "audio": "/audio/day25/стирка.mp3",
-      "image": "/images/vocab/d25-w02.svg",
+      "image": "/images/vocab/d25-w02.jpg",
+      "imageCredit": "https://www.flickr.com/photos/malias/87819424/ (CC BY 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Стирка готова.",
@@ -42,7 +44,8 @@
       "ru": "готовить",
       "en": "to cook / prepare",
       "audio": "/audio/day25/готовить.mp3",
-      "image": "/images/vocab/d25-w03.svg",
+      "image": "/images/vocab/d25-w03.jpg",
+      "imageCredit": "Own work (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Готовлю обед.",
@@ -59,7 +62,8 @@
       "ru": "мыть",
       "en": "to wash",
       "audio": "/audio/day25/мыть.mp3",
-      "image": "/images/vocab/d25-w04.svg",
+      "image": "/images/vocab/d25-w04.jpg",
+      "imageCredit": "Own work 📱 This photograph was taken with a Xiaomi Redmi Note 9 Pro. (CC BY 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Мою посуду.",
@@ -76,7 +80,8 @@
       "ru": "убирать",
       "en": "to clean / tidy",
       "audio": "/audio/day25/убирать.mp3",
-      "image": "/images/vocab/d25-w05.svg",
+      "image": "/images/vocab/d25-w05.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Убираю комнату.",
@@ -93,7 +98,8 @@
       "ru": "стирать",
       "en": "to do laundry",
       "audio": "/audio/day25/стирать.mp3",
-      "image": "/images/vocab/d25-w06.svg",
+      "image": "/images/vocab/d25-w06.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Стираю бельё.",
@@ -110,7 +116,8 @@
       "ru": "гладить",
       "en": "to iron",
       "audio": "/audio/day25/гладить.mp3",
-      "image": "/images/vocab/d25-w07.svg",
+      "image": "/images/vocab/d25-w07.png",
+      "imageCredit": "Own work (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Глажу рубашку.",
@@ -127,7 +134,8 @@
       "ru": "пылесос",
       "en": "vacuum cleaner",
       "audio": "/audio/day25/пылесос.mp3",
-      "image": "/images/vocab/d25-w08.svg",
+      "image": "/images/vocab/d25-w08.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Включи пылесос.",
@@ -144,7 +152,8 @@
       "ru": "мусор",
       "en": "trash / garbage",
       "audio": "/audio/day25/мусор.mp3",
-      "image": "/images/vocab/d25-w09.svg",
+      "image": "/images/vocab/d25-w09.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Вынеси мусор.",
@@ -161,7 +170,8 @@
       "ru": "просыпаться",
       "en": "to wake up",
       "audio": "/audio/day25/просыпаться.mp3",
-      "image": "/images/vocab/d25-w10.svg",
+      "image": "/images/vocab/d25-w10.jpg",
+      "imageCredit": "Wake Up (CC BY 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Просыпаюсь в семь.",
@@ -188,11 +198,11 @@
         "уборку"
       ],
       "pool": [
-        "стирка",
+        "Делаю",
         "уборку",
-        "мусор",
         "стирать",
-        "Делаю"
+        "просыпаться",
+        "стирка"
       ]
     },
     {
@@ -209,8 +219,8 @@
       ],
       "pool": [
         "Генеральная",
-        "пылесос",
-        "стирать",
+        "готовить",
+        "мусор",
         "просыпаться",
         "уборка"
       ]
@@ -228,11 +238,11 @@
         "готова"
       ],
       "pool": [
-        "готова",
-        "Стирка",
-        "просыпаться",
+        "пылесос",
         "гладить",
-        "мусор"
+        "Стирка",
+        "мыть",
+        "готова"
       ]
     },
     {
@@ -249,12 +259,12 @@
         "стирки"
       ],
       "pool": [
+        "убирать",
+        "для",
         "стирки",
-        "уборка",
         "Машина",
         "мусор",
-        "мыть",
-        "для"
+        "стирать"
       ]
     },
     {
@@ -271,10 +281,10 @@
       ],
       "pool": [
         "мусор",
-        "обед",
-        "уборка",
+        "убирать",
         "Готовлю",
-        "пылесос"
+        "обед",
+        "стирать"
       ]
     },
     {
@@ -290,11 +300,11 @@
         "готовить"
       ],
       "pool": [
-        "мыть",
-        "просыпаться",
-        "готовить",
         "Люблю",
-        "убирать"
+        "готовить",
+        "пылесос",
+        "уборка",
+        "стирка"
       ]
     },
     {
@@ -310,11 +320,11 @@
         "посуду"
       ],
       "pool": [
+        "мусор",
         "Мою",
-        "готовить",
-        "просыпаться",
-        "уборка",
-        "посуду"
+        "посуду",
+        "пылесос",
+        "стирать"
       ]
     },
     {
@@ -330,11 +340,11 @@
         "руки"
       ],
       "pool": [
-        "мусор",
         "Мой",
         "готовить",
-        "просыпаться",
-        "руки"
+        "руки",
+        "мусор",
+        "гладить"
       ]
     },
     {
@@ -350,11 +360,11 @@
         "комнату"
       ],
       "pool": [
-        "стирать",
-        "комнату",
-        "гладить",
+        "мусор",
+        "уборка",
+        "мыть",
         "Убираю",
-        "мыть"
+        "комнату"
       ]
     },
     {
@@ -370,11 +380,11 @@
         "убрать"
       ],
       "pool": [
-        "стирать",
+        "пылесос",
         "Надо",
         "убрать",
-        "гладить",
-        "мусор"
+        "мыть",
+        "гладить"
       ]
     },
     {
@@ -390,11 +400,11 @@
         "бельё"
       ],
       "pool": [
+        "гладить",
         "Стираю",
         "уборка",
-        "бельё",
-        "мусор",
-        "гладить"
+        "убирать",
+        "бельё"
       ]
     },
     {
@@ -411,12 +421,12 @@
         "неделю"
       ],
       "pool": [
-        "уборка",
+        "мусор",
+        "стирка",
         "Стираю",
-        "неделю",
         "каждую",
-        "пылесос",
-        "просыпаться"
+        "убирать",
+        "неделю"
       ]
     },
     {
@@ -432,11 +442,11 @@
         "рубашку"
       ],
       "pool": [
-        "мусор",
         "уборка",
         "рубашку",
-        "Глажу",
-        "готовить"
+        "просыпаться",
+        "пылесос",
+        "Глажу"
       ]
     },
     {
@@ -452,11 +462,11 @@
         "гладить"
       ],
       "pool": [
-        "гладить",
-        "убирать",
         "уборка",
+        "просыпаться",
+        "гладить",
         "Ненавижу",
-        "мыть"
+        "мусор"
       ]
     },
     {
@@ -472,11 +482,11 @@
         "пылесос"
       ],
       "pool": [
-        "убирать",
-        "Включи",
-        "стирать",
+        "просыпаться",
         "пылесос",
-        "готовить"
+        "стирать",
+        "Включи",
+        "стирка"
       ]
     },
     {
@@ -493,10 +503,10 @@
       ],
       "pool": [
         "мусор",
-        "пылесос",
+        "уборка",
+        "стирка",
         "Новый",
-        "просыпаться",
-        "стирка"
+        "пылесос"
       ]
     },
     {
@@ -512,11 +522,11 @@
         "мусор"
       ],
       "pool": [
+        "мусор",
         "Вынеси",
-        "мыть",
-        "пылесос",
         "гладить",
-        "мусор"
+        "пылесос",
+        "стирать"
       ]
     },
     {
@@ -534,9 +544,9 @@
       "pool": [
         "Мусорное",
         "ведро",
-        "готовить",
-        "стирка",
-        "стирать"
+        "стирать",
+        "убирать",
+        "просыпаться"
       ]
     },
     {
@@ -553,12 +563,12 @@
         "семь"
       ],
       "pool": [
-        "в",
+        "мыть",
         "стирка",
-        "семь",
         "мусор",
-        "гладить",
-        "Просыпаюсь"
+        "в",
+        "Просыпаюсь",
+        "семь"
       ]
     },
     {
@@ -574,11 +584,11 @@
         "просыпаться"
       ],
       "pool": [
-        "готовить",
-        "Трудно",
+        "уборка",
         "стирать",
         "просыпаться",
-        "уборка"
+        "стирка",
+        "Трудно"
       ]
     },
     {
@@ -586,40 +596,40 @@
       "type": "pictureMatch",
       "wordId": "d25-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d25-w01.svg",
+      "image": "/images/vocab/d25-w01.jpg",
       "options": [
-        "просыпаться",
+        "уборка",
         "мусор",
-        "убирать",
-        "уборка"
+        "просыпаться",
+        "стирка"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "d25-pic-02",
       "type": "pictureMatch",
       "wordId": "d25-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d25-w02.svg",
+      "image": "/images/vocab/d25-w02.jpg",
       "options": [
-        "мыть",
         "стирка",
-        "уборка",
-        "убирать"
+        "стирать",
+        "пылесос",
+        "мусор"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "d25-pic-03",
       "type": "pictureMatch",
       "wordId": "d25-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d25-w03.svg",
+      "image": "/images/vocab/d25-w03.jpg",
       "options": [
         "готовить",
-        "уборка",
-        "стирка",
-        "убирать"
+        "убирать",
+        "пылесос",
+        "мыть"
       ],
       "correctIndex": 0
     },
@@ -628,12 +638,12 @@
       "type": "pictureMatch",
       "wordId": "d25-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d25-w04.svg",
+      "image": "/images/vocab/d25-w04.jpg",
       "options": [
-        "стирка",
-        "уборка",
+        "просыпаться",
+        "убирать",
         "мыть",
-        "стирать"
+        "гладить"
       ],
       "correctIndex": 2
     },
@@ -642,12 +652,12 @@
       "type": "pictureMatch",
       "wordId": "d25-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d25-w05.svg",
+      "image": "/images/vocab/d25-w05.jpg",
       "options": [
         "убирать",
         "стирка",
-        "мусор",
-        "стирать"
+        "просыпаться",
+        "гладить"
       ],
       "correctIndex": 0
     },
@@ -656,26 +666,26 @@
       "type": "pictureMatch",
       "wordId": "d25-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d25-w06.svg",
+      "image": "/images/vocab/d25-w06.jpg",
       "options": [
-        "готовить",
-        "гладить",
-        "пылесос",
-        "стирать"
+        "убирать",
+        "стирать",
+        "просыпаться",
+        "гладить"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "d25-pic-07",
       "type": "pictureMatch",
       "wordId": "d25-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d25-w07.svg",
+      "image": "/images/vocab/d25-w07.png",
       "options": [
         "гладить",
-        "стирать",
-        "убирать",
-        "пылесос"
+        "уборка",
+        "пылесос",
+        "мусор"
       ],
       "correctIndex": 0
     },
@@ -684,42 +694,42 @@
       "type": "pictureMatch",
       "wordId": "d25-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d25-w08.svg",
+      "image": "/images/vocab/d25-w08.jpg",
       "options": [
-        "стирка",
-        "мыть",
+        "пылесос",
         "мусор",
-        "пылесос"
+        "гладить",
+        "стирать"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "d25-pic-09",
       "type": "pictureMatch",
       "wordId": "d25-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d25-w09.svg",
+      "image": "/images/vocab/d25-w09.jpg",
       "options": [
         "пылесос",
-        "просыпаться",
         "мусор",
-        "убирать"
+        "уборка",
+        "готовить"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "d25-pic-10",
       "type": "pictureMatch",
       "wordId": "d25-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d25-w10.svg",
+      "image": "/images/vocab/d25-w10.jpg",
       "options": [
-        "гладить",
-        "просыпаться",
-        "мыть",
-        "готовить"
+        "уборка",
+        "стирка",
+        "пылесос",
+        "просыпаться"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     }
   ]
 }

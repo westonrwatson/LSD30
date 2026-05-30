@@ -8,7 +8,8 @@
       "ru": "дом",
       "en": "house / home",
       "audio": "/audio/day09/дом.mp3",
-      "image": "/images/vocab/d09-w01.svg",
+      "image": "/images/vocab/d09-w01.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Я дома.",
@@ -25,7 +26,8 @@
       "ru": "комната",
       "en": "room",
       "audio": "/audio/day09/комната.mp3",
-      "image": "/images/vocab/d09-w02.svg",
+      "image": "/images/vocab/d09-w02.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Комната светлая.",
@@ -42,7 +44,8 @@
       "ru": "кухня",
       "en": "kitchen",
       "audio": "/audio/day09/кухня.mp3",
-      "image": "/images/vocab/d09-w03.svg",
+      "image": "/images/vocab/d09-w03.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "На кухне готовят.",
@@ -59,7 +62,8 @@
       "ru": "спальня",
       "en": "bedroom",
       "audio": "/audio/day09/спальня.mp3",
-      "image": "/images/vocab/d09-w04.svg",
+      "image": "/images/vocab/d09-w04.jpg",
+      "imageCredit": "https://www.geograph.org.uk/photo/3646926 (CC BY-SA 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Спальня на втором этаже.",
@@ -76,7 +80,8 @@
       "ru": "ванная",
       "en": "bathroom",
       "audio": "/audio/day09/ванная.mp3",
-      "image": "/images/vocab/d09-w05.svg",
+      "image": "/images/vocab/d09-w05.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Ванная комната чистая.",
@@ -93,7 +98,8 @@
       "ru": "окно",
       "en": "window",
       "audio": "/audio/day09/окно.mp3",
-      "image": "/images/vocab/d09-w06.svg",
+      "image": "/images/vocab/d09-w06.jpg",
+      "imageCredit": "43 Home House (CC BY 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Окно открыто.",
@@ -110,7 +116,8 @@
       "ru": "дверь",
       "en": "door",
       "audio": "/audio/day09/дверь.mp3",
-      "image": "/images/vocab/d09-w07.svg",
+      "image": "/images/vocab/d09-w07.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Дверь закрыта.",
@@ -127,7 +134,8 @@
       "ru": "кровать",
       "en": "bed",
       "audio": "/audio/day09/кровать.mp3",
-      "image": "/images/vocab/d09-w08.svg",
+      "image": "/images/vocab/d09-w08.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Кровать у стены.",
@@ -144,7 +152,8 @@
       "ru": "диван",
       "en": "sofa",
       "audio": "/audio/day09/диван.mp3",
-      "image": "/images/vocab/d09-w09.svg",
+      "image": "/images/vocab/d09-w09.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Диван в гостиной.",
@@ -161,7 +170,8 @@
       "ru": "стена",
       "en": "wall",
       "audio": "/audio/day09/стена.mp3",
-      "image": "/images/vocab/d09-w10.svg",
+      "image": "/images/vocab/d09-w10.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "На стене картина.",
@@ -188,10 +198,10 @@
         "дома"
       ],
       "pool": [
+        "дверь",
+        "спальня",
+        "комната",
         "Я",
-        "стена",
-        "окно",
-        "диван",
         "дома"
       ]
     },
@@ -210,13 +220,13 @@
         "деревне"
       ],
       "pool": [
-        "деревне",
+        "ванная",
+        "кухня",
         "Большой",
         "в",
-        "ванная",
-        "комната",
         "дом",
-        "дверь"
+        "деревне",
+        "кровать"
       ]
     },
     {
@@ -232,11 +242,11 @@
         "светлая"
       ],
       "pool": [
-        "диван",
-        "спальня",
-        "светлая",
         "Комната",
-        "кровать"
+        "спальня",
+        "диван",
+        "дверь",
+        "светлая"
       ]
     },
     {
@@ -253,12 +263,12 @@
         "кровать"
       ],
       "pool": [
-        "стена",
-        "дверь",
+        "диван",
+        "спальня",
         "кровать",
         "В",
         "комнате",
-        "ванная"
+        "окно"
       ]
     },
     {
@@ -276,10 +286,10 @@
       ],
       "pool": [
         "кухне",
-        "окно",
-        "На",
+        "ванная",
         "готовят",
-        "спальня",
+        "комната",
+        "На",
         "кровать"
       ]
     },
@@ -296,11 +306,11 @@
         "маленькая"
       ],
       "pool": [
-        "маленькая",
-        "ванная",
-        "окно",
+        "Кухня",
         "стена",
-        "Кухня"
+        "окно",
+        "диван",
+        "маленькая"
       ]
     },
     {
@@ -318,13 +328,13 @@
         "этаже"
       ],
       "pool": [
-        "кровать",
-        "втором",
-        "стена",
-        "этаже",
-        "ванная",
+        "дом",
+        "на",
         "Спальня",
-        "на"
+        "втором",
+        "кухня",
+        "этаже",
+        "ванная"
       ]
     },
     {
@@ -341,12 +351,12 @@
         "тихо"
       ],
       "pool": [
-        "В",
-        "спальне",
+        "ванная",
         "тихо",
-        "диван",
-        "кровать",
-        "дом"
+        "стена",
+        "дверь",
+        "В",
+        "спальне"
       ]
     },
     {
@@ -363,12 +373,12 @@
         "чистая"
       ],
       "pool": [
-        "чистая",
-        "кровать",
-        "окно",
         "дом",
-        "комната",
-        "Ванная"
+        "чистая",
+        "Ванная",
+        "спальня",
+        "окно",
+        "комната"
       ]
     },
     {
@@ -385,9 +395,9 @@
       ],
       "pool": [
         "Где",
+        "спальня",
         "окно",
-        "кухня",
-        "кровать",
+        "диван",
         "ванная"
       ]
     },
@@ -404,11 +414,11 @@
         "открыто"
       ],
       "pool": [
-        "стена",
-        "диван",
+        "дом",
+        "комната",
         "Окно",
-        "открыто",
-        "спальня"
+        "ванная",
+        "открыто"
       ]
     },
     {
@@ -425,12 +435,12 @@
         "стол"
       ],
       "pool": [
-        "У",
-        "стена",
-        "ванная",
+        "дом",
+        "спальня",
+        "комната",
         "окна",
         "стол",
-        "комната"
+        "У"
       ]
     },
     {
@@ -446,11 +456,11 @@
         "закрыта"
       ],
       "pool": [
-        "кровать",
-        "кухня",
-        "закрыта",
+        "диван",
         "Дверь",
-        "стена"
+        "стена",
+        "дом",
+        "закрыта"
       ]
     },
     {
@@ -466,11 +476,11 @@
         "дверь"
       ],
       "pool": [
-        "Открой",
-        "стена",
-        "дверь",
         "комната",
-        "дом"
+        "дверь",
+        "Открой",
+        "кухня",
+        "спальня"
       ]
     },
     {
@@ -487,12 +497,12 @@
         "стены"
       ],
       "pool": [
-        "дверь",
-        "комната",
-        "дом",
         "Кровать",
+        "стены",
+        "спальня",
+        "кухня",
         "у",
-        "стены"
+        "окно"
       ]
     },
     {
@@ -508,11 +518,11 @@
         "кровать"
       ],
       "pool": [
-        "дом",
-        "Удобная",
-        "кровать",
         "ванная",
-        "дверь"
+        "кровать",
+        "Удобная",
+        "диван",
+        "стена"
       ]
     },
     {
@@ -529,12 +539,12 @@
         "гостиной"
       ],
       "pool": [
-        "спальня",
-        "гостиной",
-        "ванная",
+        "стена",
+        "дверь",
         "Диван",
-        "в",
-        "дверь"
+        "комната",
+        "гостиной",
+        "в"
       ]
     },
     {
@@ -551,11 +561,11 @@
         "диван"
       ],
       "pool": [
-        "окно",
-        "Садись",
-        "на",
+        "стена",
         "диван",
-        "спальня",
+        "Садись",
+        "окно",
+        "на",
         "кровать"
       ]
     },
@@ -574,11 +584,11 @@
       ],
       "pool": [
         "диван",
-        "На",
         "картина",
+        "кровать",
         "стене",
-        "спальня",
-        "дом"
+        "кухня",
+        "На"
       ]
     },
     {
@@ -594,11 +604,11 @@
         "стена"
       ],
       "pool": [
-        "спальня",
-        "Белая",
+        "комната",
+        "кухня",
         "стена",
-        "дом",
-        "кровать"
+        "спальня",
+        "Белая"
       ]
     },
     {
@@ -606,26 +616,26 @@
       "type": "pictureMatch",
       "wordId": "d09-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d09-w01.svg",
+      "image": "/images/vocab/d09-w01.jpg",
       "options": [
+        "диван",
         "дом",
-        "комната",
-        "кровать",
-        "ванная"
+        "кухня",
+        "стена"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d09-pic-02",
       "type": "pictureMatch",
       "wordId": "d09-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d09-w02.svg",
+      "image": "/images/vocab/d09-w02.jpg",
       "options": [
-        "кровать",
-        "комната",
         "окно",
-        "спальня"
+        "комната",
+        "ванная",
+        "стена"
       ],
       "correctIndex": 1
     },
@@ -634,82 +644,82 @@
       "type": "pictureMatch",
       "wordId": "d09-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d09-w03.svg",
+      "image": "/images/vocab/d09-w03.jpg",
       "options": [
-        "стена",
-        "ванная",
-        "спальня",
-        "кухня"
+        "комната",
+        "кухня",
+        "кровать",
+        "стена"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "d09-pic-04",
       "type": "pictureMatch",
       "wordId": "d09-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d09-w04.svg",
+      "image": "/images/vocab/d09-w04.jpg",
       "options": [
-        "окно",
-        "дверь",
+        "спальня",
         "кровать",
-        "спальня"
+        "дом",
+        "диван"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "d09-pic-05",
       "type": "pictureMatch",
       "wordId": "d09-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d09-w05.svg",
+      "image": "/images/vocab/d09-w05.jpg",
       "options": [
-        "спальня",
         "комната",
         "диван",
-        "ванная"
+        "ванная",
+        "дверь"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "d09-pic-06",
       "type": "pictureMatch",
       "wordId": "d09-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d09-w06.svg",
+      "image": "/images/vocab/d09-w06.jpg",
       "options": [
-        "окно",
-        "ванная",
-        "комната",
-        "кухня"
+        "кухня",
+        "дом",
+        "спальня",
+        "окно"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "d09-pic-07",
       "type": "pictureMatch",
       "wordId": "d09-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d09-w07.svg",
+      "image": "/images/vocab/d09-w07.jpg",
       "options": [
-        "кровать",
-        "дом",
+        "спальня",
         "дверь",
-        "окно"
+        "кровать",
+        "кухня"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "d09-pic-08",
       "type": "pictureMatch",
       "wordId": "d09-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d09-w08.svg",
+      "image": "/images/vocab/d09-w08.jpg",
       "options": [
-        "ванная",
+        "комната",
         "кровать",
-        "кухня",
-        "спальня"
+        "дом",
+        "ванная"
       ],
       "correctIndex": 1
     },
@@ -718,25 +728,25 @@
       "type": "pictureMatch",
       "wordId": "d09-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d09-w09.svg",
+      "image": "/images/vocab/d09-w09.jpg",
       "options": [
-        "дверь",
         "кухня",
         "диван",
-        "ванная"
+        "комната",
+        "окно"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "d09-pic-10",
       "type": "pictureMatch",
       "wordId": "d09-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d09-w10.svg",
+      "image": "/images/vocab/d09-w10.jpg",
       "options": [
+        "дверь",
+        "дом",
         "кровать",
-        "комната",
-        "диван",
         "стена"
       ],
       "correctIndex": 3

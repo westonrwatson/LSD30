@@ -11,6 +11,7 @@ export type Word = {
   stress?: string;
   audio: string;
   image: string;
+  imageCredit?: string;
   sentences: Sentence[];
 };
 
@@ -79,10 +80,6 @@ export type WordOrderExercise = ExerciseBase & {
   pool: string[];
 };
 
-export type PictureGalleryExercise = ExerciseBase & {
-  type: 'pictureGallery';
-};
-
 export type PictureMatchExercise = ExerciseBase & {
   type: 'pictureMatch';
   image: string;
@@ -100,7 +97,6 @@ export type Exercise =
   | WordTableExercise
   | FlashcardDeckExercise
   | WordOrderExercise
-  | PictureGalleryExercise
   | PictureMatchExercise;
 
 export type DayPlan = {

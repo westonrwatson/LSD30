@@ -8,7 +8,8 @@
       "ru": "мама",
       "en": "mom",
       "audio": "/audio/day05/мама.mp3",
-      "image": "/images/vocab/d05-w01.svg",
+      "image": "/images/vocab/d05-w01.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Моя мама дома.",
@@ -25,7 +26,8 @@
       "ru": "папа",
       "en": "dad",
       "audio": "/audio/day05/папа.mp3",
-      "image": "/images/vocab/d05-w02.svg",
+      "image": "/images/vocab/d05-w02.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Мой папа на работе.",
@@ -42,7 +44,8 @@
       "ru": "брат",
       "en": "brother",
       "audio": "/audio/day05/брат.mp3",
-      "image": "/images/vocab/d05-w03.svg",
+      "image": "/images/vocab/d05-w03.jpg",
+      "imageCredit": "P Diddy (CC BY-SA 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "У меня один брат.",
@@ -59,7 +62,8 @@
       "ru": "сестра",
       "en": "sister",
       "audio": "/audio/day05/сестра.mp3",
-      "image": "/images/vocab/d05-w04.svg",
+      "image": "/images/vocab/d05-w04.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Моя сестра врач.",
@@ -76,7 +80,8 @@
       "ru": "сын",
       "en": "son",
       "audio": "/audio/day05/сын.mp3",
-      "image": "/images/vocab/d05-w05.svg",
+      "image": "/images/vocab/d05-w05.jpg",
+      "imageCredit": "This image is available from the United States Library of Congress's Prints and Photographs division under the digital ID npcc.17319.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing. (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Их сын учится в школе.",
@@ -93,7 +98,8 @@
       "ru": "дочь",
       "en": "daughter",
       "audio": "/audio/day05/дочь.mp3",
-      "image": "/images/vocab/d05-w06.svg",
+      "image": "/images/vocab/d05-w06.jpg",
+      "imageCredit": "Royal Collection RCIN 403412 (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Наша дочь музыкант.",
@@ -110,7 +116,8 @@
       "ru": "бабушка",
       "en": "grandmother",
       "audio": "/audio/day05/бабушка.mp3",
-      "image": "/images/vocab/d05-w07.svg",
+      "image": "/images/vocab/d05-w07.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Бабушка живёт в деревне.",
@@ -127,7 +134,8 @@
       "ru": "дедушка",
       "en": "grandfather",
       "audio": "/audio/day05/дедушка.mp3",
-      "image": "/images/vocab/d05-w08.svg",
+      "image": "/images/vocab/d05-w08.jpg",
+      "imageCredit": "SAKURAKO with her grandfather. (CC BY 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Дедушка рассказывает истории.",
@@ -144,7 +152,8 @@
       "ru": "муж",
       "en": "husband",
       "audio": "/audio/day05/муж.mp3",
-      "image": "/images/vocab/d05-w09.svg",
+      "image": "/images/vocab/d05-w09.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Её муж инженер.",
@@ -161,7 +170,8 @@
       "ru": "жена",
       "en": "wife",
       "audio": "/audio/day05/жена.mp3",
-      "image": "/images/vocab/d05-w10.svg",
+      "image": "/images/vocab/d05-w10.jpg",
+      "imageCredit": "Julius Giere (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Его жена учитель.",
@@ -189,11 +199,11 @@
         "дома"
       ],
       "pool": [
-        "мама",
-        "жена",
-        "дома",
-        "папа",
         "Моя",
+        "брат",
+        "дедушка",
+        "мама",
+        "дома",
         "дочь"
       ]
     },
@@ -211,12 +221,12 @@
         "обед"
       ],
       "pool": [
-        "брат",
-        "обед",
-        "готовит",
         "Мама",
+        "муж",
+        "обед",
         "сын",
-        "сестра"
+        "готовит",
+        "бабушка"
       ]
     },
     {
@@ -234,13 +244,13 @@
         "работе"
       ],
       "pool": [
-        "жена",
         "на",
-        "сестра",
-        "папа",
         "работе",
-        "мама",
-        "Мой"
+        "папа",
+        "бабушка",
+        "Мой",
+        "дедушка",
+        "муж"
       ]
     },
     {
@@ -257,12 +267,12 @@
         "газету"
       ],
       "pool": [
-        "сестра",
-        "читает",
-        "брат",
-        "Папа",
         "газету",
-        "муж"
+        "читает",
+        "Папа",
+        "муж",
+        "брат",
+        "жена"
       ]
     },
     {
@@ -280,13 +290,13 @@
         "брат"
       ],
       "pool": [
-        "жена",
+        "муж",
         "один",
-        "папа",
-        "мама",
-        "У",
+        "меня",
         "брат",
-        "меня"
+        "сестра",
+        "У",
+        "дочь"
       ]
     },
     {
@@ -303,12 +313,12 @@
         "студент"
       ],
       "pool": [
-        "дедушка",
-        "сестра",
+        "муж",
+        "студент",
         "брат",
-        "сын",
         "Мой",
-        "студент"
+        "мама",
+        "жена"
       ]
     },
     {
@@ -325,12 +335,12 @@
         "врач"
       ],
       "pool": [
-        "дедушка",
-        "сестра",
-        "Моя",
+        "муж",
+        "врач",
         "папа",
+        "Моя",
         "жена",
-        "врач"
+        "сестра"
       ]
     },
     {
@@ -348,13 +358,13 @@
         "Питере"
       ],
       "pool": [
-        "в",
-        "Питере",
-        "муж",
-        "сын",
-        "бабушка",
         "живёт",
-        "Сестра"
+        "Питере",
+        "Сестра",
+        "в",
+        "папа",
+        "дедушка",
+        "жена"
       ]
     },
     {
@@ -373,14 +383,14 @@
         "школе"
       ],
       "pool": [
-        "муж",
-        "сестра",
-        "дочь",
         "учится",
-        "в",
-        "Их",
+        "мама",
+        "дочь",
         "школе",
-        "сын"
+        "Их",
+        "брат",
+        "сын",
+        "в"
       ]
     },
     {
@@ -398,13 +408,13 @@
         "лет"
       ],
       "pool": [
-        "дедушка",
         "лет",
-        "сестра",
+        "Мой",
+        "папа",
         "пять",
-        "дочь",
-        "сын",
-        "Мой"
+        "жена",
+        "муж",
+        "сын"
       ]
     },
     {
@@ -421,12 +431,12 @@
         "музыкант"
       ],
       "pool": [
-        "брат",
-        "Наша",
+        "мама",
         "бабушка",
-        "дедушка",
-        "музыкант",
-        "дочь"
+        "дочь",
+        "сын",
+        "Наша",
+        "музыкант"
       ]
     },
     {
@@ -443,12 +453,12 @@
         "песню"
       ],
       "pool": [
-        "Дочь",
-        "жена",
-        "поёт",
         "песню",
-        "сын",
-        "сестра"
+        "муж",
+        "дедушка",
+        "сестра",
+        "Дочь",
+        "поёт"
       ]
     },
     {
@@ -466,13 +476,13 @@
         "деревне"
       ],
       "pool": [
-        "муж",
-        "Бабушка",
-        "дедушка",
         "в",
+        "Бабушка",
+        "сын",
+        "деревне",
+        "дочь",
         "живёт",
-        "папа",
-        "деревне"
+        "дедушка"
       ]
     },
     {
@@ -490,13 +500,13 @@
         "борщ"
       ],
       "pool": [
-        "Моя",
-        "борщ",
-        "бабушка",
-        "мама",
-        "сын",
         "дочь",
-        "готовит"
+        "сестра",
+        "брат",
+        "бабушка",
+        "готовит",
+        "борщ",
+        "Моя"
       ]
     },
     {
@@ -514,11 +524,11 @@
       ],
       "pool": [
         "Дедушка",
+        "истории",
         "рассказывает",
-        "бабушка",
-        "папа",
+        "мама",
         "муж",
-        "истории"
+        "брат"
       ]
     },
     {
@@ -535,12 +545,12 @@
         "рыбак"
       ],
       "pool": [
-        "Мой",
-        "сестра",
+        "бабушка",
         "рыбак",
-        "папа",
-        "дедушка",
-        "сын"
+        "сын",
+        "Мой",
+        "брат",
+        "дедушка"
       ]
     },
     {
@@ -557,12 +567,12 @@
         "инженер"
       ],
       "pool": [
-        "муж",
-        "бабушка",
-        "инженер",
-        "Её",
+        "мама",
         "сын",
-        "дедушка"
+        "инженер",
+        "муж",
+        "Её",
+        "жена"
       ]
     },
     {
@@ -579,12 +589,12 @@
         "дома"
       ],
       "pool": [
-        "Мой",
-        "папа",
-        "дома",
-        "сестра",
         "муж",
-        "брат"
+        "Мой",
+        "мама",
+        "сын",
+        "дома",
+        "сестра"
       ]
     },
     {
@@ -601,12 +611,12 @@
         "учитель"
       ],
       "pool": [
-        "папа",
+        "жена",
         "Его",
         "бабушка",
         "учитель",
-        "жена",
-        "сын"
+        "муж",
+        "дедушка"
       ]
     },
     {
@@ -624,11 +634,11 @@
         "больнице"
       ],
       "pool": [
-        "Жена",
-        "дочь",
-        "сестра",
-        "в",
         "больнице",
+        "Жена",
+        "бабушка",
+        "в",
+        "мама",
         "работает",
         "сын"
       ]
@@ -638,40 +648,40 @@
       "type": "pictureMatch",
       "wordId": "d05-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d05-w01.svg",
+      "image": "/images/vocab/d05-w01.jpg",
       "options": [
-        "мама",
-        "сестра",
-        "жена",
-        "брат"
+        "дедушка",
+        "муж",
+        "папа",
+        "мама"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "d05-pic-02",
       "type": "pictureMatch",
       "wordId": "d05-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d05-w02.svg",
+      "image": "/images/vocab/d05-w02.jpg",
       "options": [
+        "папа",
+        "бабушка",
         "дочь",
-        "сын",
-        "дедушка",
-        "папа"
+        "жена"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "d05-pic-03",
       "type": "pictureMatch",
       "wordId": "d05-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d05-w03.svg",
+      "image": "/images/vocab/d05-w03.jpg",
       "options": [
-        "жена",
+        "сын",
         "муж",
         "брат",
-        "бабушка"
+        "сестра"
       ],
       "correctIndex": 2
     },
@@ -680,98 +690,98 @@
       "type": "pictureMatch",
       "wordId": "d05-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d05-w04.svg",
+      "image": "/images/vocab/d05-w04.jpg",
       "options": [
+        "муж",
         "сестра",
-        "дочь",
-        "жена",
-        "дедушка"
+        "сын",
+        "мама"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d05-pic-05",
       "type": "pictureMatch",
       "wordId": "d05-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d05-w05.svg",
+      "image": "/images/vocab/d05-w05.jpg",
       "options": [
-        "папа",
-        "сын",
-        "дедушка",
-        "бабушка"
+        "мама",
+        "дочь",
+        "муж",
+        "сын"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "d05-pic-06",
       "type": "pictureMatch",
       "wordId": "d05-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d05-w06.svg",
+      "image": "/images/vocab/d05-w06.jpg",
       "options": [
-        "сын",
+        "бабушка",
+        "папа",
         "дочь",
-        "муж",
-        "бабушка"
+        "брат"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "d05-pic-07",
       "type": "pictureMatch",
       "wordId": "d05-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d05-w07.svg",
+      "image": "/images/vocab/d05-w07.jpg",
       "options": [
-        "дочь",
-        "дедушка",
         "бабушка",
-        "жена"
+        "жена",
+        "папа",
+        "дедушка"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "d05-pic-08",
       "type": "pictureMatch",
       "wordId": "d05-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d05-w08.svg",
+      "image": "/images/vocab/d05-w08.jpg",
       "options": [
-        "папа",
-        "дедушка",
-        "жена",
-        "бабушка"
+        "дочь",
+        "сестра",
+        "сын",
+        "дедушка"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "d05-pic-09",
       "type": "pictureMatch",
       "wordId": "d05-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d05-w09.svg",
+      "image": "/images/vocab/d05-w09.jpg",
       "options": [
+        "мама",
         "муж",
-        "бабушка",
-        "брат",
-        "папа"
+        "дедушка",
+        "жена"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d05-pic-10",
       "type": "pictureMatch",
       "wordId": "d05-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d05-w10.svg",
+      "image": "/images/vocab/d05-w10.jpg",
       "options": [
-        "бабушка",
+        "папа",
+        "мама",
         "жена",
-        "сын",
-        "сестра"
+        "бабушка"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     }
   ]
 }

@@ -8,7 +8,8 @@
       "ru": "ничего себе",
       "en": "wow / no way",
       "audio": "/audio/day29/ничего-себе.mp3",
-      "image": "/images/vocab/d29-w01.svg",
+      "image": "/images/vocab/d29-w01.png",
+      "imageCredit": "Own work (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Ничего себе!",
@@ -25,7 +26,8 @@
       "ru": "ладно",
       "en": "okay / fine",
       "audio": "/audio/day29/ладно.mp3",
-      "image": "/images/vocab/d29-w02.svg",
+      "image": "/images/vocab/d29-w02.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Ладно, договорились.",
@@ -42,7 +44,8 @@
       "ru": "точно",
       "en": "exactly / for sure",
       "audio": "/audio/day29/точно.mp3",
-      "image": "/images/vocab/d29-w03.svg",
+      "image": "/images/vocab/d29-w03.png",
+      "imageCredit": "Wikimedia Foundation (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Точно!",
@@ -59,7 +62,8 @@
       "ru": "конечно",
       "en": "of course",
       "audio": "/audio/day29/конечно.mp3",
-      "image": "/images/vocab/d29-w04.svg",
+      "image": "/images/vocab/d29-w04.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Конечно!",
@@ -76,7 +80,8 @@
       "ru": "наверное",
       "en": "probably",
       "audio": "/audio/day29/наверное.mp3",
-      "image": "/images/vocab/d29-w05.svg",
+      "image": "/images/vocab/d29-w05.jpg",
+      "imageCredit": "Girl Most Likely 33 (CC BY-SA 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Наверное, да.",
@@ -93,7 +98,8 @@
       "ru": "кстати",
       "en": "by the way",
       "audio": "/audio/day29/кстати.mp3",
-      "image": "/images/vocab/d29-w06.svg",
+      "image": "/images/vocab/d29-w06.jpg",
+      "imageCredit": "Own work (CC BY 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Кстати, как дела?",
@@ -110,7 +116,8 @@
       "ru": "вообще",
       "en": "generally / at all",
       "audio": "/audio/day29/вообще.mp3",
-      "image": "/images/vocab/d29-w07.svg",
+      "image": "/images/vocab/d29-w07.jpg",
+      "imageCredit": "https://q-map.ru/%d0%bc%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d1%8f-%d0%ba%d0%b0%d1%80%d1%82%d0%b0-%d0%b2%d0%b0%d0%bb%d1%8e%d1%82%d0%bd%d1%8b%d1%85-%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc-1907-%d0%b3/ (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Вообще не знаю.",
@@ -127,7 +134,8 @@
       "ru": "ещё бы",
       "en": "you bet / sure would",
       "audio": "/audio/day29/ещё-бы.mp3",
-      "image": "/images/vocab/d29-w08.svg",
+      "image": "/images/vocab/d29-w08.jpg",
+      "imageCredit": "Own work (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Ещё бы!",
@@ -144,7 +152,8 @@
       "ru": "не за что",
       "en": "don't mention it",
       "audio": "/audio/day29/не-за-что.mp3",
-      "image": "/images/vocab/d29-w09.svg",
+      "image": "/images/vocab/d29-w09.jpg",
+      "imageCredit": "Own work (CC BY-SA 2.5 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Спасибо! — Не за что.",
@@ -161,7 +170,8 @@
       "ru": "давай",
       "en": "come on / let's",
       "audio": "/audio/day29/давай.mp3",
-      "image": "/images/vocab/d29-w10.svg",
+      "image": "/images/vocab/d29-w10.jpg",
+      "imageCredit": "Own work (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Давай идём!",
@@ -188,11 +198,11 @@
         "себе"
       ],
       "pool": [
+        "кстати",
         "конечно",
-        "точно",
-        "себе",
+        "наверное",
         "Ничего",
-        "ещё бы"
+        "себе"
       ]
     },
     {
@@ -209,12 +219,12 @@
         "новость"
       ],
       "pool": [
-        "наверное",
+        "давай",
+        "Ничего",
+        "конечно",
         "новость",
-        "ещё бы",
-        "ладно",
-        "себе",
-        "Ничего"
+        "точно",
+        "себе"
       ]
     },
     {
@@ -230,11 +240,11 @@
         "договорились"
       ],
       "pool": [
-        "вообще",
-        "договорились",
         "Ладно",
-        "точно",
-        "наверное"
+        "конечно",
+        "ещё бы",
+        "договорились",
+        "кстати"
       ]
     },
     {
@@ -250,11 +260,11 @@
         "иду"
       ],
       "pool": [
-        "вообще",
-        "давай",
-        "ничего себе",
+        "наверное",
+        "конечно",
         "Ладно",
-        "иду"
+        "иду",
+        "вообще"
       ]
     },
     {
@@ -270,11 +280,11 @@
         "знаю"
       ],
       "pool": [
+        "давай",
+        "Точно",
         "наверное",
         "не за что",
-        "знаю",
-        "конечно",
-        "Точно"
+        "знаю"
       ]
     },
     {
@@ -291,10 +301,10 @@
       ],
       "pool": [
         "точно",
+        "Конечно",
+        "кстати",
         "не за что",
-        "помогу",
-        "ещё бы",
-        "Конечно"
+        "помогу"
       ]
     },
     {
@@ -310,10 +320,10 @@
         "да"
       ],
       "pool": [
-        "да",
-        "ещё бы",
-        "Наверное",
         "ничего себе",
+        "ещё бы",
+        "да",
+        "Наверное",
         "конечно"
       ]
     },
@@ -330,11 +340,11 @@
         "опоздаю"
       ],
       "pool": [
-        "опоздаю",
-        "Наверное",
-        "ещё бы",
         "не за что",
-        "давай"
+        "опоздаю",
+        "ничего себе",
+        "вообще",
+        "Наверное"
       ]
     },
     {
@@ -351,12 +361,12 @@
         "дела"
       ],
       "pool": [
+        "как",
+        "ладно",
+        "ничего себе",
         "дела",
         "Кстати",
-        "давай",
-        "вообще",
-        "наверное",
-        "как"
+        "конечно"
       ]
     },
     {
@@ -373,12 +383,12 @@
         "сказать"
       ],
       "pool": [
-        "сказать",
-        "ладно",
-        "забыл",
         "вообще",
+        "забыл",
+        "конечно",
+        "давай",
         "Кстати",
-        "ничего себе"
+        "сказать"
       ]
     },
     {
@@ -395,12 +405,12 @@
         "знаю"
       ],
       "pool": [
-        "конечно",
-        "не за что",
-        "Вообще",
-        "не",
+        "точно",
         "знаю",
-        "ладно"
+        "конечно",
+        "кстати",
+        "не",
+        "Вообще"
       ]
     },
     {
@@ -416,11 +426,11 @@
         "да"
       ],
       "pool": [
-        "давай",
         "да",
+        "конечно",
+        "ещё бы",
         "Вообще-то",
-        "точно",
-        "конечно"
+        "кстати"
       ]
     },
     {
@@ -437,10 +447,10 @@
       ],
       "pool": [
         "ладно",
-        "бы",
-        "вообще",
-        "конечно",
-        "Ещё"
+        "кстати",
+        "Ещё",
+        "не за что",
+        "бы"
       ]
     },
     {
@@ -458,13 +468,13 @@
         "рад"
       ],
       "pool": [
-        "вообще",
         "давай",
+        "Ещё",
+        "ничего себе",
+        "наверное",
         "не",
         "бы",
-        "конечно",
-        "рад",
-        "Ещё"
+        "рад"
       ]
     },
     {
@@ -482,13 +492,13 @@
         "что"
       ],
       "pool": [
-        "Не",
-        "что",
-        "конечно",
-        "точно",
-        "за",
+        "ладно",
+        "кстати",
         "Спасибо",
-        "ещё бы"
+        "за",
+        "что",
+        "ещё бы",
+        "Не"
       ]
     },
     {
@@ -506,11 +516,11 @@
       ],
       "pool": [
         "что",
-        "Не",
-        "точно",
+        "ладно",
+        "кстати",
         "за",
-        "давай",
-        "кстати"
+        "Не",
+        "вообще"
       ]
     },
     {
@@ -528,9 +538,9 @@
       "pool": [
         "идём",
         "Давай",
-        "конечно",
-        "наверное",
-        "кстати"
+        "кстати",
+        "ничего себе",
+        "ещё бы"
       ]
     },
     {
@@ -546,11 +556,11 @@
         "попробуй"
       ],
       "pool": [
-        "не за что",
-        "попробуй",
+        "ничего себе",
         "кстати",
-        "наверное",
-        "Давай"
+        "Давай",
+        "попробуй",
+        "ещё бы"
       ]
     },
     {
@@ -558,54 +568,54 @@
       "type": "pictureMatch",
       "wordId": "d29-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d29-w01.svg",
+      "image": "/images/vocab/d29-w01.png",
       "options": [
-        "наверное",
-        "вообще",
-        "ещё бы",
-        "ничего себе"
+        "ладно",
+        "давай",
+        "ничего себе",
+        "точно"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "d29-pic-02",
       "type": "pictureMatch",
       "wordId": "d29-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d29-w02.svg",
+      "image": "/images/vocab/d29-w02.jpg",
       "options": [
-        "давай",
         "ладно",
-        "точно",
-        "ещё бы"
+        "ещё бы",
+        "кстати",
+        "конечно"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "d29-pic-03",
       "type": "pictureMatch",
       "wordId": "d29-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d29-w03.svg",
+      "image": "/images/vocab/d29-w03.png",
       "options": [
-        "ничего себе",
         "точно",
-        "кстати",
-        "конечно"
+        "конечно",
+        "вообще",
+        "ладно"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "d29-pic-04",
       "type": "pictureMatch",
       "wordId": "d29-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d29-w04.svg",
+      "image": "/images/vocab/d29-w04.jpg",
       "options": [
         "конечно",
-        "ладно",
-        "кстати",
-        "не за что"
+        "точно",
+        "наверное",
+        "ладно"
       ],
       "correctIndex": 0
     },
@@ -614,54 +624,54 @@
       "type": "pictureMatch",
       "wordId": "d29-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d29-w05.svg",
+      "image": "/images/vocab/d29-w05.jpg",
       "options": [
-        "не за что",
         "наверное",
-        "точно",
-        "ещё бы"
+        "ещё бы",
+        "конечно",
+        "ничего себе"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "d29-pic-06",
       "type": "pictureMatch",
       "wordId": "d29-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d29-w06.svg",
+      "image": "/images/vocab/d29-w06.jpg",
       "options": [
-        "давай",
-        "ещё бы",
-        "конечно",
-        "кстати"
+        "вообще",
+        "точно",
+        "кстати",
+        "ещё бы"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "d29-pic-07",
       "type": "pictureMatch",
       "wordId": "d29-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d29-w07.svg",
+      "image": "/images/vocab/d29-w07.jpg",
       "options": [
-        "ладно",
         "вообще",
-        "точно",
-        "ничего себе"
+        "наверное",
+        "не за что",
+        "точно"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "d29-pic-08",
       "type": "pictureMatch",
       "wordId": "d29-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d29-w08.svg",
+      "image": "/images/vocab/d29-w08.jpg",
       "options": [
         "ещё бы",
-        "кстати",
-        "точно",
-        "наверное"
+        "не за что",
+        "давай",
+        "ничего себе"
       ],
       "correctIndex": 0
     },
@@ -670,28 +680,28 @@
       "type": "pictureMatch",
       "wordId": "d29-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d29-w09.svg",
+      "image": "/images/vocab/d29-w09.jpg",
       "options": [
-        "ладно",
+        "наверное",
+        "давай",
         "не за что",
-        "кстати",
-        "конечно"
+        "ещё бы"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "d29-pic-10",
       "type": "pictureMatch",
       "wordId": "d29-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d29-w10.svg",
+      "image": "/images/vocab/d29-w10.jpg",
       "options": [
-        "вообще",
-        "давай",
-        "конечно",
-        "не за что"
+        "ещё бы",
+        "ладно",
+        "кстати",
+        "давай"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     }
   ]
 }

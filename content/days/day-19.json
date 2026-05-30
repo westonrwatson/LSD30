@@ -8,7 +8,8 @@
       "ru": "футбол",
       "en": "football / soccer",
       "audio": "/audio/day19/футбол.mp3",
-      "image": "/images/vocab/d19-w01.svg",
+      "image": "/images/vocab/d19-w01.jpg",
+      "imageCredit": "https://pixabay.com/zh/人像-夕阳-美女-年轻的女性-787521/ archive copy at the Wayback Machine (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Играем в футбол.",
@@ -25,7 +26,8 @@
       "ru": "бег",
       "en": "running",
       "audio": "/audio/day19/бег.mp3",
-      "image": "/images/vocab/d19-w02.svg",
+      "image": "/images/vocab/d19-w02.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Бег полезен.",
@@ -42,7 +44,8 @@
       "ru": "плавание",
       "en": "swimming",
       "audio": "/audio/day19/плавание.mp3",
-      "image": "/images/vocab/d19-w03.svg",
+      "image": "/images/vocab/d19-w03.jpg",
+      "imageCredit": "Own work (CC BY 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Плавание — мой спорт.",
@@ -59,7 +62,8 @@
       "ru": "тренировка",
       "en": "training / workout",
       "audio": "/audio/day19/тренировка.mp3",
-      "image": "/images/vocab/d19-w04.svg",
+      "image": "/images/vocab/d19-w04.jpg",
+      "imageCredit": "Blue Sky Training Day (CC BY 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Тренировка в шесть.",
@@ -76,7 +80,8 @@
       "ru": "команда",
       "en": "team",
       "audio": "/audio/day19/команда.mp3",
-      "image": "/images/vocab/d19-w05.svg",
+      "image": "/images/vocab/d19-w05.jpg",
+      "imageCredit": "An image featured on the author's Flickr album (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Наша команда выиграла.",
@@ -93,7 +98,8 @@
       "ru": "победа",
       "en": "victory / win",
       "audio": "/audio/day19/победа.mp3",
-      "image": "/images/vocab/d19-w06.svg",
+      "image": "/images/vocab/d19-w06.jpg",
+      "imageCredit": "http://rubtsovsk.org/node/134047 (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Победа важна.",
@@ -110,7 +116,8 @@
       "ru": "бегать",
       "en": "to run (multi-dir)",
       "audio": "/audio/day19/бегать.mp3",
-      "image": "/images/vocab/d19-w07.svg",
+      "image": "/images/vocab/d19-w07.jpg",
+      "imageCredit": "Brighton Commercial Vehicle run. (CC BY 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Бегаю каждый день.",
@@ -127,7 +134,8 @@
       "ru": "плавать",
       "en": "to swim",
       "audio": "/audio/day19/плавать.mp3",
-      "image": "/images/vocab/d19-w08.svg",
+      "image": "/images/vocab/d19-w08.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Плаваю в бассейне.",
@@ -144,7 +152,8 @@
       "ru": "прыгать",
       "en": "to jump",
       "audio": "/audio/day19/прыгать.mp3",
-      "image": "/images/vocab/d19-w09.svg",
+      "image": "/images/vocab/d19-w09.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Прыгаю высоко.",
@@ -161,7 +170,8 @@
       "ru": "победить",
       "en": "to win / defeat",
       "audio": "/audio/day19/победить.mp3",
-      "image": "/images/vocab/d19-w10.svg",
+      "image": "/images/vocab/d19-w10.jpg",
+      "imageCredit": "http://vintagraph.com/index.php?showimage=122. There is a copyright notice on the page, but obviously this piece is public domain. (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Мы победили!",
@@ -190,11 +200,11 @@
       ],
       "pool": [
         "Играем",
-        "победить",
-        "в",
+        "бегать",
+        "команда",
         "футбол",
-        "победа",
-        "плавать"
+        "в",
+        "тренировка"
       ]
     },
     {
@@ -210,11 +220,11 @@
         "футбол"
       ],
       "pool": [
-        "победить",
-        "плавать",
         "Люблю",
+        "плавание",
         "футбол",
-        "победа"
+        "победить",
+        "бегать"
       ]
     },
     {
@@ -231,9 +241,9 @@
       ],
       "pool": [
         "победить",
-        "Бег",
-        "тренировка",
         "бегать",
+        "команда",
+        "Бег",
         "полезен"
       ]
     },
@@ -250,11 +260,11 @@
         "бег"
       ],
       "pool": [
-        "плавание",
         "бег",
         "Утренний",
-        "прыгать",
-        "футбол"
+        "победить",
+        "победа",
+        "плавать"
       ]
     },
     {
@@ -271,12 +281,12 @@
         "спорт"
       ],
       "pool": [
-        "победа",
-        "бегать",
-        "мой",
         "спорт",
         "Плавание",
-        "команда"
+        "мой",
+        "победа",
+        "плавать",
+        "футбол"
       ]
     },
     {
@@ -292,10 +302,10 @@
         "плаванием"
       ],
       "pool": [
-        "бегать",
-        "бег",
+        "победить",
         "Занимаюсь",
-        "плавать",
+        "победа",
+        "команда",
         "плаванием"
       ]
     },
@@ -313,12 +323,12 @@
         "шесть"
       ],
       "pool": [
-        "футбол",
-        "прыгать",
         "Тренировка",
-        "бег",
+        "победить",
+        "футбол",
+        "шесть",
         "в",
-        "шесть"
+        "бег"
       ]
     },
     {
@@ -334,11 +344,11 @@
         "тренировка"
       ],
       "pool": [
+        "команда",
+        "бег",
+        "прыгать",
         "тренировка",
-        "плавать",
-        "Тяжёлая",
-        "футбол",
-        "победа"
+        "Тяжёлая"
       ]
     },
     {
@@ -355,12 +365,12 @@
         "выиграла"
       ],
       "pool": [
-        "команда",
-        "выиграла",
-        "бег",
-        "плавание",
+        "прыгать",
         "Наша",
-        "футбол"
+        "команда",
+        "победа",
+        "бег",
+        "выиграла"
       ]
     },
     {
@@ -377,10 +387,10 @@
       ],
       "pool": [
         "футбол",
-        "тренировка",
-        "Сильная",
-        "плавать",
-        "команда"
+        "победа",
+        "команда",
+        "прыгать",
+        "Сильная"
       ]
     },
     {
@@ -396,11 +406,11 @@
         "важна"
       ],
       "pool": [
+        "команда",
+        "победить",
         "важна",
-        "бегать",
-        "Победа",
-        "прыгать",
-        "команда"
+        "футбол",
+        "Победа"
       ]
     },
     {
@@ -416,11 +426,11 @@
         "победа"
       ],
       "pool": [
+        "футбол",
         "плавать",
-        "Сладкая",
-        "победить",
+        "прыгать",
         "победа",
-        "плавание"
+        "Сладкая"
       ]
     },
     {
@@ -437,12 +447,12 @@
         "день"
       ],
       "pool": [
-        "тренировка",
-        "Бегаю",
-        "победа",
         "каждый",
+        "команда",
+        "Бегаю",
         "победить",
-        "день"
+        "день",
+        "плавать"
       ]
     },
     {
@@ -458,11 +468,11 @@
         "бегают"
       ],
       "pool": [
-        "прыгать",
-        "плавание",
-        "тренировка",
+        "футбол",
+        "бег",
         "бегают",
-        "Дети"
+        "Дети",
+        "тренировка"
       ]
     },
     {
@@ -479,12 +489,12 @@
         "бассейне"
       ],
       "pool": [
-        "в",
-        "прыгать",
-        "бассейне",
         "Плаваю",
         "футбол",
-        "тренировка"
+        "тренировка",
+        "в",
+        "бег",
+        "бассейне"
       ]
     },
     {
@@ -500,11 +510,11 @@
         "плавать"
       ],
       "pool": [
-        "команда",
-        "победа",
         "плавать",
         "Умею",
-        "бег"
+        "победить",
+        "бегать",
+        "тренировка"
       ]
     },
     {
@@ -520,10 +530,10 @@
         "высоко"
       ],
       "pool": [
-        "плавание",
-        "футбол",
-        "Прыгаю",
+        "команда",
+        "плавать",
         "высоко",
+        "Прыгаю",
         "тренировка"
       ]
     },
@@ -540,11 +550,11 @@
         "прыгает"
       ],
       "pool": [
-        "команда",
-        "плавание",
-        "бегать",
         "Кошка",
-        "прыгает"
+        "прыгает",
+        "плавание",
+        "тренировка",
+        "футбол"
       ]
     },
     {
@@ -560,11 +570,11 @@
         "победили"
       ],
       "pool": [
-        "Мы",
         "плавать",
+        "команда",
         "победили",
-        "победа",
-        "команда"
+        "Мы",
+        "бегать"
       ]
     },
     {
@@ -580,11 +590,11 @@
         "победить"
       ],
       "pool": [
+        "плавание",
         "победа",
-        "бег",
         "победить",
-        "тренировка",
-        "Хочу"
+        "Хочу",
+        "тренировка"
       ]
     },
     {
@@ -592,12 +602,12 @@
       "type": "pictureMatch",
       "wordId": "d19-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d19-w01.svg",
+      "image": "/images/vocab/d19-w01.jpg",
       "options": [
         "футбол",
-        "бегать",
+        "плавание",
         "тренировка",
-        "бег"
+        "победить"
       ],
       "correctIndex": 0
     },
@@ -606,12 +616,12 @@
       "type": "pictureMatch",
       "wordId": "d19-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d19-w02.svg",
+      "image": "/images/vocab/d19-w02.jpg",
       "options": [
-        "команда",
-        "плавать",
+        "прыгать",
+        "тренировка",
         "бег",
-        "прыгать"
+        "победа"
       ],
       "correctIndex": 2
     },
@@ -620,26 +630,26 @@
       "type": "pictureMatch",
       "wordId": "d19-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d19-w03.svg",
+      "image": "/images/vocab/d19-w03.jpg",
       "options": [
         "тренировка",
+        "бег",
         "плавание",
-        "футбол",
-        "бегать"
+        "плавать"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "d19-pic-04",
       "type": "pictureMatch",
       "wordId": "d19-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d19-w04.svg",
+      "image": "/images/vocab/d19-w04.jpg",
       "options": [
         "тренировка",
-        "команда",
-        "бегать",
-        "прыгать"
+        "победа",
+        "плавание",
+        "плавать"
       ],
       "correctIndex": 0
     },
@@ -648,39 +658,39 @@
       "type": "pictureMatch",
       "wordId": "d19-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d19-w05.svg",
+      "image": "/images/vocab/d19-w05.jpg",
       "options": [
-        "бег",
         "команда",
+        "футбол",
         "плавать",
-        "тренировка"
+        "плавание"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "d19-pic-06",
       "type": "pictureMatch",
       "wordId": "d19-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d19-w06.svg",
+      "image": "/images/vocab/d19-w06.jpg",
       "options": [
-        "прыгать",
-        "команда",
-        "победа",
-        "футбол"
+        "бегать",
+        "плавать",
+        "тренировка",
+        "победа"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "d19-pic-07",
       "type": "pictureMatch",
       "wordId": "d19-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d19-w07.svg",
+      "image": "/images/vocab/d19-w07.jpg",
       "options": [
-        "тренировка",
+        "победа",
         "плавание",
-        "футбол",
+        "бег",
         "бегать"
       ],
       "correctIndex": 3
@@ -690,26 +700,26 @@
       "type": "pictureMatch",
       "wordId": "d19-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d19-w08.svg",
+      "image": "/images/vocab/d19-w08.jpg",
       "options": [
-        "тренировка",
+        "плавать",
         "команда",
-        "прыгать",
-        "плавать"
+        "плавание",
+        "победа"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "d19-pic-09",
       "type": "pictureMatch",
       "wordId": "d19-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d19-w09.svg",
+      "image": "/images/vocab/d19-w09.jpg",
       "options": [
-        "команда",
+        "тренировка",
         "победа",
         "прыгать",
-        "футбол"
+        "команда"
       ],
       "correctIndex": 2
     },
@@ -718,12 +728,12 @@
       "type": "pictureMatch",
       "wordId": "d19-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d19-w10.svg",
+      "image": "/images/vocab/d19-w10.jpg",
       "options": [
-        "команда",
-        "тренировка",
+        "плавание",
+        "бег",
         "победить",
-        "прыгать"
+        "плавать"
       ],
       "correctIndex": 2
     }

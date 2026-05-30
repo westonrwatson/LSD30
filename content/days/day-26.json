@@ -8,7 +8,8 @@
       "ru": "лучше",
       "en": "better",
       "audio": "/audio/day26/лучше.mp3",
-      "image": "/images/vocab/d26-w01.svg",
+      "image": "/images/vocab/d26-w01.png",
+      "imageCredit": "Own work (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Это лучше.",
@@ -25,7 +26,8 @@
       "ru": "хуже",
       "en": "worse",
       "audio": "/audio/day26/хуже.mp3",
-      "image": "/images/vocab/d26-w02.svg",
+      "image": "/images/vocab/d26-w02.jpg",
+      "imageCredit": "Moving Picture World (May 1919) at the Internet Archive (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Сегодня хуже.",
@@ -42,7 +44,8 @@
       "ru": "больше",
       "en": "more / bigger",
       "audio": "/audio/day26/больше.mp3",
-      "image": "/images/vocab/d26-w03.svg",
+      "image": "/images/vocab/d26-w03.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Больше времени.",
@@ -59,7 +62,8 @@
       "ru": "меньше",
       "en": "less / smaller",
       "audio": "/audio/day26/меньше.mp3",
-      "image": "/images/vocab/d26-w04.svg",
+      "image": "/images/vocab/d26-w04.jpg",
+      "imageCredit": "Created with the GIMP on my PC (GPL via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Меньше сахара.",
@@ -110,7 +114,8 @@
       "ru": "мнение",
       "en": "opinion",
       "audio": "/audio/day26/мнение.mp3",
-      "image": "/images/vocab/d26-w07.svg",
+      "image": "/images/vocab/d26-w07.png",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Моё мнение.",
@@ -127,7 +132,8 @@
       "ru": "думаю",
       "en": "I think",
       "audio": "/audio/day26/думаю.mp3",
-      "image": "/images/vocab/d26-w08.svg",
+      "image": "/images/vocab/d26-w08.jpg",
+      "imageCredit": "Own work (CC BY 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Думаю, да.",
@@ -144,7 +150,8 @@
       "ru": "согласен",
       "en": "I agree (masc)",
       "audio": "/audio/day26/согласен.mp3",
-      "image": "/images/vocab/d26-w09.svg",
+      "image": "/images/vocab/d26-w09.png",
+      "imageCredit": "https://static.puntoticket.com/especiales/rec073_the-metal-fest-2024/img/the-metal__desktop.png (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Я согласен.",
@@ -161,7 +168,8 @@
       "ru": "кажется",
       "en": "it seems",
       "audio": "/audio/day26/кажется.mp3",
-      "image": "/images/vocab/d26-w10.svg",
+      "image": "/images/vocab/d26-w10.jpg",
+      "imageCredit": "Own work (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Мне кажется.",
@@ -188,10 +196,10 @@
         "лучше"
       ],
       "pool": [
-        "хуже",
-        "кажется",
+        "дороже",
+        "согласен",
         "лучше",
-        "думаю",
+        "больше",
         "Это"
       ]
     },
@@ -209,12 +217,12 @@
         "лучше"
       ],
       "pool": [
-        "хуже",
-        "больше",
-        "будет",
-        "лучше",
         "Завтра",
-        "мнение"
+        "мнение",
+        "лучше",
+        "дороже",
+        "думаю",
+        "будет"
       ]
     },
     {
@@ -230,11 +238,11 @@
         "хуже"
       ],
       "pool": [
-        "хуже",
-        "согласен",
+        "меньше",
         "Сегодня",
-        "кажется",
-        "больше"
+        "думаю",
+        "мнение",
+        "хуже"
       ]
     },
     {
@@ -250,11 +258,11 @@
         "хуже"
       ],
       "pool": [
-        "хуже",
+        "дороже",
+        "больше",
         "Не",
-        "мнение",
-        "согласен",
-        "больше"
+        "хуже",
+        "кажется"
       ]
     },
     {
@@ -270,11 +278,11 @@
         "времени"
       ],
       "pool": [
+        "кажется",
+        "думаю",
         "времени",
-        "мнение",
-        "хуже",
-        "Больше",
-        "дешевле"
+        "лучше",
+        "Больше"
       ]
     },
     {
@@ -290,11 +298,11 @@
         "больше"
       ],
       "pool": [
-        "дешевле",
-        "согласен",
-        "больше",
+        "хуже",
         "Нужно",
-        "хуже"
+        "думаю",
+        "лучше",
+        "больше"
       ]
     },
     {
@@ -310,11 +318,11 @@
         "сахара"
       ],
       "pool": [
-        "хуже",
         "Меньше",
-        "согласен",
+        "лучше",
+        "сахара",
         "больше",
-        "сахара"
+        "думаю"
       ]
     },
     {
@@ -330,11 +338,11 @@
         "проблем"
       ],
       "pool": [
-        "мнение",
-        "лучше",
-        "дороже",
+        "Меньше",
+        "кажется",
         "проблем",
-        "Меньше"
+        "мнение",
+        "дешевле"
       ]
     },
     {
@@ -352,9 +360,9 @@
       "pool": [
         "дешевле",
         "Это",
-        "меньше",
-        "мнение",
-        "дороже"
+        "дороже",
+        "хуже",
+        "кажется"
       ]
     },
     {
@@ -371,12 +379,12 @@
         "вчера"
       ],
       "pool": [
-        "кажется",
+        "согласен",
         "вчера",
-        "чем",
-        "лучше",
-        "меньше",
-        "Дороже"
+        "Дороже",
+        "больше",
+        "хуже",
+        "чем"
       ]
     },
     {
@@ -393,10 +401,10 @@
       ],
       "pool": [
         "дешевле",
-        "дороже",
-        "больше",
+        "думаю",
         "Здесь",
-        "согласен"
+        "согласен",
+        "хуже"
       ]
     },
     {
@@ -412,11 +420,11 @@
         "дешевле"
       ],
       "pool": [
+        "согласен",
         "дешевле",
-        "дороже",
-        "кажется",
         "Намного",
-        "хуже"
+        "дороже",
+        "лучше"
       ]
     },
     {
@@ -434,9 +442,9 @@
       "pool": [
         "Моё",
         "мнение",
-        "согласен",
-        "хуже",
-        "думаю"
+        "дешевле",
+        "дороже",
+        "кажется"
       ]
     },
     {
@@ -453,12 +461,12 @@
         "мнение"
       ],
       "pool": [
-        "твоё",
-        "лучше",
         "больше",
-        "дороже",
         "мнение",
-        "Какое"
+        "Какое",
+        "дороже",
+        "твоё",
+        "кажется"
       ]
     },
     {
@@ -474,11 +482,11 @@
         "да"
       ],
       "pool": [
-        "Думаю",
-        "дороже",
-        "дешевле",
+        "мнение",
+        "кажется",
         "да",
-        "кажется"
+        "Думаю",
+        "дешевле"
       ]
     },
     {
@@ -495,12 +503,12 @@
         "думаешь"
       ],
       "pool": [
-        "Что",
-        "больше",
-        "лучше",
-        "ты",
         "думаешь",
-        "дороже"
+        "мнение",
+        "дороже",
+        "Что",
+        "согласен",
+        "ты"
       ]
     },
     {
@@ -516,11 +524,11 @@
         "согласен"
       ],
       "pool": [
-        "согласен",
-        "лучше",
+        "Я",
+        "дороже",
         "мнение",
-        "больше",
-        "Я"
+        "кажется",
+        "согласен"
       ]
     },
     {
@@ -536,11 +544,11 @@
         "согласен"
       ],
       "pool": [
+        "думаю",
         "Полностью",
-        "согласен",
-        "дороже",
-        "мнение",
-        "больше"
+        "больше",
+        "дешевле",
+        "согласен"
       ]
     },
     {
@@ -557,10 +565,10 @@
       ],
       "pool": [
         "Мне",
-        "хуже",
+        "лучше",
+        "меньше",
         "кажется",
-        "дешевле",
-        "дороже"
+        "думаю"
       ]
     },
     {
@@ -576,11 +584,11 @@
         "дождь"
       ],
       "pool": [
-        "меньше",
-        "хуже",
+        "дождь",
+        "думаю",
+        "мнение",
         "Кажется",
-        "больше",
-        "дождь"
+        "согласен"
       ]
     },
     {
@@ -588,10 +596,10 @@
       "type": "pictureMatch",
       "wordId": "d26-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d26-w01.svg",
+      "image": "/images/vocab/d26-w01.png",
       "options": [
-        "кажется",
-        "больше",
+        "мнение",
+        "дешевле",
         "дороже",
         "лучше"
       ],
@@ -602,11 +610,11 @@
       "type": "pictureMatch",
       "wordId": "d26-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d26-w02.svg",
+      "image": "/images/vocab/d26-w02.jpg",
       "options": [
-        "кажется",
-        "дороже",
-        "меньше",
+        "дешевле",
+        "больше",
+        "думаю",
         "хуже"
       ],
       "correctIndex": 3
@@ -616,28 +624,28 @@
       "type": "pictureMatch",
       "wordId": "d26-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d26-w03.svg",
+      "image": "/images/vocab/d26-w03.jpg",
       "options": [
-        "согласен",
         "больше",
-        "хуже",
-        "дешевле"
+        "дешевле",
+        "лучше",
+        "кажется"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "d26-pic-04",
       "type": "pictureMatch",
       "wordId": "d26-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d26-w04.svg",
+      "image": "/images/vocab/d26-w04.jpg",
       "options": [
-        "меньше",
-        "дешевле",
         "хуже",
+        "больше",
+        "меньше",
         "думаю"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "d26-pic-05",
@@ -646,10 +654,10 @@
       "prompt": "Which word matches this picture?",
       "image": "/images/vocab/d26-w05.svg",
       "options": [
-        "думаю",
+        "кажется",
         "дороже",
-        "согласен",
-        "больше"
+        "дешевле",
+        "лучше"
       ],
       "correctIndex": 1
     },
@@ -660,24 +668,24 @@
       "prompt": "Which word matches this picture?",
       "image": "/images/vocab/d26-w06.svg",
       "options": [
-        "дешевле",
-        "мнение",
-        "больше",
-        "кажется"
+        "дороже",
+        "меньше",
+        "лучше",
+        "дешевле"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "d26-pic-07",
       "type": "pictureMatch",
       "wordId": "d26-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d26-w07.svg",
+      "image": "/images/vocab/d26-w07.png",
       "options": [
-        "меньше",
+        "дешевле",
         "мнение",
-        "согласен",
-        "лучше"
+        "дороже",
+        "думаю"
       ],
       "correctIndex": 1
     },
@@ -686,11 +694,11 @@
       "type": "pictureMatch",
       "wordId": "d26-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d26-w08.svg",
+      "image": "/images/vocab/d26-w08.jpg",
       "options": [
+        "дороже",
         "меньше",
-        "мнение",
-        "дешевле",
+        "согласен",
         "думаю"
       ],
       "correctIndex": 3
@@ -700,28 +708,28 @@
       "type": "pictureMatch",
       "wordId": "d26-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d26-w09.svg",
+      "image": "/images/vocab/d26-w09.png",
       "options": [
-        "больше",
-        "согласен",
         "дороже",
-        "хуже"
+        "меньше",
+        "согласен",
+        "лучше"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "d26-pic-10",
       "type": "pictureMatch",
       "wordId": "d26-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d26-w10.svg",
+      "image": "/images/vocab/d26-w10.jpg",
       "options": [
-        "хуже",
-        "кажется",
         "лучше",
-        "дешевле"
+        "меньше",
+        "кажется",
+        "согласен"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     }
   ]
 }

@@ -8,10 +8,12 @@ import { CURRICULUM_PART4 } from './curriculum-data-part4.ts';
 import { CURRICULUM_PART5 } from './curriculum-data-part5.ts';
 import { tokenizeRu } from '../src/lib/tokenize.ts';
 import { buildVocabSvg } from './vocab-icons.ts';
+import { fetchVocabImage } from './fetch-vocab-images.ts';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const outDir = join(__dirname, '..', 'content', 'days');
 const imageDir = join(__dirname, '..', 'public', 'images', 'vocab');
+const attributionsPath = join(imageDir, 'attributions.json');
 mkdirSync(outDir, { recursive: true });
 mkdirSync(imageDir, { recursive: true });
 
@@ -51,26 +53,42 @@ function shuffle<T>(arr: T[]): T[] {
   return copy;
 }
 
-function buildDay(raw: RawDay) {
+async function resolveWordImage(id: string, en: string, ru: string) {
+  const fetched = await fetchVocabImage(en, id, imageDir, attributionsPath);
+  if (fetched) {
+    return { image: fetched.webPath, imageCredit: fetched.credit };
+  }
+
+  const svgPath = `/images/vocab/${id}.svg`;
+  writeFileSync(join(imageDir, `${id}.svg`), buildVocabSvg(en, ru), 'utf-8');
+  console.warn(`  fallback SVG for ${id} (${en})`);
+  return { image: svgPath, imageCredit: undefined };
+}
+
+async function buildDay(raw: RawDay) {
   const dayStr = String(raw.day).padStart(2, '0');
-  const words = raw.words.map((word, i) => {
+  const words = [];
+
+  for (let i = 0; i < raw.words.length; i++) {
+    const word = raw.words[i]!;
     const id = `d${dayStr}-w${String(i + 1).padStart(2, '0')}`;
     const audioSlug = slug(word.ru);
-    const imagePath = `/images/vocab/${id}.svg`;
-    writeFileSync(join(imageDir, `${id}.svg`), buildVocabSvg(word.en, word.ru), 'utf-8');
-    return {
+    const { image, imageCredit } = await resolveWordImage(id, word.en, word.ru);
+
+    words.push({
       id,
       ru: word.ru,
       en: word.en,
       stress: word.stress,
       audio: `/audio/day${dayStr}/${audioSlug}.mp3`,
-      image: imagePath,
+      image,
+      imageCredit,
       sentences: [
         { ru: word.s1, en: word.s1en },
         { ru: word.s2, en: word.s2en },
       ],
-    };
-  });
+    });
+  }
 
   const exercises: Record<string, unknown>[] = [];
   let orderIndex = 0;
@@ -132,11 +150,14 @@ const allDays = [
   ...CURRICULUM_PART5,
 ];
 
+let imageCount = 0;
 for (const raw of allDays) {
-  const day = buildDay(raw);
+  console.log(`Day ${raw.day}…`);
+  const day = await buildDay(raw);
+  imageCount += day.words.length;
   const path = join(outDir, `day-${String(raw.day).padStart(2, '0')}.json`);
   writeFileSync(path, JSON.stringify(day, null, 2));
-  console.log(`Wrote ${path}`);
+  console.log(`  Wrote ${path}`);
 }
 
-console.log(`Generated ${allDays.length} day files and ${allDays.reduce((n, d) => n + d.words.length, 0)} vocab images.`);
+console.log(`Generated ${allDays.length} day files and ${imageCount} vocab images.`);

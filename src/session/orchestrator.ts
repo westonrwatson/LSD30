@@ -46,16 +46,6 @@ export function buildSessionQueue(dayPlan: DayPlan): QueuedExercise[] {
   }));
   queue.push(...listening);
 
-  queue.push({
-    exercise: {
-      id: `d${String(dayPlan.day).padStart(2, '0')}-picture-gallery`,
-      type: 'pictureGallery',
-      prompt: "Picture review — today's words",
-    },
-    block: 'pictures',
-    words: dayPlan.words,
-  });
-
   const pictures = exercisesByType(dayPlan.exercises, ['pictureMatch']).map((ex) => ({
     exercise: ex,
     block: 'pictures' as SessionBlock,

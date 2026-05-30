@@ -8,7 +8,8 @@
       "ru": "лес",
       "en": "forest",
       "audio": "/audio/day20/лес.mp3",
-      "image": "/images/vocab/d20-w01.svg",
+      "image": "/images/vocab/d20-w01.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Гуляем в лесу.",
@@ -25,7 +26,8 @@
       "ru": "река",
       "en": "river",
       "audio": "/audio/day20/река.mp3",
-      "image": "/images/vocab/d20-w02.svg",
+      "image": "/images/vocab/d20-w02.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Река широкая.",
@@ -42,7 +44,8 @@
       "ru": "гора",
       "en": "mountain",
       "audio": "/audio/day20/гора.mp3",
-      "image": "/images/vocab/d20-w03.svg",
+      "image": "/images/vocab/d20-w03.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Высокая гора.",
@@ -59,7 +62,8 @@
       "ru": "море",
       "en": "sea",
       "audio": "/audio/day20/море.mp3",
-      "image": "/images/vocab/d20-w04.svg",
+      "image": "/images/vocab/d20-w04.jpg",
+      "imageCredit": "http://fy.wikipedia.org/wiki/Ofbyld:Skylge_Natuermuseum_nije_foargevel_CNL_2009_1.jpg (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Море синее.",
@@ -76,7 +80,8 @@
       "ru": "озеро",
       "en": "lake",
       "audio": "/audio/day20/озеро.mp3",
-      "image": "/images/vocab/d20-w05.svg",
+      "image": "/images/vocab/d20-w05.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Озеро глубокое.",
@@ -93,7 +98,8 @@
       "ru": "дерево",
       "en": "tree",
       "audio": "/audio/day20/дерево.mp3",
-      "image": "/images/vocab/d20-w06.svg",
+      "image": "/images/vocab/d20-w06.jpg",
+      "imageCredit": "Own work (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Высокое дерево.",
@@ -110,7 +116,8 @@
       "ru": "цветок",
       "en": "flower",
       "audio": "/audio/day20/цветок.mp3",
-      "image": "/images/vocab/d20-w07.svg",
+      "image": "/images/vocab/d20-w07.jpg",
+      "imageCredit": "Imported from 500px (archived version) by the Archive Team. (detail page) (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Красивый цветок.",
@@ -127,7 +134,8 @@
       "ru": "природа",
       "en": "nature",
       "audio": "/audio/day20/природа.mp3",
-      "image": "/images/vocab/d20-w08.svg",
+      "image": "/images/vocab/d20-w08.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Люблю природу.",
@@ -144,7 +152,8 @@
       "ru": "воздух",
       "en": "air",
       "audio": "/audio/day20/воздух.mp3",
-      "image": "/images/vocab/d20-w09.svg",
+      "image": "/images/vocab/d20-w09.jpg",
+      "imageCredit": "Wikimedia Commons (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Свежий воздух.",
@@ -161,7 +170,8 @@
       "ru": "остров",
       "en": "island",
       "audio": "/audio/day20/остров.mp3",
-      "image": "/images/vocab/d20-w10.svg",
+      "image": "/images/vocab/d20-w10.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Остров в море.",
@@ -189,12 +199,12 @@
         "лесу"
       ],
       "pool": [
-        "лесу",
-        "гора",
-        "дерево",
-        "в",
         "природа",
-        "Гуляем"
+        "в",
+        "гора",
+        "Гуляем",
+        "воздух",
+        "лесу"
       ]
     },
     {
@@ -210,11 +220,11 @@
         "лес"
       ],
       "pool": [
-        "лес",
+        "природа",
+        "озеро",
         "Тёмный",
-        "гора",
-        "цветок",
-        "воздух"
+        "море",
+        "лес"
       ]
     },
     {
@@ -230,11 +240,11 @@
         "широкая"
       ],
       "pool": [
-        "широкая",
-        "остров",
         "Река",
+        "широкая",
+        "дерево",
         "воздух",
-        "лес"
+        "озеро"
       ]
     },
     {
@@ -252,9 +262,9 @@
       "pool": [
         "Большая",
         "лес",
-        "озеро",
-        "гора",
-        "река"
+        "остров",
+        "река",
+        "море"
       ]
     },
     {
@@ -271,10 +281,10 @@
       ],
       "pool": [
         "гора",
-        "дерево",
-        "остров",
+        "цветок",
         "Высокая",
-        "река"
+        "остров",
+        "воздух"
       ]
     },
     {
@@ -291,12 +301,12 @@
         "холодно"
       ],
       "pool": [
-        "море",
-        "холодно",
+        "воздух",
         "остров",
         "река",
         "В",
-        "горах"
+        "горах",
+        "холодно"
       ]
     },
     {
@@ -313,10 +323,10 @@
       ],
       "pool": [
         "дерево",
-        "Море",
         "синее",
         "гора",
-        "лес"
+        "Море",
+        "цветок"
       ]
     },
     {
@@ -334,11 +344,11 @@
       ],
       "pool": [
         "остров",
+        "Летом",
         "на",
         "море",
-        "гора",
-        "Летом",
-        "озеро"
+        "цветок",
+        "река"
       ]
     },
     {
@@ -354,11 +364,11 @@
         "глубокое"
       ],
       "pool": [
-        "лес",
-        "дерево",
-        "остров",
         "глубокое",
-        "Озеро"
+        "цветок",
+        "остров",
+        "Озеро",
+        "море"
       ]
     },
     {
@@ -376,11 +386,11 @@
       ],
       "pool": [
         "У",
-        "лес",
+        "цветок",
         "озера",
-        "дом",
-        "река",
-        "гора"
+        "лес",
+        "природа",
+        "дом"
       ]
     },
     {
@@ -396,11 +406,11 @@
         "дерево"
       ],
       "pool": [
-        "Высокое",
         "цветок",
-        "гора",
-        "дерево",
-        "река"
+        "Высокое",
+        "воздух",
+        "море",
+        "дерево"
       ]
     },
     {
@@ -416,11 +426,11 @@
         "деревьев"
       ],
       "pool": [
-        "природа",
-        "цветок",
+        "Много",
         "деревьев",
-        "озеро",
-        "Много"
+        "цветок",
+        "воздух",
+        "природа"
       ]
     },
     {
@@ -436,11 +446,11 @@
         "цветок"
       ],
       "pool": [
-        "река",
+        "остров",
         "Красивый",
-        "воздух",
         "цветок",
-        "гора"
+        "дерево",
+        "воздух"
       ]
     },
     {
@@ -456,9 +466,9 @@
         "цветов"
       ],
       "pool": [
-        "остров",
+        "дерево",
         "цветов",
-        "озеро",
+        "воздух",
         "Букет",
         "лес"
       ]
@@ -476,11 +486,11 @@
         "природу"
       ],
       "pool": [
-        "озеро",
-        "природу",
-        "гора",
         "Люблю",
-        "цветок"
+        "природу",
+        "цветок",
+        "море",
+        "лес"
       ]
     },
     {
@@ -496,11 +506,11 @@
         "природа"
       ],
       "pool": [
+        "лес",
+        "дерево",
         "озеро",
-        "гора",
         "природа",
-        "Красивая",
-        "цветок"
+        "Красивая"
       ]
     },
     {
@@ -516,10 +526,10 @@
         "воздух"
       ],
       "pool": [
-        "Свежий",
-        "озеро",
-        "река",
         "цветок",
+        "лес",
+        "море",
+        "Свежий",
         "воздух"
       ]
     },
@@ -536,11 +546,11 @@
         "воздух"
       ],
       "pool": [
-        "остров",
-        "воздух",
-        "река",
+        "море",
+        "дерево",
         "Чистый",
-        "гора"
+        "природа",
+        "воздух"
       ]
     },
     {
@@ -557,12 +567,12 @@
         "море"
       ],
       "pool": [
+        "море",
+        "море",
         "в",
         "Остров",
-        "озеро",
-        "море",
-        "река",
-        "гора"
+        "цветок",
+        "воздух"
       ]
     },
     {
@@ -578,11 +588,11 @@
         "остров"
       ],
       "pool": [
-        "река",
-        "Тропический",
         "дерево",
+        "воздух",
+        "Тропический",
         "остров",
-        "природа"
+        "озеро"
       ]
     },
     {
@@ -590,40 +600,40 @@
       "type": "pictureMatch",
       "wordId": "d20-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d20-w01.svg",
+      "image": "/images/vocab/d20-w01.jpg",
       "options": [
-        "природа",
-        "дерево",
         "лес",
+        "остров",
+        "цветок",
         "воздух"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "d20-pic-02",
       "type": "pictureMatch",
       "wordId": "d20-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d20-w02.svg",
+      "image": "/images/vocab/d20-w02.jpg",
       "options": [
-        "море",
+        "цветок",
+        "река",
         "природа",
-        "лес",
-        "река"
+        "лес"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "d20-pic-03",
       "type": "pictureMatch",
       "wordId": "d20-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d20-w03.svg",
+      "image": "/images/vocab/d20-w03.jpg",
       "options": [
-        "море",
+        "цветок",
         "гора",
-        "река",
-        "озеро"
+        "море",
+        "лес"
       ],
       "correctIndex": 1
     },
@@ -632,68 +642,68 @@
       "type": "pictureMatch",
       "wordId": "d20-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d20-w04.svg",
+      "image": "/images/vocab/d20-w04.jpg",
       "options": [
-        "дерево",
-        "природа",
-        "остров",
-        "море"
+        "лес",
+        "воздух",
+        "море",
+        "озеро"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "d20-pic-05",
       "type": "pictureMatch",
       "wordId": "d20-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d20-w05.svg",
+      "image": "/images/vocab/d20-w05.jpg",
       "options": [
-        "море",
-        "озеро",
-        "цветок",
-        "гора"
+        "природа",
+        "остров",
+        "гора",
+        "озеро"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "d20-pic-06",
       "type": "pictureMatch",
       "wordId": "d20-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d20-w06.svg",
+      "image": "/images/vocab/d20-w06.jpg",
       "options": [
-        "цветок",
         "остров",
-        "лес",
-        "дерево"
+        "озеро",
+        "дерево",
+        "море"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "d20-pic-07",
       "type": "pictureMatch",
       "wordId": "d20-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d20-w07.svg",
+      "image": "/images/vocab/d20-w07.jpg",
       "options": [
-        "море",
-        "гора",
         "дерево",
-        "цветок"
+        "озеро",
+        "цветок",
+        "море"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "d20-pic-08",
       "type": "pictureMatch",
       "wordId": "d20-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d20-w08.svg",
+      "image": "/images/vocab/d20-w08.jpg",
       "options": [
-        "гора",
-        "природа",
         "дерево",
-        "воздух"
+        "природа",
+        "цветок",
+        "река"
       ],
       "correctIndex": 1
     },
@@ -702,12 +712,12 @@
       "type": "pictureMatch",
       "wordId": "d20-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d20-w09.svg",
+      "image": "/images/vocab/d20-w09.jpg",
       "options": [
-        "природа",
+        "цветок",
         "воздух",
         "гора",
-        "море"
+        "природа"
       ],
       "correctIndex": 1
     },
@@ -716,14 +726,14 @@
       "type": "pictureMatch",
       "wordId": "d20-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d20-w10.svg",
+      "image": "/images/vocab/d20-w10.jpg",
       "options": [
+        "природа",
         "дерево",
-        "лес",
-        "остров",
-        "река"
+        "воздух",
+        "остров"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     }
   ]
 }

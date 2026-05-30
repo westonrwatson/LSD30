@@ -8,7 +8,8 @@
       "ru": "привет",
       "en": "hello (informal)",
       "audio": "/audio/day01/привет.mp3",
-      "image": "/images/vocab/d01-w01.svg",
+      "image": "/images/vocab/d01-w01.jpg",
+      "imageCredit": "Schoolkids Wave Hello - Zebilla - Ghana (CC BY-SA 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Привет, как дела?",
@@ -25,7 +26,8 @@
       "ru": "здравствуйте",
       "en": "hello (formal)",
       "audio": "/audio/day01/здравствуйте.mp3",
-      "image": "/images/vocab/d01-w02.svg",
+      "image": "/images/vocab/d01-w02.jpg",
+      "imageCredit": "Schoolkids Wave Hello - Zebilla - Ghana (CC BY-SA 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Здравствуйте, меня зовут Анна.",
@@ -42,7 +44,8 @@
       "ru": "до свидания",
       "en": "goodbye",
       "audio": "/audio/day01/до-свидания.mp3",
-      "image": "/images/vocab/d01-w03.svg",
+      "image": "/images/vocab/d01-w03.jpg",
+      "imageCredit": "goodbye Narita (CC BY-SA 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "До свидания, увидимся завтра.",
@@ -59,7 +62,8 @@
       "ru": "спасибо",
       "en": "thank you",
       "audio": "/audio/day01/спасибо.mp3",
-      "image": "/images/vocab/d01-w04.svg",
+      "image": "/images/vocab/d01-w04.png",
+      "imageCredit": "Own work (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Спасибо за помощь.",
@@ -76,7 +80,8 @@
       "ru": "пожалуйста",
       "en": "please / you're welcome",
       "audio": "/audio/day01/пожалуйста.mp3",
-      "image": "/images/vocab/d01-w05.svg",
+      "image": "/images/vocab/d01-w05.jpg",
+      "imageCredit": "https://unsplash.com/photos/5FRTLSMwCfg Image at the Wayback Machine Gallery at the Wayback Machine (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Пожалуйста, садитесь.",
@@ -110,7 +115,8 @@
       "ru": "меня зовут",
       "en": "my name is",
       "audio": "/audio/day01/меня-зовут.mp3",
-      "image": "/images/vocab/d01-w07.svg",
+      "image": "/images/vocab/d01-w07.jpg",
+      "imageCredit": "Internet Archive identifier: innameofwomanrom00marciala (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Меня зовут Иван.",
@@ -127,7 +133,8 @@
       "ru": "как дела",
       "en": "how are you",
       "audio": "/audio/day01/как-дела.mp3",
-      "image": "/images/vocab/d01-w08.svg",
+      "image": "/images/vocab/d01-w08.jpg",
+      "imageCredit": "https://www.flickr.com/photos/joegoauktiatr15/25576559423/ (CC BY-SA 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Привет, как дела?",
@@ -144,7 +151,8 @@
       "ru": "хорошо",
       "en": "good / well",
       "audio": "/audio/day01/хорошо.mp3",
-      "image": "/images/vocab/d01-w09.svg",
+      "image": "/images/vocab/d01-w09.jpg",
+      "imageCredit": "https://www.flickr.com/photos/usarmyeurope_images/14205549780/ (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "У меня всё хорошо.",
@@ -161,7 +169,8 @@
       "ru": "очень приятно",
       "en": "nice to meet you",
       "audio": "/audio/day01/очень-приятно.mp3",
-      "image": "/images/vocab/d01-w10.svg",
+      "image": "/images/vocab/d01-w10.jpg",
+      "imageCredit": "Internet Archive identifier: peopleofabyss00londiala (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Очень приятно познакомиться.",
@@ -190,11 +199,11 @@
       ],
       "pool": [
         "как",
-        "дела",
         "спасибо",
-        "до свидания",
         "пожалуйста",
-        "Привет"
+        "Привет",
+        "здравствуйте",
+        "дела"
       ]
     },
     {
@@ -211,12 +220,12 @@
         "привет"
       ],
       "pool": [
-        "очень приятно",
-        "сказал",
-        "Он",
-        "как дела",
         "привет",
-        "здравствуйте"
+        "Он",
+        "хорошо",
+        "как дела",
+        "пожалуйста",
+        "сказал"
       ]
     },
     {
@@ -234,13 +243,13 @@
         "Анна"
       ],
       "pool": [
-        "как дела",
-        "Здравствуйте",
-        "меня зовут",
-        "очень приятно",
         "Анна",
-        "зовут",
-        "меня"
+        "Здравствуйте",
+        "меня",
+        "меня зовут",
+        "хорошо",
+        "извините",
+        "зовут"
       ]
     },
     {
@@ -256,11 +265,11 @@
         "доктор"
       ],
       "pool": [
+        "как дела",
+        "Здравствуйте",
         "привет",
         "доктор",
-        "пожалуйста",
-        "как дела",
-        "Здравствуйте"
+        "хорошо"
       ]
     },
     {
@@ -278,13 +287,13 @@
         "завтра"
       ],
       "pool": [
-        "пожалуйста",
-        "До",
-        "здравствуйте",
-        "хорошо",
         "увидимся",
+        "извините",
+        "пожалуйста",
+        "меня зовут",
+        "завтра",
         "свидания",
-        "завтра"
+        "До"
       ]
     },
     {
@@ -302,13 +311,13 @@
         "свидания"
       ],
       "pool": [
-        "сказала",
-        "до",
-        "здравствуйте",
-        "спасибо",
         "Она",
+        "здравствуйте",
         "извините",
-        "свидания"
+        "свидания",
+        "пожалуйста",
+        "до",
+        "сказала"
       ]
     },
     {
@@ -325,12 +334,12 @@
         "помощь"
       ],
       "pool": [
-        "меня зовут",
-        "помощь",
-        "извините",
-        "пожалуйста",
         "за",
-        "Спасибо"
+        "здравствуйте",
+        "помощь",
+        "очень приятно",
+        "Спасибо",
+        "привет"
       ]
     },
     {
@@ -347,9 +356,9 @@
       ],
       "pool": [
         "до свидания",
-        "пожалуйста",
-        "Большое",
+        "привет",
         "как дела",
+        "Большое",
         "спасибо"
       ]
     },
@@ -366,11 +375,11 @@
         "садитесь"
       ],
       "pool": [
-        "спасибо",
-        "Пожалуйста",
-        "как дела",
         "садитесь",
-        "до свидания"
+        "Пожалуйста",
+        "хорошо",
+        "как дела",
+        "очень приятно"
       ]
     },
     {
@@ -386,11 +395,11 @@
         "Пожалуйста"
       ],
       "pool": [
-        "Пожалуйста",
+        "как дела",
         "Спасибо",
-        "меня зовут",
-        "здравствуйте",
-        "хорошо"
+        "хорошо",
+        "Пожалуйста",
+        "привет"
       ]
     },
     {
@@ -407,12 +416,12 @@
         "туалет"
       ],
       "pool": [
-        "до свидания",
         "Извините",
-        "хорошо",
-        "туалет",
-        "меня зовут",
-        "где"
+        "пожалуйста",
+        "до свидания",
+        "где",
+        "привет",
+        "туалет"
       ]
     },
     {
@@ -429,12 +438,12 @@
         "опоздание"
       ],
       "pool": [
-        "меня зовут",
-        "привет",
-        "пожалуйста",
+        "хорошо",
+        "опоздание",
         "Извините",
         "за",
-        "опоздание"
+        "пожалуйста",
+        "меня зовут"
       ]
     },
     {
@@ -451,12 +460,12 @@
         "Иван"
       ],
       "pool": [
-        "зовут",
         "пожалуйста",
+        "Меня",
+        "зовут",
         "Иван",
-        "хорошо",
         "здравствуйте",
-        "Меня"
+        "до свидания"
       ]
     },
     {
@@ -473,12 +482,12 @@
         "Мария"
       ],
       "pool": [
-        "Меня",
-        "Мария",
-        "как дела",
+        "спасибо",
+        "хорошо",
+        "здравствуйте",
         "зовут",
-        "очень приятно",
-        "спасибо"
+        "Меня",
+        "Мария"
       ]
     },
     {
@@ -495,12 +504,12 @@
         "дела"
       ],
       "pool": [
+        "очень приятно",
+        "меня зовут",
         "как",
-        "дела",
-        "спасибо",
         "Привет",
-        "до свидания",
-        "очень приятно"
+        "хорошо",
+        "дела"
       ]
     },
     {
@@ -517,12 +526,12 @@
         "Хорошо"
       ],
       "pool": [
+        "пожалуйста",
+        "привет",
         "меня зовут",
-        "Как",
         "Хорошо",
-        "хорошо",
         "дела",
-        "до свидания"
+        "Как"
       ]
     },
     {
@@ -540,12 +549,12 @@
         "хорошо"
       ],
       "pool": [
-        "меня",
-        "привет",
         "У",
-        "очень приятно",
-        "до свидания",
+        "меня",
+        "извините",
+        "здравствуйте",
         "всё",
+        "пожалуйста",
         "хорошо"
       ]
     },
@@ -562,11 +571,11 @@
         "хорошо"
       ],
       "pool": [
+        "как дела",
+        "меня зовут",
         "хорошо",
         "Это",
-        "извините",
-        "пожалуйста",
-        "очень приятно"
+        "привет"
       ]
     },
     {
@@ -583,11 +592,11 @@
         "познакомиться"
       ],
       "pool": [
-        "Очень",
-        "привет",
-        "пожалуйста",
-        "хорошо",
         "познакомиться",
+        "как дела",
+        "извините",
+        "Очень",
+        "хорошо",
         "приятно"
       ]
     },
@@ -606,12 +615,12 @@
         "приятно"
       ],
       "pool": [
-        "очень",
-        "извините",
-        "тоже",
-        "пожалуйста",
-        "как дела",
         "Мне",
+        "хорошо",
+        "тоже",
+        "как дела",
+        "привет",
+        "очень",
         "приятно"
       ]
     },
@@ -620,39 +629,39 @@
       "type": "pictureMatch",
       "wordId": "d01-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d01-w01.svg",
+      "image": "/images/vocab/d01-w01.jpg",
       "options": [
-        "пожалуйста",
         "привет",
-        "меня зовут",
-        "как дела"
+        "пожалуйста",
+        "хорошо",
+        "до свидания"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "d01-pic-02",
       "type": "pictureMatch",
       "wordId": "d01-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d01-w02.svg",
+      "image": "/images/vocab/d01-w02.jpg",
       "options": [
-        "хорошо",
-        "извините",
         "спасибо",
-        "здравствуйте"
+        "здравствуйте",
+        "меня зовут",
+        "извините"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "d01-pic-03",
       "type": "pictureMatch",
       "wordId": "d01-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d01-w03.svg",
+      "image": "/images/vocab/d01-w03.jpg",
       "options": [
-        "меня зовут",
-        "извините",
-        "пожалуйста",
+        "как дела",
+        "хорошо",
+        "очень приятно",
         "до свидания"
       ],
       "correctIndex": 3
@@ -662,28 +671,28 @@
       "type": "pictureMatch",
       "wordId": "d01-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d01-w04.svg",
+      "image": "/images/vocab/d01-w04.png",
       "options": [
-        "меня зовут",
-        "хорошо",
-        "здравствуйте",
-        "спасибо"
+        "спасибо",
+        "привет",
+        "пожалуйста",
+        "как дела"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "d01-pic-05",
       "type": "pictureMatch",
       "wordId": "d01-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d01-w05.svg",
+      "image": "/images/vocab/d01-w05.jpg",
       "options": [
-        "как дела",
         "извините",
-        "хорошо",
-        "пожалуйста"
+        "здравствуйте",
+        "пожалуйста",
+        "очень приятно"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "d01-pic-06",
@@ -692,23 +701,23 @@
       "prompt": "Which word matches this picture?",
       "image": "/images/vocab/d01-w06.svg",
       "options": [
-        "до свидания",
-        "здравствуйте",
-        "пожалуйста",
-        "извините"
+        "как дела",
+        "извините",
+        "очень приятно",
+        "спасибо"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "d01-pic-07",
       "type": "pictureMatch",
       "wordId": "d01-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d01-w07.svg",
+      "image": "/images/vocab/d01-w07.jpg",
       "options": [
         "меня зовут",
+        "спасибо",
         "извините",
-        "пожалуйста",
         "как дела"
       ],
       "correctIndex": 0
@@ -718,38 +727,38 @@
       "type": "pictureMatch",
       "wordId": "d01-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d01-w08.svg",
+      "image": "/images/vocab/d01-w08.jpg",
       "options": [
-        "пожалуйста",
-        "извините",
-        "меня зовут",
-        "как дела"
+        "до свидания",
+        "здравствуйте",
+        "как дела",
+        "пожалуйста"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "d01-pic-09",
       "type": "pictureMatch",
       "wordId": "d01-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d01-w09.svg",
+      "image": "/images/vocab/d01-w09.jpg",
       "options": [
-        "пожалуйста",
         "хорошо",
-        "спасибо",
-        "очень приятно"
+        "здравствуйте",
+        "до свидания",
+        "спасибо"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "d01-pic-10",
       "type": "pictureMatch",
       "wordId": "d01-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d01-w10.svg",
+      "image": "/images/vocab/d01-w10.jpg",
       "options": [
-        "пожалуйста",
-        "извините",
+        "привет",
+        "спасибо",
         "до свидания",
         "очень приятно"
       ],

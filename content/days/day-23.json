@@ -8,7 +8,8 @@
       "ru": "отель",
       "en": "hotel",
       "audio": "/audio/day23/отель.mp3",
-      "image": "/images/vocab/d23-w01.svg",
+      "image": "/images/vocab/d23-w01.jpg",
+      "imageCredit": "Own work (CC BY 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Отель в центре.",
@@ -25,7 +26,8 @@
       "ru": "номер",
       "en": "room (hotel)",
       "audio": "/audio/day23/номер.mp3",
-      "image": "/images/vocab/d23-w02.svg",
+      "image": "/images/vocab/d23-w02.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Номер с видом.",
@@ -42,7 +44,8 @@
       "ru": "билет",
       "en": "ticket",
       "audio": "/audio/day23/билет.mp3",
-      "image": "/images/vocab/d23-w03.svg",
+      "image": "/images/vocab/d23-w03.jpg",
+      "imageCredit": "A, B, C, D, E, F, G, H, I, J, K, L (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Купи билет.",
@@ -59,7 +62,8 @@
       "ru": "паспорт",
       "en": "passport",
       "audio": "/audio/day23/паспорт.mp3",
-      "image": "/images/vocab/d23-w04.svg",
+      "image": "/images/vocab/d23-w04.jpg",
+      "imageCredit": "A, B, C, D, E, F, G, H, I, J, K, L (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Мой паспорт.",
@@ -76,7 +80,8 @@
       "ru": "багаж",
       "en": "luggage",
       "audio": "/audio/day23/багаж.mp3",
-      "image": "/images/vocab/d23-w05.svg",
+      "image": "/images/vocab/d23-w05.jpg",
+      "imageCredit": "https://www.flickr.com/photos/195041916@N08/51903038396/ (CC BY 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Мой багаж.",
@@ -93,7 +98,8 @@
       "ru": "турист",
       "en": "tourist",
       "audio": "/audio/day23/турист.mp3",
-      "image": "/images/vocab/d23-w06.svg",
+      "image": "/images/vocab/d23-w06.jpg",
+      "imageCredit": "Own work (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Я турист.",
@@ -110,7 +116,8 @@
       "ru": "экскурсия",
       "en": "excursion / tour",
       "audio": "/audio/day23/экскурсия.mp3",
-      "image": "/images/vocab/d23-w07.svg",
+      "image": "/images/vocab/d23-w07.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Экскурсия завтра.",
@@ -127,7 +134,8 @@
       "ru": "путешествие",
       "en": "journey / trip",
       "audio": "/audio/day23/путешествие.mp3",
-      "image": "/images/vocab/d23-w08.svg",
+      "image": "/images/vocab/d23-w08.jpg",
+      "imageCredit": "This file has been provided by the British Library from its digital collections. Links to the British Library's website may be broken as the library recovers from a October 2023 cyber attack, and will be updated once material becomes accessible online. For more information on the attack see: https://www.bl.uk/about/cyber-attack Catalogue entry: 014750892 (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Хорошее путешествие.",
@@ -144,7 +152,8 @@
       "ru": "приехать",
       "en": "to arrive (by transport)",
       "audio": "/audio/day23/приехать.mp3",
-      "image": "/images/vocab/d23-w09.svg",
+      "image": "/images/vocab/d23-w09.png",
+      "imageCredit": "Own work avec les données : * Découpage administratif communal et départemental : Export simple de janvier 2021 - vérifié et simplifié à 5 m sur le site du portail de données libres du gouvernement français, élaboré avec le concours des contributeurs à OpenStreetMap * Cours d'eau : Cours d'eau - Métropole 2014 - BD Carthage * Occupation des sols : Corine land cover 2018 * Infrastructures (routes, fer) : : Export openstreetmap de Geofabrik- version du 9 avril 2021Assemblé et enrichi dans fr:QGis. (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Приеду завтра.",
@@ -161,7 +170,8 @@
       "ru": "уехать",
       "en": "to leave (by transport)",
       "audio": "/audio/day23/уехать.mp3",
-      "image": "/images/vocab/d23-w10.svg",
+      "image": "/images/vocab/d23-w10.jpg",
+      "imageCredit": "Paid parental leave picnic (CC BY-SA 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Уеду в пятницу.",
@@ -189,12 +199,12 @@
         "центре"
       ],
       "pool": [
-        "Отель",
+        "уехать",
+        "центре",
         "в",
-        "турист",
         "экскурсия",
-        "приехать",
-        "центре"
+        "Отель",
+        "паспорт"
       ]
     },
     {
@@ -210,11 +220,11 @@
         "отель"
       ],
       "pool": [
-        "паспорт",
         "уехать",
+        "билет",
+        "путешествие",
         "Бронирую",
-        "отель",
-        "багаж"
+        "отель"
       ]
     },
     {
@@ -231,12 +241,12 @@
         "видом"
       ],
       "pool": [
-        "Номер",
-        "экскурсия",
         "видом",
-        "паспорт",
-        "отель",
-        "с"
+        "с",
+        "Номер",
+        "билет",
+        "турист",
+        "путешествие"
       ]
     },
     {
@@ -252,11 +262,11 @@
         "номер"
       ],
       "pool": [
-        "приехать",
-        "путешествие",
+        "отель",
         "Свободный",
-        "номер",
-        "паспорт"
+        "путешествие",
+        "приехать",
+        "номер"
       ]
     },
     {
@@ -272,10 +282,10 @@
         "билет"
       ],
       "pool": [
+        "отель",
+        "уехать",
+        "турист",
         "билет",
-        "номер",
-        "путешествие",
-        "приехать",
         "Купи"
       ]
     },
@@ -293,12 +303,12 @@
         "поезд"
       ],
       "pool": [
-        "уехать",
-        "багаж",
-        "экскурсия",
-        "поезд",
+        "приехать",
+        "на",
         "Билет",
-        "на"
+        "путешествие",
+        "поезд",
+        "турист"
       ]
     },
     {
@@ -314,10 +324,10 @@
         "паспорт"
       ],
       "pool": [
-        "багаж",
-        "отель",
         "Мой",
-        "турист",
+        "приехать",
+        "билет",
+        "номер",
         "паспорт"
       ]
     },
@@ -334,10 +344,10 @@
         "паспорт"
       ],
       "pool": [
-        "турист",
-        "багаж",
+        "отель",
         "Покажите",
-        "экскурсия",
+        "уехать",
+        "багаж",
         "паспорт"
       ]
     },
@@ -354,11 +364,11 @@
         "багаж"
       ],
       "pool": [
-        "номер",
-        "уехать",
-        "багаж",
         "Мой",
-        "отель"
+        "багаж",
+        "приехать",
+        "путешествие",
+        "паспорт"
       ]
     },
     {
@@ -374,11 +384,11 @@
         "багаж"
       ],
       "pool": [
-        "уехать",
         "Где",
-        "приехать",
-        "экскурсия",
-        "багаж"
+        "уехать",
+        "отель",
+        "багаж",
+        "приехать"
       ]
     },
     {
@@ -394,11 +404,11 @@
         "турист"
       ],
       "pool": [
-        "паспорт",
         "Я",
-        "отель",
-        "турист",
-        "билет"
+        "багаж",
+        "экскурсия",
+        "номер",
+        "турист"
       ]
     },
     {
@@ -414,11 +424,11 @@
         "туристов"
       ],
       "pool": [
-        "уехать",
         "Много",
-        "номер",
+        "приехать",
         "туристов",
-        "багаж"
+        "уехать",
+        "отель"
       ]
     },
     {
@@ -435,10 +445,10 @@
       ],
       "pool": [
         "паспорт",
-        "турист",
-        "завтра",
+        "багаж",
         "уехать",
-        "Экскурсия"
+        "Экскурсия",
+        "завтра"
       ]
     },
     {
@@ -454,11 +464,11 @@
         "экскурсия"
       ],
       "pool": [
+        "багаж",
         "экскурсия",
-        "билет",
+        "отель",
         "Интересная",
-        "паспорт",
-        "багаж"
+        "паспорт"
       ]
     },
     {
@@ -474,9 +484,9 @@
         "путешествие"
       ],
       "pool": [
-        "турист",
+        "билет",
         "Хорошее",
-        "багаж",
+        "приехать",
         "путешествие",
         "отель"
       ]
@@ -495,10 +505,10 @@
       ],
       "pool": [
         "номер",
+        "Люблю",
         "путешествия",
-        "билет",
         "приехать",
-        "Люблю"
+        "багаж"
       ]
     },
     {
@@ -514,11 +524,11 @@
         "завтра"
       ],
       "pool": [
-        "отель",
+        "завтра",
+        "паспорт",
         "Приеду",
-        "номер",
-        "билет",
-        "завтра"
+        "отель",
+        "турист"
       ]
     },
     {
@@ -534,11 +544,11 @@
         "приедешь"
       ],
       "pool": [
-        "билет",
-        "приедешь",
         "Когда",
-        "багаж",
-        "паспорт"
+        "приедешь",
+        "отель",
+        "турист",
+        "путешествие"
       ]
     },
     {
@@ -555,12 +565,12 @@
         "пятницу"
       ],
       "pool": [
-        "Уеду",
-        "паспорт",
+        "экскурсия",
+        "путешествие",
+        "номер",
         "в",
-        "пятницу",
-        "билет",
-        "путешествие"
+        "Уеду",
+        "пятницу"
       ]
     },
     {
@@ -577,9 +587,9 @@
       ],
       "pool": [
         "отель",
-        "экскурсия",
-        "турист",
+        "номер",
         "уехать",
+        "экскурсия",
         "Пора"
       ]
     },
@@ -588,137 +598,137 @@
       "type": "pictureMatch",
       "wordId": "d23-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d23-w01.svg",
+      "image": "/images/vocab/d23-w01.jpg",
       "options": [
         "путешествие",
-        "билет",
         "приехать",
-        "отель"
+        "отель",
+        "паспорт"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "d23-pic-02",
       "type": "pictureMatch",
       "wordId": "d23-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d23-w02.svg",
+      "image": "/images/vocab/d23-w02.jpg",
       "options": [
-        "номер",
-        "турист",
         "паспорт",
-        "билет"
+        "уехать",
+        "отель",
+        "номер"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "d23-pic-03",
       "type": "pictureMatch",
       "wordId": "d23-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d23-w03.svg",
+      "image": "/images/vocab/d23-w03.jpg",
       "options": [
-        "путешествие",
-        "приехать",
         "билет",
-        "номер"
+        "экскурсия",
+        "багаж",
+        "путешествие"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "d23-pic-04",
       "type": "pictureMatch",
       "wordId": "d23-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d23-w04.svg",
+      "image": "/images/vocab/d23-w04.jpg",
       "options": [
-        "турист",
-        "номер",
-        "багаж",
-        "паспорт"
+        "паспорт",
+        "отель",
+        "экскурсия",
+        "путешествие"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "d23-pic-05",
       "type": "pictureMatch",
       "wordId": "d23-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d23-w05.svg",
+      "image": "/images/vocab/d23-w05.jpg",
       "options": [
-        "приехать",
-        "турист",
+        "билет",
         "багаж",
-        "отель"
+        "путешествие",
+        "приехать"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "d23-pic-06",
       "type": "pictureMatch",
       "wordId": "d23-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d23-w06.svg",
+      "image": "/images/vocab/d23-w06.jpg",
       "options": [
+        "экскурсия",
         "турист",
-        "отель",
-        "уехать",
-        "багаж"
+        "путешествие",
+        "уехать"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d23-pic-07",
       "type": "pictureMatch",
       "wordId": "d23-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d23-w07.svg",
+      "image": "/images/vocab/d23-w07.jpg",
       "options": [
-        "номер",
-        "экскурсия",
+        "уехать",
         "путешествие",
-        "багаж"
+        "отель",
+        "экскурсия"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "d23-pic-08",
       "type": "pictureMatch",
       "wordId": "d23-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d23-w08.svg",
+      "image": "/images/vocab/d23-w08.jpg",
       "options": [
-        "уехать",
-        "номер",
-        "приехать",
-        "путешествие"
+        "билет",
+        "путешествие",
+        "отель",
+        "багаж"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "d23-pic-09",
       "type": "pictureMatch",
       "wordId": "d23-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d23-w09.svg",
+      "image": "/images/vocab/d23-w09.png",
       "options": [
-        "приехать",
-        "паспорт",
+        "уехать",
+        "путешествие",
         "экскурсия",
-        "путешествие"
+        "приехать"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "d23-pic-10",
       "type": "pictureMatch",
       "wordId": "d23-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d23-w10.svg",
+      "image": "/images/vocab/d23-w10.jpg",
       "options": [
-        "турист",
-        "номер",
         "паспорт",
+        "экскурсия",
+        "отель",
         "уехать"
       ],
       "correctIndex": 3

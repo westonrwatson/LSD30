@@ -8,7 +8,8 @@
       "ru": "собака",
       "en": "dog",
       "audio": "/audio/day06/собака.mp3",
-      "image": "/images/vocab/d06-w01.svg",
+      "image": "/images/vocab/d06-w01.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Собака бегает в парке.",
@@ -25,7 +26,8 @@
       "ru": "кошка",
       "en": "cat",
       "audio": "/audio/day06/кошка.mp3",
-      "image": "/images/vocab/d06-w02.svg",
+      "image": "/images/vocab/d06-w02.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Кошка спит на диване.",
@@ -42,7 +44,8 @@
       "ru": "птица",
       "en": "bird",
       "audio": "/audio/day06/птица.mp3",
-      "image": "/images/vocab/d06-w03.svg",
+      "image": "/images/vocab/d06-w03.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Птица поёт утром.",
@@ -59,7 +62,8 @@
       "ru": "рыба",
       "en": "fish",
       "audio": "/audio/day06/рыба.mp3",
-      "image": "/images/vocab/d06-w04.svg",
+      "image": "/images/vocab/d06-w04.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Рыба плавает в воде.",
@@ -76,7 +80,8 @@
       "ru": "лошадь",
       "en": "horse",
       "audio": "/audio/day06/лошадь.mp3",
-      "image": "/images/vocab/d06-w05.svg",
+      "image": "/images/vocab/d06-w05.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Лошадь бежит быстро.",
@@ -93,7 +98,8 @@
       "ru": "корова",
       "en": "cow",
       "audio": "/audio/day06/корова.mp3",
-      "image": "/images/vocab/d06-w06.svg",
+      "image": "/images/vocab/d06-w06.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Корова даёт молоко.",
@@ -110,7 +116,8 @@
       "ru": "медведь",
       "en": "bear",
       "audio": "/audio/day06/медведь.mp3",
-      "image": "/images/vocab/d06-w07.svg",
+      "image": "/images/vocab/d06-w07.jpg",
+      "imageCredit": "https://www.flickr.com/photos/internetarchivebookimages/14782774632/ Source book page: https://archive.org/stream/humanbodybeginne00mart/humanbodybeginne00mart#page/n48/mode/1up (No restrictions via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Медведь живёт в лесу.",
@@ -127,7 +134,8 @@
       "ru": "волк",
       "en": "wolf",
       "audio": "/audio/day06/волк.mp3",
-      "image": "/images/vocab/d06-w08.svg",
+      "image": "/images/vocab/d06-w08.jpg",
+      "imageCredit": "Own work (CC BY 2.5 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Волк охотится ночью.",
@@ -144,7 +152,8 @@
       "ru": "заяц",
       "en": "hare / rabbit",
       "audio": "/audio/day06/заяц.mp3",
-      "image": "/images/vocab/d06-w09.svg",
+      "image": "/images/vocab/d06-w09.jpg",
+      "imageCredit": "first upload: 28 Sep 2004 - de:Wikipedia by the photographer (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Заяц прыгает по полю.",
@@ -161,7 +170,8 @@
       "ru": "мышь",
       "en": "mouse",
       "audio": "/audio/day06/мышь.mp3",
-      "image": "/images/vocab/d06-w10.svg",
+      "image": "/images/vocab/d06-w10.jpg",
+      "imageCredit": "Own work (CC BY-SA 1.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Мышь бежит под стол.",
@@ -190,13 +200,13 @@
         "парке"
       ],
       "pool": [
-        "кошка",
         "в",
         "заяц",
-        "Собака",
-        "парке",
         "бегает",
-        "волк"
+        "парке",
+        "волк",
+        "корова",
+        "Собака"
       ]
     },
     {
@@ -214,11 +224,11 @@
       ],
       "pool": [
         "лошадь",
-        "заяц",
-        "Большая",
-        "кошка",
         "лает",
-        "собака"
+        "заяц",
+        "собака",
+        "Большая",
+        "волк"
       ]
     },
     {
@@ -236,13 +246,13 @@
         "диване"
       ],
       "pool": [
-        "Кошка",
-        "рыба",
         "собака",
-        "на",
+        "корова",
+        "птица",
+        "Кошка",
         "диване",
         "спит",
-        "волк"
+        "на"
       ]
     },
     {
@@ -259,12 +269,12 @@
         "мяукает"
       ],
       "pool": [
-        "медведь",
+        "Чёрная",
+        "собака",
+        "волк",
+        "рыба",
         "кошка",
-        "мяукает",
-        "лошадь",
-        "птица",
-        "Чёрная"
+        "мяукает"
       ]
     },
     {
@@ -281,11 +291,11 @@
         "утром"
       ],
       "pool": [
-        "Птица",
-        "рыба",
-        "мышь",
+        "корова",
+        "лошадь",
         "утром",
-        "заяц",
+        "мышь",
+        "Птица",
         "поёт"
       ]
     },
@@ -303,11 +313,11 @@
         "летит"
       ],
       "pool": [
-        "Маленькая",
-        "лошадь",
-        "мышь",
         "волк",
+        "лошадь",
         "птица",
+        "собака",
+        "Маленькая",
         "летит"
       ]
     },
@@ -326,13 +336,13 @@
         "воде"
       ],
       "pool": [
-        "волк",
-        "воде",
-        "плавает",
+        "Рыба",
         "в",
-        "мышь",
-        "заяц",
-        "Рыба"
+        "корова",
+        "плавает",
+        "птица",
+        "воде",
+        "кошка"
       ]
     },
     {
@@ -350,11 +360,11 @@
       ],
       "pool": [
         "медведь",
-        "рыбу",
-        "мышь",
+        "заяц",
         "Мы",
-        "едим",
-        "птица"
+        "корова",
+        "рыбу",
+        "едим"
       ]
     },
     {
@@ -371,12 +381,12 @@
         "быстро"
       ],
       "pool": [
+        "волк",
         "Лошадь",
-        "рыба",
-        "мышь",
+        "медведь",
         "бежит",
-        "быстро",
-        "заяц"
+        "корова",
+        "быстро"
       ]
     },
     {
@@ -393,12 +403,12 @@
         "красивая"
       ],
       "pool": [
-        "лошадь",
-        "птица",
-        "волк",
+        "заяц",
         "Белая",
-        "мышь",
-        "красивая"
+        "корова",
+        "лошадь",
+        "красивая",
+        "птица"
       ]
     },
     {
@@ -417,10 +427,10 @@
       "pool": [
         "молоко",
         "даёт",
-        "кошка",
         "Корова",
-        "волк",
-        "мышь"
+        "собака",
+        "медведь",
+        "лошадь"
       ]
     },
     {
@@ -437,12 +447,12 @@
         "ферме"
       ],
       "pool": [
-        "ферме",
-        "мышь",
-        "на",
+        "собака",
         "птица",
+        "мышь",
         "Коровы",
-        "волк"
+        "ферме",
+        "на"
       ]
     },
     {
@@ -461,12 +471,12 @@
       ],
       "pool": [
         "в",
-        "волк",
-        "Медведь",
-        "лесу",
         "живёт",
-        "лошадь",
-        "птица"
+        "заяц",
+        "кошка",
+        "птица",
+        "Медведь",
+        "лесу"
       ]
     },
     {
@@ -483,11 +493,11 @@
         "опасный"
       ],
       "pool": [
+        "волк",
         "опасный",
-        "Большой",
-        "лошадь",
         "собака",
         "рыба",
+        "Большой",
         "медведь"
       ]
     },
@@ -505,12 +515,12 @@
         "ночью"
       ],
       "pool": [
-        "медведь",
-        "корова",
-        "ночью",
+        "заяц",
         "охотится",
         "Волк",
-        "собака"
+        "лошадь",
+        "ночью",
+        "птица"
       ]
     },
     {
@@ -528,13 +538,13 @@
         "тайге"
       ],
       "pool": [
-        "птица",
         "в",
+        "волк",
         "тайге",
-        "Серый",
         "лошадь",
-        "медведь",
-        "волк"
+        "рыба",
+        "Серый",
+        "птица"
       ]
     },
     {
@@ -552,13 +562,13 @@
         "полю"
       ],
       "pool": [
-        "корова",
-        "Заяц",
+        "рыба",
+        "по",
         "прыгает",
         "мышь",
-        "собака",
         "полю",
-        "по"
+        "Заяц",
+        "медведь"
       ]
     },
     {
@@ -575,12 +585,12 @@
         "зимой"
       ],
       "pool": [
-        "Белый",
-        "заяц",
-        "мышь",
+        "медведь",
+        "волк",
+        "корова",
         "зимой",
-        "лошадь",
-        "кошка"
+        "Белый",
+        "заяц"
       ]
     },
     {
@@ -599,11 +609,11 @@
       ],
       "pool": [
         "под",
-        "заяц",
         "стол",
-        "корова",
         "волк",
+        "лошадь",
         "Мышь",
+        "рыба",
         "бежит"
       ]
     },
@@ -622,13 +632,13 @@
         "доме"
       ],
       "pool": [
-        "старом",
+        "в",
+        "птица",
         "доме",
         "рыба",
-        "в",
-        "волк",
-        "Мыши",
-        "заяц"
+        "старом",
+        "кошка",
+        "Мыши"
       ]
     },
     {
@@ -636,25 +646,25 @@
       "type": "pictureMatch",
       "wordId": "d06-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d06-w01.svg",
+      "image": "/images/vocab/d06-w01.jpg",
       "options": [
-        "корова",
-        "волк",
+        "мышь",
         "собака",
-        "мышь"
+        "кошка",
+        "медведь"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "d06-pic-02",
       "type": "pictureMatch",
       "wordId": "d06-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d06-w02.svg",
+      "image": "/images/vocab/d06-w02.jpg",
       "options": [
         "рыба",
+        "птица",
         "заяц",
-        "корова",
         "кошка"
       ],
       "correctIndex": 3
@@ -664,112 +674,112 @@
       "type": "pictureMatch",
       "wordId": "d06-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d06-w03.svg",
+      "image": "/images/vocab/d06-w03.jpg",
       "options": [
-        "мышь",
-        "лошадь",
-        "кошка",
-        "птица"
+        "рыба",
+        "птица",
+        "корова",
+        "собака"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "d06-pic-04",
       "type": "pictureMatch",
       "wordId": "d06-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d06-w04.svg",
+      "image": "/images/vocab/d06-w04.jpg",
       "options": [
-        "корова",
-        "медведь",
+        "рыба",
         "мышь",
-        "рыба"
+        "медведь",
+        "волк"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "d06-pic-05",
       "type": "pictureMatch",
       "wordId": "d06-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d06-w05.svg",
+      "image": "/images/vocab/d06-w05.jpg",
       "options": [
-        "лошадь",
-        "собака",
-        "волк",
-        "кошка"
+        "заяц",
+        "корова",
+        "мышь",
+        "лошадь"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "d06-pic-06",
       "type": "pictureMatch",
       "wordId": "d06-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d06-w06.svg",
+      "image": "/images/vocab/d06-w06.jpg",
       "options": [
+        "корова",
         "кошка",
-        "рыба",
-        "лошадь",
-        "корова"
+        "птица",
+        "волк"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "d06-pic-07",
       "type": "pictureMatch",
       "wordId": "d06-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d06-w07.svg",
+      "image": "/images/vocab/d06-w07.jpg",
       "options": [
         "кошка",
-        "корова",
         "медведь",
-        "волк"
+        "рыба",
+        "мышь"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "d06-pic-08",
       "type": "pictureMatch",
       "wordId": "d06-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d06-w08.svg",
+      "image": "/images/vocab/d06-w08.jpg",
       "options": [
-        "корова",
         "рыба",
-        "собака",
-        "волк"
+        "медведь",
+        "волк",
+        "птица"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "d06-pic-09",
       "type": "pictureMatch",
       "wordId": "d06-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d06-w09.svg",
+      "image": "/images/vocab/d06-w09.jpg",
       "options": [
-        "кошка",
-        "волк",
         "медведь",
-        "заяц"
+        "волк",
+        "заяц",
+        "рыба"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "d06-pic-10",
       "type": "pictureMatch",
       "wordId": "d06-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d06-w10.svg",
+      "image": "/images/vocab/d06-w10.jpg",
       "options": [
-        "заяц",
-        "собака",
+        "птица",
         "мышь",
-        "волк"
+        "лошадь",
+        "корова"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     }
   ]
 }

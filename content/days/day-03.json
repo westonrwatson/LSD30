@@ -8,7 +8,8 @@
       "ru": "двадцать",
       "en": "twenty",
       "audio": "/audio/day03/двадцать.mp3",
-      "image": "/images/vocab/d03-w01.svg",
+      "image": "/images/vocab/d03-w01.jpg",
+      "imageCredit": "https://www.flickr.com/photos/ekilby/52135290852/ (CC BY-SA 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Мне двадцать лет.",
@@ -42,7 +43,8 @@
       "ru": "сорок",
       "en": "forty",
       "audio": "/audio/day03/сорок.mp3",
-      "image": "/images/vocab/d03-w03.svg",
+      "image": "/images/vocab/d03-w03.jpg",
+      "imageCredit": "Internet Archive identifier: sim_smart-set_1919-02_57_2 (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Сорок человек в зале.",
@@ -59,7 +61,8 @@
       "ru": "пятьдесят",
       "en": "fifty",
       "audio": "/audio/day03/пятьдесят.mp3",
-      "image": "/images/vocab/d03-w04.svg",
+      "image": "/images/vocab/d03-w04.jpg",
+      "imageCredit": "https://www.flickr.com/photos/smu_cul_digitalcollections/8519861690/ (No restrictions via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Пятьдесят процентов скидка.",
@@ -93,7 +96,8 @@
       "ru": "сколько",
       "en": "how many / how much",
       "audio": "/audio/day03/сколько.mp3",
-      "image": "/images/vocab/d03-w06.svg",
+      "image": "/images/vocab/d03-w06.jpg",
+      "imageCredit": "U.S. National Archives and Records Administration (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Сколько тебе лет?",
@@ -110,7 +114,8 @@
       "ru": "год",
       "en": "year",
       "audio": "/audio/day03/год.mp3",
-      "image": "/images/vocab/d03-w07.svg",
+      "image": "/images/vocab/d03-w07.jpg",
+      "imageCredit": "Transferred from en.wikipedia (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Мне двадцать один год.",
@@ -127,7 +132,8 @@
       "ru": "лет",
       "en": "years (age)",
       "audio": "/audio/day03/лет.mp3",
-      "image": "/images/vocab/d03-w08.svg",
+      "image": "/images/vocab/d03-w08.jpg",
+      "imageCredit": "http://hdl.loc.gov/loc.pnp/ppmsca.07756 (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Мне тридцать лет.",
@@ -144,7 +150,8 @@
       "ru": "сто",
       "en": "one hundred",
       "audio": "/audio/day03/сто.mp3",
-      "image": "/images/vocab/d03-w09.svg",
+      "image": "/images/vocab/d03-w09.jpg",
+      "imageCredit": "https://www.flickr.com/photos/smu_cul_digitalcollections/8518746735/ (No restrictions via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Сто рублей, пожалуйста.",
@@ -161,7 +168,8 @@
       "ru": "рубль",
       "en": "ruble",
       "audio": "/audio/day03/рубль.mp3",
-      "image": "/images/vocab/d03-w10.svg",
+      "image": "/images/vocab/d03-w10.png",
+      "imageCredit": "Transferred from en.wikipedia to Commons by Sreejithk2000 using CommonsHelper. (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Один рубль — мало.",
@@ -189,11 +197,11 @@
         "лет"
       ],
       "pool": [
-        "лет",
-        "сорок",
         "двадцать",
+        "пятьдесят",
         "рубль",
-        "сколько",
+        "сто",
+        "лет",
         "Мне"
       ]
     },
@@ -211,12 +219,12 @@
         "езды"
       ],
       "pool": [
-        "тридцать",
-        "лет",
-        "Двадцать",
-        "сколько",
+        "пятьдесят",
         "минут",
-        "езды"
+        "Двадцать",
+        "езды",
+        "тридцать",
+        "рубль"
       ]
     },
     {
@@ -233,12 +241,12 @@
         "месяц"
       ],
       "pool": [
-        "месяц",
-        "двадцать",
-        "Тридцать",
         "дней",
-        "сто",
-        "пятьдесят"
+        "пятьдесят",
+        "лет",
+        "Тридцать",
+        "месяц",
+        "сколько"
       ]
     },
     {
@@ -255,12 +263,12 @@
         "пять"
       ],
       "pool": [
-        "сорок",
+        "сто",
         "пять",
-        "сколько",
         "Ему",
-        "год",
-        "тридцать"
+        "сколько",
+        "тридцать",
+        "сорок"
       ]
     },
     {
@@ -279,12 +287,12 @@
       ],
       "pool": [
         "Сорок",
-        "в",
-        "человек",
-        "тридцать",
-        "лет",
         "зале",
-        "шестьдесят"
+        "в",
+        "двадцать",
+        "человек",
+        "шестьдесят",
+        "тридцать"
       ]
     },
     {
@@ -301,12 +309,12 @@
         "рублей"
       ],
       "pool": [
-        "лет",
+        "пятьдесят",
+        "сколько",
         "рублей",
-        "Сорок",
-        "шестьдесят",
         "пять",
-        "пятьдесят"
+        "Сорок",
+        "сто"
       ]
     },
     {
@@ -323,12 +331,12 @@
         "скидка"
       ],
       "pool": [
-        "скидка",
-        "лет",
-        "сорок",
-        "процентов",
         "год",
-        "Пятьдесят"
+        "скидка",
+        "процентов",
+        "рубль",
+        "Пятьдесят",
+        "сорок"
       ]
     },
     {
@@ -346,11 +354,11 @@
       ],
       "pool": [
         "Ей",
-        "пятьдесят",
         "рубль",
-        "сколько",
         "шестьдесят",
-        "лет"
+        "сто",
+        "лет",
+        "пятьдесят"
       ]
     },
     {
@@ -369,10 +377,10 @@
       "pool": [
         "час",
         "рубль",
-        "лет",
+        "сколько",
         "Шестьдесят",
         "минут",
-        "двадцать"
+        "год"
       ]
     },
     {
@@ -388,11 +396,11 @@
         "шестьдесят"
       ],
       "pool": [
-        "Дедушке",
-        "пятьдесят",
+        "сорок",
+        "сколько",
         "шестьдесят",
-        "двадцать",
-        "рубль"
+        "Дедушке",
+        "лет"
       ]
     },
     {
@@ -409,12 +417,12 @@
         "лет"
       ],
       "pool": [
-        "пятьдесят",
-        "тебе",
         "лет",
         "Сколько",
         "тридцать",
-        "шестьдесят"
+        "сто",
+        "тебе",
+        "двадцать"
       ]
     },
     {
@@ -431,12 +439,12 @@
         "стоит"
       ],
       "pool": [
-        "шестьдесят",
-        "сорок",
         "Сколько",
         "это",
         "стоит",
-        "сто"
+        "сорок",
+        "лет",
+        "двадцать"
       ]
     },
     {
@@ -454,13 +462,13 @@
         "год"
       ],
       "pool": [
-        "тридцать",
-        "год",
+        "шестьдесят",
+        "рубль",
         "один",
+        "тридцать",
         "двадцать",
-        "сколько",
-        "сто",
-        "Мне"
+        "Мне",
+        "год"
       ]
     },
     {
@@ -477,12 +485,12 @@
         "скоро"
       ],
       "pool": [
-        "Новый",
+        "тридцать",
         "скоро",
-        "сто",
         "лет",
         "год",
-        "шестьдесят"
+        "Новый",
+        "двадцать"
       ]
     },
     {
@@ -499,12 +507,12 @@
         "лет"
       ],
       "pool": [
-        "пятьдесят",
-        "двадцать",
         "тридцать",
         "лет",
+        "рубль",
+        "тридцать",
         "Мне",
-        "шестьдесят"
+        "сорок"
       ]
     },
     {
@@ -521,12 +529,12 @@
         "лет"
       ],
       "pool": [
-        "тридцать",
-        "сколько",
-        "лет",
         "Ему",
-        "сто",
-        "пять"
+        "тридцать",
+        "пять",
+        "рубль",
+        "двадцать",
+        "лет"
       ]
     },
     {
@@ -543,12 +551,12 @@
         "пожалуйста"
       ],
       "pool": [
-        "пожалуйста",
-        "рублей",
-        "тридцать",
-        "Сто",
         "пятьдесят",
-        "рубль"
+        "Сто",
+        "сорок",
+        "год",
+        "рублей",
+        "пожалуйста"
       ]
     },
     {
@@ -565,12 +573,12 @@
         "уверен"
       ],
       "pool": [
-        "уверен",
-        "сорок",
-        "Сто",
-        "тридцать",
+        "пятьдесят",
+        "лет",
         "процентов",
-        "рубль"
+        "Сто",
+        "уверен",
+        "сорок"
       ]
     },
     {
@@ -587,12 +595,12 @@
         "мало"
       ],
       "pool": [
-        "пятьдесят",
+        "лет",
         "мало",
-        "тридцать",
+        "сорок",
+        "Один",
         "рубль",
-        "сколько",
-        "Один"
+        "сколько"
       ]
     },
     {
@@ -610,13 +618,13 @@
         "билет"
       ],
       "pool": [
-        "Сто",
-        "сто",
         "за",
-        "лет",
-        "пятьдесят",
-        "билет",
-        "рублей"
+        "рублей",
+        "двадцать",
+        "сто",
+        "Сто",
+        "год",
+        "билет"
       ]
     },
     {
@@ -624,14 +632,14 @@
       "type": "pictureMatch",
       "wordId": "d03-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d03-w01.svg",
+      "image": "/images/vocab/d03-w01.jpg",
       "options": [
         "тридцать",
-        "сто",
-        "двадцать",
-        "рубль"
+        "год",
+        "сколько",
+        "двадцать"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "d03-pic-02",
@@ -640,38 +648,38 @@
       "prompt": "Which word matches this picture?",
       "image": "/images/vocab/d03-w02.svg",
       "options": [
-        "сколько",
-        "тридцать",
+        "шестьдесят",
+        "пятьдесят",
         "сто",
-        "сорок"
+        "тридцать"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "d03-pic-03",
       "type": "pictureMatch",
       "wordId": "d03-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d03-w03.svg",
+      "image": "/images/vocab/d03-w03.jpg",
       "options": [
-        "пятьдесят",
-        "сорок",
-        "рубль",
-        "сто"
+        "сколько",
+        "лет",
+        "тридцать",
+        "сорок"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "d03-pic-04",
       "type": "pictureMatch",
       "wordId": "d03-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d03-w04.svg",
+      "image": "/images/vocab/d03-w04.jpg",
       "options": [
-        "сколько",
+        "лет",
         "пятьдесят",
-        "сорок",
-        "лет"
+        "рубль",
+        "сколько"
       ],
       "correctIndex": 1
     },
@@ -682,37 +690,37 @@
       "prompt": "Which word matches this picture?",
       "image": "/images/vocab/d03-w05.svg",
       "options": [
-        "двадцать",
-        "сколько",
         "шестьдесят",
-        "год"
+        "пятьдесят",
+        "сколько",
+        "сорок"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "d03-pic-06",
       "type": "pictureMatch",
       "wordId": "d03-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d03-w06.svg",
+      "image": "/images/vocab/d03-w06.jpg",
       "options": [
-        "сорок",
-        "тридцать",
-        "пятьдесят",
-        "сколько"
+        "сто",
+        "рубль",
+        "сколько",
+        "тридцать"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "d03-pic-07",
       "type": "pictureMatch",
       "wordId": "d03-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d03-w07.svg",
+      "image": "/images/vocab/d03-w07.jpg",
       "options": [
-        "сколько",
         "шестьдесят",
-        "рубль",
+        "тридцать",
+        "сколько",
         "год"
       ],
       "correctIndex": 3
@@ -722,12 +730,12 @@
       "type": "pictureMatch",
       "wordId": "d03-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d03-w08.svg",
+      "image": "/images/vocab/d03-w08.jpg",
       "options": [
+        "шестьдесят",
         "пятьдесят",
-        "сто",
         "лет",
-        "год"
+        "сорок"
       ],
       "correctIndex": 2
     },
@@ -736,26 +744,26 @@
       "type": "pictureMatch",
       "wordId": "d03-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d03-w09.svg",
+      "image": "/images/vocab/d03-w09.jpg",
       "options": [
-        "сто",
-        "шестьдесят",
         "рубль",
-        "двадцать"
+        "лет",
+        "тридцать",
+        "сто"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "d03-pic-10",
       "type": "pictureMatch",
       "wordId": "d03-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d03-w10.svg",
+      "image": "/images/vocab/d03-w10.png",
       "options": [
         "рубль",
-        "сорок",
+        "лет",
         "сколько",
-        "сто"
+        "пятьдесят"
       ],
       "correctIndex": 0
     }

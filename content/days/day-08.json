@@ -8,7 +8,8 @@
       "ru": "меню",
       "en": "menu",
       "audio": "/audio/day08/меню.mp3",
-      "image": "/images/vocab/d08-w01.svg",
+      "image": "/images/vocab/d08-w01.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Можно меню, пожалуйста?",
@@ -25,7 +26,8 @@
       "ru": "официант",
       "en": "waiter",
       "audio": "/audio/day08/официант.mp3",
-      "image": "/images/vocab/d08-w02.svg",
+      "image": "/images/vocab/d08-w02.jpg",
+      "imageCredit": "https://www.safaritravelplus.com/images/people/waitress-kenya/ (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Официант приносит заказ.",
@@ -42,7 +44,8 @@
       "ru": "счёт",
       "en": "bill / check",
       "audio": "/audio/day08/счёт.mp3",
-      "image": "/images/vocab/d08-w03.svg",
+      "image": "/images/vocab/d08-w03.jpg",
+      "imageCredit": "Own work (CC BY 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Счёт, пожалуйста.",
@@ -59,7 +62,8 @@
       "ru": "заказ",
       "en": "order",
       "audio": "/audio/day08/заказ.mp3",
-      "image": "/images/vocab/d08-w04.svg",
+      "image": "/images/vocab/d08-w04.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Я делаю заказ.",
@@ -76,7 +80,8 @@
       "ru": "стол",
       "en": "table",
       "audio": "/audio/day08/стол.mp3",
-      "image": "/images/vocab/d08-w05.svg",
+      "image": "/images/vocab/d08-w05.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Стол у окна свободен.",
@@ -93,7 +98,8 @@
       "ru": "завтрак",
       "en": "breakfast",
       "audio": "/audio/day08/завтрак.mp3",
-      "image": "/images/vocab/d08-w06.svg",
+      "image": "/images/vocab/d08-w06.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Завтрак с восьми.",
@@ -110,7 +116,8 @@
       "ru": "обед",
       "en": "lunch",
       "audio": "/audio/day08/обед.mp3",
-      "image": "/images/vocab/d08-w07.svg",
+      "image": "/images/vocab/d08-w07.jpg",
+      "imageCredit": "https://www.flickr.com/photos/cosmic_bandita/1180353174/ (CC BY-SA 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Обед в два часа.",
@@ -127,7 +134,8 @@
       "ru": "ужин",
       "en": "dinner",
       "audio": "/audio/day08/ужин.mp3",
-      "image": "/images/vocab/d08-w08.svg",
+      "image": "/images/vocab/d08-w08.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Ужин в ресторане.",
@@ -144,7 +152,8 @@
       "ru": "хочу",
       "en": "I want",
       "audio": "/audio/day08/хочу.mp3",
-      "image": "/images/vocab/d08-w09.svg",
+      "image": "/images/vocab/d08-w09.jpg",
+      "imageCredit": "Image:Unclesamwantyou.jpg (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Я хочу кофе.",
@@ -161,7 +170,8 @@
       "ru": "можно",
       "en": "may I / is it allowed",
       "audio": "/audio/day08/можно.mp3",
-      "image": "/images/vocab/d08-w10.svg",
+      "image": "/images/vocab/d08-w10.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Можно сюда сесть?",
@@ -189,12 +199,12 @@
         "пожалуйста"
       ],
       "pool": [
-        "Можно",
-        "меню",
-        "стол",
         "пожалуйста",
-        "ужин",
-        "счёт"
+        "меню",
+        "Можно",
+        "хочу",
+        "стол",
+        "можно"
       ]
     },
     {
@@ -211,12 +221,12 @@
         "столе"
       ],
       "pool": [
-        "заказ",
         "столе",
-        "счёт",
         "на",
-        "официант",
-        "Меню"
+        "хочу",
+        "счёт",
+        "Меню",
+        "заказ"
       ]
     },
     {
@@ -233,12 +243,12 @@
         "заказ"
       ],
       "pool": [
-        "меню",
-        "можно",
-        "приносит",
+        "хочу",
         "заказ",
         "Официант",
-        "стол"
+        "меню",
+        "обед",
+        "приносит"
       ]
     },
     {
@@ -254,11 +264,11 @@
         "официанта"
       ],
       "pool": [
-        "обед",
+        "официанта",
+        "счёт",
         "Позовите",
-        "завтрак",
-        "стол",
-        "официанта"
+        "меню",
+        "ужин"
       ]
     },
     {
@@ -274,11 +284,11 @@
         "пожалуйста"
       ],
       "pool": [
-        "пожалуйста",
-        "официант",
         "обед",
         "Счёт",
-        "заказ"
+        "заказ",
+        "ужин",
+        "пожалуйста"
       ]
     },
     {
@@ -295,12 +305,12 @@
         "столом"
       ],
       "pool": [
-        "за",
-        "хочу",
         "меню",
-        "можно",
+        "столом",
         "Счёт",
-        "столом"
+        "завтрак",
+        "официант",
+        "за"
       ]
     },
     {
@@ -317,12 +327,12 @@
         "заказ"
       ],
       "pool": [
-        "хочу",
-        "счёт",
-        "Я",
         "заказ",
+        "хочу",
+        "меню",
+        "обед",
         "делаю",
-        "можно"
+        "Я"
       ]
     },
     {
@@ -338,11 +348,11 @@
         "готов"
       ],
       "pool": [
-        "счёт",
-        "Заказ",
         "готов",
-        "ужин",
-        "меню"
+        "хочу",
+        "обед",
+        "можно",
+        "Заказ"
       ]
     },
     {
@@ -360,13 +370,13 @@
         "свободен"
       ],
       "pool": [
-        "окна",
-        "счёт",
+        "меню",
+        "обед",
+        "Стол",
         "у",
         "свободен",
-        "Стол",
-        "хочу",
-        "официант"
+        "ужин",
+        "окна"
       ]
     },
     {
@@ -382,10 +392,10 @@
         "стол"
       ],
       "pool": [
-        "ужин",
-        "завтрак",
-        "хочу",
+        "меню",
         "стол",
+        "заказ",
+        "завтрак",
         "Забронируйте"
       ]
     },
@@ -403,12 +413,12 @@
         "восьми"
       ],
       "pool": [
-        "ужин",
-        "меню",
         "восьми",
+        "счёт",
+        "заказ",
+        "можно",
         "Завтрак",
-        "с",
-        "стол"
+        "с"
       ]
     },
     {
@@ -424,11 +434,11 @@
         "включён"
       ],
       "pool": [
-        "включён",
+        "обед",
         "Завтрак",
-        "хочу",
-        "заказ",
-        "меню"
+        "включён",
+        "счёт",
+        "стол"
       ]
     },
     {
@@ -446,13 +456,13 @@
         "часа"
       ],
       "pool": [
+        "часа",
         "два",
         "в",
-        "меню",
-        "хочу",
         "Обед",
-        "часа",
-        "можно"
+        "счёт",
+        "завтрак",
+        "заказ"
       ]
     },
     {
@@ -468,11 +478,11 @@
         "пообедать"
       ],
       "pool": [
-        "Где",
-        "официант",
-        "меню",
+        "заказ",
+        "счёт",
         "пообедать",
-        "стол"
+        "Где",
+        "меню"
       ]
     },
     {
@@ -489,12 +499,12 @@
         "ресторане"
       ],
       "pool": [
-        "меню",
-        "в",
-        "ресторане",
-        "Ужин",
         "заказ",
-        "официант"
+        "ресторане",
+        "хочу",
+        "меню",
+        "Ужин",
+        "в"
       ]
     },
     {
@@ -510,11 +520,11 @@
         "готов"
       ],
       "pool": [
-        "можно",
-        "Ужин",
         "готов",
-        "хочу",
-        "стол"
+        "официант",
+        "завтрак",
+        "Ужин",
+        "можно"
       ]
     },
     {
@@ -531,12 +541,12 @@
         "кофе"
       ],
       "pool": [
-        "Я",
-        "счёт",
-        "можно",
         "хочу",
         "кофе",
-        "заказ"
+        "стол",
+        "завтрак",
+        "Я",
+        "меню"
       ]
     },
     {
@@ -553,12 +563,12 @@
         "хотите"
       ],
       "pool": [
-        "Что",
-        "вы",
+        "стол",
+        "заказ",
         "хотите",
-        "официант",
         "завтрак",
-        "меню"
+        "вы",
+        "Что"
       ]
     },
     {
@@ -575,12 +585,12 @@
         "сесть"
       ],
       "pool": [
-        "Можно",
-        "обед",
-        "заказ",
-        "счёт",
+        "меню",
+        "стол",
         "сесть",
-        "сюда"
+        "сюда",
+        "хочу",
+        "Можно"
       ]
     },
     {
@@ -597,12 +607,12 @@
         "хлеба"
       ],
       "pool": [
-        "ужин",
+        "Можно",
         "хочу",
-        "меню",
         "хлеба",
+        "счёт",
         "ещё",
-        "Можно"
+        "стол"
       ]
     },
     {
@@ -610,40 +620,40 @@
       "type": "pictureMatch",
       "wordId": "d08-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d08-w01.svg",
+      "image": "/images/vocab/d08-w01.jpg",
       "options": [
         "ужин",
-        "завтрак",
+        "меню",
         "официант",
-        "меню"
+        "обед"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "d08-pic-02",
       "type": "pictureMatch",
       "wordId": "d08-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d08-w02.svg",
+      "image": "/images/vocab/d08-w02.jpg",
       "options": [
-        "хочу",
         "официант",
-        "заказ",
+        "можно",
+        "обед",
         "стол"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "d08-pic-03",
       "type": "pictureMatch",
       "wordId": "d08-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d08-w03.svg",
+      "image": "/images/vocab/d08-w03.jpg",
       "options": [
-        "обед",
-        "стол",
+        "хочу",
+        "заказ",
         "счёт",
-        "заказ"
+        "обед"
       ],
       "correctIndex": 2
     },
@@ -652,12 +662,12 @@
       "type": "pictureMatch",
       "wordId": "d08-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d08-w04.svg",
+      "image": "/images/vocab/d08-w04.jpg",
       "options": [
-        "можно",
+        "меню",
         "заказ",
-        "завтрак",
-        "обед"
+        "обед",
+        "можно"
       ],
       "correctIndex": 1
     },
@@ -666,40 +676,40 @@
       "type": "pictureMatch",
       "wordId": "d08-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d08-w05.svg",
+      "image": "/images/vocab/d08-w05.jpg",
       "options": [
-        "обед",
-        "хочу",
+        "завтрак",
         "стол",
-        "заказ"
+        "официант",
+        "обед"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "d08-pic-06",
       "type": "pictureMatch",
       "wordId": "d08-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d08-w06.svg",
+      "image": "/images/vocab/d08-w06.jpg",
       "options": [
-        "счёт",
-        "завтрак",
+        "можно",
         "официант",
-        "хочу"
+        "хочу",
+        "завтрак"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "d08-pic-07",
       "type": "pictureMatch",
       "wordId": "d08-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d08-w07.svg",
+      "image": "/images/vocab/d08-w07.jpg",
       "options": [
         "обед",
         "меню",
-        "счёт",
-        "заказ"
+        "хочу",
+        "стол"
       ],
       "correctIndex": 0
     },
@@ -708,39 +718,39 @@
       "type": "pictureMatch",
       "wordId": "d08-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d08-w08.svg",
+      "image": "/images/vocab/d08-w08.jpg",
       "options": [
+        "официант",
         "ужин",
-        "заказ",
-        "меню",
-        "можно"
+        "стол",
+        "хочу"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d08-pic-09",
       "type": "pictureMatch",
       "wordId": "d08-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d08-w09.svg",
+      "image": "/images/vocab/d08-w09.jpg",
       "options": [
-        "официант",
         "хочу",
-        "можно",
-        "заказ"
+        "обед",
+        "официант",
+        "меню"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "d08-pic-10",
       "type": "pictureMatch",
       "wordId": "d08-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d08-w10.svg",
+      "image": "/images/vocab/d08-w10.jpg",
       "options": [
         "официант",
         "ужин",
-        "счёт",
+        "меню",
         "можно"
       ],
       "correctIndex": 3

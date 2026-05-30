@@ -8,7 +8,8 @@
       "ru": "хобби",
       "en": "hobby",
       "audio": "/audio/day18/хобби.mp3",
-      "image": "/images/vocab/d18-w01.svg",
+      "image": "/images/vocab/d18-w01.png",
+      "imageCredit": "Louise Arner Boyd, encyclopedia article. The picture is marked as \"Falt i det fri\" (=Falled into the open), which in Norwegia means it is Public Domain (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Моё хобби — музыка.",
@@ -25,7 +26,8 @@
       "ru": "музыка",
       "en": "music",
       "audio": "/audio/day18/музыка.mp3",
-      "image": "/images/vocab/d18-w02.svg",
+      "image": "/images/vocab/d18-w02.png",
+      "imageCredit": "Partitura sem copyright baixada do sítio da IMSLP (http://imslp.org/wiki/Piano_Sonata_No.13_%28Beethoven%2C_Ludwig_van%29) (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Я люблю музыку.",
@@ -42,7 +44,8 @@
       "ru": "кино",
       "en": "cinema / movies",
       "audio": "/audio/day18/кино.mp3",
-      "image": "/images/vocab/d18-w03.svg",
+      "image": "/images/vocab/d18-w03.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Идём в кино.",
@@ -59,7 +62,8 @@
       "ru": "книга",
       "en": "book",
       "audio": "/audio/day18/книга.mp3",
-      "image": "/images/vocab/d18-w04.svg",
+      "image": "/images/vocab/d18-w04.jpg",
+      "imageCredit": "Japanese book \"Photograph collection of South banana Surveys (1939 version)\" published by Gakuto-Shiseikai. (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Интересная книга.",
@@ -76,7 +80,8 @@
       "ru": "спорт",
       "en": "sport",
       "audio": "/audio/day18/спорт.mp3",
-      "image": "/images/vocab/d18-w05.svg",
+      "image": "/images/vocab/d18-w05.jpg",
+      "imageCredit": "http://galerie.best4sports.de - my website and my own picture --Kuebi 17:08, 6 January 2007 (UTC) (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Занимаюсь спортом.",
@@ -93,7 +98,8 @@
       "ru": "игра",
       "en": "game",
       "audio": "/audio/day18/игра.mp3",
-      "image": "/images/vocab/d18-w06.svg",
+      "image": "/images/vocab/d18-w06.jpg",
+      "imageCredit": "Own work (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Играем в игру.",
@@ -110,7 +116,8 @@
       "ru": "рисовать",
       "en": "to draw",
       "audio": "/audio/day18/рисовать.mp3",
-      "image": "/images/vocab/d18-w07.svg",
+      "image": "/images/vocab/d18-w07.jpg",
+      "imageCredit": "https://www.theraviarts.com/how-to-draw-a-face-for-beginners/amp/ (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Люблю рисовать.",
@@ -127,7 +134,8 @@
       "ru": "читать",
       "en": "to read",
       "audio": "/audio/day18/читать.mp3",
-      "image": "/images/vocab/d18-w08.svg",
+      "image": "/images/vocab/d18-w08.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Читаю каждый день.",
@@ -144,7 +152,8 @@
       "ru": "слушать",
       "en": "to listen",
       "audio": "/audio/day18/слушать.mp3",
-      "image": "/images/vocab/d18-w09.svg",
+      "image": "/images/vocab/d18-w09.jpg",
+      "imageCredit": "https://theme.npm.edu.tw/opendata/DigitImageSets.aspx?sNo=04018306 (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Слушаю музыку.",
@@ -161,7 +170,8 @@
       "ru": "смотреть",
       "en": "to watch / look",
       "audio": "/audio/day18/смотреть.mp3",
-      "image": "/images/vocab/d18-w10.svg",
+      "image": "/images/vocab/d18-w10.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Смотрю кино.",
@@ -189,12 +199,12 @@
         "музыка"
       ],
       "pool": [
-        "хобби",
-        "Моё",
-        "книга",
         "музыка",
-        "кино",
-        "музыка"
+        "книга",
+        "слушать",
+        "хобби",
+        "музыка",
+        "Моё"
       ]
     },
     {
@@ -212,13 +222,13 @@
         "хобби"
       ],
       "pool": [
-        "тебя",
-        "книга",
-        "хобби",
-        "кино",
         "смотреть",
+        "Какое",
+        "кино",
+        "хобби",
+        "рисовать",
         "у",
-        "Какое"
+        "тебя"
       ]
     },
     {
@@ -236,11 +246,11 @@
       ],
       "pool": [
         "люблю",
+        "книга",
+        "хобби",
         "музыку",
         "Я",
-        "спорт",
-        "игра",
-        "рисовать"
+        "кино"
       ]
     },
     {
@@ -257,9 +267,9 @@
       ],
       "pool": [
         "книга",
+        "музыка",
         "Громкая",
         "игра",
-        "музыка",
         "слушать"
       ]
     },
@@ -277,12 +287,12 @@
         "кино"
       ],
       "pool": [
-        "рисовать",
+        "игра",
+        "Идём",
+        "хобби",
         "книга",
-        "в",
-        "спорт",
         "кино",
-        "Идём"
+        "в"
       ]
     },
     {
@@ -298,11 +308,11 @@
         "кино"
       ],
       "pool": [
-        "хобби",
         "музыка",
+        "хобби",
         "Хорошее",
         "кино",
-        "слушать"
+        "книга"
       ]
     },
     {
@@ -318,11 +328,11 @@
         "книга"
       ],
       "pool": [
-        "кино",
+        "рисовать",
+        "книга",
         "Интересная",
         "хобби",
-        "музыка",
-        "книга"
+        "кино"
       ]
     },
     {
@@ -338,11 +348,11 @@
         "книгу"
       ],
       "pool": [
-        "смотреть",
-        "игра",
-        "книгу",
+        "читать",
         "Читаю",
-        "спорт"
+        "игра",
+        "музыка",
+        "книгу"
       ]
     },
     {
@@ -358,11 +368,11 @@
         "спортом"
       ],
       "pool": [
-        "рисовать",
+        "смотреть",
+        "хобби",
+        "спортом",
         "Занимаюсь",
-        "музыка",
-        "игра",
-        "спортом"
+        "игра"
       ]
     },
     {
@@ -379,10 +389,10 @@
       ],
       "pool": [
         "слушать",
+        "книга",
         "Спорт",
-        "полезен",
-        "читать",
-        "кино"
+        "кино",
+        "полезен"
       ]
     },
     {
@@ -399,12 +409,12 @@
         "игру"
       ],
       "pool": [
+        "рисовать",
         "читать",
-        "спорт",
+        "в",
         "игру",
         "Играем",
-        "в",
-        "кино"
+        "смотреть"
       ]
     },
     {
@@ -420,11 +430,11 @@
         "игра"
       ],
       "pool": [
-        "рисовать",
         "игра",
-        "Интересная",
-        "смотреть",
-        "хобби"
+        "музыка",
+        "спорт",
+        "слушать",
+        "Интересная"
       ]
     },
     {
@@ -440,11 +450,11 @@
         "рисовать"
       ],
       "pool": [
-        "хобби",
-        "рисовать",
-        "Люблю",
         "книга",
-        "читать"
+        "читать",
+        "спорт",
+        "рисовать",
+        "Люблю"
       ]
     },
     {
@@ -460,10 +470,10 @@
         "картину"
       ],
       "pool": [
+        "книга",
+        "игра",
+        "читать",
         "Рисую",
-        "спорт",
-        "музыка",
-        "кино",
         "картину"
       ]
     },
@@ -482,11 +492,11 @@
       ],
       "pool": [
         "рисовать",
+        "смотреть",
+        "Читаю",
+        "кино",
         "день",
-        "книга",
-        "слушать",
-        "каждый",
-        "Читаю"
+        "каждый"
       ]
     },
     {
@@ -502,11 +512,11 @@
         "книгу"
       ],
       "pool": [
+        "рисовать",
+        "спорт",
         "Читай",
-        "слушать",
-        "хобби",
-        "музыка",
-        "книгу"
+        "книгу",
+        "смотреть"
       ]
     },
     {
@@ -522,11 +532,11 @@
         "музыку"
       ],
       "pool": [
-        "спорт",
-        "кино",
+        "хобби",
+        "Слушаю",
         "музыку",
-        "книга",
-        "Слушаю"
+        "смотреть",
+        "музыка"
       ]
     },
     {
@@ -542,11 +552,11 @@
         "внимательно"
       ],
       "pool": [
-        "музыка",
-        "смотреть",
+        "спорт",
+        "внимательно",
+        "игра",
         "хобби",
-        "Слушай",
-        "внимательно"
+        "Слушай"
       ]
     },
     {
@@ -562,10 +572,10 @@
         "кино"
       ],
       "pool": [
+        "читать",
+        "спорт",
+        "слушать",
         "Смотрю",
-        "рисовать",
-        "книга",
-        "музыка",
         "кино"
       ]
     },
@@ -583,12 +593,12 @@
         "меня"
       ],
       "pool": [
-        "спорт",
-        "Смотри",
         "книга",
-        "хобби",
-        "меня",
-        "на"
+        "рисовать",
+        "на",
+        "Смотри",
+        "слушать",
+        "меня"
       ]
     },
     {
@@ -596,11 +606,11 @@
       "type": "pictureMatch",
       "wordId": "d18-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d18-w01.svg",
+      "image": "/images/vocab/d18-w01.png",
       "options": [
-        "рисовать",
-        "книга",
-        "слушать",
+        "смотреть",
+        "игра",
+        "музыка",
         "хобби"
       ],
       "correctIndex": 3
@@ -610,53 +620,53 @@
       "type": "pictureMatch",
       "wordId": "d18-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d18-w02.svg",
+      "image": "/images/vocab/d18-w02.png",
       "options": [
-        "музыка",
-        "кино",
+        "книга",
         "игра",
-        "смотреть"
+        "хобби",
+        "музыка"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "d18-pic-03",
       "type": "pictureMatch",
       "wordId": "d18-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d18-w03.svg",
+      "image": "/images/vocab/d18-w03.jpg",
       "options": [
-        "музыка",
-        "хобби",
         "кино",
-        "спорт"
+        "книга",
+        "читать",
+        "музыка"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "d18-pic-04",
       "type": "pictureMatch",
       "wordId": "d18-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d18-w04.svg",
+      "image": "/images/vocab/d18-w04.jpg",
       "options": [
-        "хобби",
-        "музыка",
+        "смотреть",
         "книга",
-        "смотреть"
+        "кино",
+        "читать"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "d18-pic-05",
       "type": "pictureMatch",
       "wordId": "d18-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d18-w05.svg",
+      "image": "/images/vocab/d18-w05.jpg",
       "options": [
-        "игра",
-        "рисовать",
-        "хобби",
+        "музыка",
+        "слушать",
+        "кино",
         "спорт"
       ],
       "correctIndex": 3
@@ -666,54 +676,54 @@
       "type": "pictureMatch",
       "wordId": "d18-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d18-w06.svg",
+      "image": "/images/vocab/d18-w06.jpg",
       "options": [
-        "музыка",
-        "хобби",
+        "книга",
         "игра",
-        "читать"
+        "рисовать",
+        "музыка"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "d18-pic-07",
       "type": "pictureMatch",
       "wordId": "d18-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d18-w07.svg",
+      "image": "/images/vocab/d18-w07.jpg",
       "options": [
-        "хобби",
+        "спорт",
+        "смотреть",
         "рисовать",
-        "читать",
-        "смотреть"
+        "читать"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "d18-pic-08",
       "type": "pictureMatch",
       "wordId": "d18-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d18-w08.svg",
+      "image": "/images/vocab/d18-w08.jpg",
       "options": [
+        "музыка",
         "читать",
-        "рисовать",
-        "книга",
-        "спорт"
+        "спорт",
+        "рисовать"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d18-pic-09",
       "type": "pictureMatch",
       "wordId": "d18-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d18-w09.svg",
+      "image": "/images/vocab/d18-w09.jpg",
       "options": [
         "слушать",
         "спорт",
-        "игра",
-        "книга"
+        "кино",
+        "рисовать"
       ],
       "correctIndex": 0
     },
@@ -722,14 +732,14 @@
       "type": "pictureMatch",
       "wordId": "d18-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d18-w10.svg",
+      "image": "/images/vocab/d18-w10.jpg",
       "options": [
+        "музыка",
         "смотреть",
-        "рисовать",
-        "кино",
-        "книга"
+        "спорт",
+        "игра"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     }
   ]
 }

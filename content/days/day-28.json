@@ -8,7 +8,8 @@
       "ru": "если",
       "en": "if",
       "audio": "/audio/day28/если.mp3",
-      "image": "/images/vocab/d28-w01.svg",
+      "image": "/images/vocab/d28-w01.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Если будет время.",
@@ -42,7 +43,8 @@
       "ru": "мог бы",
       "en": "could (masc)",
       "audio": "/audio/day28/мог-бы.mp3",
-      "image": "/images/vocab/d28-w03.svg",
+      "image": "/images/vocab/d28-w03.png",
+      "imageCredit": "Heritage Auctions (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Мог бы помочь.",
@@ -59,7 +61,8 @@
       "ru": "мечта",
       "en": "dream",
       "audio": "/audio/day28/мечта.mp3",
-      "image": "/images/vocab/d28-w04.svg",
+      "image": "/images/vocab/d28-w04.jpg",
+      "imageCredit": "[1] (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Моя мечта.",
@@ -76,7 +79,8 @@
       "ru": "надежда",
       "en": "hope",
       "audio": "/audio/day28/надежда.mp3",
-      "image": "/images/vocab/d28-w05.svg",
+      "image": "/images/vocab/d28-w05.jpg",
+      "imageCredit": "originally posted to Flickr as Hope Alaska (CC BY 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Есть надежда.",
@@ -93,7 +97,8 @@
       "ru": "желание",
       "en": "wish / desire",
       "audio": "/audio/day28/желание.mp3",
-      "image": "/images/vocab/d28-w06.svg",
+      "image": "/images/vocab/d28-w06.jpg",
+      "imageCredit": "Own work (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Моё желание.",
@@ -110,7 +115,8 @@
       "ru": "надеяться",
       "en": "to hope",
       "audio": "/audio/day28/надеяться.mp3",
-      "image": "/images/vocab/d28-w07.svg",
+      "image": "/images/vocab/d28-w07.jpg",
+      "imageCredit": "Own work (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Надеюсь на лучшее.",
@@ -127,7 +133,8 @@
       "ru": "мечтать",
       "en": "to dream",
       "audio": "/audio/day28/мечтать.mp3",
-      "image": "/images/vocab/d28-w08.svg",
+      "image": "/images/vocab/d28-w08.jpg",
+      "imageCredit": "https://www.flickr.com/photos/163732103@N04/54625184939/ (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Мечтаю о море.",
@@ -144,7 +151,8 @@
       "ru": "пожелать",
       "en": "to wish",
       "audio": "/audio/day28/пожелать.mp3",
-      "image": "/images/vocab/d28-w09.svg",
+      "image": "/images/vocab/d28-w09.jpg",
+      "imageCredit": "Own work (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Желаю успеха.",
@@ -161,7 +169,8 @@
       "ru": "бы",
       "en": "would / conditional particle",
       "audio": "/audio/day28/бы.mp3",
-      "image": "/images/vocab/d28-w10.svg",
+      "image": "/images/vocab/d28-w10.jpg",
+      "imageCredit": "Internet Archive (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Я бы поехал.",
@@ -189,12 +198,12 @@
         "время"
       ],
       "pool": [
-        "бы",
-        "надежда",
-        "надеяться",
         "Если",
-        "будет",
-        "время"
+        "бы",
+        "желание",
+        "пожелать",
+        "время",
+        "будет"
       ]
     },
     {
@@ -210,10 +219,10 @@
         "хочешь"
       ],
       "pool": [
-        "надежда",
         "Если",
-        "пожелать",
-        "мог бы",
+        "мечта",
+        "надеяться",
+        "мечтать",
         "хочешь"
       ]
     },
@@ -232,13 +241,13 @@
         "кофе"
       ],
       "pool": [
+        "надеяться",
         "Я",
-        "если",
-        "желание",
         "кофе",
-        "надежда",
+        "хотел",
         "бы",
-        "хотел"
+        "мечта",
+        "бы"
       ]
     },
     {
@@ -256,11 +265,11 @@
       ],
       "pool": [
         "бы",
-        "помочь",
         "желание",
+        "помочь",
         "Хотел",
-        "если",
-        "надеяться"
+        "надежда",
+        "пожелать"
       ]
     },
     {
@@ -277,12 +286,12 @@
         "помочь"
       ],
       "pool": [
+        "надеяться",
+        "мечта",
         "помочь",
+        "Мог",
         "бы",
-        "мечтать",
-        "если",
-        "пожелать",
-        "Мог"
+        "хотел бы"
       ]
     },
     {
@@ -300,13 +309,13 @@
         "ты"
       ],
       "pool": [
-        "ты",
         "мог",
-        "Не",
-        "мечта",
-        "надеяться",
         "бы",
-        "если"
+        "ты",
+        "Не",
+        "если",
+        "бы",
+        "мечта"
       ]
     },
     {
@@ -322,11 +331,11 @@
         "мечта"
       ],
       "pool": [
-        "надеяться",
-        "хотел бы",
-        "желание",
-        "Моя",
-        "мечта"
+        "пожелать",
+        "бы",
+        "мечта",
+        "если",
+        "Моя"
       ]
     },
     {
@@ -342,11 +351,11 @@
         "сбылась"
       ],
       "pool": [
-        "Мечта",
         "сбылась",
-        "мечтать",
-        "пожелать",
-        "бы"
+        "Мечта",
+        "если",
+        "надеяться",
+        "пожелать"
       ]
     },
     {
@@ -362,11 +371,11 @@
         "надежда"
       ],
       "pool": [
-        "надеяться",
-        "надежда",
         "Есть",
-        "желание",
-        "если"
+        "мог бы",
+        "если",
+        "надежда",
+        "мечта"
       ]
     },
     {
@@ -383,12 +392,12 @@
         "надежду"
       ],
       "pool": [
-        "бы",
-        "если",
-        "Не",
         "теряй",
+        "надежду",
+        "если",
         "хотел бы",
-        "надежду"
+        "Не",
+        "желание"
       ]
     },
     {
@@ -404,10 +413,10 @@
         "желание"
       ],
       "pool": [
-        "надеяться",
+        "желание",
+        "пожелать",
         "мечтать",
         "мог бы",
-        "желание",
         "Моё"
       ]
     },
@@ -425,10 +434,10 @@
       ],
       "pool": [
         "пожелать",
-        "надежда",
-        "если",
+        "желания",
         "Исполнение",
-        "желания"
+        "бы",
+        "мечтать"
       ]
     },
     {
@@ -445,12 +454,12 @@
         "лучшее"
       ],
       "pool": [
-        "лучшее",
-        "пожелать",
-        "Надеюсь",
+        "мечта",
         "на",
-        "мечтать",
-        "мечта"
+        "лучшее",
+        "надежда",
+        "если",
+        "Надеюсь"
       ]
     },
     {
@@ -466,11 +475,11 @@
         "да"
       ],
       "pool": [
-        "хотел бы",
-        "надежда",
         "Надеюсь",
+        "пожелать",
+        "желание",
         "да",
-        "мечтать"
+        "надежда"
       ]
     },
     {
@@ -487,12 +496,12 @@
         "море"
       ],
       "pool": [
-        "о",
-        "надеяться",
-        "пожелать",
         "Мечтаю",
-        "хотел бы",
-        "море"
+        "бы",
+        "море",
+        "мог бы",
+        "надеяться",
+        "о"
       ]
     },
     {
@@ -509,12 +518,12 @@
         "мечтать"
       ],
       "pool": [
-        "переставай",
-        "если",
-        "Не",
         "мечтать",
         "желание",
-        "мечта"
+        "пожелать",
+        "переставай",
+        "хотел бы",
+        "Не"
       ]
     },
     {
@@ -530,11 +539,11 @@
         "успеха"
       ],
       "pool": [
-        "Желаю",
-        "надежда",
-        "мечта",
+        "хотел бы",
         "успеха",
-        "бы"
+        "надеяться",
+        "мечтать",
+        "Желаю"
       ]
     },
     {
@@ -550,11 +559,11 @@
         "пожелаешь"
       ],
       "pool": [
+        "надежда",
         "Что",
         "пожелаешь",
-        "мечта",
-        "надеяться",
-        "бы"
+        "если",
+        "желание"
       ]
     },
     {
@@ -571,12 +580,12 @@
         "поехал"
       ],
       "pool": [
-        "надежда",
-        "поехал",
+        "Я",
         "мечтать",
-        "если",
         "бы",
-        "Я"
+        "поехал",
+        "хотел бы",
+        "мог бы"
       ]
     },
     {
@@ -594,13 +603,13 @@
         "опоздать"
       ],
       "pool": [
-        "бы",
-        "опоздать",
         "Как",
-        "надеяться",
-        "мечтать",
+        "желание",
+        "опоздать",
+        "бы",
         "не",
-        "если"
+        "если",
+        "хотел бы"
       ]
     },
     {
@@ -608,14 +617,14 @@
       "type": "pictureMatch",
       "wordId": "d28-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d28-w01.svg",
+      "image": "/images/vocab/d28-w01.jpg",
       "options": [
-        "если",
-        "надежда",
-        "хотел бы",
-        "надеяться"
+        "мечтать",
+        "бы",
+        "мечта",
+        "если"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "d28-pic-02",
@@ -624,10 +633,10 @@
       "prompt": "Which word matches this picture?",
       "image": "/images/vocab/d28-w02.svg",
       "options": [
-        "если",
-        "хотел бы",
         "надежда",
-        "надеяться"
+        "хотел бы",
+        "мечтать",
+        "если"
       ],
       "correctIndex": 1
     },
@@ -636,39 +645,39 @@
       "type": "pictureMatch",
       "wordId": "d28-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d28-w03.svg",
+      "image": "/images/vocab/d28-w03.png",
       "options": [
+        "мечтать",
         "мечта",
         "мог бы",
-        "хотел бы",
-        "надежда"
+        "пожелать"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "d28-pic-04",
       "type": "pictureMatch",
       "wordId": "d28-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d28-w04.svg",
+      "image": "/images/vocab/d28-w04.jpg",
       "options": [
-        "мечтать",
-        "надеяться",
-        "пожелать",
-        "мечта"
+        "если",
+        "надежда",
+        "мечта",
+        "желание"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "d28-pic-05",
       "type": "pictureMatch",
       "wordId": "d28-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d28-w05.svg",
+      "image": "/images/vocab/d28-w05.jpg",
       "options": [
-        "если",
+        "мог бы",
         "мечтать",
-        "пожелать",
+        "мечта",
         "надежда"
       ],
       "correctIndex": 3
@@ -678,25 +687,25 @@
       "type": "pictureMatch",
       "wordId": "d28-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d28-w06.svg",
+      "image": "/images/vocab/d28-w06.jpg",
       "options": [
-        "пожелать",
-        "желание",
-        "если",
-        "бы"
+        "мечта",
+        "мог бы",
+        "надежда",
+        "желание"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "d28-pic-07",
       "type": "pictureMatch",
       "wordId": "d28-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d28-w07.svg",
+      "image": "/images/vocab/d28-w07.jpg",
       "options": [
-        "пожелать",
-        "желание",
-        "бы",
+        "мог бы",
+        "мечта",
+        "мечтать",
         "надеяться"
       ],
       "correctIndex": 3
@@ -706,25 +715,25 @@
       "type": "pictureMatch",
       "wordId": "d28-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d28-w08.svg",
+      "image": "/images/vocab/d28-w08.jpg",
       "options": [
-        "мечтать",
+        "надеяться",
         "желание",
         "бы",
-        "мог бы"
+        "мечтать"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "d28-pic-09",
       "type": "pictureMatch",
       "wordId": "d28-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d28-w09.svg",
+      "image": "/images/vocab/d28-w09.jpg",
       "options": [
-        "надеяться",
+        "мог бы",
         "мечтать",
-        "желание",
+        "бы",
         "пожелать"
       ],
       "correctIndex": 3
@@ -734,14 +743,14 @@
       "type": "pictureMatch",
       "wordId": "d28-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d28-w10.svg",
+      "image": "/images/vocab/d28-w10.jpg",
       "options": [
-        "желание",
-        "бы",
         "если",
-        "мечта"
+        "мог бы",
+        "бы",
+        "хотел бы"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     }
   ]
 }

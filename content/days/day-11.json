@@ -8,7 +8,8 @@
       "ru": "метро",
       "en": "metro / subway",
       "audio": "/audio/day11/метро.mp3",
-      "image": "/images/vocab/d11-w01.svg",
+      "image": "/images/vocab/d11-w01.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Еду на метро.",
@@ -25,7 +26,8 @@
       "ru": "автобус",
       "en": "bus",
       "audio": "/audio/day11/автобус.mp3",
-      "image": "/images/vocab/d11-w02.svg",
+      "image": "/images/vocab/d11-w02.jpg",
+      "imageCredit": "Own work (CC BY 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Автобус опаздывает.",
@@ -42,7 +44,8 @@
       "ru": "поезд",
       "en": "train",
       "audio": "/audio/day11/поезд.mp3",
-      "image": "/images/vocab/d11-w03.svg",
+      "image": "/images/vocab/d11-w03.jpg",
+      "imageCredit": "METX 185 \"Village of Roselle\" (CC BY 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Поезд отправляется в шесть.",
@@ -59,7 +62,8 @@
       "ru": "такси",
       "en": "taxi",
       "audio": "/audio/day11/такси.mp3",
-      "image": "/images/vocab/d11-w04.svg",
+      "image": "/images/vocab/d11-w04.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Вызови такси.",
@@ -76,7 +80,8 @@
       "ru": "направо",
       "en": "to the right",
       "audio": "/audio/day11/направо.mp3",
-      "image": "/images/vocab/d11-w05.svg",
+      "image": "/images/vocab/d11-w05.jpg",
+      "imageCredit": "This file was derived from: Southern right whale caudal fin-2.JPG (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Поверни направо.",
@@ -93,7 +98,8 @@
       "ru": "налево",
       "en": "to the left",
       "audio": "/audio/day11/налево.mp3",
-      "image": "/images/vocab/d11-w06.svg",
+      "image": "/images/vocab/d11-w06.jpg",
+      "imageCredit": "Own work (GFDL 1.2 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Иди налево.",
@@ -127,7 +133,8 @@
       "ru": "рядом",
       "en": "nearby",
       "audio": "/audio/day11/рядом.mp3",
-      "image": "/images/vocab/d11-w08.svg",
+      "image": "/images/vocab/d11-w08.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Аптека рядом.",
@@ -144,7 +151,8 @@
       "ru": "далеко",
       "en": "far",
       "audio": "/audio/day11/далеко.mp3",
-      "image": "/images/vocab/d11-w09.svg",
+      "image": "/images/vocab/d11-w09.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Станция далеко.",
@@ -161,7 +169,8 @@
       "ru": "карта",
       "en": "map",
       "audio": "/audio/day11/карта.mp3",
-      "image": "/images/vocab/d11-w10.svg",
+      "image": "/images/vocab/d11-w10.jpg",
+      "imageCredit": "A, B, C, D, E, F, G, H, I, J, K, L (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Посмотри на карту.",
@@ -189,12 +198,12 @@
         "метро"
       ],
       "pool": [
-        "рядом",
-        "на",
-        "далеко",
         "Еду",
-        "автобус",
-        "метро"
+        "направо",
+        "метро",
+        "на",
+        "прямо",
+        "поезд"
       ]
     },
     {
@@ -211,12 +220,12 @@
         "там"
       ],
       "pool": [
-        "там",
         "направо",
-        "налево",
-        "Станция",
+        "там",
+        "карта",
         "метро",
-        "поезд"
+        "поезд",
+        "Станция"
       ]
     },
     {
@@ -232,11 +241,11 @@
         "опаздывает"
       ],
       "pool": [
-        "опаздывает",
+        "направо",
         "далеко",
-        "такси",
+        "опаздывает",
         "Автобус",
-        "направо"
+        "налево"
       ]
     },
     {
@@ -253,12 +262,12 @@
         "автобус"
       ],
       "pool": [
-        "автобус",
-        "рядом",
-        "в",
-        "прямо",
+        "такси",
         "Садись",
-        "поезд"
+        "направо",
+        "налево",
+        "автобус",
+        "в"
       ]
     },
     {
@@ -277,12 +286,12 @@
       ],
       "pool": [
         "в",
+        "Поезд",
+        "прямо",
         "карта",
-        "автобус",
-        "направо",
         "шесть",
         "отправляется",
-        "Поезд"
+        "метро"
       ]
     },
     {
@@ -299,12 +308,12 @@
         "поезде"
       ],
       "pool": [
-        "карта",
-        "автобус",
-        "поезде",
         "на",
+        "далеко",
         "такси",
-        "Еду"
+        "прямо",
+        "Еду",
+        "поезде"
       ]
     },
     {
@@ -320,11 +329,11 @@
         "такси"
       ],
       "pool": [
-        "направо",
-        "поезд",
+        "Вызови",
+        "прямо",
         "такси",
-        "налево",
-        "Вызови"
+        "поезд",
+        "карта"
       ]
     },
     {
@@ -341,12 +350,12 @@
         "нас"
       ],
       "pool": [
-        "направо",
+        "рядом",
+        "ждёт",
         "Такси",
-        "поезд",
-        "налево",
         "нас",
-        "ждёт"
+        "автобус",
+        "далеко"
       ]
     },
     {
@@ -362,11 +371,11 @@
         "направо"
       ],
       "pool": [
+        "поезд",
         "налево",
-        "Поверни",
-        "карта",
         "направо",
-        "автобус"
+        "автобус",
+        "Поверни"
       ]
     },
     {
@@ -382,10 +391,10 @@
         "направо"
       ],
       "pool": [
-        "поезд",
         "Банк",
-        "такси",
-        "рядом",
+        "налево",
+        "поезд",
+        "прямо",
         "направо"
       ]
     },
@@ -402,11 +411,11 @@
         "налево"
       ],
       "pool": [
+        "налево",
+        "далеко",
         "Иди",
-        "рядом",
         "поезд",
-        "прямо",
-        "налево"
+        "карта"
       ]
     },
     {
@@ -422,11 +431,11 @@
         "налево"
       ],
       "pool": [
-        "налево",
-        "карта",
+        "поезд",
         "Магазин",
-        "метро",
-        "направо"
+        "направо",
+        "далеко",
+        "налево"
       ]
     },
     {
@@ -442,11 +451,11 @@
         "прямо"
       ],
       "pool": [
-        "далеко",
-        "поезд",
-        "Идите",
+        "карта",
+        "такси",
         "прямо",
-        "карта"
+        "Идите",
+        "рядом"
       ]
     },
     {
@@ -464,11 +473,11 @@
       ],
       "pool": [
         "двести",
-        "такси",
         "метров",
         "направо",
+        "автобус",
         "Прямо",
-        "рядом"
+        "метро"
       ]
     },
     {
@@ -484,11 +493,11 @@
         "рядом"
       ],
       "pool": [
-        "рядом",
-        "карта",
+        "метро",
         "Аптека",
-        "автобус",
-        "поезд"
+        "направо",
+        "поезд",
+        "рядом"
       ]
     },
     {
@@ -506,13 +515,13 @@
         "парком"
       ],
       "pool": [
-        "рядом",
-        "прямо",
-        "поезд",
-        "с",
         "автобус",
+        "парком",
+        "такси",
+        "с",
+        "далеко",
         "Живу",
-        "парком"
+        "рядом"
       ]
     },
     {
@@ -528,11 +537,11 @@
         "далеко"
       ],
       "pool": [
-        "автобус",
+        "далеко",
         "направо",
-        "рядом",
         "Станция",
-        "далеко"
+        "такси",
+        "карта"
       ]
     },
     {
@@ -548,11 +557,11 @@
         "идти"
       ],
       "pool": [
-        "рядом",
+        "метро",
         "идти",
-        "Далеко",
-        "прямо",
-        "автобус"
+        "такси",
+        "поезд",
+        "Далеко"
       ]
     },
     {
@@ -569,12 +578,12 @@
         "карту"
       ],
       "pool": [
-        "Посмотри",
-        "направо",
+        "на",
         "поезд",
-        "налево",
-        "карту",
-        "на"
+        "прямо",
+        "рядом",
+        "Посмотри",
+        "карту"
       ]
     },
     {
@@ -590,11 +599,11 @@
         "города"
       ],
       "pool": [
-        "Карта",
         "города",
-        "прямо",
-        "налево",
-        "направо"
+        "такси",
+        "автобус",
+        "направо",
+        "Карта"
       ]
     },
     {
@@ -602,39 +611,39 @@
       "type": "pictureMatch",
       "wordId": "d11-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d11-w01.svg",
+      "image": "/images/vocab/d11-w01.jpg",
       "options": [
-        "метро",
-        "поезд",
         "карта",
-        "прямо"
+        "поезд",
+        "метро",
+        "такси"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "d11-pic-02",
       "type": "pictureMatch",
       "wordId": "d11-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d11-w02.svg",
+      "image": "/images/vocab/d11-w02.jpg",
       "options": [
-        "карта",
         "автобус",
-        "поезд",
-        "такси"
+        "налево",
+        "прямо",
+        "направо"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "d11-pic-03",
       "type": "pictureMatch",
       "wordId": "d11-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d11-w03.svg",
+      "image": "/images/vocab/d11-w03.jpg",
       "options": [
-        "прямо",
-        "автобус",
+        "направо",
         "налево",
+        "автобус",
         "поезд"
       ],
       "correctIndex": 3
@@ -644,42 +653,42 @@
       "type": "pictureMatch",
       "wordId": "d11-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d11-w04.svg",
+      "image": "/images/vocab/d11-w04.jpg",
       "options": [
-        "рядом",
-        "прямо",
         "такси",
+        "налево",
+        "автобус",
         "направо"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "d11-pic-05",
       "type": "pictureMatch",
       "wordId": "d11-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d11-w05.svg",
+      "image": "/images/vocab/d11-w05.jpg",
       "options": [
-        "автобус",
-        "такси",
         "направо",
-        "метро"
+        "прямо",
+        "налево",
+        "далеко"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "d11-pic-06",
       "type": "pictureMatch",
       "wordId": "d11-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d11-w06.svg",
+      "image": "/images/vocab/d11-w06.jpg",
       "options": [
-        "далеко",
-        "метро",
+        "карта",
         "налево",
+        "такси",
         "автобус"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "d11-pic-07",
@@ -688,24 +697,24 @@
       "prompt": "Which word matches this picture?",
       "image": "/images/vocab/d11-w07.svg",
       "options": [
-        "метро",
         "прямо",
+        "такси",
         "налево",
-        "карта"
+        "рядом"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "d11-pic-08",
       "type": "pictureMatch",
       "wordId": "d11-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d11-w08.svg",
+      "image": "/images/vocab/d11-w08.jpg",
       "options": [
+        "такси",
         "метро",
-        "далеко",
         "рядом",
-        "поезд"
+        "налево"
       ],
       "correctIndex": 2
     },
@@ -714,26 +723,26 @@
       "type": "pictureMatch",
       "wordId": "d11-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d11-w09.svg",
+      "image": "/images/vocab/d11-w09.jpg",
       "options": [
-        "такси",
-        "налево",
+        "далеко",
+        "автобус",
         "прямо",
-        "далеко"
+        "такси"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "d11-pic-10",
       "type": "pictureMatch",
       "wordId": "d11-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d11-w10.svg",
+      "image": "/images/vocab/d11-w10.jpg",
       "options": [
-        "метро",
+        "налево",
         "карта",
-        "поезд",
-        "прямо"
+        "такси",
+        "направо"
       ],
       "correctIndex": 1
     }

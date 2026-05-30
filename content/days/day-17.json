@@ -8,7 +8,8 @@
       "ru": "работа",
       "en": "work / job",
       "audio": "/audio/day17/работа.mp3",
-      "image": "/images/vocab/d17-w01.svg",
+      "image": "/images/vocab/d17-w01.png",
+      "imageCredit": "Own work (CC BY 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Я на работе.",
@@ -25,7 +26,8 @@
       "ru": "офис",
       "en": "office",
       "audio": "/audio/day17/офис.mp3",
-      "image": "/images/vocab/d17-w02.svg",
+      "image": "/images/vocab/d17-w02.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Офис в центре.",
@@ -42,7 +44,8 @@
       "ru": "учитель",
       "en": "teacher",
       "audio": "/audio/day17/учитель.mp3",
-      "image": "/images/vocab/d17-w03.svg",
+      "image": "/images/vocab/d17-w03.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Она учитель.",
@@ -59,7 +62,8 @@
       "ru": "инженер",
       "en": "engineer",
       "audio": "/audio/day17/инженер.mp3",
-      "image": "/images/vocab/d17-w04.svg",
+      "image": "/images/vocab/d17-w04.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Он инженер.",
@@ -76,7 +80,8 @@
       "ru": "врач",
       "en": "doctor",
       "audio": "/audio/day17/врач.mp3",
-      "image": "/images/vocab/d17-w05.svg",
+      "image": "/images/vocab/d17-w05.png",
+      "imageCredit": "Book scan (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Моя сестра врач.",
@@ -93,7 +98,8 @@
       "ru": "студент",
       "en": "student",
       "audio": "/audio/day17/студент.mp3",
-      "image": "/images/vocab/d17-w06.svg",
+      "image": "/images/vocab/d17-w06.jpg",
+      "imageCredit": "Own work (CC BY 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Я студент.",
@@ -110,7 +116,8 @@
       "ru": "начальник",
       "en": "boss / manager",
       "audio": "/audio/day17/начальник.mp3",
-      "image": "/images/vocab/d17-w07.svg",
+      "image": "/images/vocab/d17-w07.jpg",
+      "imageCredit": "https://www.artnet.com/artists/josef-boss/the-young-artists-Ajp8QAzowczoILsOdwLPEw2 (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Начальник строгий.",
@@ -127,7 +134,8 @@
       "ru": "зарплата",
       "en": "salary",
       "audio": "/audio/day17/зарплата.mp3",
-      "image": "/images/vocab/d17-w08.svg",
+      "image": "/images/vocab/d17-w08.jpg",
+      "imageCredit": "RamaOwn work (CC BY-SA 2.0 fr via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Зарплата хорошая.",
@@ -144,7 +152,8 @@
       "ru": "коллега",
       "en": "colleague",
       "audio": "/audio/day17/коллега.mp3",
-      "image": "/images/vocab/d17-w09.svg",
+      "image": "/images/vocab/d17-w09.jpg",
+      "imageCredit": "Twitter (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Мой коллега.",
@@ -161,7 +170,8 @@
       "ru": "карьера",
       "en": "career",
       "audio": "/audio/day17/карьера.mp3",
-      "image": "/images/vocab/d17-w10.svg",
+      "image": "/images/vocab/d17-w10.jpg",
+      "imageCredit": "https://www.dvidshub.net/image/1820843 (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Карьера важна.",
@@ -189,12 +199,12 @@
         "работе"
       ],
       "pool": [
-        "учитель",
         "работе",
-        "на",
-        "Я",
+        "студент",
         "инженер",
-        "зарплата"
+        "карьера",
+        "на",
+        "Я"
       ]
     },
     {
@@ -210,11 +220,11 @@
         "интересная"
       ],
       "pool": [
+        "Работа",
         "учитель",
-        "студент",
+        "коллега",
         "интересная",
-        "врач",
-        "Работа"
+        "зарплата"
       ]
     },
     {
@@ -231,12 +241,12 @@
         "центре"
       ],
       "pool": [
+        "центре",
+        "Офис",
+        "учитель",
         "карьера",
         "в",
-        "работа",
-        "Офис",
-        "центре",
-        "коллега"
+        "зарплата"
       ]
     },
     {
@@ -253,12 +263,12 @@
         "офис"
       ],
       "pool": [
-        "учитель",
         "офис",
-        "начальник",
-        "зарплата",
+        "в",
+        "инженер",
+        "карьера",
         "Иду",
-        "в"
+        "студент"
       ]
     },
     {
@@ -275,10 +285,10 @@
       ],
       "pool": [
         "врач",
-        "карьера",
         "учитель",
-        "зарплата",
-        "Она"
+        "Она",
+        "работа",
+        "инженер"
       ]
     },
     {
@@ -294,11 +304,11 @@
         "учитель"
       ],
       "pool": [
-        "карьера",
+        "Хороший",
+        "коллега",
         "инженер",
-        "зарплата",
         "учитель",
-        "Хороший"
+        "врач"
       ]
     },
     {
@@ -314,11 +324,11 @@
         "инженер"
       ],
       "pool": [
-        "коллега",
-        "зарплата",
         "офис",
-        "Он",
-        "инженер"
+        "зарплата",
+        "карьера",
+        "инженер",
+        "Он"
       ]
     },
     {
@@ -334,11 +344,11 @@
         "работает"
       ],
       "pool": [
-        "Инженер",
         "работает",
-        "карьера",
-        "врач",
-        "начальник"
+        "учитель",
+        "начальник",
+        "Инженер",
+        "работа"
       ]
     },
     {
@@ -357,8 +367,8 @@
       "pool": [
         "Моя",
         "инженер",
-        "работа",
         "сестра",
+        "офис",
         "учитель",
         "врач"
       ]
@@ -377,12 +387,12 @@
         "больнице"
       ],
       "pool": [
-        "карьера",
-        "Врач",
-        "инженер",
-        "студент",
         "в",
-        "больнице"
+        "начальник",
+        "Врач",
+        "больнице",
+        "работа",
+        "офис"
       ]
     },
     {
@@ -398,11 +408,11 @@
         "студент"
       ],
       "pool": [
-        "врач",
-        "офис",
-        "Я",
+        "зарплата",
+        "коллега",
         "студент",
-        "карьера"
+        "работа",
+        "Я"
       ]
     },
     {
@@ -418,11 +428,11 @@
         "учатся"
       ],
       "pool": [
-        "инженер",
         "учатся",
-        "коллега",
-        "Студенты",
-        "работа"
+        "врач",
+        "офис",
+        "работа",
+        "Студенты"
       ]
     },
     {
@@ -438,11 +448,11 @@
         "строгий"
       ],
       "pool": [
-        "карьера",
-        "строгий",
         "Начальник",
-        "врач",
-        "учитель"
+        "работа",
+        "зарплата",
+        "инженер",
+        "строгий"
       ]
     },
     {
@@ -458,11 +468,11 @@
         "начальник"
       ],
       "pool": [
-        "работа",
-        "начальник",
-        "офис",
-        "карьера",
-        "Мой"
+        "зарплата",
+        "Мой",
+        "учитель",
+        "инженер",
+        "начальник"
       ]
     },
     {
@@ -478,11 +488,11 @@
         "хорошая"
       ],
       "pool": [
-        "Зарплата",
-        "учитель",
-        "карьера",
+        "хорошая",
         "офис",
-        "хорошая"
+        "карьера",
+        "Зарплата",
+        "коллега"
       ]
     },
     {
@@ -498,11 +508,11 @@
         "зарплата"
       ],
       "pool": [
-        "Когда",
-        "работа",
+        "врач",
+        "начальник",
         "учитель",
         "зарплата",
-        "врач"
+        "Когда"
       ]
     },
     {
@@ -518,11 +528,11 @@
         "коллега"
       ],
       "pool": [
-        "работа",
         "коллега",
-        "студент",
-        "инженер",
-        "Мой"
+        "работа",
+        "врач",
+        "Мой",
+        "учитель"
       ]
     },
     {
@@ -538,11 +548,11 @@
         "помогают"
       ],
       "pool": [
-        "начальник",
-        "учитель",
-        "Коллеги",
-        "офис",
-        "помогают"
+        "инженер",
+        "карьера",
+        "зарплата",
+        "помогают",
+        "Коллеги"
       ]
     },
     {
@@ -559,10 +569,10 @@
       ],
       "pool": [
         "важна",
-        "зарплата",
-        "Карьера",
-        "коллега",
-        "начальник"
+        "работа",
+        "учитель",
+        "офис",
+        "Карьера"
       ]
     },
     {
@@ -578,11 +588,11 @@
         "карьера"
       ],
       "pool": [
-        "Успешная",
-        "работа",
+        "коллега",
         "учитель",
+        "инженер",
         "карьера",
-        "офис"
+        "Успешная"
       ]
     },
     {
@@ -590,26 +600,26 @@
       "type": "pictureMatch",
       "wordId": "d17-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d17-w01.svg",
+      "image": "/images/vocab/d17-w01.png",
       "options": [
         "инженер",
-        "работа",
-        "врач",
-        "офис"
+        "коллега",
+        "учитель",
+        "работа"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "d17-pic-02",
       "type": "pictureMatch",
       "wordId": "d17-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d17-w02.svg",
+      "image": "/images/vocab/d17-w02.jpg",
       "options": [
+        "инженер",
         "карьера",
-        "начальник",
         "офис",
-        "студент"
+        "коллега"
       ],
       "correctIndex": 2
     },
@@ -618,112 +628,112 @@
       "type": "pictureMatch",
       "wordId": "d17-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d17-w03.svg",
+      "image": "/images/vocab/d17-w03.jpg",
       "options": [
+        "студент",
         "учитель",
         "работа",
-        "начальник",
-        "инженер"
+        "врач"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d17-pic-04",
       "type": "pictureMatch",
       "wordId": "d17-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d17-w04.svg",
+      "image": "/images/vocab/d17-w04.jpg",
       "options": [
+        "работа",
         "инженер",
-        "зарплата",
         "коллега",
-        "врач"
+        "карьера"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d17-pic-05",
       "type": "pictureMatch",
       "wordId": "d17-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d17-w05.svg",
+      "image": "/images/vocab/d17-w05.png",
       "options": [
+        "офис",
         "врач",
         "инженер",
-        "зарплата",
-        "студент"
+        "карьера"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d17-pic-06",
       "type": "pictureMatch",
       "wordId": "d17-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d17-w06.svg",
+      "image": "/images/vocab/d17-w06.jpg",
       "options": [
+        "инженер",
         "студент",
-        "учитель",
-        "офис",
-        "врач"
+        "карьера",
+        "коллега"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d17-pic-07",
       "type": "pictureMatch",
       "wordId": "d17-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d17-w07.svg",
+      "image": "/images/vocab/d17-w07.jpg",
       "options": [
-        "начальник",
-        "студент",
         "инженер",
-        "офис"
+        "начальник",
+        "учитель",
+        "карьера"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d17-pic-08",
       "type": "pictureMatch",
       "wordId": "d17-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d17-w08.svg",
+      "image": "/images/vocab/d17-w08.jpg",
       "options": [
+        "зарплата",
         "учитель",
-        "работа",
-        "студент",
-        "зарплата"
+        "карьера",
+        "начальник"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "d17-pic-09",
       "type": "pictureMatch",
       "wordId": "d17-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d17-w09.svg",
+      "image": "/images/vocab/d17-w09.jpg",
       "options": [
-        "инженер",
         "коллега",
-        "зарплата",
-        "учитель"
+        "врач",
+        "студент",
+        "офис"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "d17-pic-10",
       "type": "pictureMatch",
       "wordId": "d17-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d17-w10.svg",
+      "image": "/images/vocab/d17-w10.jpg",
       "options": [
-        "инженер",
+        "коллега",
+        "студент",
         "учитель",
-        "карьера",
-        "работа"
+        "карьера"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     }
   ]
 }

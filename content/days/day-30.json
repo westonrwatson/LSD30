@@ -25,7 +25,8 @@
       "ru": "слово",
       "en": "word",
       "audio": "/audio/day30/слово.mp3",
-      "image": "/images/vocab/d30-w02.svg",
+      "image": "/images/vocab/d30-w02.png",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Новое слово.",
@@ -42,7 +43,8 @@
       "ru": "фраза",
       "en": "phrase",
       "audio": "/audio/day30/фраза.mp3",
-      "image": "/images/vocab/d30-w03.svg",
+      "image": "/images/vocab/d30-w03.png",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Полезная фраза.",
@@ -59,7 +61,8 @@
       "ru": "урок",
       "en": "lesson",
       "audio": "/audio/day30/урок.mp3",
-      "image": "/images/vocab/d30-w04.svg",
+      "image": "/images/vocab/d30-w04.jpg",
+      "imageCredit": "Lesson in geocaching Uploaded by AlbertHerring (CC BY 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Урок интересный.",
@@ -76,7 +79,8 @@
       "ru": "практика",
       "en": "practice",
       "audio": "/audio/day30/практика.mp3",
-      "image": "/images/vocab/d30-w05.svg",
+      "image": "/images/vocab/d30-w05.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Нужна практика.",
@@ -93,7 +97,8 @@
       "ru": "прогресс",
       "en": "progress",
       "audio": "/audio/day30/прогресс.mp3",
-      "image": "/images/vocab/d30-w06.svg",
+      "image": "/images/vocab/d30-w06.jpg",
+      "imageCredit": "NASA (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Есть прогресс.",
@@ -110,7 +115,8 @@
       "ru": "повторить",
       "en": "to repeat / review",
       "audio": "/audio/day30/повторить.mp3",
-      "image": "/images/vocab/d30-w07.svg",
+      "image": "/images/vocab/d30-w07.jpg",
+      "imageCredit": "Own work (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Повтори слова.",
@@ -127,7 +133,8 @@
       "ru": "запомнить",
       "en": "to memorize",
       "audio": "/audio/day30/запомнить.mp3",
-      "image": "/images/vocab/d30-w08.svg",
+      "image": "/images/vocab/d30-w08.jpg",
+      "imageCredit": "Own work (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Запомни это.",
@@ -161,7 +168,8 @@
       "ru": "говорить",
       "en": "to speak",
       "audio": "/audio/day30/говорить.mp3",
-      "image": "/images/vocab/d30-w10.svg",
+      "image": "/images/vocab/d30-w10.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Говорю по-русски.",
@@ -189,11 +197,11 @@
         "сложный"
       ],
       "pool": [
-        "Русский",
-        "сложный",
-        "практика",
         "фраза",
-        "повторить",
+        "сложный",
+        "прогресс",
+        "Русский",
+        "запомнить",
         "язык"
       ]
     },
@@ -211,10 +219,10 @@
       ],
       "pool": [
         "прогресс",
-        "фраза",
         "Изучаю",
         "язык",
-        "запомнить"
+        "повторить",
+        "урок"
       ]
     },
     {
@@ -230,11 +238,11 @@
         "слово"
       ],
       "pool": [
-        "понимать",
         "слово",
-        "практика",
+        "понимать",
+        "Новое",
         "язык",
-        "Новое"
+        "повторить"
       ]
     },
     {
@@ -250,11 +258,11 @@
         "слово"
       ],
       "pool": [
-        "повторить",
-        "понимать",
+        "слово",
         "Запомни",
-        "фраза",
-        "слово"
+        "повторить",
+        "урок",
+        "запомнить"
       ]
     },
     {
@@ -270,11 +278,11 @@
         "фраза"
       ],
       "pool": [
-        "повторить",
+        "прогресс",
         "фраза",
-        "запомнить",
-        "Полезная",
-        "прогресс"
+        "урок",
+        "слово",
+        "Полезная"
       ]
     },
     {
@@ -290,11 +298,11 @@
         "фразу"
       ],
       "pool": [
-        "Повтори",
-        "говорить",
-        "понимать",
+        "фразу",
+        "язык",
         "слово",
-        "фразу"
+        "Повтори",
+        "запомнить"
       ]
     },
     {
@@ -310,11 +318,11 @@
         "интересный"
       ],
       "pool": [
-        "запомнить",
-        "интересный",
-        "фраза",
+        "понимать",
+        "говорить",
         "Урок",
-        "язык"
+        "язык",
+        "интересный"
       ]
     },
     {
@@ -330,11 +338,11 @@
         "закончен"
       ],
       "pool": [
-        "практика",
         "Урок",
-        "закончен",
-        "говорить",
-        "слово"
+        "язык",
+        "фраза",
+        "слово",
+        "закончен"
       ]
     },
     {
@@ -350,10 +358,10 @@
         "практика"
       ],
       "pool": [
-        "понимать",
         "практика",
-        "урок",
         "слово",
+        "говорить",
+        "запомнить",
         "Нужна"
       ]
     },
@@ -371,12 +379,12 @@
         "день"
       ],
       "pool": [
-        "слово",
-        "Практика",
         "день",
-        "говорить",
         "каждый",
-        "запомнить"
+        "Практика",
+        "прогресс",
+        "слово",
+        "язык"
       ]
     },
     {
@@ -392,11 +400,11 @@
         "прогресс"
       ],
       "pool": [
-        "прогресс",
+        "повторить",
         "урок",
+        "слово",
         "Есть",
-        "понимать",
-        "язык"
+        "прогресс"
       ]
     },
     {
@@ -412,10 +420,10 @@
         "прогресс"
       ],
       "pool": [
+        "фраза",
         "Хороший",
-        "понимать",
-        "слово",
         "урок",
+        "практика",
         "прогресс"
       ]
     },
@@ -432,11 +440,11 @@
         "слова"
       ],
       "pool": [
-        "Повтори",
-        "понимать",
-        "слово",
+        "говорить",
         "слова",
-        "урок"
+        "слово",
+        "Повтори",
+        "язык"
       ]
     },
     {
@@ -452,11 +460,11 @@
         "повторить"
       ],
       "pool": [
+        "слово",
+        "понимать",
         "Надо",
-        "запомнить",
-        "прогресс",
         "повторить",
-        "понимать"
+        "фраза"
       ]
     },
     {
@@ -472,10 +480,10 @@
         "это"
       ],
       "pool": [
-        "понимать",
-        "язык",
+        "повторить",
         "это",
-        "слово",
+        "язык",
+        "урок",
         "Запомни"
       ]
     },
@@ -493,10 +501,10 @@
       ],
       "pool": [
         "язык",
-        "повторить",
+        "говорить",
         "запомнить",
-        "прогресс",
-        "Трудно"
+        "Трудно",
+        "повторить"
       ]
     },
     {
@@ -513,10 +521,10 @@
       ],
       "pool": [
         "русский",
-        "прогресс",
-        "практика",
+        "Понимаю",
         "урок",
-        "Понимаю"
+        "прогресс",
+        "слово"
       ]
     },
     {
@@ -532,11 +540,11 @@
         "понимаю"
       ],
       "pool": [
-        "говорить",
-        "понимаю",
-        "слово",
+        "прогресс",
         "Теперь",
-        "прогресс"
+        "урок",
+        "понимаю",
+        "практика"
       ]
     },
     {
@@ -553,10 +561,10 @@
       ],
       "pool": [
         "по-русски",
-        "язык",
-        "запомнить",
+        "понимать",
+        "урок",
         "Говорю",
-        "понимать"
+        "запомнить"
       ]
     },
     {
@@ -573,11 +581,11 @@
         "лучше"
       ],
       "pool": [
-        "фраза",
         "лучше",
-        "понимать",
-        "говорить",
+        "слово",
         "Хочу",
+        "язык",
+        "говорить",
         "практика"
       ]
     },
@@ -589,23 +597,23 @@
       "image": "/images/vocab/d30-w01.svg",
       "options": [
         "фраза",
-        "запомнить",
         "прогресс",
-        "язык"
+        "язык",
+        "слово"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "d30-pic-02",
       "type": "pictureMatch",
       "wordId": "d30-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d30-w02.svg",
+      "image": "/images/vocab/d30-w02.png",
       "options": [
-        "язык",
+        "урок",
         "слово",
-        "понимать",
-        "урок"
+        "повторить",
+        "практика"
       ],
       "correctIndex": 1
     },
@@ -614,54 +622,54 @@
       "type": "pictureMatch",
       "wordId": "d30-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d30-w03.svg",
+      "image": "/images/vocab/d30-w03.png",
       "options": [
-        "фраза",
-        "говорить",
         "запомнить",
-        "повторить"
+        "урок",
+        "прогресс",
+        "фраза"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "d30-pic-04",
       "type": "pictureMatch",
       "wordId": "d30-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d30-w04.svg",
+      "image": "/images/vocab/d30-w04.jpg",
       "options": [
-        "слово",
-        "практика",
         "урок",
+        "язык",
+        "прогресс",
         "запомнить"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "d30-pic-05",
       "type": "pictureMatch",
       "wordId": "d30-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d30-w05.svg",
+      "image": "/images/vocab/d30-w05.jpg",
       "options": [
+        "понимать",
+        "говорить",
         "практика",
-        "прогресс",
-        "урок",
-        "слово"
+        "прогресс"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "d30-pic-06",
       "type": "pictureMatch",
       "wordId": "d30-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d30-w06.svg",
+      "image": "/images/vocab/d30-w06.jpg",
       "options": [
-        "понимать",
         "урок",
+        "фраза",
         "прогресс",
-        "фраза"
+        "говорить"
       ],
       "correctIndex": 2
     },
@@ -670,26 +678,26 @@
       "type": "pictureMatch",
       "wordId": "d30-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d30-w07.svg",
+      "image": "/images/vocab/d30-w07.jpg",
       "options": [
-        "фраза",
+        "прогресс",
+        "понимать",
         "повторить",
-        "говорить",
-        "урок"
+        "слово"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "d30-pic-08",
       "type": "pictureMatch",
       "wordId": "d30-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d30-w08.svg",
+      "image": "/images/vocab/d30-w08.jpg",
       "options": [
-        "слово",
+        "понимать",
         "запомнить",
-        "урок",
-        "практика"
+        "повторить",
+        "прогресс"
       ],
       "correctIndex": 1
     },
@@ -700,23 +708,23 @@
       "prompt": "Which word matches this picture?",
       "image": "/images/vocab/d30-w09.svg",
       "options": [
-        "говорить",
-        "понимать",
         "практика",
-        "язык"
+        "повторить",
+        "прогресс",
+        "понимать"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "d30-pic-10",
       "type": "pictureMatch",
       "wordId": "d30-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d30-w10.svg",
+      "image": "/images/vocab/d30-w10.jpg",
       "options": [
         "язык",
-        "урок",
-        "практика",
+        "фраза",
+        "понимать",
         "говорить"
       ],
       "correctIndex": 3

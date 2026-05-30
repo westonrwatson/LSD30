@@ -8,7 +8,8 @@
       "ru": "одежда",
       "en": "clothes",
       "audio": "/audio/day16/одежда.mp3",
-      "image": "/images/vocab/d16-w01.svg",
+      "image": "/images/vocab/d16-w01.jpg",
+      "imageCredit": "LA2-NSRW-2-0064.jpg (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Новая одежда.",
@@ -25,7 +26,8 @@
       "ru": "рубашка",
       "en": "shirt",
       "audio": "/audio/day16/рубашка.mp3",
-      "image": "/images/vocab/d16-w02.svg",
+      "image": "/images/vocab/d16-w02.jpg",
+      "imageCredit": "https://www.flickr.com/photos/98552965@N05/18387953870/ (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Белая рубашка.",
@@ -42,7 +44,8 @@
       "ru": "платье",
       "en": "dress",
       "audio": "/audio/day16/платье.mp3",
-      "image": "/images/vocab/d16-w03.svg",
+      "image": "/images/vocab/d16-w03.jpg",
+      "imageCredit": "Own work (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Красивое платье.",
@@ -59,7 +62,8 @@
       "ru": "брюки",
       "en": "pants / trousers",
       "audio": "/audio/day16/брюки.mp3",
-      "image": "/images/vocab/d16-w04.svg",
+      "image": "/images/vocab/d16-w04.jpg",
+      "imageCredit": "Drawing made by David Ring, commissioned by Europeana Fashion, scanned by team of MoMu – Fashion Museum Province of Antwerp. https://commons.wikimedia.org/wiki/Commons:Europeana_Fashion_-_MoMu_-_Thesaurus_drawings (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Чёрные брюки.",
@@ -93,7 +97,8 @@
       "ru": "размер",
       "en": "size",
       "audio": "/audio/day16/размер.mp3",
-      "image": "/images/vocab/d16-w06.svg",
+      "image": "/images/vocab/d16-w06.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Какой размер?",
@@ -110,7 +115,8 @@
       "ru": "цена",
       "en": "price",
       "audio": "/audio/day16/цена.mp3",
-      "image": "/images/vocab/d16-w07.svg",
+      "image": "/images/vocab/d16-w07.webp",
+      "imageCredit": "Own work https://www.fao.org/worldfoodsituation/foodpricesindex/en/ (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Какая цена?",
@@ -127,7 +133,8 @@
       "ru": "скидка",
       "en": "discount",
       "audio": "/audio/day16/скидка.mp3",
-      "image": "/images/vocab/d16-w08.svg",
+      "image": "/images/vocab/d16-w08.jpg",
+      "imageCredit": "Own work (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Большая скидка.",
@@ -144,7 +151,8 @@
       "ru": "примерить",
       "en": "to try on",
       "audio": "/audio/day16/примерить.mp3",
-      "image": "/images/vocab/d16-w09.svg",
+      "image": "/images/vocab/d16-w09.jpg",
+      "imageCredit": "El Gráfico (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Можно примерить?",
@@ -161,7 +169,8 @@
       "ru": "купить",
       "en": "to buy",
       "audio": "/audio/day16/купить.mp3",
-      "image": "/images/vocab/d16-w10.svg",
+      "image": "/images/vocab/d16-w10.jpg",
+      "imageCredit": "https://gdb.voanews.com/9B4C9C08-F5D0-4692-9656-3DFE8D4EBBC5_w1597_n_r1_st.jpg (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Хочу купить.",
@@ -188,11 +197,11 @@
         "одежда"
       ],
       "pool": [
-        "Новая",
-        "цена",
         "одежда",
-        "рубашка",
-        "примерить"
+        "купить",
+        "скидка",
+        "Новая",
+        "цена"
       ]
     },
     {
@@ -208,11 +217,11 @@
         "одежды"
       ],
       "pool": [
-        "размер",
+        "одежды",
+        "цена",
         "Магазин",
-        "платье",
-        "брюки",
-        "одежды"
+        "рубашка",
+        "размер"
       ]
     },
     {
@@ -228,11 +237,11 @@
         "рубашка"
       ],
       "pool": [
+        "обувь",
+        "скидка",
         "Белая",
-        "цена",
-        "одежда",
-        "рубашка",
-        "скидка"
+        "платье",
+        "рубашка"
       ]
     },
     {
@@ -248,10 +257,10 @@
         "рубашку"
       ],
       "pool": [
-        "одежда",
-        "обувь",
-        "примерить",
+        "цена",
+        "платье",
         "Купи",
+        "брюки",
         "рубашку"
       ]
     },
@@ -268,11 +277,11 @@
         "платье"
       ],
       "pool": [
-        "размер",
-        "обувь",
-        "одежда",
+        "рубашка",
+        "Красивое",
         "платье",
-        "Красивое"
+        "купить",
+        "примерить"
       ]
     },
     {
@@ -290,11 +299,11 @@
       ],
       "pool": [
         "Она",
-        "платье",
+        "цена",
         "брюки",
         "в",
-        "купить",
-        "цена"
+        "платье",
+        "одежда"
       ]
     },
     {
@@ -310,11 +319,11 @@
         "брюки"
       ],
       "pool": [
-        "брюки",
         "рубашка",
         "Чёрные",
-        "обувь",
-        "купить"
+        "брюки",
+        "цена",
+        "скидка"
       ]
     },
     {
@@ -330,11 +339,11 @@
         "брюки"
       ],
       "pool": [
-        "скидка",
-        "цена",
-        "Новые",
         "брюки",
-        "размер"
+        "размер",
+        "Новые",
+        "примерить",
+        "купить"
       ]
     },
     {
@@ -350,11 +359,11 @@
         "обувь"
       ],
       "pool": [
-        "скидка",
-        "примерить",
-        "одежда",
         "обувь",
-        "Удобная"
+        "примерить",
+        "рубашка",
+        "Удобная",
+        "цена"
       ]
     },
     {
@@ -370,11 +379,11 @@
         "обуви"
       ],
       "pool": [
-        "платье",
-        "купить",
+        "скидка",
+        "рубашка",
+        "обуви",
         "Магазин",
-        "одежда",
-        "обуви"
+        "примерить"
       ]
     },
     {
@@ -391,10 +400,10 @@
       ],
       "pool": [
         "Какой",
+        "купить",
         "размер",
-        "рубашка",
-        "брюки",
-        "цена"
+        "примерить",
+        "одежда"
       ]
     },
     {
@@ -411,12 +420,12 @@
         "средний"
       ],
       "pool": [
-        "размер",
         "Мой",
-        "цена",
         "средний",
-        "обувь",
-        "скидка"
+        "скидка",
+        "платье",
+        "рубашка",
+        "размер"
       ]
     },
     {
@@ -432,11 +441,11 @@
         "цена"
       ],
       "pool": [
-        "платье",
-        "цена",
-        "скидка",
+        "купить",
         "брюки",
-        "Какая"
+        "Какая",
+        "цена",
+        "размер"
       ]
     },
     {
@@ -452,11 +461,11 @@
         "высокая"
       ],
       "pool": [
-        "платье",
+        "брюки",
+        "обувь",
+        "одежда",
         "Цена",
-        "купить",
-        "высокая",
-        "брюки"
+        "высокая"
       ]
     },
     {
@@ -472,11 +481,11 @@
         "скидка"
       ],
       "pool": [
-        "брюки",
+        "размер",
         "скидка",
         "примерить",
-        "Большая",
-        "цена"
+        "платье",
+        "Большая"
       ]
     },
     {
@@ -493,9 +502,9 @@
         "процентов"
       ],
       "pool": [
-        "пятьдесят",
-        "обувь",
+        "купить",
         "примерить",
+        "пятьдесят",
         "цена",
         "Скидка",
         "процентов"
@@ -514,11 +523,11 @@
         "примерить"
       ],
       "pool": [
-        "размер",
-        "Можно",
         "примерить",
-        "рубашка",
-        "одежда"
+        "купить",
+        "размер",
+        "обувь",
+        "Можно"
       ]
     },
     {
@@ -534,11 +543,11 @@
         "это"
       ],
       "pool": [
-        "одежда",
-        "это",
-        "брюки",
         "Примерьте",
-        "платье"
+        "платье",
+        "купить",
+        "рубашка",
+        "это"
       ]
     },
     {
@@ -554,10 +563,10 @@
         "купить"
       ],
       "pool": [
-        "примерить",
+        "брюки",
         "Хочу",
-        "одежда",
         "купить",
+        "примерить",
         "размер"
       ]
     },
@@ -574,11 +583,11 @@
         "хлеб"
       ],
       "pool": [
-        "хлеб",
-        "рубашка",
-        "примерить",
+        "брюки",
+        "цена",
         "Купи",
-        "цена"
+        "хлеб",
+        "обувь"
       ]
     },
     {
@@ -586,26 +595,26 @@
       "type": "pictureMatch",
       "wordId": "d16-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d16-w01.svg",
+      "image": "/images/vocab/d16-w01.jpg",
       "options": [
+        "рубашка",
         "одежда",
         "купить",
-        "платье",
-        "цена"
+        "обувь"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d16-pic-02",
       "type": "pictureMatch",
       "wordId": "d16-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d16-w02.svg",
+      "image": "/images/vocab/d16-w02.jpg",
       "options": [
-        "примерить",
-        "рубашка",
         "одежда",
-        "брюки"
+        "рубашка",
+        "примерить",
+        "купить"
       ],
       "correctIndex": 1
     },
@@ -614,28 +623,28 @@
       "type": "pictureMatch",
       "wordId": "d16-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d16-w03.svg",
+      "image": "/images/vocab/d16-w03.jpg",
       "options": [
         "цена",
-        "платье",
-        "обувь",
-        "купить"
+        "скидка",
+        "брюки",
+        "платье"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "d16-pic-04",
       "type": "pictureMatch",
       "wordId": "d16-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d16-w04.svg",
+      "image": "/images/vocab/d16-w04.jpg",
       "options": [
-        "брюки",
-        "обувь",
+        "цена",
+        "рубашка",
         "размер",
-        "скидка"
+        "брюки"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "d16-pic-05",
@@ -644,65 +653,65 @@
       "prompt": "Which word matches this picture?",
       "image": "/images/vocab/d16-w05.svg",
       "options": [
+        "платье",
         "обувь",
-        "цена",
-        "рубашка",
-        "купить"
+        "примерить",
+        "цена"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d16-pic-06",
       "type": "pictureMatch",
       "wordId": "d16-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d16-w06.svg",
+      "image": "/images/vocab/d16-w06.jpg",
       "options": [
-        "цена",
-        "рубашка",
+        "обувь",
         "размер",
-        "одежда"
+        "цена",
+        "скидка"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "d16-pic-07",
       "type": "pictureMatch",
       "wordId": "d16-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d16-w07.svg",
+      "image": "/images/vocab/d16-w07.webp",
       "options": [
-        "купить",
         "цена",
-        "примерить",
-        "рубашка"
+        "купить",
+        "скидка",
+        "размер"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "d16-pic-08",
       "type": "pictureMatch",
       "wordId": "d16-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d16-w08.svg",
+      "image": "/images/vocab/d16-w08.jpg",
       "options": [
-        "платье",
-        "скидка",
         "рубашка",
-        "купить"
+        "обувь",
+        "купить",
+        "скидка"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "d16-pic-09",
       "type": "pictureMatch",
       "wordId": "d16-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d16-w09.svg",
+      "image": "/images/vocab/d16-w09.jpg",
       "options": [
-        "купить",
-        "размер",
+        "рубашка",
         "цена",
+        "платье",
         "примерить"
       ],
       "correctIndex": 3
@@ -712,14 +721,14 @@
       "type": "pictureMatch",
       "wordId": "d16-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d16-w10.svg",
+      "image": "/images/vocab/d16-w10.jpg",
       "options": [
         "скидка",
+        "размер",
         "купить",
-        "цена",
         "примерить"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     }
   ]
 }

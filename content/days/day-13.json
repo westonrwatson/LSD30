@@ -8,7 +8,8 @@
       "ru": "понедельник",
       "en": "Monday",
       "audio": "/audio/day13/понедельник.mp3",
-      "image": "/images/vocab/d13-w01.svg",
+      "image": "/images/vocab/d13-w01.jpg",
+      "imageCredit": "Own work (CC BY 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "В понедельник работаю.",
@@ -25,7 +26,8 @@
       "ru": "январь",
       "en": "January",
       "audio": "/audio/day13/январь.mp3",
-      "image": "/images/vocab/d13-w02.svg",
+      "image": "/images/vocab/d13-w02.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Январь — холодный месяц.",
@@ -42,7 +44,8 @@
       "ru": "зима",
       "en": "winter",
       "audio": "/audio/day13/зима.mp3",
-      "image": "/images/vocab/d13-w03.svg",
+      "image": "/images/vocab/d13-w03.jpg",
+      "imageCredit": "https://web.archive.org/web/20161023074348/http://www.panoramio.com/photo/54059190 (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Зимой холодно.",
@@ -59,7 +62,8 @@
       "ru": "весна",
       "en": "spring",
       "audio": "/audio/day13/весна.mp3",
-      "image": "/images/vocab/d13-w04.svg",
+      "image": "/images/vocab/d13-w04.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Весной тепло.",
@@ -76,7 +80,8 @@
       "ru": "лето",
       "en": "summer",
       "audio": "/audio/day13/лето.mp3",
-      "image": "/images/vocab/d13-w05.svg",
+      "image": "/images/vocab/d13-w05.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Летом еду на море.",
@@ -93,7 +98,8 @@
       "ru": "осень",
       "en": "autumn / fall",
       "audio": "/audio/day13/осень.mp3",
-      "image": "/images/vocab/d13-w06.svg",
+      "image": "/images/vocab/d13-w06.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Осенью дождь.",
@@ -110,7 +116,8 @@
       "ru": "неделя",
       "en": "week",
       "audio": "/audio/day13/неделя.mp3",
-      "image": "/images/vocab/d13-w07.svg",
+      "image": "/images/vocab/d13-w07.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "На следующей неделе.",
@@ -127,7 +134,8 @@
       "ru": "месяц",
       "en": "month",
       "audio": "/audio/day13/месяц.mp3",
-      "image": "/images/vocab/d13-w08.svg",
+      "image": "/images/vocab/d13-w08.jpg",
+      "imageCredit": "Own work (CC BY 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Месяц назад.",
@@ -144,7 +152,8 @@
       "ru": "дата",
       "en": "date",
       "audio": "/audio/day13/дата.mp3",
-      "image": "/images/vocab/d13-w09.svg",
+      "image": "/images/vocab/d13-w09.jpg",
+      "imageCredit": "Own work (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Какая сегодня дата?",
@@ -161,7 +170,8 @@
       "ru": "праздник",
       "en": "holiday",
       "audio": "/audio/day13/праздник.mp3",
-      "image": "/images/vocab/d13-w10.svg",
+      "image": "/images/vocab/d13-w10.jpg",
+      "imageCredit": "Holiday Inn Clock (CC BY 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Сегодня праздник.",
@@ -189,12 +199,12 @@
         "работаю"
       ],
       "pool": [
-        "понедельник",
-        "лето",
         "зима",
+        "В",
         "работаю",
-        "неделя",
-        "В"
+        "месяц",
+        "понедельник",
+        "весна"
       ]
     },
     {
@@ -210,11 +220,11 @@
         "понедельник"
       ],
       "pool": [
-        "зима",
-        "понедельник",
-        "месяц",
         "Следующий",
-        "январь"
+        "неделя",
+        "лето",
+        "дата",
+        "понедельник"
       ]
     },
     {
@@ -231,12 +241,12 @@
         "месяц"
       ],
       "pool": [
-        "месяц",
         "холодный",
+        "месяц",
         "Январь",
-        "понедельник",
-        "осень",
-        "праздник"
+        "дата",
+        "праздник",
+        "неделя"
       ]
     },
     {
@@ -253,12 +263,12 @@
         "снег"
       ],
       "pool": [
-        "осень",
-        "В",
-        "лето",
         "январе",
+        "зима",
         "снег",
-        "понедельник"
+        "В",
+        "праздник",
+        "осень"
       ]
     },
     {
@@ -274,11 +284,11 @@
         "холодно"
       ],
       "pool": [
-        "неделя",
-        "понедельник",
-        "холодно",
-        "весна",
-        "Зимой"
+        "осень",
+        "лето",
+        "Зимой",
+        "месяц",
+        "холодно"
       ]
     },
     {
@@ -294,11 +304,11 @@
         "длинная"
       ],
       "pool": [
-        "праздник",
-        "январь",
-        "дата",
+        "длинная",
         "Зима",
-        "длинная"
+        "лето",
+        "неделя",
+        "месяц"
       ]
     },
     {
@@ -314,11 +324,11 @@
         "тепло"
       ],
       "pool": [
-        "праздник",
-        "Весной",
+        "осень",
+        "январь",
+        "неделя",
         "тепло",
-        "зима",
-        "январь"
+        "Весной"
       ]
     },
     {
@@ -335,10 +345,10 @@
       ],
       "pool": [
         "Весна",
-        "январь",
         "зима",
-        "осень",
-        "красивая"
+        "понедельник",
+        "красивая",
+        "осень"
       ]
     },
     {
@@ -356,13 +366,13 @@
         "море"
       ],
       "pool": [
-        "море",
-        "Летом",
         "осень",
-        "на",
         "еду",
-        "весна",
-        "месяц"
+        "Летом",
+        "дата",
+        "понедельник",
+        "на",
+        "море"
       ]
     },
     {
@@ -378,10 +388,10 @@
         "короткое"
       ],
       "pool": [
-        "весна",
-        "январь",
         "Лето",
+        "праздник",
         "короткое",
+        "зима",
         "месяц"
       ]
     },
@@ -398,11 +408,11 @@
         "дождь"
       ],
       "pool": [
+        "зима",
         "Осенью",
         "весна",
         "дождь",
-        "январь",
-        "праздник"
+        "неделя"
       ]
     },
     {
@@ -418,11 +428,11 @@
         "золотая"
       ],
       "pool": [
-        "золотая",
-        "месяц",
-        "январь",
         "Осень",
-        "праздник"
+        "зима",
+        "дата",
+        "весна",
+        "золотая"
       ]
     },
     {
@@ -439,12 +449,12 @@
         "неделе"
       ],
       "pool": [
-        "лето",
         "следующей",
         "неделе",
+        "На",
+        "праздник",
         "дата",
-        "весна",
-        "На"
+        "месяц"
       ]
     },
     {
@@ -460,11 +470,11 @@
         "пролетела"
       ],
       "pool": [
+        "осень",
         "пролетела",
-        "весна",
-        "Неделя",
-        "понедельник",
-        "лето"
+        "месяц",
+        "праздник",
+        "Неделя"
       ]
     },
     {
@@ -480,11 +490,11 @@
         "назад"
       ],
       "pool": [
-        "Месяц",
         "назад",
-        "весна",
-        "зима",
-        "осень"
+        "Месяц",
+        "дата",
+        "январь",
+        "понедельник"
       ]
     },
     {
@@ -500,11 +510,11 @@
         "месяц"
       ],
       "pool": [
-        "Каждый",
-        "январь",
+        "весна",
+        "осень",
         "месяц",
-        "понедельник",
-        "праздник"
+        "Каждый",
+        "зима"
       ]
     },
     {
@@ -521,12 +531,12 @@
         "дата"
       ],
       "pool": [
-        "осень",
-        "сегодня",
-        "зима",
+        "праздник",
         "Какая",
-        "весна",
-        "дата"
+        "сегодня",
+        "дата",
+        "лето",
+        "месяц"
       ]
     },
     {
@@ -542,11 +552,11 @@
         "рождения"
       ],
       "pool": [
-        "Дата",
+        "январь",
         "рождения",
+        "неделя",
         "праздник",
-        "понедельник",
-        "весна"
+        "Дата"
       ]
     },
     {
@@ -562,11 +572,11 @@
         "праздник"
       ],
       "pool": [
+        "дата",
+        "осень",
         "праздник",
-        "весна",
-        "лето",
         "Сегодня",
-        "январь"
+        "месяц"
       ]
     },
     {
@@ -583,12 +593,12 @@
         "годом"
       ],
       "pool": [
+        "зима",
+        "весна",
         "Новым",
+        "годом",
         "С",
-        "лето",
-        "месяц",
-        "понедельник",
-        "годом"
+        "дата"
       ]
     },
     {
@@ -596,12 +606,12 @@
       "type": "pictureMatch",
       "wordId": "d13-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d13-w01.svg",
+      "image": "/images/vocab/d13-w01.jpg",
       "options": [
         "понедельник",
-        "январь",
-        "зима",
-        "месяц"
+        "месяц",
+        "неделя",
+        "праздник"
       ],
       "correctIndex": 0
     },
@@ -610,54 +620,54 @@
       "type": "pictureMatch",
       "wordId": "d13-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d13-w02.svg",
+      "image": "/images/vocab/d13-w02.jpg",
       "options": [
-        "праздник",
-        "январь",
+        "осень",
         "дата",
-        "весна"
+        "январь",
+        "праздник"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "d13-pic-03",
       "type": "pictureMatch",
       "wordId": "d13-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d13-w03.svg",
+      "image": "/images/vocab/d13-w03.jpg",
       "options": [
+        "неделя",
         "зима",
         "осень",
-        "неделя",
         "весна"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d13-pic-04",
       "type": "pictureMatch",
       "wordId": "d13-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d13-w04.svg",
+      "image": "/images/vocab/d13-w04.jpg",
       "options": [
+        "месяц",
+        "праздник",
         "весна",
-        "зима",
-        "дата",
-        "месяц"
+        "январь"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "d13-pic-05",
       "type": "pictureMatch",
       "wordId": "d13-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d13-w05.svg",
+      "image": "/images/vocab/d13-w05.jpg",
       "options": [
-        "праздник",
+        "январь",
         "лето",
-        "месяц",
-        "дата"
+        "дата",
+        "осень"
       ],
       "correctIndex": 1
     },
@@ -666,11 +676,11 @@
       "type": "pictureMatch",
       "wordId": "d13-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d13-w06.svg",
+      "image": "/images/vocab/d13-w06.jpg",
       "options": [
-        "зима",
+        "дата",
+        "январь",
         "месяц",
-        "лето",
         "осень"
       ],
       "correctIndex": 3
@@ -680,40 +690,40 @@
       "type": "pictureMatch",
       "wordId": "d13-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d13-w07.svg",
+      "image": "/images/vocab/d13-w07.jpg",
       "options": [
+        "весна",
+        "осень",
         "неделя",
-        "праздник",
-        "месяц",
-        "январь"
+        "лето"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "d13-pic-08",
       "type": "pictureMatch",
       "wordId": "d13-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d13-w08.svg",
+      "image": "/images/vocab/d13-w08.jpg",
       "options": [
+        "месяц",
+        "дата",
         "лето",
-        "праздник",
-        "январь",
-        "месяц"
+        "весна"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "d13-pic-09",
       "type": "pictureMatch",
       "wordId": "d13-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d13-w09.svg",
+      "image": "/images/vocab/d13-w09.jpg",
       "options": [
-        "зима",
+        "январь",
         "дата",
         "месяц",
-        "осень"
+        "понедельник"
       ],
       "correctIndex": 1
     },
@@ -722,14 +732,14 @@
       "type": "pictureMatch",
       "wordId": "d13-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d13-w10.svg",
+      "image": "/images/vocab/d13-w10.jpg",
       "options": [
-        "осень",
-        "понедельник",
         "праздник",
-        "весна"
+        "зима",
+        "неделя",
+        "месяц"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     }
   ]
 }

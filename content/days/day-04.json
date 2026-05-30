@@ -8,7 +8,8 @@
       "ru": "красный",
       "en": "red",
       "audio": "/audio/day04/красный.mp3",
-      "image": "/images/vocab/d04-w01.svg",
+      "image": "/images/vocab/d04-w01.jpg",
+      "imageCredit": "Veiled in Red (CC BY 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Красная машина стоит там.",
@@ -25,7 +26,8 @@
       "ru": "синий",
       "en": "blue",
       "audio": "/audio/day04/синий.mp3",
-      "image": "/images/vocab/d04-w02.svg",
+      "image": "/images/vocab/d04-w02.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Синее небо сегодня.",
@@ -42,7 +44,8 @@
       "ru": "зелёный",
       "en": "green",
       "audio": "/audio/day04/зелёный.mp3",
-      "image": "/images/vocab/d04-w03.svg",
+      "image": "/images/vocab/d04-w03.jpg",
+      "imageCredit": "Own work (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Зелёный парк рядом.",
@@ -59,7 +62,8 @@
       "ru": "белый",
       "en": "white",
       "audio": "/audio/day04/белый.mp3",
-      "image": "/images/vocab/d04-w04.svg",
+      "image": "/images/vocab/d04-w04.png",
+      "imageCredit": "Own work (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Белый снег зимой.",
@@ -76,7 +80,8 @@
       "ru": "чёрный",
       "en": "black",
       "audio": "/audio/day04/чёрный.mp3",
-      "image": "/images/vocab/d04-w05.svg",
+      "image": "/images/vocab/d04-w05.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Чёрная кошка на крыше.",
@@ -93,7 +98,8 @@
       "ru": "большой",
       "en": "big",
       "audio": "/audio/day04/большой.mp3",
-      "image": "/images/vocab/d04-w06.svg",
+      "image": "/images/vocab/d04-w06.jpg",
+      "imageCredit": "Own work (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Большой дом на улице.",
@@ -110,7 +116,8 @@
       "ru": "маленький",
       "en": "small",
       "audio": "/audio/day04/маленький.mp3",
-      "image": "/images/vocab/d04-w07.svg",
+      "image": "/images/vocab/d04-w07.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Маленький ребёнок спит.",
@@ -127,7 +134,8 @@
       "ru": "красивый",
       "en": "beautiful",
       "audio": "/audio/day04/красивый.mp3",
-      "image": "/images/vocab/d04-w08.svg",
+      "image": "/images/vocab/d04-w08.jpg",
+      "imageCredit": "Internet Archive identifier: growingupstoryof00desc (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Красивый закат сегодня.",
@@ -144,7 +152,8 @@
       "ru": "новый",
       "en": "new",
       "audio": "/audio/day04/новый.mp3",
-      "image": "/images/vocab/d04-w09.svg",
+      "image": "/images/vocab/d04-w09.png",
+      "imageCredit": "https://www.openstreetmap.org (CC BY 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Новый телефон работает.",
@@ -161,7 +170,8 @@
       "ru": "старый",
       "en": "old",
       "audio": "/audio/day04/старый.mp3",
-      "image": "/images/vocab/d04-w10.svg",
+      "image": "/images/vocab/d04-w10.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Старый дом в центре.",
@@ -191,12 +201,12 @@
       ],
       "pool": [
         "там",
+        "стоит",
         "машина",
-        "чёрный",
-        "синий",
+        "новый",
         "Красная",
-        "красивый",
-        "стоит"
+        "чёрный",
+        "зелёный"
       ]
     },
     {
@@ -214,13 +224,13 @@
         "цвет"
       ],
       "pool": [
+        "маленький",
         "люблю",
         "чёрный",
-        "цвет",
+        "Я",
         "красный",
         "белый",
-        "Я",
-        "маленький"
+        "цвет"
       ]
     },
     {
@@ -237,12 +247,12 @@
         "сегодня"
       ],
       "pool": [
-        "зелёный",
-        "небо",
-        "красивый",
+        "чёрный",
         "Синее",
         "сегодня",
-        "большой"
+        "небо",
+        "большой",
+        "красивый"
       ]
     },
     {
@@ -260,13 +270,13 @@
         "глаза"
       ],
       "pool": [
+        "большой",
         "него",
-        "глаза",
-        "новый",
-        "У",
-        "старый",
+        "красивый",
         "синие",
-        "маленький"
+        "маленький",
+        "У",
+        "глаза"
       ]
     },
     {
@@ -283,12 +293,12 @@
         "рядом"
       ],
       "pool": [
-        "парк",
-        "чёрный",
-        "новый",
+        "большой",
         "Зелёный",
+        "парк",
+        "белый",
         "рядом",
-        "маленький"
+        "чёрный"
       ]
     },
     {
@@ -306,13 +316,13 @@
         "столе"
       ],
       "pool": [
-        "чёрный",
-        "яблоко",
+        "на",
         "Зелёное",
         "столе",
-        "на",
         "новый",
-        "маленький"
+        "синий",
+        "красный",
+        "яблоко"
       ]
     },
     {
@@ -329,12 +339,12 @@
         "зимой"
       ],
       "pool": [
-        "Белый",
+        "старый",
         "маленький",
+        "Белый",
         "зимой",
-        "чёрный",
         "снег",
-        "красивый"
+        "большой"
       ]
     },
     {
@@ -351,12 +361,12 @@
         "чистая"
       ],
       "pool": [
-        "чёрный",
-        "чистая",
-        "большой",
-        "Белая",
         "рубашка",
-        "синий"
+        "чёрный",
+        "старый",
+        "Белая",
+        "зелёный",
+        "чистая"
       ]
     },
     {
@@ -374,13 +384,13 @@
         "крыше"
       ],
       "pool": [
-        "кошка",
+        "белый",
         "крыше",
-        "Чёрная",
         "старый",
-        "на",
         "большой",
-        "маленький"
+        "кошка",
+        "на",
+        "Чёрная"
       ]
     },
     {
@@ -399,12 +409,12 @@
       ],
       "pool": [
         "без",
-        "кофе",
-        "зелёный",
-        "новый",
-        "красивый",
         "Чёрный",
-        "сахара"
+        "кофе",
+        "синий",
+        "сахара",
+        "красивый",
+        "маленький"
       ]
     },
     {
@@ -423,12 +433,12 @@
       ],
       "pool": [
         "дом",
-        "Большой",
         "старый",
+        "на",
+        "красный",
         "белый",
         "улице",
-        "синий",
-        "на"
+        "Большой"
       ]
     },
     {
@@ -445,12 +455,12 @@
         "город"
       ],
       "pool": [
-        "зелёный",
-        "большой",
         "Москва",
+        "новый",
         "город",
-        "белый",
-        "синий"
+        "старый",
+        "большой",
+        "красный"
       ]
     },
     {
@@ -468,11 +478,11 @@
       ],
       "pool": [
         "ребёнок",
-        "спит",
-        "новый",
-        "большой",
         "Маленький",
-        "зелёный"
+        "старый",
+        "новый",
+        "красивый",
+        "спит"
       ]
     },
     {
@@ -489,12 +499,12 @@
         "уютная"
       ],
       "pool": [
-        "чёрный",
         "комната",
-        "красивый",
+        "новый",
         "Маленькая",
-        "уютная",
-        "большой"
+        "зелёный",
+        "синий",
+        "уютная"
       ]
     },
     {
@@ -511,12 +521,12 @@
         "сегодня"
       ],
       "pool": [
-        "сегодня",
+        "закат",
         "Красивый",
-        "большой",
-        "красный",
-        "маленький",
-        "закат"
+        "сегодня",
+        "зелёный",
+        "синий",
+        "новый"
       ]
     },
     {
@@ -533,12 +543,12 @@
         "женщина"
       ],
       "pool": [
-        "Она",
-        "женщина",
-        "маленький",
         "новый",
-        "старый",
-        "красивая"
+        "Она",
+        "маленький",
+        "красивая",
+        "женщина",
+        "зелёный"
       ]
     },
     {
@@ -555,12 +565,12 @@
         "работает"
       ],
       "pool": [
+        "работает",
         "Новый",
-        "красный",
-        "телефон",
         "зелёный",
-        "большой",
-        "работает"
+        "телефон",
+        "старый",
+        "красивый"
       ]
     },
     {
@@ -577,12 +587,12 @@
         "быстрая"
       ],
       "pool": [
-        "большой",
-        "машина",
-        "красный",
-        "старый",
+        "синий",
+        "зелёный",
+        "маленький",
         "быстрая",
-        "Новая"
+        "Новая",
+        "машина"
       ]
     },
     {
@@ -600,13 +610,13 @@
         "центре"
       ],
       "pool": [
-        "красивый",
-        "большой",
-        "в",
         "Старый",
+        "в",
+        "синий",
+        "чёрный",
+        "красный",
         "центре",
-        "дом",
-        "чёрный"
+        "дом"
       ]
     },
     {
@@ -623,12 +633,12 @@
         "приехал"
       ],
       "pool": [
-        "друг",
-        "красный",
-        "приехал",
-        "маленький",
+        "синий",
         "Старый",
-        "зелёный"
+        "приехал",
+        "новый",
+        "большой",
+        "друг"
       ]
     },
     {
@@ -636,26 +646,26 @@
       "type": "pictureMatch",
       "wordId": "d04-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d04-w01.svg",
+      "image": "/images/vocab/d04-w01.jpg",
       "options": [
-        "синий",
-        "маленький",
+        "белый",
         "красный",
-        "чёрный"
+        "маленький",
+        "зелёный"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "d04-pic-02",
       "type": "pictureMatch",
       "wordId": "d04-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d04-w02.svg",
+      "image": "/images/vocab/d04-w02.jpg",
       "options": [
-        "большой",
+        "красивый",
         "синий",
-        "красный",
-        "старый"
+        "новый",
+        "большой"
       ],
       "correctIndex": 1
     },
@@ -664,39 +674,39 @@
       "type": "pictureMatch",
       "wordId": "d04-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d04-w03.svg",
+      "image": "/images/vocab/d04-w03.jpg",
       "options": [
-        "маленький",
-        "зелёный",
-        "красивый",
-        "синий"
+        "белый",
+        "новый",
+        "синий",
+        "зелёный"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "d04-pic-04",
       "type": "pictureMatch",
       "wordId": "d04-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d04-w04.svg",
+      "image": "/images/vocab/d04-w04.png",
       "options": [
-        "большой",
-        "чёрный",
         "белый",
+        "большой",
+        "старый",
         "новый"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "d04-pic-05",
       "type": "pictureMatch",
       "wordId": "d04-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d04-w05.svg",
+      "image": "/images/vocab/d04-w05.jpg",
       "options": [
         "красный",
+        "старый",
         "маленький",
-        "новый",
         "чёрный"
       ],
       "correctIndex": 3
@@ -706,12 +716,12 @@
       "type": "pictureMatch",
       "wordId": "d04-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d04-w06.svg",
+      "image": "/images/vocab/d04-w06.jpg",
       "options": [
-        "новый",
+        "белый",
         "большой",
-        "зелёный",
-        "старый"
+        "синий",
+        "новый"
       ],
       "correctIndex": 1
     },
@@ -720,26 +730,26 @@
       "type": "pictureMatch",
       "wordId": "d04-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d04-w07.svg",
+      "image": "/images/vocab/d04-w07.jpg",
       "options": [
-        "синий",
-        "старый",
-        "красивый",
-        "маленький"
+        "белый",
+        "чёрный",
+        "маленький",
+        "красивый"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "d04-pic-08",
       "type": "pictureMatch",
       "wordId": "d04-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d04-w08.svg",
+      "image": "/images/vocab/d04-w08.jpg",
       "options": [
-        "синий",
+        "белый",
         "красивый",
-        "маленький",
-        "старый"
+        "большой",
+        "зелёный"
       ],
       "correctIndex": 1
     },
@@ -748,23 +758,23 @@
       "type": "pictureMatch",
       "wordId": "d04-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d04-w09.svg",
+      "image": "/images/vocab/d04-w09.png",
       "options": [
+        "синий",
         "новый",
-        "зелёный",
-        "маленький",
-        "белый"
+        "большой",
+        "чёрный"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d04-pic-10",
       "type": "pictureMatch",
       "wordId": "d04-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d04-w10.svg",
+      "image": "/images/vocab/d04-w10.jpg",
       "options": [
-        "зелёный",
+        "красный",
         "старый",
         "синий",
         "красивый"

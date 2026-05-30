@@ -8,7 +8,8 @@
       "ru": "вчера",
       "en": "yesterday",
       "audio": "/audio/day27/вчера.mp3",
-      "image": "/images/vocab/d27-w01.svg",
+      "image": "/images/vocab/d27-w01.jpg",
+      "imageCredit": "https://archive.org/details/timemachineinven00well (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Вчера был дождь.",
@@ -25,7 +26,8 @@
       "ru": "рассказ",
       "en": "story / tale",
       "audio": "/audio/day27/рассказ.mp3",
-      "image": "/images/vocab/d27-w02.svg",
+      "image": "/images/vocab/d27-w02.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Интересный рассказ.",
@@ -42,7 +44,8 @@
       "ru": "помнить",
       "en": "to remember",
       "audio": "/audio/day27/помнить.mp3",
-      "image": "/images/vocab/d27-w03.svg",
+      "image": "/images/vocab/d27-w03.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Помню всё.",
@@ -59,7 +62,8 @@
       "ru": "забыть",
       "en": "to forget",
       "audio": "/audio/day27/забыть.mp3",
-      "image": "/images/vocab/d27-w04.svg",
+      "image": "/images/vocab/d27-w04.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Забыл ключи.",
@@ -93,7 +97,8 @@
       "ru": "встретить",
       "en": "to meet",
       "audio": "/audio/day27/встретить.mp3",
-      "image": "/images/vocab/d27-w06.svg",
+      "image": "/images/vocab/d27-w06.jpg",
+      "imageCredit": "https://twitter.com/RepMarciaFudge/status/386848314979000321/photo/1 (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Встретил друга.",
@@ -127,7 +132,8 @@
       "ru": "услышать",
       "en": "to hear (completed)",
       "audio": "/audio/day27/услышать.mp3",
-      "image": "/images/vocab/d27-w08.svg",
+      "image": "/images/vocab/d27-w08.jpg",
+      "imageCredit": "Internet Archive identifier: lettersonhumanbo00clow (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Услышал новость.",
@@ -144,7 +150,8 @@
       "ru": "увидеть",
       "en": "to see (completed)",
       "audio": "/audio/day27/увидеть.mp3",
-      "image": "/images/vocab/d27-w09.svg",
+      "image": "/images/vocab/d27-w09.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Увидел море.",
@@ -189,12 +196,12 @@
         "дождь"
       ],
       "pool": [
-        "забыть",
-        "сказать",
-        "Вчера",
         "был",
+        "Вчера",
         "дождь",
-        "увидеть"
+        "увидеть",
+        "случиться",
+        "услышать"
       ]
     },
     {
@@ -210,11 +217,11 @@
         "работал"
       ],
       "pool": [
-        "понять",
-        "случиться",
-        "забыть",
         "Вчера",
-        "работал"
+        "работал",
+        "услышать",
+        "забыть",
+        "сказать"
       ]
     },
     {
@@ -230,11 +237,11 @@
         "рассказ"
       ],
       "pool": [
-        "забыть",
-        "сказать",
         "рассказ",
+        "вчера",
+        "сказать",
         "Интересный",
-        "понять"
+        "услышать"
       ]
     },
     {
@@ -251,10 +258,10 @@
       ],
       "pool": [
         "рассказ",
+        "услышать",
         "Расскажи",
-        "помнить",
-        "понять",
-        "услышать"
+        "вчера",
+        "забыть"
       ]
     },
     {
@@ -270,11 +277,11 @@
         "всё"
       ],
       "pool": [
-        "рассказ",
-        "всё",
-        "забыть",
         "Помню",
-        "увидеть"
+        "встретить",
+        "случиться",
+        "рассказ",
+        "всё"
       ]
     },
     {
@@ -290,11 +297,11 @@
         "помню"
       ],
       "pool": [
+        "увидеть",
+        "Не",
+        "услышать",
         "помню",
-        "сказать",
-        "рассказ",
-        "вчера",
-        "Не"
+        "сказать"
       ]
     },
     {
@@ -310,11 +317,11 @@
         "ключи"
       ],
       "pool": [
-        "Забыл",
-        "услышать",
-        "встретить",
+        "сказать",
         "ключи",
-        "вчера"
+        "увидеть",
+        "понять",
+        "Забыл"
       ]
     },
     {
@@ -330,11 +337,11 @@
         "забудь"
       ],
       "pool": [
-        "сказать",
         "Не",
+        "рассказ",
         "забудь",
-        "вчера",
-        "услышать"
+        "случиться",
+        "вчера"
       ]
     },
     {
@@ -350,11 +357,11 @@
         "случилось"
       ],
       "pool": [
+        "помнить",
         "случилось",
-        "Что",
+        "рассказ",
         "увидеть",
-        "забыть",
-        "вчера"
+        "Что"
       ]
     },
     {
@@ -371,12 +378,12 @@
         "вчера"
       ],
       "pool": [
-        "забыть",
-        "случилось",
-        "рассказ",
         "вчера",
-        "Это",
-        "понять"
+        "помнить",
+        "понять",
+        "случилось",
+        "услышать",
+        "Это"
       ]
     },
     {
@@ -392,11 +399,11 @@
         "друга"
       ],
       "pool": [
-        "Встретил",
-        "помнить",
+        "понять",
         "друга",
-        "забыть",
-        "вчера"
+        "сказать",
+        "рассказ",
+        "Встретил"
       ]
     },
     {
@@ -412,11 +419,11 @@
         "встретить"
       ],
       "pool": [
-        "случиться",
         "забыть",
+        "увидеть",
+        "услышать",
         "Приятно",
-        "встретить",
-        "помнить"
+        "встретить"
       ]
     },
     {
@@ -433,10 +440,10 @@
       ],
       "pool": [
         "Сказал",
-        "рассказ",
+        "помнить",
         "правду",
-        "понять",
-        "услышать"
+        "увидеть",
+        "понять"
       ]
     },
     {
@@ -453,12 +460,12 @@
         "сказал"
       ],
       "pool": [
-        "помнить",
-        "вчера",
-        "встретить",
-        "Что",
         "сказал",
-        "ты"
+        "помнить",
+        "понять",
+        "случиться",
+        "ты",
+        "Что"
       ]
     },
     {
@@ -474,11 +481,11 @@
         "новость"
       ],
       "pool": [
-        "случиться",
-        "забыть",
-        "встретить",
+        "сказать",
+        "Услышал",
         "новость",
-        "Услышал"
+        "помнить",
+        "увидеть"
       ]
     },
     {
@@ -494,10 +501,10 @@
         "шум"
       ],
       "pool": [
-        "встретить",
+        "забыть",
+        "вчера",
         "Услышал",
-        "сказать",
-        "понять",
+        "рассказ",
         "шум"
       ]
     },
@@ -515,10 +522,10 @@
       ],
       "pool": [
         "помнить",
+        "рассказ",
+        "забыть",
         "море",
-        "Увидел",
-        "сказать",
-        "рассказ"
+        "Увидел"
       ]
     },
     {
@@ -534,11 +541,11 @@
         "увидеть"
       ],
       "pool": [
-        "Рад",
-        "встретить",
         "увидеть",
-        "вчера",
-        "понять"
+        "случиться",
+        "помнить",
+        "забыть",
+        "Рад"
       ]
     },
     {
@@ -554,11 +561,11 @@
         "урок"
       ],
       "pool": [
+        "Понял",
         "увидеть",
-        "встретить",
-        "урок",
         "случиться",
-        "Понял"
+        "сказать",
+        "урок"
       ]
     },
     {
@@ -574,11 +581,11 @@
         "понимаю"
       ],
       "pool": [
-        "понимаю",
-        "забыть",
         "Теперь",
-        "рассказ",
-        "встретить"
+        "забыть",
+        "понимаю",
+        "увидеть",
+        "случиться"
       ]
     },
     {
@@ -586,11 +593,11 @@
       "type": "pictureMatch",
       "wordId": "d27-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d27-w01.svg",
+      "image": "/images/vocab/d27-w01.jpg",
       "options": [
+        "увидеть",
+        "забыть",
         "понять",
-        "случиться",
-        "помнить",
         "вчера"
       ],
       "correctIndex": 3
@@ -600,26 +607,26 @@
       "type": "pictureMatch",
       "wordId": "d27-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d27-w02.svg",
+      "image": "/images/vocab/d27-w02.jpg",
       "options": [
-        "сказать",
-        "рассказ",
-        "вчера",
-        "понять"
+        "увидеть",
+        "услышать",
+        "встретить",
+        "рассказ"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "d27-pic-03",
       "type": "pictureMatch",
       "wordId": "d27-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d27-w03.svg",
+      "image": "/images/vocab/d27-w03.jpg",
       "options": [
         "помнить",
-        "услышать",
-        "сказать",
-        "вчера"
+        "вчера",
+        "забыть",
+        "сказать"
       ],
       "correctIndex": 0
     },
@@ -628,12 +635,12 @@
       "type": "pictureMatch",
       "wordId": "d27-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d27-w04.svg",
+      "image": "/images/vocab/d27-w04.jpg",
       "options": [
-        "понять",
+        "помнить",
         "забыть",
-        "случиться",
-        "сказать"
+        "услышать",
+        "вчера"
       ],
       "correctIndex": 1
     },
@@ -644,10 +651,10 @@
       "prompt": "Which word matches this picture?",
       "image": "/images/vocab/d27-w05.svg",
       "options": [
-        "сказать",
-        "забыть",
+        "понять",
+        "рассказ",
         "случиться",
-        "вчера"
+        "помнить"
       ],
       "correctIndex": 2
     },
@@ -656,12 +663,12 @@
       "type": "pictureMatch",
       "wordId": "d27-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d27-w06.svg",
+      "image": "/images/vocab/d27-w06.jpg",
       "options": [
-        "сказать",
-        "понять",
+        "услышать",
+        "помнить",
         "встретить",
-        "случиться"
+        "увидеть"
       ],
       "correctIndex": 2
     },
@@ -672,40 +679,40 @@
       "prompt": "Which word matches this picture?",
       "image": "/images/vocab/d27-w07.svg",
       "options": [
+        "увидеть",
         "сказать",
         "вчера",
-        "услышать",
-        "случиться"
+        "забыть"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d27-pic-08",
       "type": "pictureMatch",
       "wordId": "d27-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d27-w08.svg",
+      "image": "/images/vocab/d27-w08.jpg",
       "options": [
-        "увидеть",
-        "услышать",
         "забыть",
-        "сказать"
+        "вчера",
+        "услышать",
+        "помнить"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "d27-pic-09",
       "type": "pictureMatch",
       "wordId": "d27-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d27-w09.svg",
+      "image": "/images/vocab/d27-w09.jpg",
       "options": [
-        "забыть",
-        "сказать",
+        "помнить",
         "увидеть",
-        "случиться"
+        "услышать",
+        "рассказ"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "d27-pic-10",
@@ -714,12 +721,12 @@
       "prompt": "Which word matches this picture?",
       "image": "/images/vocab/d27-w10.svg",
       "options": [
+        "услышать",
+        "сказать",
         "понять",
-        "рассказ",
-        "помнить",
-        "увидеть"
+        "помнить"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     }
   ]
 }

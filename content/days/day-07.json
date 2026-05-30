@@ -8,7 +8,8 @@
       "ru": "хлеб",
       "en": "bread",
       "audio": "/audio/day07/хлеб.mp3",
-      "image": "/images/vocab/d07-w01.svg",
+      "image": "/images/vocab/d07-w01.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Я ем хлеб с маслом.",
@@ -25,7 +26,8 @@
       "ru": "молоко",
       "en": "milk",
       "audio": "/audio/day07/молоко.mp3",
-      "image": "/images/vocab/d07-w02.svg",
+      "image": "/images/vocab/d07-w02.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Дети пьют молоко.",
@@ -42,7 +44,8 @@
       "ru": "вода",
       "en": "water",
       "audio": "/audio/day07/вода.mp3",
-      "image": "/images/vocab/d07-w03.svg",
+      "image": "/images/vocab/d07-w03.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Мне нужна вода.",
@@ -59,7 +62,8 @@
       "ru": "кофе",
       "en": "coffee",
       "audio": "/audio/day07/кофе.mp3",
-      "image": "/images/vocab/d07-w04.svg",
+      "image": "/images/vocab/d07-w04.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Утром пью кофе.",
@@ -76,7 +80,8 @@
       "ru": "чай",
       "en": "tea",
       "audio": "/audio/day07/чай.mp3",
-      "image": "/images/vocab/d07-w05.svg",
+      "image": "/images/vocab/d07-w05.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Русские любят чай.",
@@ -93,7 +98,8 @@
       "ru": "сыр",
       "en": "cheese",
       "audio": "/audio/day07/сыр.mp3",
-      "image": "/images/vocab/d07-w06.svg",
+      "image": "/images/vocab/d07-w06.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Я ем сыр на завтрак.",
@@ -110,7 +116,8 @@
       "ru": "мясо",
       "en": "meat",
       "audio": "/audio/day07/мясо.mp3",
-      "image": "/images/vocab/d07-w07.svg",
+      "image": "/images/vocab/d07-w07.jpg",
+      "imageCredit": "https://visualsonline.cancer.gov/details.cfm?imageid=2402 (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Он не ест мясо.",
@@ -127,7 +134,8 @@
       "ru": "суп",
       "en": "soup",
       "audio": "/audio/day07/суп.mp3",
-      "image": "/images/vocab/d07-w08.svg",
+      "image": "/images/vocab/d07-w08.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Бабушка варит суп.",
@@ -144,7 +152,8 @@
       "ru": "яблоко",
       "en": "apple",
       "audio": "/audio/day07/яблоко.mp3",
-      "image": "/images/vocab/d07-w09.svg",
+      "image": "/images/vocab/d07-w09.jpg",
+      "imageCredit": "Nikon D80 Apple (CC BY 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Я ем яблоко.",
@@ -161,7 +170,8 @@
       "ru": "борщ",
       "en": "borscht",
       "audio": "/audio/day07/борщ.mp3",
-      "image": "/images/vocab/d07-w10.svg",
+      "image": "/images/vocab/d07-w10.jpg",
+      "imageCredit": "borsch served (CC BY 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Борщ — русский суп.",
@@ -192,13 +202,13 @@
       ],
       "pool": [
         "борщ",
-        "мясо",
-        "кофе",
-        "хлеб",
+        "суп",
+        "Я",
         "ем",
-        "маслом",
         "с",
-        "Я"
+        "маслом",
+        "хлеб",
+        "вода"
       ]
     },
     {
@@ -215,12 +225,12 @@
         "вкусный"
       ],
       "pool": [
-        "суп",
-        "сыр",
-        "вкусный",
+        "Свежий",
+        "молоко",
+        "вода",
         "хлеб",
-        "яблоко",
-        "Свежий"
+        "мясо",
+        "вкусный"
       ]
     },
     {
@@ -237,12 +247,12 @@
         "молоко"
       ],
       "pool": [
-        "сыр",
+        "хлеб",
         "Дети",
-        "молоко",
-        "борщ",
         "пьют",
-        "мясо"
+        "молоко",
+        "мясо",
+        "суп"
       ]
     },
     {
@@ -260,11 +270,11 @@
       ],
       "pool": [
         "вода",
-        "хлеб",
-        "покупаю",
         "молоко",
-        "Я",
-        "суп"
+        "кофе",
+        "покупаю",
+        "борщ",
+        "Я"
       ]
     },
     {
@@ -281,12 +291,12 @@
         "вода"
       ],
       "pool": [
-        "суп",
-        "нужна",
-        "мясо",
+        "борщ",
+        "Мне",
         "вода",
-        "сыр",
-        "Мне"
+        "молоко",
+        "кофе",
+        "нужна"
       ]
     },
     {
@@ -304,13 +314,13 @@
         "день"
       ],
       "pool": [
-        "воду",
-        "сыр",
-        "мясо",
-        "чай",
         "Пью",
+        "воду",
+        "яблоко",
+        "хлеб",
+        "каждый",
         "день",
-        "каждый"
+        "сыр"
       ]
     },
     {
@@ -327,12 +337,12 @@
         "кофе"
       ],
       "pool": [
-        "пью",
-        "Утром",
         "кофе",
+        "вода",
         "борщ",
-        "суп",
-        "хлеб"
+        "Утром",
+        "хлеб",
+        "пью"
       ]
     },
     {
@@ -350,13 +360,13 @@
         "сахара"
       ],
       "pool": [
-        "борщ",
-        "молоко",
-        "кофе",
+        "мясо",
+        "Чёрный",
         "сахара",
-        "яблоко",
         "без",
-        "Чёрный"
+        "сыр",
+        "хлеб",
+        "кофе"
       ]
     },
     {
@@ -373,12 +383,12 @@
         "чай"
       ],
       "pool": [
-        "хлеб",
+        "чай",
         "любят",
-        "молоко",
+        "мясо",
+        "кофе",
         "Русские",
-        "сыр",
-        "чай"
+        "яблоко"
       ]
     },
     {
@@ -395,12 +405,12 @@
         "полезный"
       ],
       "pool": [
-        "молоко",
-        "чай",
-        "Зелёный",
         "полезный",
-        "яблоко",
-        "борщ"
+        "Зелёный",
+        "суп",
+        "чай",
+        "вода",
+        "хлеб"
       ]
     },
     {
@@ -419,14 +429,14 @@
         "завтрак"
       ],
       "pool": [
-        "ем",
+        "Я",
         "завтрак",
         "на",
-        "мясо",
+        "ем",
         "сыр",
-        "вода",
-        "Я",
-        "яблоко"
+        "суп",
+        "кофе",
+        "мясо"
       ]
     },
     {
@@ -443,12 +453,12 @@
         "вкусный"
       ],
       "pool": [
-        "мясо",
-        "сыр",
-        "вкусный",
-        "Русский",
+        "молоко",
         "кофе",
-        "молоко"
+        "сыр",
+        "хлеб",
+        "Русский",
+        "вкусный"
       ]
     },
     {
@@ -466,13 +476,13 @@
         "мясо"
       ],
       "pool": [
-        "сыр",
-        "вода",
-        "молоко",
-        "мясо",
+        "ест",
         "не",
+        "молоко",
+        "суп",
+        "хлеб",
         "Он",
-        "ест"
+        "мясо"
       ]
     },
     {
@@ -489,12 +499,12 @@
         "сковороде"
       ],
       "pool": [
-        "вода",
-        "кофе",
-        "сыр",
-        "на",
+        "борщ",
         "сковороде",
-        "Мясо"
+        "Мясо",
+        "хлеб",
+        "сыр",
+        "на"
       ]
     },
     {
@@ -511,12 +521,12 @@
         "суп"
       ],
       "pool": [
-        "молоко",
-        "варит",
-        "суп",
-        "хлеб",
         "Бабушка",
-        "сыр"
+        "суп",
+        "кофе",
+        "хлеб",
+        "мясо",
+        "варит"
       ]
     },
     {
@@ -534,13 +544,13 @@
         "столе"
       ],
       "pool": [
-        "борщ",
+        "Горячий",
         "на",
-        "мясо",
-        "кофе",
-        "столе",
+        "яблоко",
+        "чай",
         "суп",
-        "Горячий"
+        "мясо",
+        "столе"
       ]
     },
     {
@@ -557,12 +567,12 @@
         "яблоко"
       ],
       "pool": [
-        "Я",
+        "кофе",
         "яблоко",
         "ем",
-        "вода",
-        "суп",
-        "кофе"
+        "молоко",
+        "мясо",
+        "Я"
       ]
     },
     {
@@ -579,12 +589,12 @@
         "сладкое"
       ],
       "pool": [
-        "борщ",
-        "Красное",
-        "мясо",
-        "яблоко",
         "сладкое",
-        "суп"
+        "хлеб",
+        "яблоко",
+        "Красное",
+        "чай",
+        "борщ"
       ]
     },
     {
@@ -601,11 +611,11 @@
         "суп"
       ],
       "pool": [
-        "суп",
         "русский",
-        "яблоко",
         "кофе",
-        "вода",
+        "молоко",
+        "чай",
+        "суп",
         "Борщ"
       ]
     },
@@ -623,12 +633,12 @@
         "борщ"
       ],
       "pool": [
+        "яблоко",
+        "Я",
+        "молоко",
         "люблю",
         "борщ",
-        "сыр",
-        "Я",
-        "суп",
-        "вода"
+        "мясо"
       ]
     },
     {
@@ -636,40 +646,40 @@
       "type": "pictureMatch",
       "wordId": "d07-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d07-w01.svg",
+      "image": "/images/vocab/d07-w01.jpg",
       "options": [
-        "мясо",
-        "вода",
+        "яблоко",
+        "хлеб",
         "суп",
-        "хлеб"
+        "вода"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "d07-pic-02",
       "type": "pictureMatch",
       "wordId": "d07-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d07-w02.svg",
+      "image": "/images/vocab/d07-w02.jpg",
       "options": [
-        "кофе",
-        "хлеб",
+        "чай",
         "молоко",
-        "сыр"
+        "хлеб",
+        "суп"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "d07-pic-03",
       "type": "pictureMatch",
       "wordId": "d07-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d07-w03.svg",
+      "image": "/images/vocab/d07-w03.jpg",
       "options": [
-        "кофе",
+        "сыр",
         "вода",
         "чай",
-        "сыр"
+        "кофе"
       ],
       "correctIndex": 1
     },
@@ -678,53 +688,53 @@
       "type": "pictureMatch",
       "wordId": "d07-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d07-w04.svg",
+      "image": "/images/vocab/d07-w04.jpg",
       "options": [
-        "кофе",
-        "суп",
+        "яблоко",
+        "хлеб",
         "сыр",
-        "вода"
+        "кофе"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "d07-pic-05",
       "type": "pictureMatch",
       "wordId": "d07-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d07-w05.svg",
+      "image": "/images/vocab/d07-w05.jpg",
       "options": [
-        "хлеб",
-        "чай",
         "суп",
-        "мясо"
+        "борщ",
+        "чай",
+        "вода"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "d07-pic-06",
       "type": "pictureMatch",
       "wordId": "d07-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d07-w06.svg",
+      "image": "/images/vocab/d07-w06.jpg",
       "options": [
-        "сыр",
         "яблоко",
-        "борщ",
-        "мясо"
+        "сыр",
+        "вода",
+        "чай"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "d07-pic-07",
       "type": "pictureMatch",
       "wordId": "d07-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d07-w07.svg",
+      "image": "/images/vocab/d07-w07.jpg",
       "options": [
-        "молоко",
-        "чай",
+        "вода",
         "борщ",
+        "кофе",
         "мясо"
       ],
       "correctIndex": 3
@@ -734,42 +744,42 @@
       "type": "pictureMatch",
       "wordId": "d07-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d07-w08.svg",
+      "image": "/images/vocab/d07-w08.jpg",
       "options": [
-        "борщ",
-        "чай",
         "хлеб",
-        "суп"
+        "вода",
+        "суп",
+        "яблоко"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "d07-pic-09",
       "type": "pictureMatch",
       "wordId": "d07-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d07-w09.svg",
+      "image": "/images/vocab/d07-w09.jpg",
       "options": [
-        "вода",
         "яблоко",
         "суп",
-        "кофе"
+        "сыр",
+        "чай"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "d07-pic-10",
       "type": "pictureMatch",
       "wordId": "d07-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d07-w10.svg",
+      "image": "/images/vocab/d07-w10.jpg",
       "options": [
-        "сыр",
-        "борщ",
         "хлеб",
-        "чай"
+        "суп",
+        "молоко",
+        "борщ"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     }
   ]
 }

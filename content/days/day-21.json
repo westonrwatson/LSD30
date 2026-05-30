@@ -8,7 +8,8 @@
       "ru": "компьютер",
       "en": "computer",
       "audio": "/audio/day21/компьютер.mp3",
-      "image": "/images/vocab/d21-w01.svg",
+      "image": "/images/vocab/d21-w01.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Новый компьютер.",
@@ -25,7 +26,8 @@
       "ru": "телефон",
       "en": "phone",
       "audio": "/audio/day21/телефон.mp3",
-      "image": "/images/vocab/d21-w02.svg",
+      "image": "/images/vocab/d21-w02.jpg",
+      "imageCredit": "Flickr (CC BY 2.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Мой телефон.",
@@ -42,7 +44,8 @@
       "ru": "интернет",
       "en": "internet",
       "audio": "/audio/day21/интернет.mp3",
-      "image": "/images/vocab/d21-w03.svg",
+      "image": "/images/vocab/d21-w03.png",
+      "imageCredit": "https://medirlo.com/ (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Есть интернет?",
@@ -59,7 +62,8 @@
       "ru": "сайт",
       "en": "website",
       "audio": "/audio/day21/сайт.mp3",
-      "image": "/images/vocab/d21-w04.svg",
+      "image": "/images/vocab/d21-w04.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Посети сайт.",
@@ -76,7 +80,8 @@
       "ru": "письмо",
       "en": "letter / email",
       "audio": "/audio/day21/письмо.mp3",
-      "image": "/images/vocab/d21-w05.svg",
+      "image": "/images/vocab/d21-w05.jpg",
+      "imageCredit": "Letter from Indiana University Foundation (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Пишу письмо.",
@@ -93,7 +98,8 @@
       "ru": "новости",
       "en": "news",
       "audio": "/audio/day21/новости.mp3",
-      "image": "/images/vocab/d21-w06.svg",
+      "image": "/images/vocab/d21-w06.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Смотрю новости.",
@@ -110,7 +116,8 @@
       "ru": "фото",
       "en": "photo",
       "audio": "/audio/day21/фото.mp3",
-      "image": "/images/vocab/d21-w07.svg",
+      "image": "/images/vocab/d21-w07.jpg",
+      "imageCredit": "NASA (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Красивое фото.",
@@ -127,7 +134,8 @@
       "ru": "видео",
       "en": "video",
       "audio": "/audio/day21/видео.mp3",
-      "image": "/images/vocab/d21-w08.svg",
+      "image": "/images/vocab/d21-w08.jpg",
+      "imageCredit": "Wikimedia Commons (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Смотрю видео.",
@@ -144,7 +152,8 @@
       "ru": "включить",
       "en": "to turn on",
       "audio": "/audio/day21/включить.mp3",
-      "image": "/images/vocab/d21-w09.svg",
+      "image": "/images/vocab/d21-w09.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Включи свет.",
@@ -161,7 +170,8 @@
       "ru": "выключить",
       "en": "to turn off",
       "audio": "/audio/day21/выключить.mp3",
-      "image": "/images/vocab/d21-w10.svg",
+      "image": "/images/vocab/d21-w10.jpg",
+      "imageCredit": "This file comes from Mapillary, a service for sharing geotagged photos. All photos are under a CC BY-SA 4.0 license meaning the individual photographer must be credited for each image. (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Выключи компьютер.",
@@ -188,11 +198,11 @@
         "компьютер"
       ],
       "pool": [
-        "письмо",
+        "выключить",
+        "фото",
         "Новый",
-        "компьютер",
         "видео",
-        "фото"
+        "компьютер"
       ]
     },
     {
@@ -210,11 +220,11 @@
       ],
       "pool": [
         "компьютере",
-        "Работаю",
-        "выключить",
         "на",
+        "сайт",
+        "Работаю",
         "интернет",
-        "включить"
+        "выключить"
       ]
     },
     {
@@ -230,11 +240,11 @@
         "телефон"
       ],
       "pool": [
-        "выключить",
-        "сайт",
-        "Мой",
         "телефон",
-        "интернет"
+        "включить",
+        "новости",
+        "Мой",
+        "компьютер"
       ]
     },
     {
@@ -252,11 +262,11 @@
       ],
       "pool": [
         "телефону",
-        "сайт",
-        "Звони",
         "по",
-        "фото",
-        "интернет"
+        "включить",
+        "новости",
+        "Звони",
+        "сайт"
       ]
     },
     {
@@ -272,11 +282,11 @@
         "интернет"
       ],
       "pool": [
-        "выключить",
-        "письмо",
         "интернет",
+        "включить",
+        "Есть",
         "телефон",
-        "Есть"
+        "выключить"
       ]
     },
     {
@@ -292,11 +302,11 @@
         "интернета"
       ],
       "pool": [
-        "интернета",
-        "компьютер",
-        "сайт",
         "Без",
-        "выключить"
+        "компьютер",
+        "видео",
+        "новости",
+        "интернета"
       ]
     },
     {
@@ -312,11 +322,11 @@
         "сайт"
       ],
       "pool": [
-        "включить",
+        "сайт",
         "Посети",
         "телефон",
-        "выключить",
-        "сайт"
+        "письмо",
+        "видео"
       ]
     },
     {
@@ -332,11 +342,11 @@
         "сайт"
       ],
       "pool": [
-        "выключить",
-        "видео",
         "фото",
-        "сайт",
-        "Официальный"
+        "Официальный",
+        "включить",
+        "выключить",
+        "сайт"
       ]
     },
     {
@@ -352,11 +362,11 @@
         "письмо"
       ],
       "pool": [
+        "новости",
+        "Пишу",
+        "выключить",
         "письмо",
-        "фото",
-        "включить",
-        "интернет",
-        "Пишу"
+        "видео"
       ]
     },
     {
@@ -373,10 +383,10 @@
       ],
       "pool": [
         "Электронное",
-        "видео",
         "письмо",
-        "сайт",
-        "компьютер"
+        "интернет",
+        "выключить",
+        "фото"
       ]
     },
     {
@@ -392,11 +402,11 @@
         "новости"
       ],
       "pool": [
-        "сайт",
-        "новости",
         "Смотрю",
+        "новости",
+        "телефон",
         "фото",
-        "компьютер"
+        "письмо"
       ]
     },
     {
@@ -412,11 +422,11 @@
         "новости"
       ],
       "pool": [
-        "видео",
-        "письмо",
         "новости",
-        "фото",
-        "Хорошие"
+        "Хорошие",
+        "сайт",
+        "компьютер",
+        "телефон"
       ]
     },
     {
@@ -432,11 +442,11 @@
         "фото"
       ],
       "pool": [
-        "Красивое",
         "фото",
-        "интернет",
-        "новости",
-        "письмо"
+        "письмо",
+        "выключить",
+        "сайт",
+        "Красивое"
       ]
     },
     {
@@ -452,11 +462,11 @@
         "фото"
       ],
       "pool": [
-        "новости",
-        "Сделай",
         "выключить",
-        "включить",
-        "фото"
+        "Сделай",
+        "фото",
+        "сайт",
+        "включить"
       ]
     },
     {
@@ -472,11 +482,11 @@
         "видео"
       ],
       "pool": [
-        "Смотрю",
+        "новости",
         "видео",
+        "Смотрю",
         "телефон",
-        "интернет",
-        "компьютер"
+        "письмо"
       ]
     },
     {
@@ -493,10 +503,10 @@
       ],
       "pool": [
         "Интересное",
-        "новости",
-        "выключить",
+        "сайт",
         "видео",
-        "фото"
+        "фото",
+        "интернет"
       ]
     },
     {
@@ -512,11 +522,11 @@
         "свет"
       ],
       "pool": [
-        "свет",
         "письмо",
+        "новости",
         "Включи",
-        "компьютер",
-        "видео"
+        "сайт",
+        "свет"
       ]
     },
     {
@@ -532,11 +542,11 @@
         "телевизор"
       ],
       "pool": [
+        "сайт",
+        "телевизор",
         "Включи",
-        "выключить",
-        "новости",
-        "телефон",
-        "телевизор"
+        "интернет",
+        "телефон"
       ]
     },
     {
@@ -552,11 +562,11 @@
         "компьютер"
       ],
       "pool": [
-        "Выключи",
-        "новости",
         "компьютер",
-        "включить",
-        "интернет"
+        "видео",
+        "компьютер",
+        "Выключи",
+        "новости"
       ]
     },
     {
@@ -572,11 +582,11 @@
         "телефон"
       ],
       "pool": [
-        "письмо",
-        "интернет",
         "телефон",
-        "Выключи",
-        "фото"
+        "интернет",
+        "сайт",
+        "включить",
+        "Выключи"
       ]
     },
     {
@@ -584,12 +594,12 @@
       "type": "pictureMatch",
       "wordId": "d21-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d21-w01.svg",
+      "image": "/images/vocab/d21-w01.jpg",
       "options": [
         "компьютер",
         "фото",
-        "интернет",
-        "включить"
+        "выключить",
+        "видео"
       ],
       "correctIndex": 0
     },
@@ -598,11 +608,11 @@
       "type": "pictureMatch",
       "wordId": "d21-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d21-w02.svg",
+      "image": "/images/vocab/d21-w02.jpg",
       "options": [
-        "компьютер",
+        "включить",
         "телефон",
-        "сайт",
+        "новости",
         "интернет"
       ],
       "correctIndex": 1
@@ -612,40 +622,40 @@
       "type": "pictureMatch",
       "wordId": "d21-w03",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d21-w03.svg",
+      "image": "/images/vocab/d21-w03.png",
       "options": [
+        "фото",
+        "сайт",
         "интернет",
-        "компьютер",
-        "выключить",
-        "новости"
+        "выключить"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "d21-pic-04",
       "type": "pictureMatch",
       "wordId": "d21-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d21-w04.svg",
+      "image": "/images/vocab/d21-w04.jpg",
       "options": [
-        "включить",
+        "видео",
+        "компьютер",
         "сайт",
-        "интернет",
-        "фото"
+        "выключить"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "d21-pic-05",
       "type": "pictureMatch",
       "wordId": "d21-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d21-w05.svg",
+      "image": "/images/vocab/d21-w05.jpg",
       "options": [
         "письмо",
         "интернет",
-        "видео",
-        "сайт"
+        "фото",
+        "компьютер"
       ],
       "correctIndex": 0
     },
@@ -654,11 +664,11 @@
       "type": "pictureMatch",
       "wordId": "d21-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d21-w06.svg",
+      "image": "/images/vocab/d21-w06.jpg",
       "options": [
         "новости",
-        "включить",
-        "письмо",
+        "видео",
+        "интернет",
         "компьютер"
       ],
       "correctIndex": 0
@@ -668,53 +678,53 @@
       "type": "pictureMatch",
       "wordId": "d21-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d21-w07.svg",
+      "image": "/images/vocab/d21-w07.jpg",
       "options": [
         "компьютер",
-        "письмо",
-        "видео",
-        "фото"
+        "сайт",
+        "фото",
+        "включить"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "d21-pic-08",
       "type": "pictureMatch",
       "wordId": "d21-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d21-w08.svg",
+      "image": "/images/vocab/d21-w08.jpg",
       "options": [
-        "новости",
-        "сайт",
         "видео",
-        "включить"
+        "телефон",
+        "новости",
+        "фото"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "d21-pic-09",
       "type": "pictureMatch",
       "wordId": "d21-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d21-w09.svg",
+      "image": "/images/vocab/d21-w09.jpg",
       "options": [
-        "включить",
-        "письмо",
         "сайт",
-        "фото"
+        "видео",
+        "включить",
+        "компьютер"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "d21-pic-10",
       "type": "pictureMatch",
       "wordId": "d21-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d21-w10.svg",
+      "image": "/images/vocab/d21-w10.jpg",
       "options": [
-        "компьютер",
         "письмо",
-        "фото",
+        "интернет",
+        "сайт",
         "выключить"
       ],
       "correctIndex": 3

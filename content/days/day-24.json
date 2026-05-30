@@ -8,7 +8,8 @@
       "ru": "звонок",
       "en": "call / ring",
       "audio": "/audio/day24/звонок.mp3",
-      "image": "/images/vocab/d24-w01.svg",
+      "image": "/images/vocab/d24-w01.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Телефонный звонок.",
@@ -25,7 +26,8 @@
       "ru": "сообщение",
       "en": "message",
       "audio": "/audio/day24/сообщение.mp3",
-      "image": "/images/vocab/d24-w02.svg",
+      "image": "/images/vocab/d24-w02.jpg",
+      "imageCredit": "Letter from Indiana University Foundation (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Новое сообщение.",
@@ -59,7 +61,8 @@
       "ru": "ответить",
       "en": "to answer / reply",
       "audio": "/audio/day24/ответить.mp3",
-      "image": "/images/vocab/d24-w04.svg",
+      "image": "/images/vocab/d24-w04.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Ответь на звонок.",
@@ -76,7 +79,8 @@
       "ru": "позвонить",
       "en": "to call",
       "audio": "/audio/day24/позвонить.mp3",
-      "image": "/images/vocab/d24-w05.svg",
+      "image": "/images/vocab/d24-w05.png",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Позвони мне.",
@@ -93,7 +97,8 @@
       "ru": "отправить",
       "en": "to send",
       "audio": "/audio/day24/отправить.mp3",
-      "image": "/images/vocab/d24-w06.svg",
+      "image": "/images/vocab/d24-w06.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Отправь фото.",
@@ -110,7 +115,8 @@
       "ru": "получить",
       "en": "to receive",
       "audio": "/audio/day24/получить.mp3",
-      "image": "/images/vocab/d24-w07.svg",
+      "image": "/images/vocab/d24-w07.jpg",
+      "imageCredit": "Own work (CC BY-SA 4.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Получил сообщение.",
@@ -127,7 +133,8 @@
       "ru": "ждать",
       "en": "to wait",
       "audio": "/audio/day24/ждать.mp3",
-      "image": "/images/vocab/d24-w08.svg",
+      "image": "/images/vocab/d24-w08.jpg",
+      "imageCredit": "Own work (CC0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Жду ответа.",
@@ -144,7 +151,8 @@
       "ru": "слышать",
       "en": "to hear",
       "audio": "/audio/day24/слышать.mp3",
-      "image": "/images/vocab/d24-w09.svg",
+      "image": "/images/vocab/d24-w09.jpg",
+      "imageCredit": "Internet Archive identifier: lettersonhumanbo00clow (Public domain via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Ты меня слышишь?",
@@ -161,7 +169,8 @@
       "ru": "говорить",
       "en": "to speak / talk",
       "audio": "/audio/day24/говорить.mp3",
-      "image": "/images/vocab/d24-w10.svg",
+      "image": "/images/vocab/d24-w10.jpg",
+      "imageCredit": "Own work (CC BY-SA 3.0 via Wikimedia Commons)",
       "sentences": [
         {
           "ru": "Говори громче.",
@@ -188,11 +197,11 @@
         "звонок"
       ],
       "pool": [
-        "звонок",
-        "отправить",
-        "ждать",
         "Телефонный",
-        "номер"
+        "слышать",
+        "звонок",
+        "позвонить",
+        "ответить"
       ]
     },
     {
@@ -208,11 +217,11 @@
         "звонка"
       ],
       "pool": [
-        "сообщение",
         "звонка",
         "Жду",
-        "позвонить",
-        "слышать"
+        "ждать",
+        "ответить",
+        "отправить"
       ]
     },
     {
@@ -228,11 +237,11 @@
         "сообщение"
       ],
       "pool": [
-        "сообщение",
+        "ждать",
+        "ответить",
         "звонок",
-        "Новое",
-        "получить",
-        "говорить"
+        "сообщение",
+        "Новое"
       ]
     },
     {
@@ -248,11 +257,11 @@
         "сообщение"
       ],
       "pool": [
-        "звонок",
-        "сообщение",
         "номер",
-        "ответить",
-        "Отправь"
+        "сообщение",
+        "Отправь",
+        "звонок",
+        "позвонить"
       ]
     },
     {
@@ -269,10 +278,10 @@
       ],
       "pool": [
         "номер",
-        "Какой",
         "сообщение",
-        "говорить",
-        "звонок"
+        "ждать",
+        "Какой",
+        "слышать"
       ]
     },
     {
@@ -288,11 +297,11 @@
         "телефона"
       ],
       "pool": [
+        "позвонить",
         "сообщение",
+        "звонок",
         "Номер",
-        "ждать",
-        "телефона",
-        "отправить"
+        "телефона"
       ]
     },
     {
@@ -310,11 +319,11 @@
       ],
       "pool": [
         "на",
-        "получить",
+        "звонок",
         "Ответь",
-        "номер",
-        "ждать",
-        "звонок"
+        "отправить",
+        "звонок",
+        "сообщение"
       ]
     },
     {
@@ -330,10 +339,10 @@
         "пожалуйста"
       ],
       "pool": [
-        "сообщение",
-        "слышать",
+        "отправить",
         "пожалуйста",
-        "звонок",
+        "номер",
+        "слышать",
         "Ответь"
       ]
     },
@@ -350,10 +359,10 @@
         "мне"
       ],
       "pool": [
+        "говорить",
         "ждать",
-        "слышать",
-        "Позвони",
         "звонок",
+        "Позвони",
         "мне"
       ]
     },
@@ -370,11 +379,11 @@
         "позвоню"
       ],
       "pool": [
-        "ждать",
         "позвоню",
-        "ответить",
+        "Я",
         "получить",
-        "Я"
+        "говорить",
+        "ответить"
       ]
     },
     {
@@ -390,11 +399,11 @@
         "фото"
       ],
       "pool": [
-        "фото",
-        "получить",
+        "звонок",
         "Отправь",
-        "говорить",
-        "ждать"
+        "ответить",
+        "сообщение",
+        "фото"
       ]
     },
     {
@@ -410,11 +419,11 @@
         "завтра"
       ],
       "pool": [
+        "Отправлю",
+        "завтра",
         "говорить",
         "ответить",
-        "слышать",
-        "завтра",
-        "Отправлю"
+        "ждать"
       ]
     },
     {
@@ -430,11 +439,11 @@
         "сообщение"
       ],
       "pool": [
-        "позвонить",
-        "слышать",
         "Получил",
         "сообщение",
-        "номер"
+        "отправить",
+        "ждать",
+        "слышать"
       ]
     },
     {
@@ -450,11 +459,11 @@
         "завтра"
       ],
       "pool": [
-        "звонок",
-        "говорить",
+        "слышать",
+        "номер",
         "Получишь",
-        "отправить",
-        "завтра"
+        "завтра",
+        "сообщение"
       ]
     },
     {
@@ -470,10 +479,10 @@
         "ответа"
       ],
       "pool": [
-        "номер",
         "ответа",
+        "получить",
+        "звонок",
         "Жду",
-        "сообщение",
         "ответить"
       ]
     },
@@ -490,11 +499,11 @@
         "минуту"
       ],
       "pool": [
-        "получить",
-        "отправить",
-        "номер",
         "Подожди",
-        "минуту"
+        "говорить",
+        "слышать",
+        "минуту",
+        "ответить"
       ]
     },
     {
@@ -511,11 +520,11 @@
         "слышишь"
       ],
       "pool": [
-        "меня",
-        "звонок",
-        "Ты",
-        "получить",
         "позвонить",
+        "меня",
+        "сообщение",
+        "Ты",
+        "номер",
         "слышишь"
       ]
     },
@@ -534,9 +543,9 @@
       "pool": [
         "Плохо",
         "отправить",
-        "позвонить",
         "слышно",
-        "ждать"
+        "говорить",
+        "номер"
       ]
     },
     {
@@ -552,11 +561,11 @@
         "громче"
       ],
       "pool": [
-        "позвонить",
-        "Говори",
         "слышать",
+        "звонок",
         "громче",
-        "ждать"
+        "отправить",
+        "Говори"
       ]
     },
     {
@@ -573,12 +582,12 @@
         "говорим"
       ],
       "pool": [
-        "О",
-        "номер",
+        "слышать",
+        "говорим",
+        "отправить",
         "ждать",
         "чём",
-        "отправить",
-        "говорим"
+        "О"
       ]
     },
     {
@@ -586,11 +595,11 @@
       "type": "pictureMatch",
       "wordId": "d24-w01",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d24-w01.svg",
+      "image": "/images/vocab/d24-w01.jpg",
       "options": [
+        "ответить",
         "говорить",
-        "номер",
-        "получить",
+        "отправить",
         "звонок"
       ],
       "correctIndex": 3
@@ -600,12 +609,12 @@
       "type": "pictureMatch",
       "wordId": "d24-w02",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d24-w02.svg",
+      "image": "/images/vocab/d24-w02.jpg",
       "options": [
-        "отправить",
-        "слышать",
+        "ответить",
+        "звонок",
         "сообщение",
-        "ответить"
+        "получить"
       ],
       "correctIndex": 2
     },
@@ -616,80 +625,80 @@
       "prompt": "Which word matches this picture?",
       "image": "/images/vocab/d24-w03.svg",
       "options": [
-        "номер",
         "ждать",
-        "говорить",
-        "слышать"
+        "сообщение",
+        "получить",
+        "номер"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "d24-pic-04",
       "type": "pictureMatch",
       "wordId": "d24-w04",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d24-w04.svg",
+      "image": "/images/vocab/d24-w04.jpg",
       "options": [
+        "получить",
+        "слышать",
         "ответить",
-        "звонок",
-        "позвонить",
-        "сообщение"
+        "отправить"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "d24-pic-05",
       "type": "pictureMatch",
       "wordId": "d24-w05",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d24-w05.svg",
+      "image": "/images/vocab/d24-w05.png",
       "options": [
-        "позвонить",
         "сообщение",
-        "слышать",
-        "номер"
+        "ждать",
+        "позвонить",
+        "получить"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "d24-pic-06",
       "type": "pictureMatch",
       "wordId": "d24-w06",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d24-w06.svg",
+      "image": "/images/vocab/d24-w06.jpg",
       "options": [
+        "сообщение",
         "ответить",
-        "позвонить",
-        "номер",
-        "отправить"
+        "отправить",
+        "получить"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "d24-pic-07",
       "type": "pictureMatch",
       "wordId": "d24-w07",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d24-w07.svg",
+      "image": "/images/vocab/d24-w07.jpg",
       "options": [
-        "слышать",
-        "получить",
-        "отправить",
-        "сообщение"
+        "сообщение",
+        "позвонить",
+        "ответить",
+        "получить"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "d24-pic-08",
       "type": "pictureMatch",
       "wordId": "d24-w08",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d24-w08.svg",
+      "image": "/images/vocab/d24-w08.jpg",
       "options": [
         "ждать",
-        "звонок",
-        "позвонить",
-        "говорить"
+        "слышать",
+        "отправить",
+        "сообщение"
       ],
       "correctIndex": 0
     },
@@ -698,28 +707,28 @@
       "type": "pictureMatch",
       "wordId": "d24-w09",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d24-w09.svg",
+      "image": "/images/vocab/d24-w09.jpg",
       "options": [
-        "сообщение",
-        "звонок",
-        "говорить",
-        "слышать"
+        "ответить",
+        "получить",
+        "слышать",
+        "отправить"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "d24-pic-10",
       "type": "pictureMatch",
       "wordId": "d24-w10",
       "prompt": "Which word matches this picture?",
-      "image": "/images/vocab/d24-w10.svg",
+      "image": "/images/vocab/d24-w10.jpg",
       "options": [
-        "номер",
-        "получить",
-        "слышать",
-        "говорить"
+        "отправить",
+        "говорить",
+        "позвонить",
+        "сообщение"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     }
   ]
 }

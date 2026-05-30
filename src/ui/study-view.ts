@@ -441,9 +441,7 @@ export function renderStudyView(
         isRetry: item.isRetry,
         canGoBack:
           (item.block === 'listening' && index > listeningStartIndex) ||
-          (item.block === 'pictures' &&
-            item.exercise.type === 'pictureMatch' &&
-            index > picturesStartIndex),
+          (item.block === 'pictures' && index > picturesStartIndex),
         completedState: item.isRetry ? undefined : completedListening.get(index),
       },
     );
