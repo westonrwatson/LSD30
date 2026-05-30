@@ -98,14 +98,17 @@ export type PlanSections = {
   current: number | null;
   starred: number[];
   pool: number[];
+  past: number[];
 };
 
 export function getPlanSections(state: PersistedState): PlanSections {
   const current = getNextAvailableDay(state);
   const rest = state.planOrder.filter((d) => d !== current);
-  const starred = rest.filter((d) => state.planDays[d]?.pinned);
-  const pool = rest.filter((d) => !state.planDays[d]?.pinned);
-  return { current, starred, pool };
+  const isCompleted = (d: number): boolean => state.planDays[d]?.status === 'completed';
+  const starred = rest.filter((d) => state.planDays[d]?.pinned && !isCompleted(d));
+  const pool = rest.filter((d) => !state.planDays[d]?.pinned && !isCompleted(d));
+  const past = rest.filter((d) => isCompleted(d));
+  return { current, starred, pool, past };
 }
 
 export function completeDay(state: PersistedState, day: number, wordIds: string[]): PersistedState {

@@ -53,21 +53,18 @@ export function renderHomeProgressBlocks(
 
 const STREAK_DOT_COUNT = 7;
 
-/** Last 7 calendar days — filled when a lesson was finished that day */
+/** Last 7 calendar days — N filled dots from the left, where N = days with a completed lesson in the window */
 export function renderStreakProgressCircles(
   completionDates: string[],
   count = STREAK_DOT_COUNT,
 ): HTMLElement {
-  const completed = new Set(completionDates);
-  const today = todayISO();
+  const filledCount = streakDaysInWindow(completionDates, count);
   const wrapper = el('div', 'progress-dots');
   const rowEl = el('div', 'circle-row circle-row-days');
 
   for (let i = 0; i < count; i++) {
-    const dateForDot = addDaysISO(today, -(count - 1 - i));
-    const filled = completed.has(dateForDot);
+    const filled = i < filledCount;
     const circle = el('span', `progress-circle${filled ? ' filled' : ''}`);
-    circle.title = dateForDot;
     rowEl.appendChild(circle);
   }
 

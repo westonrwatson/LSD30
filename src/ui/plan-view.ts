@@ -31,6 +31,7 @@ function sectionId(label: string): string {
   if (label === 'Current Lesson') return 'current';
   if (label === 'Starred') return 'starred';
   if (label === 'All Lessons') return 'all-lessons';
+  if (label === 'Past Lessons') return 'past-lessons';
   if (label === 'Completed') return 'completed';
   return label.toLowerCase().replace(/\s+/g, '-');
 }
@@ -54,8 +55,9 @@ function createCollapsibleSection(
   label: string,
   content: HTMLElement,
   extraClass = '',
+  defaultCollapsed = false,
 ): HTMLElement {
-  const collapsed = readCollapsedSections()[id] ?? false;
+  const collapsed = readCollapsedSections()[id] ?? defaultCollapsed;
   const isOpen = !collapsed;
   const section = el(
     'section',
@@ -120,6 +122,7 @@ function appendPlanSection(
   state: PersistedState,
   callbacks: PlanViewCallbacks,
   sectionsRoot: HTMLElement,
+  defaultCollapsed = false,
 ): void {
   if (dayNums.length === 0) return;
 
@@ -136,7 +139,7 @@ function appendPlanSection(
     container.appendChild(createStaticSection(label, list, extraClass));
   } else {
     container.appendChild(
-      createCollapsibleSection(sectionId(label), label, list, extraClass),
+      createCollapsibleSection(sectionId(label), label, list, extraClass, defaultCollapsed),
     );
   }
 }
@@ -150,9 +153,9 @@ export function renderPlanView(
 
   const sectionsRoot = el('div', 'plan-sections');
   const dayMap = new Map(days.map((d) => [d.day, d]));
-  const { current, starred, pool } = getPlanSections(state);
+  const { current, starred, pool, past } = getPlanSections(state);
 
-  const blocks: { label: string; days: number[] }[] = [];
+  const blocks: { label: string; days: number[]; defaultCollapsed?: boolean }[] = [];
   if (current != null) {
     blocks.push({ label: 'Current Lesson', days: [current] });
   }
@@ -161,6 +164,9 @@ export function renderPlanView(
   }
   if (pool.length > 0) {
     blocks.push({ label: 'All Lessons', days: pool });
+  }
+  if (past.length > 0) {
+    blocks.push({ label: 'Past Lessons', days: past, defaultCollapsed: true });
   }
 
   for (let i = 0; i < blocks.length; i++) {
@@ -175,6 +181,7 @@ export function renderPlanView(
       state,
       callbacks,
       sectionsRoot,
+      blocks[i]!.defaultCollapsed ?? false,
     );
   }
 
